@@ -28,7 +28,7 @@ function esc(v=''){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt
 function detailRows(e){
   const rows=[
     ['Location',e.location],['Case status',e.case_status],
-    ['Record type',e.record_type==='batch'?'Aggregate / batch record':'Individual event / case'],
+    [currentLang==='zh'?'记录类型':'Record type',e.record_type==='batch'?'Aggregate / batch record':'Individual event / case'],
     ['Relationship to PM',e.relationship],['Migration / asylum context',e.migration_context],
     ['Court / official outcome',e.court_outcome],['Public / judicial divergence',e.public_controversy]
   ].filter(([,v])=>v);

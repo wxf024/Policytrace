@@ -7,7 +7,7 @@ const uiText={
     originalLinks:'ORIGINAL LINKS',administration:'Administration',type:'Type',evidence:'Evidence',confidence:'Confidence',
     location:'Location',caseStatus:'Case status',recordType:'Record type',relationship:'Relationship to PM',
     migrationContext:'Migration / asylum context',migrationRelevance:'Migration relevance',
-    courtOutcome:'Court / official outcome',publicDivergence:'Public / judicial divergence',
+    courtOutcome:'Court / official outcome',publicDivergence:'Public / judicial divergence',peopleKicker:'WHO WAS IN POWER?',peopleTitle:'Prime ministers',peopleDesc:"Click a leader to see their term, promises, policy actions and all timeline records attached to their administration.",records:'records',news:'news',viewProfile:'View profile →',promiseTracked:'Promise tracked →',live:'LIVE',currentAdministration:'current administration',primeMinisters:'prime ministers',timelineRecords:'timeline records',sequenceTitle:'Sequence is not causation.',sequenceBody:"Every relationship is labelled so a policy that precedes an outcome is not automatically presented as its cause.",migrationTitle:'Net migration',migrationDesc:"Selected year-ending estimates are shown as a trend. Migration statistics are periodically revised, so this is not a perfectly like-for-like historical series.",migrationChartTitle:'UK long-term net migration',migrationChartNote:'selected year-ending estimates',socialTitle:'Social change indicators',socialDesc:"Population and institutional-footprint indicators are shown separately from crime. Religious identity, immigration status and criminality are not treated as interchangeable.",muslimPopTitle:'Muslim population — England & Wales',onsCensus:'ONS Census',identifiedMuslim:'identified as Muslim',religionNote:"Census religion is self-identified affiliation; it does not measure immigration status or frequency of worship.",mosqueTitle:'Mosque / prayer-room landmarks',independentDirectory:'independent directory',openSource:'Open source ↗',mosqueNote:"Independent directory count of active masjid / prayer-room landmarks; not an ONS government count.",
     politicianResponse:'Politician response',decision:'Decision / original position',consequence:'Consequence',
     reaction:'Initial reaction / doubling down',reversal:'Reversal / admission',scandalStatus:'Scandal / investigation status'
   },
@@ -18,7 +18,7 @@ const uiText={
     originalLinks:'原始来源',administration:'执政者',type:'类型',evidence:'证据',confidence:'可信度',
     location:'地点',caseStatus:'案件状态',recordType:'记录类型',relationship:'与首相的关系',
     migrationContext:'移民 / 庇护背景',migrationRelevance:'移民关联度',
-    courtOutcome:'法院 / 官方结果',publicDivergence:'公众观点 / 司法结果差异',
+    courtOutcome:'法院 / 官方结果',publicDivergence:'公众观点 / 司法结果差异',peopleKicker:'谁在执政？',peopleTitle:'历任首相',peopleDesc:'点击首相查看其任期、承诺、政策行动，以及归入该届政府的全部时间线记录。',records:'条记录',news:'条新闻',viewProfile:'查看档案 →',promiseTracked:'查看承诺追踪 →',live:'现任',currentAdministration:'现任政府',primeMinisters:'历任首相',timelineRecords:'时间线记录',sequenceTitle:'先后发生不等于因果关系。',sequenceBody:'每条关系都会单独标注；某项政策先于某个结果发生，并不自动代表该政策就是结果的原因。',migrationTitle:'净移民',migrationDesc:'这里展示部分年度末估计值用于观察趋势。移民统计会定期修订，因此不同年份数据并非完全可直接同比。',migrationChartTitle:'英国长期净移民',migrationChartNote:'部分年度末估计值',socialTitle:'社会变化指标',socialDesc:'人口和机构数量指标与犯罪数据分开展示。宗教身份、移民身份和犯罪行为不会被当作同一个概念。',muslimPopTitle:'穆斯林人口——英格兰和威尔士',onsCensus:'ONS人口普查',identifiedMuslim:'自我认定为穆斯林',religionNote:'人口普查中的宗教属于自我认定，不代表移民身份，也不能说明实际礼拜频率。',mosqueTitle:'清真寺 / 礼拜点数量',independentDirectory:'独立目录',openSource:'打开原始来源 ↗',mosqueNote:'独立目录统计的活跃清真寺 / 礼拜点数量；并非ONS政府官方统计。',
     politicianResponse:'政客回应',decision:'原始决定 / 立场',consequence:'后果',
     reaction:'最初回应 / 坚持立场',reversal:'反转 / 承认',scandalStatus:'丑闻 / 调查状态'
   }
@@ -79,6 +79,34 @@ function applyStaticLanguage(){
   if(heroCopy) heroCopy.textContent=currentLang==='zh'
     ?'查看谁在执政、他们承诺了什么、改变了什么、任期内和离任后发生了什么、哪些后续新闻与其记录有关，以及官方调查最终发现了什么。'
     :'See who was in power, what they promised, what they changed, what happened during and after their term, what later news connected back to their record, and what official investigations found.';
+
+  const peopleK=document.getElementById('peopleKicker'); if(peopleK)peopleK.textContent=uiT('peopleKicker');
+  const peopleT=document.getElementById('peopleTitle'); if(peopleT)peopleT.textContent=uiT('peopleTitle');
+  const peopleD=document.getElementById('peopleDesc'); if(peopleD)peopleD.textContent=uiT('peopleDesc');
+
+  const cause=document.getElementById('causationNote');
+  if(cause){
+    const strong=cause.querySelector('strong'); if(strong)strong.textContent=uiT('sequenceTitle');
+    const text=[...cause.childNodes].find(n=>n.nodeType===3 && n.textContent.trim());
+    const p=cause.querySelector('p'); if(p)p.textContent=uiT('sequenceBody');
+    const small=cause.querySelector('.causation-copy'); if(small)small.textContent=uiT('sequenceBody');
+  }
+
+  const migTitle=document.getElementById('migrationTitle'); if(migTitle)migTitle.textContent=uiT('migrationTitle');
+  const migSection=document.getElementById('migration');
+  if(migSection){
+    const ps=[...migSection.querySelectorAll('.section-head p')]; if(ps[0])ps[0].textContent=uiT('migrationDesc');
+  }
+
+  const socialTitle=document.getElementById('socialTitle'); if(socialTitle)socialTitle.textContent=uiT('socialTitle');
+  const socialSection=document.getElementById('social');
+  if(socialSection){
+    const ps=[...socialSection.querySelectorAll('.section-head p')]; if(ps[0])ps[0].textContent=uiT('socialDesc');
+  }
+
+  document.querySelectorAll('[data-stat-label="timeline-records"]').forEach(el=>el.textContent=uiT('timelineRecords'));
+  document.querySelectorAll('[data-stat-label="prime-ministers"]').forEach(el=>el.textContent=uiT('primeMinisters'));
+  document.querySelectorAll('[data-stat-label="current-administration"]').forEach(el=>el.textContent=uiT('currentAdministration'));
 
 }
 function setLanguage(lang){
@@ -149,15 +177,17 @@ function adminNews(name){return (state.data.relatedNews||[]).filter(n=>n.adminis
 function formatTerm(a){return `${a.startDate||Math.floor(a.start)} — ${a.current?'Present':(a.endDate||Math.floor(a.end))}`}
 function statusLabel(s){return s==='unresolved'?'OPEN / UNRESOLVED':s==='confirmed'?'CONFIRMED':'CONTEXT'}
 function renderPeople(){
-  document.getElementById('peopleGrid').innerHTML=state.data.administrations.map(a=>{
-    const count=adminEvents(a.name).length;
-    const newsCount=adminNews(a.name).length;
-    const promise=(state.data.promiseVsResult||[]).find(p=>p.administration===a.name);
-    return `<a class="person-card ${a.current?'current':''}" href="person.html?id=${slug(a.name)}">
-      <div class="person-card-top"><span class="party-dot ${a.party==='Labour'?'labour':'conservative'}"></span><span>${a.party}</span>${a.current?'<b>LIVE</b>':''}</div>
-      <h3>${a.name}</h3><div class="person-term">${formatTerm(a)}</div>
-      <div class="person-card-bottom"><span>${count} records · ${newsCount} news</span><span>${promise?'Promise tracked':'View profile'} →</span></div>
-    </a>`
+  const el=document.getElementById('peopleGrid'); if(!el)return;
+  el.innerHTML=state.data.administrations.map(a=>{
+    const count=state.data.events.filter(e=>e.administration===a.name).length;
+    const newsCount=(state.data.relatedNews||[]).filter(n=>n.administration===a.name).length;
+    const promise=(state.data.promiseVsResult||[]).some(p=>p.administration===a.name);
+    return `<a class="person-card ${a.current?'current-admin':''}" href="person.html?id=${slug(a.name)}">
+      <div class="person-card-top"><span class="party-line"><i class="party-dot ${a.party==='Labour'?'labour':'conservative'}"></i>${currentLang==='zh'?(a.party_i18n?.zh||a.party):a.party}</span>${a.current?`<span class="live-badge">${uiT('live')}</span>`:''}</div>
+      <h3>${currentLang==='zh'?(a.name_i18n?.zh||a.name):a.name}</h3>
+      <div class="term">${localizedDate(formatTerm(a))}</div>
+      <div class="person-card-bottom"><span>${count} ${uiT('records')} · ${newsCount} ${uiT('news')}</span><span>${promise?uiT('promiseTracked'):uiT('viewProfile')}</span></div>
+    </a>`;
   }).join('');
 }
 function renderAdmins(){
@@ -264,9 +294,9 @@ function selectAdministration(name,scroll=false){
 function openDetail(id){
   const e=state.data.events.find(x=>x.id===id); if(!e)return;
   const content=document.getElementById('dialogContent');
-  content.innerHTML=`<div class="dialog-body"><div class="dialog-date">${displayDate(e)} / ${e.category.toUpperCase()}</div><h2>${e.title}</h2><p class="dialog-summary">${e.summary}</p>
+  content.innerHTML=`<div class="dialog-body"><div class="dialog-date">${displayDate(e)} / ${e.category.toUpperCase()}</div><h2>${trObj(e,'title')}</h2><p class="dialog-summary">${trObj(e,'summary')}</p>
     ${e.metric?`<div class="metric metric-box">${e.metric.label}: ${e.metric.value}<div class="muted metric-context">${e.metric.context}</div></div>`:''}
-    <div class="detail-grid"><div><span>Administration</span><strong><a href="person.html?id=${slug(e.administration)}">${e.administration} →</a></strong></div><div><span>Type</span><strong>${e.kind}</strong></div><div><span>Evidence</span><strong>${e.evidence}</strong></div><div><span>Confidence</span><strong>${e.confidence}</strong></div></div>
+    <div class="detail-grid"><div><span>${uiT('administration')}</span><strong><a href="person.html?id=${slug(e.administration)}">${adminName(e.administration)} →</a></strong></div><div><span>${uiT('type')}</span><strong>${trObj(e,'kind')}</strong></div><div><span>${uiT('evidence')}</span><strong>${currentLang==='zh'?'见原始来源与官方/媒体记录':e.evidence}</strong></div><div><span>${uiT('confidence')}</span><strong>${trObj(e,'case_status')||e.confidence}</strong></div></div>
     ${detailRows(e)}
     <div class="section-kicker">PRIMARY / OFFICIAL SOURCES</div><div class="source-list">${e.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">↗ ${s.label}</a>`).join('')}</div>
     <div class="tag-row">${e.tags.map(t=>`<span class="tag">#${t}</span>`).join('')}</div></div>`;
