@@ -27,3 +27,7 @@ Expanded the public-safety ledger with major terror attacks, organised CSE/groom
 
 ## v0.7
 Navigation rebuilt so left-to-right order matches top-to-bottom page order. Home navigation now follows Overview → People → Migration → Social change → Promise vs Result → Timeline → Method → About. Profile pages use local section navigation and active-section highlighting.
+
+
+## v0.8
+Incident Ledger expansion. Adds individual disorder/security cases plus official aggregate records. Detail fields now support case status, location, migration/asylum context, court outcome and public/judicial controversy. Aggregate records are explicitly labelled and are never expanded into fake individual cases.

@@ -1,4 +1,19 @@
 
+function esc(v=''){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));}
+function detailRows(e){
+  const rows=[
+    ['Location',e.location],
+    ['Case status',e.case_status],
+    ['Record type',e.record_type==='batch'?'Aggregate / batch record':'Individual event / case'],
+    ['Relationship to PM',e.relationship],
+    ['Migration / asylum context',e.migration_context],
+    ['Court / official outcome',e.court_outcome],
+    ['Public / judicial divergence',e.public_controversy]
+  ].filter(([,v])=>v);
+  return `<div class="detail-grid">${rows.map(([k,v])=>`<div class="detail-row"><div>${esc(k)}</div><div>${esc(v)}</div></div>`).join('')}</div>`;
+}
+
+
 function initSectionNav(){
   const links=[...document.querySelectorAll('.page-nav a[data-nav]')];
   const sections=[...document.querySelectorAll('.nav-section[data-section]')];
@@ -110,7 +125,8 @@ function openDetail(id){
   const content=document.getElementById('dialogContent');
   content.innerHTML=`<div class="dialog-body"><div class="dialog-date">${displayDate(e)} / ${e.category.toUpperCase()}</div><h2>${e.title}</h2><p class="dialog-summary">${e.summary}</p>
     ${e.metric?`<div class="metric metric-box">${e.metric.label}: ${e.metric.value}<div class="muted metric-context">${e.metric.context}</div></div>`:''}
-    <div class="detail-grid"><div><span>Administration</span><strong><a href="person.html?id=${slug(e.administration)}">${e.administration} →</a></strong></div><div><span>Record type</span><strong>${e.kind}</strong></div><div><span>Evidence</span><strong>${e.evidence}</strong></div><div><span>Occurred during</span><strong>${e.administration} administration</strong></div><div><span>Relationship</span><strong>${e.relationship}</strong></div><div><span>Confidence</span><strong>${e.confidence}</strong></div><div><span>Editorial tone</span><strong>${e.tone}</strong></div></div>
+    <div class="detail-grid"><div><span>Administration</span><strong><a href="person.html?id=${slug(e.administration)}">${e.administration} →</a></strong></div><div><span>Type</span><strong>${e.kind}</strong></div><div><span>Evidence</span><strong>${e.evidence}</strong></div><div><span>Confidence</span><strong>${e.confidence}</strong></div></div>
+    ${detailRows(e)}
     <div class="section-kicker">PRIMARY / OFFICIAL SOURCES</div><div class="source-list">${e.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">↗ ${s.label}</a>`).join('')}</div>
     <div class="tag-row">${e.tags.map(t=>`<span class="tag">#${t}</span>`).join('')}</div></div>`;
   document.getElementById('detailDialog').showModal();

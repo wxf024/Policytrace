@@ -1,7 +1,7 @@
 {
   "country": "United Kingdom",
   "range": "1997–2026",
-  "updated": "9 August 2026 — v0.6 public-safety expansion",
+  "updated": "9 August 2026 — v0.8 incident-ledger expansion",
   "administrations": [
     {
       "name": "Tony Blair",
@@ -100,7 +100,14 @@
           "label": "Immigration and Asylum Act 1999 — legislation.gov.uk",
           "url": "https://www.legislation.gov.uk/ukpga/1999/33/contents"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "northern-disturbances-2001",
@@ -128,7 +135,14 @@
           "label": "UK government/local-government material on the 2001 disturbances and community cohesion",
           "url": "https://www.gov.uk/government/publications/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "a8-2004",
@@ -157,7 +171,46 @@
           "label": "House of Lords EU Committee",
           "url": "https://publications.parliament.uk/pa/ld201617/ldselect/ldeucom/121/12104.htm"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "21-7-london-2005",
+      "year": 2005,
+      "date": "21 July 2005",
+      "title": "Attempted London bombings two weeks after 7/7",
+      "category": "Security & Extremism",
+      "kind": "Attempted terrorist attacks",
+      "tone": "negative",
+      "administration": "Tony Blair",
+      "location": "London",
+      "summary": "Four attempted bombings targeted London's public transport network two weeks after the 7/7 attacks; the devices failed to explode as intended.",
+      "evidence": "ISC / Independent Reviewer historical record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Tony Blair's term; terrorism established.",
+      "tags": [
+        "london",
+        "security & extremism",
+        "attempted terrorist attacks"
+      ],
+      "sources": [
+        {
+          "label": "ISC / Independent Reviewer historical record",
+          "url": "https://isc.independent.gov.uk/wp-content/uploads/2021/01/20090519_ISC_7-7_Review.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No immigration-policy causation is asserted.",
+      "public_controversy": "The attacks became part of subsequent debate over intelligence coverage, radicalisation and counter-terrorism powers.",
+      "detail_notes": []
     },
     {
       "id": "london-7-7-2005",
@@ -187,7 +240,110 @@
           "label": "ISC — review of intelligence on 7/7",
           "url": "https://www.gov.uk/government/publications/london-terrorist-attacks-on-77-review-of-the-intelligence"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "operation-overt-2006",
+      "year": 2006,
+      "date": "August 2006",
+      "title": "Operation Overt disrupts transatlantic liquid-bomb plot",
+      "category": "Security & Extremism",
+      "kind": "Disrupted terror plot",
+      "tone": "negative",
+      "administration": "Tony Blair",
+      "location": "United Kingdom",
+      "summary": "British authorities disrupted a plot to detonate liquid explosives aboard transatlantic aircraft. The operation led to major arrests and later convictions.",
+      "evidence": "Independent Reviewer of Terrorism Legislation",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Tony Blair's term; plot disruption and convictions established.",
+      "tags": [
+        "united kingdom",
+        "security & extremism",
+        "disrupted terror plot"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer of Terrorism Legislation",
+          "url": "https://terrorismlegislationreviewer.independent.gov.uk/wp-content/uploads/2013/04/terrorism-act-2000.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No simple immigration-policy causal conclusion is drawn.",
+      "public_controversy": "The plot drove lasting changes in airport security and liquid restrictions.",
+      "detail_notes": []
+    },
+    {
+      "id": "operation-gamble-2007",
+      "year": 2007,
+      "date": "2007",
+      "title": "Birmingham plot to kidnap and behead a British Muslim soldier disrupted",
+      "category": "Security & Extremism",
+      "kind": "Disrupted terror plot",
+      "tone": "negative",
+      "administration": "Tony Blair",
+      "location": "Birmingham",
+      "summary": "Operation Gamble disrupted a plot to kidnap and behead a British Muslim soldier in Birmingham.",
+      "evidence": "Independent Reviewer of Terrorism Legislation",
+      "confidence": "confirmed",
+      "relationship": "Occurred around the Blair/Brown transition; disruption established.",
+      "tags": [
+        "birmingham",
+        "security & extremism",
+        "disrupted terror plot"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer of Terrorism Legislation",
+          "url": "https://terrorismlegislationreviewer.independent.gov.uk/wp-content/uploads/2013/04/terrorism-act-2000.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No immigration-policy inference is added.",
+      "public_controversy": "The case is relevant to domestic jihadist plotting and counter-terrorism operations.",
+      "detail_notes": []
+    },
+    {
+      "id": "london-glasgow-2007",
+      "year": 2007,
+      "date": "29–30 June 2007",
+      "title": "London car bombs and Glasgow Airport attack",
+      "category": "Security & Extremism",
+      "kind": "Terror attacks",
+      "tone": "negative",
+      "administration": "Tony Blair",
+      "location": "London / Glasgow",
+      "summary": "Two car bombs were found and disabled in London; the following day a Jeep loaded with propane cylinders was driven into Glasgow Airport and set alight.",
+      "evidence": "Independent Reviewer of Terrorism Legislation",
+      "confidence": "confirmed",
+      "relationship": "Occurred at the end of Tony Blair's term / start of Gordon Brown's term; terrorism established.",
+      "tags": [
+        "london / glasgow",
+        "security & extremism",
+        "terror attacks"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer of Terrorism Legislation",
+          "url": "https://terrorismlegislationreviewer.independent.gov.uk/wp-content/uploads/2013/04/terrorism-act-2000.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "Case facts concern terrorism; immigration-policy causation is not assumed.",
+      "public_controversy": "The attacks triggered major counter-terrorism investigations and long-term security debate.",
+      "detail_notes": []
     },
     {
       "id": "points-2008",
@@ -212,7 +368,110 @@
           "label": "A points-based system: making migration work for Britain",
           "url": "https://www.gov.uk/government/publications/a-points-based-system-making-migration-work-for-britain"
         }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "exeter-bombing-2008",
+      "year": 2008,
+      "date": "22 May 2008",
+      "title": "Attempted suicide bombing at Exeter restaurant",
+      "category": "Security & Extremism",
+      "kind": "Attempted terror attack",
+      "tone": "negative",
+      "administration": "Gordon Brown",
+      "location": "Exeter",
+      "summary": "An attempted suicide bombing at a restaurant in Exeter failed when the device detonated prematurely, injuring the attacker.",
+      "evidence": "Independent Reviewer of Terrorism Legislation",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Gordon Brown's term; official terrorism reviews list the attack.",
+      "tags": [
+        "exeter",
+        "security & extremism",
+        "attempted terror attack"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer of Terrorism Legislation",
+          "url": "https://terrorismlegislationreviewer.independent.gov.uk/wp-content/uploads/2013/04/terrorism-act-2000.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No immigration-policy conclusion is asserted.",
+      "public_controversy": "The case is part of the record of small-scale domestic terrorist attacks.",
+      "detail_notes": []
+    },
+    {
+      "id": "operation-retriever-2009",
+      "year": 2009,
+      "date": "January 2009 onward",
+      "title": "Operation Retriever launched in Derbyshire after intelligence on child sexual exploitation",
+      "category": "Crime & Safety",
+      "kind": "Organised child sexual exploitation",
+      "tone": "negative",
+      "administration": "Gordon Brown",
+      "location": "Derby / Derbyshire",
+      "summary": "Operation Retriever investigated sexual exploitation and trafficking of vulnerable children. The Home Office later recorded that nine men were convicted; 27 victims came forward and convictions related to offences against 15 victims.",
+      "evidence": "Home Office case study",
+      "confidence": "confirmed",
+      "relationship": "Investigation launched during Gordon Brown's term; offending and later convictions span a longer period.",
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "Nine men were convicted of offences including rape, sexual assault and sexual activity with a child.",
+      "migration_context": "The Home Office case study says convicted offenders were predominantly British Pakistani, with one White British offender. Ethnicity is recorded as a case fact; it does not by itself establish immigration-policy causation.",
+      "public_controversy": "A serious case review said two young people had received criminal convictions for behaviour that should have been treated through their status as victims of abuse.",
+      "tags": [
+        "Derby",
+        "Operation Retriever",
+        "CSE",
+        "grooming"
+      ],
+      "sources": [
+        {
+          "label": "Home Office — Group-based CSE characteristics, Operation Retriever",
+          "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
+        }
       ]
+    },
+    {
+      "id": "stephen-timms-2010",
+      "year": 2010,
+      "date": "14 May 2010",
+      "title": "MP Stephen Timms stabbed in extremist-inspired attack",
+      "category": "Security & Extremism",
+      "kind": "Terrorist-related attack",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "London",
+      "summary": "Labour MP Stephen Timms was stabbed at a constituency surgery. Later terrorism reviews included the attack in the modern UK terrorism record.",
+      "evidence": "Independent Reviewer of Terrorism Legislation",
+      "confidence": "confirmed",
+      "relationship": "Occurred days after David Cameron took office; extremist motivation established in court proceedings.",
+      "tags": [
+        "london",
+        "security & extremism",
+        "terrorist-related attack"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer of Terrorism Legislation",
+          "url": "https://terrorismlegislationreviewer.independent.gov.uk/wp-content/uploads/2015/09/Terrorism-Acts-Report-2015_web-version.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No migration-policy causation is inferred.",
+      "public_controversy": "The attack raised questions about online radicalisation and security for elected representatives.",
+      "detail_notes": []
     },
     {
       "id": "cameron-target-2010",
@@ -237,7 +496,14 @@
           "label": "Prime Minister outlines new measures on immigration",
           "url": "https://www.gov.uk/government/news/prime-minister-outlines-new-measures-on-immigration"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "uk-riots-2011",
@@ -262,6 +528,49 @@
         {
           "label": "Government response to the Riots, Communities and Victims Panel",
           "url": "https://www.gov.uk/government/publications/government-response-to-the-riots-communities-and-victims-panels-final-report"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "operation-span-rochdale-2012",
+      "year": 2012,
+      "date": "May 2012",
+      "title": "Operation Span convictions in Rochdale and Oldham",
+      "category": "Crime & Safety",
+      "kind": "Organised child sexual exploitation",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "Rochdale / Oldham",
+      "summary": "IICSA records convictions arising from Operation Span involving men from Rochdale and Oldham for offences including sexual activity with a child and trafficking.",
+      "evidence": "IICSA historical/legal context",
+      "confidence": "confirmed",
+      "relationship": "Convictions occurred during David Cameron's term; offending predated the convictions.",
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "Convictions were secured for child-sexual-exploitation and trafficking-related offences.",
+      "migration_context": "The Home Office later described the high-profile Rochdale Operation Span case as one of the cases mainly involving men of Pakistani ethnicity; that is a case-level demographic fact, not a national causal conclusion.",
+      "public_controversy": "Serious-case material later examined whether practitioners failed to consider potentially relevant community and cultural context.",
+      "tags": [
+        "Rochdale",
+        "Oldham",
+        "Operation Span",
+        "CSE"
+      ],
+      "sources": [
+        {
+          "label": "IICSA — historical and legal context",
+          "url": "https://www.iicsa.org.uk/reports-recommendations/publications/investigation/cs-organised-networks/annexes/annex-3-historical-and-legal-context.html"
+        },
+        {
+          "label": "Home Office — group-based CSE characteristics",
+          "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
         }
       ]
     },
@@ -288,6 +597,45 @@
         {
           "label": "Oxfordshire County Council — action in response to child sexual exploitation",
           "url": "https://mycouncil.oxfordshire.gov.uk/documents/s23353/CA_NOV2613R11.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "operation-brooke-2013",
+      "year": 2013,
+      "date": "2013 onward",
+      "title": "Operation Brooke investigates group-based child sexual exploitation in Bristol",
+      "category": "Crime & Safety",
+      "kind": "Organised child sexual exploitation",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "Bristol",
+      "summary": "Operation Brooke began after a missing 14-year-old girl was found distressed at a flat. Brooke 1 involved four victims and nine offenders; Brooke 2 involved six victims and nine offenders.",
+      "evidence": "Home Office case study",
+      "confidence": "confirmed",
+      "relationship": "Investigation established during David Cameron's term.",
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "The Home Office case study describes concluded investigations and offender groups across Brooke 1 and Brooke 2.",
+      "migration_context": "The Home Office states the perpetrators in both Brooke operations were Somali. That demographic fact is recorded separately from any claim about national immigration policy.",
+      "public_controversy": "The serious-case material examined the role of drugs, social media, safeguarding and erroneous cultural justifications used by offenders.",
+      "tags": [
+        "Bristol",
+        "Operation Brooke",
+        "CSE",
+        "Somali"
+      ],
+      "sources": [
+        {
+          "label": "Home Office — Group-based CSE characteristics, Operation Brooke",
+          "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
         }
       ]
     },
@@ -319,7 +667,46 @@
           "label": "Government response to ISC report",
           "url": "https://assets.publishing.service.gov.uk/media/5a7f26d3ed915d74e33f4a73/47718_Cm_9012_print_ready.pdf"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "mohammed-saleem-2013",
+      "year": 2013,
+      "date": "29 April 2013",
+      "title": "Murder of Mohammed Saleem treated as extreme-right terrorist violence",
+      "category": "Security & Extremism",
+      "kind": "Far-right terrorist murder",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "Birmingham",
+      "summary": "Mohammed Saleem was murdered in Birmingham by Pavlo Lapshyn, whose subsequent offences were linked to extreme-right terrorism.",
+      "evidence": "Independent Reviewer of Terrorism Legislation",
+      "confidence": "confirmed",
+      "relationship": "Occurred during David Cameron's term; extremist motivation established.",
+      "tags": [
+        "birmingham",
+        "security & extremism",
+        "far-right terrorist murder"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer of Terrorism Legislation",
+          "url": "https://terrorismlegislationreviewer.independent.gov.uk/wp-content/uploads/2015/09/Terrorism-Acts-Report-2015_web-version.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "The victim was Muslim; this is anti-Muslim extremist violence, not immigrant crime.",
+      "public_controversy": "Included to keep the terrorism ledger ideologically consistent.",
+      "detail_notes": []
     },
     {
       "id": "hostile-environment-2014",
@@ -343,6 +730,76 @@
         {
           "label": "Home Secretary speech on the Immigration Bill",
           "url": "https://www.gov.uk/government/speeches/speech-by-home-secretary-on-second-reading-of-immigration-bill"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "operation-lenten-2014",
+      "year": 2014,
+      "date": "2014 onward",
+      "title": "Operation Lenten investigates organised child sexual exploitation in North Wales",
+      "category": "Crime & Safety",
+      "kind": "Organised child sexual exploitation",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "North Wales",
+      "summary": "Operation Lenten began after concerns about missing children being picked up by vans. The Home Office case study describes predatory and organised offending, including threats and abuse.",
+      "evidence": "Home Office case study",
+      "confidence": "confirmed",
+      "relationship": "Investigation launched during David Cameron's term.",
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "The Home Office used the concluded operation as an illustrative case study of group-based CSE.",
+      "migration_context": "The Home Office says offenders were from a White Traveller background. It is included to show that group-based exploitation is not confined to one ethnicity or migration background.",
+      "public_controversy": "The case highlights why the site should separate ethnicity, culture, offender networks and migration policy rather than collapse them into a single explanation.",
+      "tags": [
+        "North Wales",
+        "Operation Lenten",
+        "CSE",
+        "Traveller"
+      ],
+      "sources": [
+        {
+          "label": "Home Office — Group-based CSE characteristics, Operation Lenten",
+          "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
+        }
+      ]
+    },
+    {
+      "id": "operation-erle-peterborough-2014",
+      "year": 2014,
+      "date": "2014–2015",
+      "title": "Operation Erle: 10 men convicted in Peterborough child sexual abuse ring",
+      "category": "Crime & Safety",
+      "kind": "Organised child sexual abuse",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "Peterborough",
+      "summary": "IICSA's historical context records that Operation Erle resulted in 10 men being convicted in relation to a child sexual abuse ring in Peterborough.",
+      "evidence": "IICSA historical/legal context",
+      "confidence": "confirmed",
+      "relationship": "Convictions occurred during David Cameron's term.",
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "Ten men convicted.",
+      "migration_context": "No migration or ethnicity inference is added unless supported by a case-specific official source.",
+      "public_controversy": "Included as part of the wider national record of organised child sexual exploitation and abuse.",
+      "tags": [
+        "Peterborough",
+        "Operation Erle",
+        "CSE"
+      ],
+      "sources": [
+        {
+          "label": "IICSA — historical and legal context",
+          "url": "https://www.iicsa.org.uk/reports-recommendations/publications/investigation/cs-organised-networks/annexes/annex-3-historical-and-legal-context.html"
         }
       ]
     },
@@ -369,7 +826,14 @@
           "label": "Alexis Jay / Independent Inquiry profile",
           "url": "https://www.iicsa.org.uk/about-us/who-we-are/professor-alexis-jay-obe.html"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "netmigration-2015",
@@ -399,7 +863,46 @@
           "label": "ONS: 50 years of international migration",
           "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/explore50yearsofinternationalmigrationtoandfromtheuk/2016-12-01"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "jo-cox-murder-2016",
+      "year": 2016,
+      "date": "16 June 2016",
+      "title": "MP Jo Cox murdered by extreme-right terrorist",
+      "category": "Security & Extremism",
+      "kind": "Far-right terrorist murder",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "Birstall",
+      "summary": "MP Jo Cox was murdered by Thomas Mair. Government counter-terrorism material later cited the killing as an extreme-right terrorist attack.",
+      "evidence": "Home Office fact sheet on right-wing terrorism",
+      "confidence": "confirmed",
+      "relationship": "Occurred during David Cameron's term; extreme-right motivation established.",
+      "tags": [
+        "birstall",
+        "security & extremism",
+        "far-right terrorist murder"
+      ],
+      "sources": [
+        {
+          "label": "Home Office fact sheet on right-wing terrorism",
+          "url": "https://homeofficemedia.blog.gov.uk/2019/03/19/factsheet-right-wing-terrorism/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "Mair held white-supremacist and anti-immigration views; this is not migrant-perpetrated violence.",
+      "public_controversy": "The case remains central to debate over political hatred and extreme-right terrorism.",
+      "detail_notes": []
     },
     {
       "id": "brexit-2016",
@@ -424,7 +927,14 @@
           "label": "ONS migration bulletin — YE June 2025",
           "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingjune2025"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "parsons-green-2017",
@@ -450,7 +960,14 @@
           "label": "Government page — 2017 terror attacks review",
           "url": "https://www.gov.uk/government/publications/the-2017-terror-attacks-review-2018-report"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "finsbury-park-2017",
@@ -480,7 +997,14 @@
           "label": "Government page — 2017 terror attacks review",
           "url": "https://www.gov.uk/government/publications/the-2017-terror-attacks-review-2018-report"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "westminster-2017",
@@ -505,7 +1029,14 @@
           "label": "Government page — 2017 terror attacks review",
           "url": "https://www.gov.uk/government/publications/the-2017-terror-attacks-review-2018-report"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "london-bridge-2017",
@@ -530,6 +1061,45 @@
         {
           "label": "Government page — 2017 terror attacks review",
           "url": "https://www.gov.uk/government/publications/the-2017-terror-attacks-review-2018-report"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "operation-warrenton-2017",
+      "year": 2017,
+      "date": "February 2017 onward",
+      "title": "Operation Warrenton identifies 22 children at risk of or victims of exploitation in North London",
+      "category": "Crime & Safety",
+      "kind": "Child sexual exploitation investigation",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "North London",
+      "summary": "The Metropolitan Police set up Operation Warrenton after missing-person reports and sexual-offending reports on a North London housing estate. Police identified 22 children at risk of or victims of exploitation.",
+      "evidence": "Home Office case study",
+      "confidence": "confirmed",
+      "relationship": "Investigation launched during Theresa May's term.",
+      "record_type": "event",
+      "case_status": "closed / disruption-led",
+      "court_outcome": "Some offenders were prosecuted for indecent-image offences and some received Sexual Harm Prevention Orders; disruption measures were also used.",
+      "migration_context": "The Home Office says offenders were of varying ethnicities. No immigration-policy causal link is established.",
+      "public_controversy": "The operation found no safeguarding measures had initially been taken for identified young people; the eventual response relied heavily on multi-agency disruption.",
+      "tags": [
+        "London",
+        "Operation Warrenton",
+        "CSE",
+        "safeguarding"
+      ],
+      "sources": [
+        {
+          "label": "Home Office — Group-based CSE characteristics, Operation Warrenton",
+          "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
         }
       ]
     },
@@ -562,7 +1132,14 @@
           "label": "2017 attacks open report",
           "url": "https://www.gov.uk/government/publications/attacks-in-london-and-manchester-march-june-2017"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "windrush-2018",
@@ -587,7 +1164,142 @@
           "label": "Windrush Lessons Learned Review",
           "url": "https://www.gov.uk/government/publications/windrush-lessons-learned-review"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "manchester-victoria-2018",
+      "year": 2018,
+      "date": "31 December 2018",
+      "title": "Manchester Victoria station stabbing treated as terrorism",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "Manchester",
+      "summary": "A knife attack at Manchester Victoria station was treated as terrorism and later listed in the Independent Reviewer's chronology of UK terrorist attacks.",
+      "evidence": "Independent Reviewer — Terrorism Acts in 2023",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Theresa May's term; terrorism classification established.",
+      "tags": [
+        "manchester",
+        "security & extremism",
+        "terror attack"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer — Terrorism Acts in 2023",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2023/the-terrorism-acts-in-2023-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No immigration-policy causation is asserted.",
+      "public_controversy": "The case contributed to the post-2017 terrorism threat picture.",
+      "detail_notes": []
+    },
+    {
+      "id": "stanwell-attack-2019",
+      "year": 2019,
+      "date": "16 March 2019",
+      "title": "Stanwell stabbing treated as extreme-right terrorist attack",
+      "category": "Security & Extremism",
+      "kind": "Far-right terror attack",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "Stanwell, Surrey",
+      "summary": "A stabbing in Stanwell was treated as an extreme-right terrorist attack and appears in the official chronology of attacks.",
+      "evidence": "Independent Reviewer — Terrorism Acts in 2023",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Theresa May's term; terrorism classification established.",
+      "tags": [
+        "stanwell, surrey",
+        "security & extremism",
+        "far-right terror attack"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer — Terrorism Acts in 2023",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2023/the-terrorism-acts-in-2023-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "The attack targeted a victim in a context of extreme-right ideology; it is included alongside Islamist attacks for consistency.",
+      "public_controversy": "The case illustrates the growth of extreme-right terrorism identified by the Home Office.",
+      "detail_notes": []
+    },
+    {
+      "id": "birmingham-school-protests-2019",
+      "year": 2019,
+      "date": "2019",
+      "title": "Birmingham primary-school protests over LGBT-inclusive education",
+      "category": "Public Space & Culture",
+      "kind": "School protests / intimidation",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "Birmingham",
+      "summary": "Sustained protests took place outside Birmingham primary schools over LGBT-inclusive teaching. The Khan Review later said some protests were exploited by Muslim fundamentalist and extremist actors and left staff and pupils frightened.",
+      "evidence": "Khan Review — threats to social cohesion",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Theresa May's term; protest and intimidation concerns documented.",
+      "tags": [
+        "birmingham",
+        "public space & culture",
+        "school protests / intimidation"
+      ],
+      "sources": [
+        {
+          "label": "Khan Review — threats to social cohesion",
+          "url": "https://assets.publishing.service.gov.uk/media/65fdbfd265ca2ffef17da79c/The_Khan_review.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed / historical review",
+      "court_outcome": "",
+      "migration_context": "This is a community-cohesion and religious-extremism issue, not a crime-by-immigrants claim.",
+      "public_controversy": "Public debate divided over parental rights, religious belief, LGBT equality and intimidation around schools.",
+      "detail_notes": []
+    },
+    {
+      "id": "neo-nazi-gig-hate-2019",
+      "year": 2019,
+      "date": "2019 event / 2025 convictions",
+      "title": "Neo-Nazi music event features Nazi salutes and racist incitement",
+      "category": "Security & Extremism",
+      "kind": "Terrorism / public safety case",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "Leeds",
+      "summary": "A neo-Nazi music event in Leeds featured Nazi flags, salutes and racist songs. Members associated with the event were later convicted of offences including conspiracy to incite racial hatred.",
+      "evidence": "CPS convictions and sentence",
+      "confidence": "confirmed",
+      "relationship": "Event occurred in 2019 during Boris Johnson's term; convictions came years later.",
+      "tags": [
+        "leeds",
+        "security & extremism",
+        "terrorism / public safety case"
+      ],
+      "sources": [
+        {
+          "label": "CPS convictions and sentence",
+          "url": "https://www.cps.gov.uk/cps/news/neo-nazi-music-family-sentenced-stirring-racial-hatred"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "The case involved racist extremist ideology rather than migrant offending.",
+      "public_controversy": "The long gap between conduct and convictions is shown so users can distinguish the event date from the judicial outcome date.",
+      "detail_notes": []
     },
     {
       "id": "fishmongers-2019",
@@ -617,7 +1329,14 @@
           "label": "IOPC recommendations following Fishmongers' Hall",
           "url": "https://www.policeconduct.gov.uk/news/iopc-recommendations-following-fishmongers-hall-terror-attack-being-implemented-nationally"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "streatham-2020",
@@ -647,7 +1366,14 @@
           "label": "Automatic early release of terrorists ends",
           "url": "https://www.gov.uk/government/news/automatic-early-release-of-terrorists-ends"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "whitemoor-2020",
@@ -672,7 +1398,14 @@
           "label": "Government response to Independent Reviewer — 2020 attacks",
           "url": "https://www.gov.uk/government/publications/response-to-the-report-on-the-terrorism-acts-in-2020/response-to-the-2020-annual-report-on-the-operation-of-the-terrorism-acts-by-the-independent-reviewer-of-terrorism-legislation-accessible-version"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "reading-attack-2020",
@@ -703,7 +1436,14 @@
           "label": "Reuters sentencing report",
           "url": "https://www.reuters.com/article/world/libyan-jailed-for-life-for-uk-attack-that-killed-three-idUSKBN29G2BO/"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "amess-2021",
@@ -729,7 +1469,14 @@
           "label": "Government — Lessons for Prevent",
           "url": "https://www.gov.uk/government/publications/lessons-for-prevent/lessons-for-prevent-accessible"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "pbs-2021",
@@ -754,7 +1501,78 @@
           "label": "UK points-based immigration system — further details",
           "url": "https://www.gov.uk/government/publications/uk-points-based-immigration-system-further-details-statement/uk-points-based-immigration-system-further-details-statement"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "patrick-ruane-encouragement-2021",
+      "year": 2021,
+      "date": "2021",
+      "title": "Patrick Ruane posts messages encouraging violence over Covid conspiracy beliefs",
+      "category": "Security & Extremism",
+      "kind": "Terrorism / public safety case",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "London / online",
+      "summary": "During 2021 Patrick Ruane posted messages encouraging serious violence and terrorism in opposition to the government's pandemic response. He was convicted in 2024 of two terrorism offences.",
+      "evidence": "CPS conviction",
+      "confidence": "confirmed",
+      "relationship": "Offending occurred during Boris Johnson's term; conviction came later.",
+      "tags": [
+        "london / online",
+        "security & extremism",
+        "terrorism / public safety case"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction",
+          "url": "https://www.cps.gov.uk/cps/news/covid-denier-who-called-violence-found-guilty-terrorism-offences"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No immigration connection.",
+      "public_controversy": "The jury acquitted him on a separate possession-of-terrorist-document count, so the site distinguishes proved and unproved allegations.",
+      "detail_notes": []
+    },
+    {
+      "id": "batley-school-protests-2021",
+      "year": 2021,
+      "date": "March 2021",
+      "title": "Batley Grammar School protests after religious-studies lesson",
+      "category": "Public Space & Culture",
+      "kind": "School protests / intimidation",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "Batley",
+      "summary": "Protests outside Batley Grammar School followed use of an image of the Prophet Muhammad in a lesson. The Khan Review later cited the protests among episodes that frightened staff and pupils and were exploited by extremist actors.",
+      "evidence": "Khan Review — threats to social cohesion",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Boris Johnson's term; public-order and cohesion concerns documented.",
+      "tags": [
+        "batley",
+        "public space & culture",
+        "school protests / intimidation"
+      ],
+      "sources": [
+        {
+          "label": "Khan Review — threats to social cohesion",
+          "url": "https://assets.publishing.service.gov.uk/media/65fdbfd265ca2ffef17da79c/The_Khan_review.pdf"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed / historical review",
+      "court_outcome": "",
+      "migration_context": "Religious/community context is direct; no general immigration-policy causal claim is made.",
+      "public_controversy": "The episode produced intense disagreement over blasphemy, free expression, school safeguarding and community pressure.",
+      "detail_notes": []
     },
     {
       "id": "muslim-population-2021",
@@ -785,7 +1603,14 @@
           "label": "ONS — Religion, Census 2021",
           "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/bulletins/religionenglandandwales/census2021"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "liverpool-hospital-2021",
@@ -816,7 +1641,14 @@
           "label": "Independent Reviewer — Terrorism Acts 2021",
           "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2021/the-terrorism-acts-in-2021-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "telford-inquiry-2022",
@@ -842,7 +1674,78 @@
           "label": "Telford & Wrekin Council — Independent Inquiry into Telford CSE",
           "url": "https://www.telford.gov.uk/children-and-young-people/safeguarding-children/child-sexual-exploitation-cse/independent-inquiry-into-telford-child-sexual-exploitation-iitcse/"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "dover-migrant-centre-attack-2022",
+      "year": 2022,
+      "date": "30 October 2022",
+      "title": "Dover migrant processing centre petrol-bomb attack",
+      "category": "Security & Extremism",
+      "kind": "Far-right terror attack",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "Dover",
+      "summary": "A man threw petrol bombs at the Western Jet Foil migrant processing centre in Dover before killing himself. Counter-terrorism authorities concluded the attack was driven by extreme-right ideology.",
+      "evidence": "Independent Reviewer / government research",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Rishi Sunak's term; terrorism connection established by authorities.",
+      "tags": [
+        "dover",
+        "security & extremism",
+        "far-right terror attack"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer / government research",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2022"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "The target was a migrant processing centre; this is anti-migrant extremist violence.",
+      "public_controversy": "The attacker died, so there was no criminal trial; official terrorism assessment rather than a jury verdict establishes the classification.",
+      "detail_notes": []
+    },
+    {
+      "id": "gchq-intern-files-2022",
+      "year": 2022,
+      "date": "August–September 2022",
+      "title": "Former GCHQ intern removes top-secret files from secure systems",
+      "category": "Security & Extremism",
+      "kind": "National-security breach",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "Cheltenham / Rochdale",
+      "summary": "Hasaan Arshad copied top-secret GCHQ material to a personal device and removed it from secure systems. He later pleaded guilty and was jailed.",
+      "evidence": "CPS conviction and sentence",
+      "confidence": "confirmed",
+      "relationship": "Conduct occurred during Boris Johnson's term; prosecution concluded later.",
+      "tags": [
+        "cheltenham / rochdale",
+        "security & extremism",
+        "national-security breach"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction and sentence",
+          "url": "https://www.cps.gov.uk/cps/news/former-gchq-intern-jailed-taking-top-secret-files-home"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No immigration-policy connection.",
+      "public_controversy": "The case is a national-security breach rather than ideological terrorism; separate indecent-image offences were also prosecuted.",
+      "detail_notes": []
     },
     {
       "id": "leicester-unrest-2022",
@@ -873,7 +1776,14 @@
           "label": "Khan Review — threats to social cohesion",
           "url": "https://assets.publishing.service.gov.uk/media/65fdbfd265ca2ffef17da79c/The_Khan_review.pdf"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "rwanda-2022",
@@ -898,7 +1808,14 @@
           "label": "Migration and Economic Development Partnership factsheet",
           "url": "https://homeofficemedia.blog.gov.uk/2022/04/14/factsheet-migration-and-economic-development-partnership/"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "small-boats-2022",
@@ -928,7 +1845,110 @@
           "label": "Irregular migration to the UK — YE December 2023",
           "url": "https://www.gov.uk/government/statistics/irregular-migration-to-the-uk-year-ending-december-2023/irregular-migration-to-the-uk-year-ending-december-2023"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "knowsley-asylum-hotel-riot-2023",
+      "year": 2023,
+      "date": "10 February 2023",
+      "title": "Knowsley asylum-hotel protest turns into violent disorder",
+      "category": "Crime & Safety",
+      "kind": "Asylum-hotel riot",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "Knowsley, Merseyside",
+      "summary": "Violent disorder broke out outside a hotel housing asylum seekers in Knowsley. A police van was attacked and set on fire; police arrested 15 people.",
+      "evidence": "HMICFRS policing review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Rishi Sunak's term; asylum accommodation was the direct focus.",
+      "tags": [
+        "knowsley, merseyside",
+        "crime & safety",
+        "asylum-hotel riot"
+      ],
+      "sources": [
+        {
+          "label": "HMICFRS policing review",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publication-html/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed / prosecutions",
+      "court_outcome": "",
+      "migration_context": "Direct asylum-policy context because the protest targeted an asylum hotel.",
+      "public_controversy": "The Khan Review framed it as part of serious disorder and conflict affecting social cohesion; individual criminal liability remained separate.",
+      "detail_notes": []
+    },
+    {
+      "id": "farooq-hospital-bomb-2023",
+      "year": 2023,
+      "date": "20 January 2023",
+      "title": "Mohammad Farooq arrested with pressure-cooker bomb outside Leeds hospital maternity ward",
+      "category": "Security & Extremism",
+      "kind": "Terror plot",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "Leeds",
+      "summary": "Police arrested Mohammad Farooq outside St James’s Hospital with a pressure-cooker device. He was later convicted/sentenced for terrorism and explosives offences and jailed for life with a 37-year minimum term.",
+      "evidence": "CPS conviction and sentence",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; later court outcome confirmed terrorism offences.",
+      "tags": [
+        "security & extremism",
+        "terror plot",
+        "leeds"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction and sentence",
+          "url": "https://www.cps.gov.uk/cps/news/updated-sentence-man-jailed-taking-bomb-hospital-and-planning-attack-raf-base"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "Court outcome established the plot. Public concern focused on hospital security, radicalisation and prevention.",
+      "migration_context": "Do not infer migration status from name or religion; this record is about the established terror plot.",
+      "detail_notes": []
+    },
+    {
+      "id": "cocad-719-2023",
+      "year": 2023,
+      "date": "2023 dataset",
+      "title": "Police dataset records 719 group-based child sexual exploitation offences in 2023",
+      "category": "Crime & Safety",
+      "kind": "Official crime dataset",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "England and Wales",
+      "summary": "The Casey audit reported that the COCAD dataset identified 719 recorded offences classified as group-based child sexual exploitation in 2023, within 4,228 group-based contact child sexual abuse offences.",
+      "evidence": "Casey national audit",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; official dataset with major caveats.",
+      "tags": [
+        "crime & safety",
+        "official crime dataset",
+        "england and wales"
+      ],
+      "sources": [
+        {
+          "label": "Casey national audit",
+          "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse/national-audit-on-group-based-child-sexual-exploitation-and-abuse-accessible"
+        }
+      ],
+      "record_type": "batch",
+      "case_status": "statistical record",
+      "court_outcome": "",
+      "public_controversy": "The audit explicitly warns that definitions, manual review and incomplete data make the figure an imperfect measure of true scale.",
+      "migration_context": "Casey found national ethnicity data insufficient for a national conclusion, while some local force data showed disproportionate numbers of Asian-background male suspects.",
+      "detail_notes": []
     },
     {
       "id": "netmigration-peak-2023",
@@ -958,7 +1978,302 @@
           "label": "ONS: improving migration statistics, November 2025",
           "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/improvinglongterminternationalmigrationstatisticsupdatingourmethodsandestimates/november2025"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "clark-vinogradova-charges-2024",
+      "year": 2024,
+      "date": "1 June–10 August 2024",
+      "title": "Teenage couple charged over alleged preparations for terrorist attack",
+      "category": "Security & Extremism",
+      "kind": "Terrorism / public safety case",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "London",
+      "summary": "Rex Clark and Sofija Vinogradova were charged over an alleged plot involving improvised explosive-device components, petrol-bomb testing and attempted firearm acquisition.",
+      "evidence": "CPS charging decision",
+      "confidence": "open",
+      "relationship": "Alleged conduct spans the Sunak–Starmer transition; charges were authorised under Starmer.",
+      "tags": [
+        "london",
+        "security & extremism",
+        "terrorism / public safety case"
+      ],
+      "sources": [
+        {
+          "label": "CPS charging decision",
+          "url": "https://www.cps.gov.uk/cps/news/teenage-couple-charged-preparing-acts-terrorism"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "open / proceedings",
+      "court_outcome": "",
+      "migration_context": "No immigration or ethnicity conclusion should be inferred from names.",
+      "public_controversy": "At charging stage guilt is not established. The site therefore labels this OPEN rather than presenting the allegations as convictions.",
+      "detail_notes": []
+    },
+    {
+      "id": "colin-mcneil-websites-2024",
+      "year": 2024,
+      "date": "2 August 2024",
+      "title": "Far-right extremist jailed for running racist websites used by international terrorists",
+      "category": "Security & Extremism",
+      "kind": "Terrorism / public safety case",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Leeds / online",
+      "summary": "Colin McNeil was jailed for operating websites that glorified neo-Nazis and racist mass killers and encouraged terrorism.",
+      "evidence": "CPS sentence",
+      "confidence": "confirmed",
+      "relationship": "Sentence occurred during Keir Starmer's term.",
+      "tags": [
+        "leeds / online",
+        "security & extremism",
+        "terrorism / public safety case"
+      ],
+      "sources": [
+        {
+          "label": "CPS sentence",
+          "url": "https://www.cps.gov.uk/cps/news/far-right-extremist-jailed-running-racist-websites-used-international-terrorists"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No immigration connection to the offender is asserted; the content promoted racist and anti-minority violence.",
+      "public_controversy": "The case concerns online facilitation and encouragement rather than a completed physical attack.",
+      "detail_notes": []
+    },
+    {
+      "id": "sunderland-disorder-2aug2024",
+      "year": 2024,
+      "date": "2 August 2024",
+      "title": "Sunderland riot: police attacked with bricks, iron bars and petrol bombs",
+      "category": "Crime & Safety",
+      "kind": "Riot",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Sunderland",
+      "summary": "Rioters attacked police during serious disorder in Sunderland; the official policing review records the use of stones, bricks, iron bars and petrol bombs.",
+      "evidence": "HMICFRS official review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; anti-immigration unrest context.",
+      "tags": [
+        "crime & safety",
+        "riot",
+        "sunderland"
+      ],
+      "sources": [
+        {
+          "label": "HMICFRS official review",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publication-html/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Courts sentenced participants for specific offences; broader explanations remained politically contested.",
+      "migration_context": "Migration and asylum grievances were present in the wider mobilization, but individual criminal responsibility remained case-specific.",
+      "detail_notes": []
+    },
+    {
+      "id": "wagner-warehouse-arson-2024",
+      "year": 2024,
+      "date": "20 March 2024",
+      "title": "Wagner-linked arson attack on east London warehouse storing aid for Ukraine",
+      "category": "Security & Extremism",
+      "kind": "Terrorism / public safety case",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "Leyton, London",
+      "summary": "A warehouse holding humanitarian aid and Starlink equipment for Ukraine was deliberately set on fire. CPS later secured convictions under the National Security Act and for aggravated arson.",
+      "evidence": "CPS — National Security Act / arson prosecution",
+      "confidence": "confirmed",
+      "relationship": "Attack occurred during Rishi Sunak's term; convictions and sentences came later.",
+      "tags": [
+        "leyton, london",
+        "security & extremism",
+        "terrorism / public safety case"
+      ],
+      "sources": [
+        {
+          "label": "CPS — National Security Act / arson prosecution",
+          "url": "https://www.cps.gov.uk/cps/news/how-cps-used-new-national-security-act-legislation-prosecute-plot-sabotage-ukrainian-aid"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "This is a hostile-state / organised-security case, not an immigration-policy case.",
+      "public_controversy": "One defendant was acquitted and another was found not guilty on some disclosure counts, illustrating why the site records defendant-level outcomes rather than treating every charge as proven.",
+      "detail_notes": []
+    },
+    {
+      "id": "alex-hutton-assault-terrorism-2024",
+      "year": 2024,
+      "date": "2024",
+      "title": "Extreme-right teenager sentenced for terrorism and violent assault",
+      "category": "Security & Extremism",
+      "kind": "Terrorism / public safety case",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "England",
+      "summary": "Alex Hutton, who held racist, fascist, transphobic and homophobic views, was sentenced for terrorism offences and a violent assault that hospitalised a transgender woman.",
+      "evidence": "CPS sentence",
+      "confidence": "confirmed",
+      "relationship": "Sentence occurred during Keir Starmer's term; underlying conduct predated sentencing.",
+      "tags": [
+        "england",
+        "security & extremism",
+        "terrorism / public safety case"
+      ],
+      "sources": [
+        {
+          "label": "CPS sentence",
+          "url": "https://www.cps.gov.uk/cps/news/extreme-right-wing-teenager-sentenced-terrorism-and-assault-offences"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No migrant-perpetrator connection; included to record extreme-right violence consistently.",
+      "public_controversy": "The case links terrorism material and a separately charged assault, but those are legally distinct offences.",
+      "detail_notes": []
+    },
+    {
+      "id": "neo-nazi-asylum-seeker-stabbing-2024",
+      "year": 2024,
+      "date": "2024 (sentence 17 January 2025)",
+      "title": "Neo-Nazi jailed for attempted murder of Eritrean asylum seeker",
+      "category": "Security & Extremism",
+      "kind": "Far-right attempted murder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "A man who held neo-Nazi beliefs and expressed a desire to 'exterminate' asylum seekers was jailed for life for attempted murder after stabbing an Eritrean man twice.",
+      "evidence": "CPS conviction and sentence",
+      "confidence": "confirmed",
+      "relationship": "Occurred before/around current term; sentence during term; anti-asylum motive established.",
+      "tags": [
+        "security & extremism",
+        "far-right attempted murder",
+        "united kingdom"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction and sentence",
+          "url": "https://www.cps.gov.uk/cps/news/neo-nazi-who-stabbed-victim-twice-jailed-life"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "This entry is included to record anti-migrant extremist violence consistently alongside Islamist and other extremist violence.",
+      "migration_context": "The victim was an Eritrean asylum seeker; the offender's anti-asylum motive was established in prosecution evidence.",
+      "detail_notes": []
+    },
+    {
+      "id": "cse-17100-2024",
+      "year": 2024,
+      "date": "2024 dataset",
+      "title": "Police data flags an estimated 17,100 contact offences as child sexual exploitation",
+      "category": "Crime & Safety",
+      "kind": "Official crime dataset",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "England and Wales",
+      "summary": "The Casey audit reported an estimated 17,100 contact offences flagged as child sexual exploitation in police recorded crime data, against more than 100,000 recorded child sexual abuse and exploitation offences overall.",
+      "evidence": "Casey national audit",
+      "confidence": "confirmed",
+      "relationship": "Published during term; reflects system-wide recorded crime, not a single administration's actions.",
+      "tags": [
+        "crime & safety",
+        "official crime dataset",
+        "england and wales"
+      ],
+      "sources": [
+        {
+          "label": "Casey national audit",
+          "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse/national-audit-on-group-based-child-sexual-exploitation-and-abuse-accessible"
+        }
+      ],
+      "record_type": "batch",
+      "case_status": "statistical record",
+      "court_outcome": "",
+      "public_controversy": "Casey concluded official data still could not give a reliable national picture of group-based CSE.",
+      "migration_context": "This is not a Muslim/immigrant-specific statistic.",
+      "detail_notes": []
+    },
+    {
+      "id": "manchester-airport-incident-2024",
+      "year": 2024,
+      "date": "23 July 2024",
+      "title": "Manchester Airport altercation becomes major policing controversy",
+      "category": "Crime & Safety",
+      "kind": "High-profile violent incident / charging controversy",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Manchester Airport",
+      "summary": "Video of a police officer kicking and stamping on a man during an airport incident produced intense public controversy. After reviewing wider evidence, the CPS charged two men with assaults on police and brought no charges against officers.",
+      "evidence": "CPS charging decision",
+      "confidence": "open",
+      "relationship": "Incident occurred during Keir Starmer's term; CPS charging decisions followed in December 2024.",
+      "tags": [
+        "manchester airport",
+        "crime & safety",
+        "high-profile violent incident / charging controversy"
+      ],
+      "sources": [
+        {
+          "label": "CPS charging decision",
+          "url": "https://www.cps.gov.uk/cps/news/charges-authorised-over-manchester-airport-incident"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "open / proceedings",
+      "court_outcome": "",
+      "migration_context": "No immigration or religious classification is asserted unless established by court evidence.",
+      "public_controversy": "This is a direct example of public perception diverging from the later CPS charging decision: viral video focused criticism on police, while prosecutors said the evidential test supported charges against two civilians and not officers. Charges are not convictions.",
+      "detail_notes": []
+    },
+    {
+      "id": "choudary-conviction-2024",
+      "year": 2024,
+      "date": "23–30 July 2024",
+      "title": "Anjem Choudary convicted of directing a terrorist organisation",
+      "category": "Security & Extremism",
+      "kind": "Terrorism conviction",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "London",
+      "summary": "Anjem Choudary was convicted of directing a terrorist organisation, membership of a proscribed organisation and encouraging support; he received life imprisonment with a 28-year minimum term.",
+      "evidence": "CPS conviction",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; criminal liability established by conviction.",
+      "tags": [
+        "security & extremism",
+        "terrorism conviction",
+        "london"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction",
+          "url": "https://www.cps.gov.uk/cps/news/cps-statement-convictions-anjem-choudary-and-khaled-hussein"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "The court established the offences. Public controversy concerns his long history of extremist activism and earlier state responses.",
+      "migration_context": "Not an immigration case by itself; relevant to Islamist extremism and domestic radicalisation.",
+      "detail_notes": []
     },
     {
       "id": "southport-2024",
@@ -984,7 +2299,174 @@
           "label": "Independent Reviewer — Terrorism Acts in 2024",
           "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2024/the-terrorism-acts-in-2024-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "blackpool-disorder-3aug2024",
+      "year": 2024,
+      "date": "3 August 2024",
+      "title": "Blackpool disorder",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Blackpool",
+      "summary": "Disorder occurred in Blackpool as unrest spread across England.",
+      "evidence": "Official/local government record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term.",
+      "tags": [
+        "crime & safety",
+        "public disorder",
+        "blackpool"
+      ],
+      "sources": [
+        {
+          "label": "Official/local government record",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "No single court ruling resolved the wider political interpretation of the disorder.",
+      "migration_context": "Part of the wider anti-immigration unrest; case-level causes vary.",
+      "detail_notes": []
+    },
+    {
+      "id": "hull-disorder-3aug2024",
+      "year": 2024,
+      "date": "3 August 2024",
+      "title": "Hull city-centre disorder",
+      "category": "Crime & Safety",
+      "kind": "Riot",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Hull",
+      "summary": "Violent disorder and looting occurred in Hull during the nationwide unrest.",
+      "evidence": "Official/local government record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term.",
+      "tags": [
+        "crime & safety",
+        "riot",
+        "hull"
+      ],
+      "sources": [
+        {
+          "label": "Official/local government record",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Courts dealt with individual offences; public debate concerned immigration, misinformation and policing.",
+      "migration_context": "The disorder was part of a wider wave strongly associated with anti-immigration mobilization.",
+      "detail_notes": []
+    },
+    {
+      "id": "liverpool-disorder-3aug2024",
+      "year": 2024,
+      "date": "3 August 2024",
+      "title": "Liverpool riot: police attacked and serious disorder",
+      "category": "Crime & Safety",
+      "kind": "Riot",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Liverpool",
+      "summary": "Serious disorder in Liverpool included attacks on police with missiles and other violence.",
+      "evidence": "HMICFRS official review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; part of 2024 anti-immigration disorder.",
+      "tags": [
+        "crime & safety",
+        "riot",
+        "liverpool"
+      ],
+      "sources": [
+        {
+          "label": "HMICFRS official review",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publication-html/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Individual criminal convictions did not determine the broader political cause.",
+      "migration_context": "Anti-immigration narratives formed part of the unrest.",
+      "detail_notes": []
+    },
+    {
+      "id": "stoke-disorder-3aug2024",
+      "year": 2024,
+      "date": "3 August 2024",
+      "title": "Stoke-on-Trent disorder",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Stoke-on-Trent",
+      "summary": "Disorder occurred in Stoke-on-Trent during the national wave of unrest.",
+      "evidence": "Official/local government record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term.",
+      "tags": [
+        "crime & safety",
+        "public disorder",
+        "stoke-on-trent"
+      ],
+      "sources": [
+        {
+          "label": "Official/local government record",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Broader social interpretations went beyond the narrow issues decided in criminal cases.",
+      "migration_context": "Anti-immigration rhetoric was part of the wider unrest.",
+      "detail_notes": []
+    },
+    {
+      "id": "southport-disorder-30jul2024",
+      "year": 2024,
+      "date": "30 July 2024",
+      "title": "Southport disorder after child murders",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Southport",
+      "summary": "Disorder broke out after a vigil for the three murdered girls. Police officers were attacked and a mosque was targeted amid false online claims about the attacker's identity.",
+      "evidence": "HMICFRS official review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; misinformation and anti-immigration narratives were major contextual factors.",
+      "tags": [
+        "crime & safety",
+        "public disorder",
+        "southport"
+      ],
+      "sources": [
+        {
+          "label": "HMICFRS official review",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Courts prosecuted rioters individually; public debate focused heavily on misinformation, policing and immigration rhetoric.",
+      "migration_context": "Immigration link to the underlying murders: false. Migration/asylum rhetoric was part of subsequent disorder.",
+      "detail_notes": []
     },
     {
       "id": "uk-disorder-2024",
@@ -1015,7 +2497,270 @@
           "label": "HMICFRS — police response to July/August 2024 disorder",
           "url": "https://hmicfrs.justiceinspectorates.gov.uk/publication-html/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "aldershot-disorder-31jul2024",
+      "year": 2024,
+      "date": "31 July 2024",
+      "title": "Aldershot protest and disorder near asylum accommodation",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Aldershot",
+      "summary": "A protest and disorder took place around accommodation associated with asylum seekers during the nationwide unrest.",
+      "evidence": "Official/local government record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; asylum-accommodation relevance direct.",
+      "tags": [
+        "crime & safety",
+        "public disorder",
+        "aldershot"
+      ],
+      "sources": [
+        {
+          "label": "Official/local government record",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Public controversy concerned local asylum accommodation as well as disorder and misinformation.",
+      "migration_context": "Asylum accommodation was a focus of the protest.",
+      "detail_notes": []
+    },
+    {
+      "id": "hartlepool-disorder-31jul2024",
+      "year": 2024,
+      "date": "31 July 2024",
+      "title": "Hartlepool disorder",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Hartlepool",
+      "summary": "Serious disorder occurred in Hartlepool during the wave of unrest following the Southport killings.",
+      "evidence": "Official/local government record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; part of the nationally documented 2024 disorder.",
+      "tags": [
+        "crime & safety",
+        "public disorder",
+        "hartlepool"
+      ],
+      "sources": [
+        {
+          "label": "Official/local government record",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Individual sentences do not amount to a judicial ruling on the broader political causes of the unrest.",
+      "migration_context": "Anti-immigration and anti-asylum narratives formed part of the wider unrest.",
+      "detail_notes": []
+    },
+    {
+      "id": "london-disorder-31jul2024",
+      "year": 2024,
+      "date": "31 July 2024",
+      "title": "Whitehall disorder during anti-immigration protest",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "London",
+      "summary": "Violent disorder occurred in central London during an anti-immigration protest after the Southport killings, with clashes involving police.",
+      "evidence": "HMICFRS official review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; anti-immigration protest context confirmed.",
+      "tags": [
+        "crime & safety",
+        "public disorder",
+        "london"
+      ],
+      "sources": [
+        {
+          "label": "HMICFRS official review",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Court cases addressed individual criminal conduct; political debate focused on protest, disorder and immigration.",
+      "migration_context": "Migration rhetoric was explicit in the protest context; no causal link to the Southport murders.",
+      "detail_notes": []
+    },
+    {
+      "id": "middlesbrough-riot-4aug2024",
+      "year": 2024,
+      "date": "4 August 2024",
+      "title": "Middlesbrough riot causes major damage and more than 100 arrests",
+      "category": "Crime & Safety",
+      "kind": "Riot",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Middlesbrough",
+      "summary": "Middlesbrough Council later recorded approximately £750,000 of damage and more than 100 arrests arising from the 4 August riot.",
+      "evidence": "Middlesbrough Council official report",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; part of national disorder.",
+      "tags": [
+        "crime & safety",
+        "riot",
+        "middlesbrough"
+      ],
+      "sources": [
+        {
+          "label": "Middlesbrough Council official report",
+          "url": "https://moderngov.middlesbrough.gov.uk/documents/g10157/Public%2Breports%2Bpack%2B08th-Apr-2026%2B17.00%2BExecutive.pdf?T=10"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Individual sentences and the public argument over immigration and cohesion addressed different questions.",
+      "migration_context": "The riot formed part of the wider anti-immigration unrest.",
+      "detail_notes": []
+    },
+    {
+      "id": "rotherham-hotel-riot-4aug2024",
+      "year": 2024,
+      "date": "4 August 2024",
+      "title": "Rotherham asylum-hotel riot and arson",
+      "category": "Crime & Safety",
+      "kind": "Riot / arson",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Rotherham",
+      "summary": "A crowd attacked the Holiday Inn Express used to house asylum seekers. The building was set alight while people were inside, and police were attacked.",
+      "evidence": "Home Office / HMICFRS official review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; asylum accommodation was the direct target.",
+      "tags": [
+        "crime & safety",
+        "riot / arson",
+        "rotherham"
+      ],
+      "sources": [
+        {
+          "label": "Home Office / HMICFRS official review",
+          "url": "https://www.gov.uk/government/speeches/home-secretary-statement-on-disorder"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Courts convicted participants for violent offences; wider debate concerned asylum hotels, community anger and far-right mobilisation.",
+      "migration_context": "Direct asylum-policy context: the building was being used as asylum accommodation.",
+      "detail_notes": []
+    },
+    {
+      "id": "tamworth-hotel-riot-4aug2024",
+      "year": 2024,
+      "date": "4 August 2024",
+      "title": "Tamworth asylum-hotel disorder and fire",
+      "category": "Crime & Safety",
+      "kind": "Riot / arson",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Tamworth",
+      "summary": "Disorder targeted a hotel used for asylum accommodation, including fire and attacks on police.",
+      "evidence": "Official/local government record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; asylum accommodation was a direct focus.",
+      "tags": [
+        "crime & safety",
+        "riot / arson",
+        "tamworth"
+      ],
+      "sources": [
+        {
+          "label": "Official/local government record",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Court proceedings addressed criminal conduct; political responsibility for asylum-hotel policy remained separate.",
+      "migration_context": "Direct asylum-accommodation context.",
+      "detail_notes": []
+    },
+    {
+      "id": "plymouth-disorder-5aug2024",
+      "year": 2024,
+      "date": "5 August 2024",
+      "title": "Plymouth disorder",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Plymouth",
+      "summary": "Disorder occurred in Plymouth during the nationwide wave following Southport.",
+      "evidence": "Official/local government record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term.",
+      "tags": [
+        "crime & safety",
+        "public disorder",
+        "plymouth"
+      ],
+      "sources": [
+        {
+          "label": "Official/local government record",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publications/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed/ongoing prosecutions",
+      "court_outcome": "",
+      "public_controversy": "Court outcomes on individual offences did not settle wider political narratives.",
+      "migration_context": "Part of the wider migration-focused unrest, while local incidents involved multiple groups.",
+      "detail_notes": []
+    },
+    {
+      "id": "jason-savage-plot-2024",
+      "year": 2024,
+      "date": "On or before 11 March 2024",
+      "title": "Jason Savage plots attack on Islamic cleric and other targets",
+      "category": "Security & Extremism",
+      "kind": "Terrorism / public safety case",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "Birmingham",
+      "summary": "Jason Savage carried out reconnaissance on a Birmingham mosque and was later convicted of preparing acts of terrorism; he was sentenced to life imprisonment with a 16-year minimum term.",
+      "evidence": "CPS conviction and sentence",
+      "confidence": "confirmed",
+      "relationship": "Planning occurred during Rishi Sunak's term; conviction and sentence followed under Starmer.",
+      "tags": [
+        "birmingham",
+        "security & extremism",
+        "terrorism / public safety case"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction and sentence",
+          "url": "https://www.cps.gov.uk/cps/news/terrorism-conviction-man-who-plotted-attack-islamic-cleric"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "CPS described Savage as a Muslim convert motivated by Islamic State ideology; this is not an immigration-status claim.",
+      "public_controversy": "The intended target included an Islamic cleric who opposed al-Qaida and ISIS, complicating simplistic community narratives.",
+      "detail_notes": []
     },
     {
       "id": "restrictions-2024",
@@ -1040,7 +2785,14 @@
           "label": "Net migration measures — further detail",
           "url": "https://www.gov.uk/government/news/fact-sheet-on-net-migration-measures-further-detail"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "rwanda-cancel-2024",
@@ -1065,7 +2817,46 @@
           "label": "Prime Minister remarks at European Political Community, July 2024",
           "url": "https://www.gov.uk/government/speeches/pms-remarks-at-the-opening-plenary-session-of-the-european-political-community-18-july-2024"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "russian-spy-ring-2025",
+      "year": 2025,
+      "date": "12 May 2025",
+      "title": "Six members of Russian spy ring jailed for more than 50 years combined",
+      "category": "Security & Extremism",
+      "kind": "Espionage",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "Six members of a Russian spy ring were jailed for more than 50 years combined after espionage activity on British and European soil.",
+      "evidence": "CPS convictions",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; convictions established.",
+      "tags": [
+        "security & extremism",
+        "espionage",
+        "united kingdom"
+      ],
+      "sources": [
+        {
+          "label": "CPS convictions",
+          "url": "https://www.cps.gov.uk/cps/news/updated-sentence-members-russian-spy-ring-jailed-more-50-years-total"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "Court established espionage offences; broader national-security implications extend beyond migration policy.",
+      "migration_context": "Foreign-nationality or immigration status should not be equated with immigration-policy causation.",
+      "detail_notes": []
     },
     {
       "id": "casey-rochdale-convictions-2025",
@@ -1091,7 +2882,238 @@
           "label": "Home Secretary statement on Baroness Casey's audit",
           "url": "https://www.gov.uk/government/speeches/baroness-caseys-audit-of-group-based-child-sexual-exploitation-and-abuse"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "iran-nsa-charges-2025",
+      "year": 2025,
+      "date": "17 May 2025",
+      "title": "Three Iranian nationals charged under National Security Act",
+      "category": "Security & Extremism",
+      "kind": "National-security charges",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "Three Iranian nationals were charged with conduct likely to assist a foreign intelligence service. At the charging stage these are allegations, not convictions.",
+      "evidence": "CPS charging decision",
+      "confidence": "open",
+      "relationship": "Occurred during term; charges authorised; presumption of innocence applies.",
+      "tags": [
+        "security & extremism",
+        "national-security charges",
+        "united kingdom"
+      ],
+      "sources": [
+        {
+          "label": "CPS charging decision",
+          "url": "https://www.cps.gov.uk/cps/news/three-men-charged-national-security-act-offences"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "open / active proceedings",
+      "court_outcome": "",
+      "public_controversy": "Because proceedings were active, the site must not present guilt as established.",
+      "migration_context": "Nationality is established by the CPS report; immigration-policy causation is not.",
+      "detail_notes": []
+    },
+    {
+      "id": "ocsaus-179-live-2025",
+      "year": 2025,
+      "date": "2025 audit finding",
+      "title": "Organised Child Sexual Abuse Unit reports 179 live cases, 81 involving multiple offenders",
+      "category": "Government Failure",
+      "kind": "Case-load record",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "England and Wales",
+      "summary": "The Casey audit recorded that the Organised Child Sexual Abuse Unit had 179 live cases, 81 involving multiple offenders, while noting it could not readily identify what proportion were group-based CSE without manual file review.",
+      "evidence": "Casey national audit",
+      "confidence": "open",
+      "relationship": "Published during term; live caseload, not convictions.",
+      "tags": [
+        "government failure",
+        "case-load record",
+        "england and wales"
+      ],
+      "sources": [
+        {
+          "label": "Casey national audit",
+          "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse/national-audit-on-group-based-child-sexual-exploitation-and-abuse-accessible"
+        }
+      ],
+      "record_type": "batch",
+      "case_status": "open / live cases",
+      "court_outcome": "",
+      "public_controversy": "The difficulty identifying case types was itself part of Casey's criticism of the data system.",
+      "migration_context": "No demographic or immigration inference should be made from the aggregate.",
+      "detail_notes": []
+    },
+    {
+      "id": "saadaoui-hussein-plot-2025",
+      "year": 2025,
+      "date": "23 December 2025",
+      "title": "Two men convicted over large-scale plot targeting Jewish communities",
+      "category": "Security & Extremism",
+      "kind": "Terror plot",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Greater Manchester / North West",
+      "summary": "Walid Saadaoui and Amar Hussein were convicted of preparing a large-scale terrorist attack. A third man was convicted of failing to disclose information. Sentences followed in February 2026.",
+      "evidence": "CPS conviction and sentence",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; conviction and sentence established.",
+      "tags": [
+        "security & extremism",
+        "terror plot",
+        "greater manchester / north west"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction and sentence",
+          "url": "https://www.cps.gov.uk/north-west/news/updated-sentence-terrorists-convicted-over-plot-targeting-jewish-communities"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "Court findings are definitive on the charged offences; public debate may focus on ideology and prevention.",
+      "migration_context": "Migration status is not asserted unless a source establishes it.",
+      "detail_notes": []
+    },
+    {
+      "id": "jordan-richardson-plot-2025",
+      "year": 2025,
+      "date": "3 November 2025",
+      "title": "Jordan Richardson convicted over plan to attack Jewish community",
+      "category": "Security & Extremism",
+      "kind": "Terror plot",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "Jordan Richardson was convicted of multiple terrorism offences after writing plans for an attack on the Jewish community and instructions concerning mustard gas.",
+      "evidence": "CPS conviction",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; conviction established.",
+      "tags": [
+        "security & extremism",
+        "terror plot",
+        "united kingdom"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction",
+          "url": "https://www.cps.gov.uk/cps/news/islamic-convert-convicted-planning-terror-attack"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "The court established terrorism offences; broader ideological debate is separate.",
+      "migration_context": "No immigration connection should be inferred; CPS described him as an Islamic convert.",
+      "detail_notes": []
+    },
+    {
+      "id": "dighton-police-station-2025",
+      "year": 2025,
+      "date": "31 January 2025",
+      "title": "Talbot Green police-station stabbing and attempted arson treated as terrorism",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "South Wales",
+      "summary": "Alexander Dighton stabbed a police officer and attempted to set fire to Talbot Green police station. He later admitted 11 offences and was jailed for life with a 22-year minimum term after the incident was found connected to terrorism.",
+      "evidence": "CPS conviction and sentence",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; terrorism connection established in court.",
+      "tags": [
+        "security & extremism",
+        "terror attack",
+        "south wales"
+      ],
+      "sources": [
+        {
+          "label": "CPS conviction and sentence",
+          "url": "https://www.cps.gov.uk/cps/news/terrorist-who-attempted-murder-police-officer-jailed-life"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "Court finding established terrorism connection; online speculation should not override that record.",
+      "migration_context": "No migration connection established in the source.",
+      "detail_notes": []
+    },
+    {
+      "id": "operation-beaconport-1273-2025",
+      "year": 2025,
+      "date": "5 November 2025",
+      "title": "Operation Beaconport receives 1,273 historic group-based CSAE cases for review",
+      "category": "Government Failure",
+      "kind": "National case review",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "England and Wales",
+      "summary": "The NCA said 1,273 cases relating to allegations of group-based child sexual abuse and exploitation, identified by 23 police forces, had been referred for review; 236 related to rape allegations.",
+      "evidence": "NCA official operation update",
+      "confidence": "open",
+      "relationship": "Occurred during term; these are allegations/case referrals, not 1,273 proven offences.",
+      "tags": [
+        "government failure",
+        "national case review",
+        "england and wales"
+      ],
+      "sources": [
+        {
+          "label": "NCA official operation update",
+          "url": "https://www.nationalcrimeagency.gov.uk/news/operation-beaconport-hundreds-of-child-abuse-cases-under-review-to-prioritise-victim-and-survivor-voices"
+        }
+      ],
+      "record_type": "batch",
+      "case_status": "open / review underway",
+      "court_outcome": "",
+      "public_controversy": "This is a batch record. It must not be displayed as 1,273 convictions or 1,273 proven institutional cover-ups.",
+      "migration_context": "Ethnicity-data gaps and offender-network profiling are explicitly part of the review, but case-level demographic facts vary.",
+      "detail_notes": []
+    },
+    {
+      "id": "palestine-action-138-charges-2025",
+      "year": 2025,
+      "date": "5 September 2025",
+      "title": "CPS says 138 people charged for showing support for proscribed Palestine Action",
+      "category": "Security & Extremism",
+      "kind": "Mass charging / protest",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "The CPS said 138 cases had been charged for showing support for Palestine Action following its proscription. These were criminal proceedings, not 138 convictions.",
+      "evidence": "CPS aggregate charging statement",
+      "confidence": "open",
+      "relationship": "Occurred during term; aggregate charging figure.",
+      "tags": [
+        "security & extremism",
+        "mass charging / protest",
+        "united kingdom"
+      ],
+      "sources": [
+        {
+          "label": "CPS aggregate charging statement",
+          "url": "https://www.cps.gov.uk/cps/news/cps-announces-further-prosecutions-palestine-action-supporters"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "open / mixed outcomes",
+      "court_outcome": "",
+      "public_controversy": "There is significant public controversy over the proscription and charging policy; guilt must be assessed case by case by courts.",
+      "migration_context": "Not an immigration case. Included because it is a major public-order / terrorism-law enforcement controversy.",
+      "detail_notes": []
     },
     {
       "id": "whitepaper-2025",
@@ -1117,7 +3139,14 @@
           "label": "Restoring control over the immigration system",
           "url": "https://www.gov.uk/government/publications/restoring-control-over-the-immigration-system-white-paper"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "casey-2025",
@@ -1147,7 +3176,14 @@
           "label": "Audit terms of reference",
           "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse-terms-of-reference/national-audit-on-group-based-child-sexual-exploitation-and-abuse-terms-of-reference"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "netmigration-2025",
@@ -1177,7 +3213,46 @@
           "label": "ONS international migration — YE December 2025",
           "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
+    },
+    {
+      "id": "morgan-mckenzie-terror-material-2026",
+      "year": 2026,
+      "date": "16 January 2026",
+      "title": "Teen sentenced for terrorist material after discussing possible concert attack",
+      "category": "Security & Extremism",
+      "kind": "Terrorism / public safety case",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Cwmbran / online",
+      "summary": "Morgan McKenzie was sentenced after pleading guilty to possessing a terrorism document. Investigators found messages discussing possible attacks, but the CPS explicitly said those communications did not amount to a credible or actionable plot.",
+      "evidence": "CPS sentence",
+      "confidence": "confirmed",
+      "relationship": "Sentence occurred during Keir Starmer's term.",
+      "tags": [
+        "cwmbran / online",
+        "security & extremism",
+        "terrorism / public safety case"
+      ],
+      "sources": [
+        {
+          "label": "CPS sentence",
+          "url": "https://www.cps.gov.uk/cps/news/teen-sentenced-after-guilty-plea-possessing-terrorist-material"
+        }
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "migration_context": "No immigration connection.",
+      "public_controversy": "This entry deliberately preserves the prosecution's distinction: terrorist-material possession was proved; an attack plot was not charged as credible/actionable.",
+      "detail_notes": []
     },
     {
       "id": "london-cse-review-2026",
@@ -1204,7 +3279,14 @@
           "label": "London Assembly — grooming gangs in London: what do we know?",
           "url": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-press-releases/grooming-gangs-london-what-do-we-know"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "eid-public-space-2026",
@@ -1235,7 +3317,14 @@
           "label": "Contemporary attendance report",
           "url": "https://www.thesun.co.uk/news/38583608/muslims-gather-for-eid-prayer-to-celebrate-ramadan/"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "newham-eid-2026",
@@ -1263,7 +3352,14 @@
           "label": "Newham Council — Celebrating Eid al-Adha 2026",
           "url": "https://www.newham.gov.uk/news/article/1410/celebrating-eid-al-adha-in-newham"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "burnham-2026",
@@ -1292,7 +3388,14 @@
           "label": "Andy Burnham's first speech as Prime Minister",
           "url": "https://www.gov.uk/government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     },
     {
       "id": "mosque-directory-2026",
@@ -1328,7 +3431,14 @@
           "label": "ONS — does not collect mosque counts",
           "url": "https://www.ons.gov.uk/aboutus/transparencyandgovernance/freedomofinformationfoi/agegenderandgeographicalbreakdownoftheukmuslimpopulation"
         }
-      ]
+      ],
+      "record_type": "event",
+      "case_status": "closed",
+      "court_outcome": "",
+      "public_controversy": "",
+      "migration_context": "",
+      "detail_notes": [],
+      "location": "United Kingdom"
     }
   ],
   "netMigration": [

@@ -91,3 +91,9 @@ html { scroll-behavior: smooth; }
     justify-content:flex-start;
   }
 }
+
+.detail-grid{margin:20px 0;border-top:1px solid var(--line)}
+.detail-row{display:grid;grid-template-columns:minmax(150px,220px) 1fr;gap:22px;padding:12px 0;border-bottom:1px solid var(--line)}
+.detail-row>div:first-child{font:600 .72rem "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.detail-row>div:last-child{line-height:1.55;color:var(--text)}
+@media(max-width:680px){.detail-row{grid-template-columns:1fr;gap:5px}}

@@ -1,3 +1,15 @@
+
+function esc(v=''){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));}
+function detailRows(e){
+  const rows=[
+    ['Location',e.location],['Case status',e.case_status],
+    ['Record type',e.record_type==='batch'?'Aggregate / batch record':'Individual event / case'],
+    ['Relationship to PM',e.relationship],['Migration / asylum context',e.migration_context],
+    ['Court / official outcome',e.court_outcome],['Public / judicial divergence',e.public_controversy]
+  ].filter(([,v])=>v);
+  return `<div class="detail-grid">${rows.map(([k,v])=>`<div class="detail-row"><div>${esc(k)}</div><div>${esc(v)}</div></div>`).join('')}</div>`;
+}
+
 function slug(s){return String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
 function formatTerm(a){return `${a.startDate||Math.floor(a.start)} — ${a.current?'Present':(a.endDate||Math.floor(a.end))}`}
 function statusLabel(s){return s==='unresolved'?'OPEN / UNRESOLVED':s==='confirmed'?'CONFIRMED':'CONTEXT'}
