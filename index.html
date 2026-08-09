@@ -17,6 +17,7 @@
       <a href="#people">People</a>
       <a class="active" href="#timeline">Timeline</a>
       <a href="#migration">Migration</a>
+      <a href="#social">Social change</a>
       <a href="#promises">Promise vs Result</a>
       <button id="aboutBtn" class="ghost-btn">About</button>
     </nav>
@@ -58,6 +59,26 @@
         <div class="chart-topline"><span>UK long-term net migration</span><span class="muted">selected year-ending estimates</span></div>
         <div id="migrationChart" class="migration-chart" aria-label="UK net migration chart"></div>
         <div class="chart-source">Source notes are attached to chart points in <code>data.json</code>.</div>
+      </div>
+    </section>
+
+
+    <section class="section-block" id="social">
+      <div class="section-head">
+        <div><div class="section-kicker">DEMOGRAPHIC & PUBLIC-SPACE CHANGE</div><h2>Social change indicators</h2></div>
+        <p>Population and institutional-footprint indicators are shown separately from crime. Religious identity, immigration status and criminality are not treated as interchangeable.</p>
+      </div>
+      <div class="social-grid">
+        <div class="chart-card">
+          <div class="chart-topline"><span>Muslim population — England & Wales</span><span class="muted">ONS Census</span></div>
+          <div id="muslimPopulationCards" class="stat-cards"></div>
+          <div class="chart-source">Census religion is self-identified affiliation; it does not measure immigration status or frequency of worship.</div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-topline"><span>Mosque / prayer-room landmarks</span><span class="muted">independent directory</span></div>
+          <div id="mosqueChart" class="mini-bar-chart"></div>
+          <div class="chart-source" id="mosqueNote"></div>
+        </div>
       </div>
     </section>
 

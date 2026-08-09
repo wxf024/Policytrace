@@ -1,7 +1,7 @@
 {
   "country": "United Kingdom",
   "range": "1997–2026",
-  "updated": "2026-08-09",
+  "updated": "9 August 2026 — v0.4",
   "administrations": [
     {
       "name": "Tony Blair",
@@ -585,6 +585,225 @@
           "url": "https://www.gov.uk/government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026"
         }
       ]
+    },
+    {
+      "id": "manchester-arena-2017",
+      "year": 2017.39,
+      "date": "22 May 2017",
+      "title": "Manchester Arena bombing kills 22 people",
+      "category": "Security & Extremism",
+      "kind": "Attack",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "summary": "Salman Abedi detonated a suicide bomb at Manchester Arena, killing 22 people. The official inquiry found he was Manchester-born to parents who had been granted asylum after fleeing Libya. This is recorded as an extremism and integration-related event; the site does not treat his parents' asylum status as proof that asylum policy caused the attack.",
+      "evidence": "Official inquiry",
+      "confidence": "confirmed",
+      "relationship": "Attack during term; migration-family background is contextual, not established causation",
+      "tags": [
+        "terrorism",
+        "Manchester",
+        "Islamist extremism",
+        "integration",
+        "asylum background"
+      ],
+      "sources": [
+        {
+          "label": "Manchester Arena Inquiry — Volume 3",
+          "url": "https://www.gov.uk/government/publications/manchester-arena-inquiry-volume-3-radicalisation-and-preventability"
+        },
+        {
+          "label": "2017 attacks open report",
+          "url": "https://www.gov.uk/government/publications/attacks-in-london-and-manchester-march-june-2017"
+        }
+      ]
+    },
+    {
+      "id": "reading-attack-2020",
+      "year": 2020.47,
+      "date": "20 June 2020",
+      "title": "Reading park attack: three murdered in Islamist attack",
+      "category": "Security & Extremism",
+      "kind": "Attack",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "Khairi Saadallah murdered three people in Forbury Gardens, Reading. He had arrived from Libya and later received permission to remain after claiming asylum. The attack was treated as Islamist terrorism; later scrutiny also focused on failures across offender management and public services.",
+      "evidence": "Court / official terrorism review",
+      "confidence": "confirmed",
+      "relationship": "Direct migrant/asylum-system background; individual crime does not establish population-level causation",
+      "tags": [
+        "Reading",
+        "terrorism",
+        "refugee",
+        "asylum",
+        "public safety"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer — Terrorism Acts 2020",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2020/the-terrorism-acts-in-2020-report-of-the-independent-reviewer-of-terrorism-legislation-accessible-version"
+        },
+        {
+          "label": "Reuters sentencing report",
+          "url": "https://www.reuters.com/article/world/libyan-jailed-for-life-for-uk-attack-that-killed-three-idUSKBN29G2BO/"
+        }
+      ]
+    },
+    {
+      "id": "liverpool-hospital-2021",
+      "year": 2021.87,
+      "date": "14 November 2021",
+      "title": "Liverpool Women's Hospital bombing; asylum grievance later identified",
+      "category": "Security & Extremism",
+      "kind": "Attack / Investigation",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "Emad Al Swealmeen died when his homemade bomb exploded in a taxi outside Liverpool Women's Hospital. Counter-terrorism police treated the incident as a terrorist attack. A later independent terrorism review reported that police considered a grievance over his asylum claim the most likely motivation.",
+      "evidence": "Official terrorism review",
+      "confidence": "confirmed",
+      "relationship": "Asylum-system grievance identified as likely motive; broader immigration-policy causation not established",
+      "tags": [
+        "Liverpool",
+        "terrorism",
+        "asylum",
+        "rejected claim",
+        "public safety"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer — Terrorism Acts 2023",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2023/the-terrorism-acts-in-2023-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
+        },
+        {
+          "label": "Independent Reviewer — Terrorism Acts 2021",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2021/the-terrorism-acts-in-2021-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
+        }
+      ]
+    },
+    {
+      "id": "muslim-population-2021",
+      "year": 2021.2,
+      "date": "21 March 2021",
+      "title": "Census: Muslim population reaches 3.9 million in England and Wales",
+      "category": "Demographic Change",
+      "kind": "Census",
+      "tone": "neutral",
+      "administration": "Boris Johnson",
+      "summary": "The 2021 Census recorded 3.9 million people identifying as Muslim in England and Wales, 6.5% of the population, up from 2.7 million (4.9%) in 2011. This measures religious identification, not immigration status or religious practice.",
+      "evidence": "ONS Census",
+      "confidence": "confirmed",
+      "relationship": "Demographic change during term; not itself a negative outcome",
+      "tags": [
+        "Census",
+        "Muslim population",
+        "demographics",
+        "religion"
+      ],
+      "metric": {
+        "label": "Muslim share, England & Wales",
+        "value": "6.5%",
+        "context": "3.9m in 2021 vs 2.7m / 4.9% in 2011"
+      },
+      "sources": [
+        {
+          "label": "ONS — Religion, Census 2021",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/bulletins/religionenglandandwales/census2021"
+        }
+      ]
+    },
+    {
+      "id": "eid-public-space-2026",
+      "year": 2026.22,
+      "date": "20 March 2026",
+      "title": "Large outdoor Eid prayer held at Small Heath Park, Birmingham",
+      "category": "Public Space & Culture",
+      "kind": "Public gathering",
+      "tone": "neutral",
+      "administration": "Keir Starmer",
+      "summary": "Green Lane Masjid organised Eid prayer in Small Heath Park. Contemporary reporting estimated attendance at around 30,000, while local authorities prepared for parking, noise and crowd-management impacts. This is recorded as a visible public-space and cultural change, not as a crime or security incident.",
+      "evidence": "Organiser / local reporting",
+      "confidence": "confirmed",
+      "relationship": "Public-space impact and cultural visibility during term",
+      "tags": [
+        "Eid",
+        "public prayer",
+        "Birmingham",
+        "public space",
+        "culture"
+      ],
+      "sources": [
+        {
+          "label": "Celebrate Eid — event details",
+          "url": "https://celebrateeid.co.uk/"
+        },
+        {
+          "label": "Contemporary attendance report",
+          "url": "https://www.thesun.co.uk/news/38583608/muslims-gather-for-eid-prayer-to-celebrate-ramadan/"
+        }
+      ]
+    },
+    {
+      "id": "newham-eid-2026",
+      "year": 2026.39,
+      "date": "21 May 2026",
+      "title": "Newham announces park prayers and temporary parking changes for Eid",
+      "category": "Public Space & Culture",
+      "kind": "Local government accommodation",
+      "tone": "neutral",
+      "administration": "Keir Starmer",
+      "summary": "Newham Council announced Eid prayers at several parks and temporary relaxation of some parking restrictions near mosques between 8am and 4pm. The council warned that roads would be busier and parking limited.",
+      "evidence": "Local government",
+      "confidence": "confirmed",
+      "relationship": "Documented local public-space / transport accommodation",
+      "tags": [
+        "Eid",
+        "Newham",
+        "parking",
+        "parks",
+        "public prayer",
+        "local government"
+      ],
+      "sources": [
+        {
+          "label": "Newham Council — Celebrating Eid al-Adha 2026",
+          "url": "https://www.newham.gov.uk/news/article/1410/celebrating-eid-al-adha-in-newham"
+        }
+      ]
+    },
+    {
+      "id": "mosque-directory-2026",
+      "year": 2026.6,
+      "date": "9 August 2026",
+      "title": "Independent directory lists more than 2,100 active UK mosque and prayer-room landmarks",
+      "category": "Demographic Change",
+      "kind": "Institutional footprint",
+      "tone": "neutral",
+      "administration": "Andy Burnham",
+      "summary": "MuslimsInBritain.org, a long-running independent directory, reports 2,166 active masjid and prayer-room landmarks in its current statistics, compared with 1,743 in its 2015 snapshot. ONS explicitly says it does not collect the number of mosques, so this figure is presented as a directory estimate rather than an official government count.",
+      "evidence": "Independent directory; ONS limitation",
+      "confidence": "confirmed",
+      "relationship": "Institutional / religious footprint trend; count definition includes prayer rooms and shared places",
+      "tags": [
+        "mosques",
+        "prayer rooms",
+        "religion",
+        "institutional growth",
+        "directory"
+      ],
+      "metric": {
+        "label": "Active masjid/prayer-room landmarks",
+        "value": "2,166",
+        "context": "Independent directory; 1,743 in 2015 snapshot"
+      },
+      "sources": [
+        {
+          "label": "MuslimsInBritain.org — 2026 mosque statistics",
+          "url": "https://www.muslimsinbritain.org/statistics/statistics01.php"
+        },
+        {
+          "label": "ONS — does not collect mosque counts",
+          "url": "https://www.ons.gov.uk/aboutus/transparencyandgovernance/freedomofinformationfoi/agegenderandgeographicalbreakdownoftheukmuslimpopulation"
+        }
+      ]
     }
   ],
   "netMigration": [
@@ -1005,5 +1224,43 @@
         }
       ]
     }
-  ]
+  ],
+  "socialIndicators": {
+    "muslimPopulation": [
+      {
+        "year": 2011,
+        "value": 2.7,
+        "share": 4.9,
+        "label": "2011",
+        "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/bulletins/religionenglandandwales/census2021"
+      },
+      {
+        "year": 2021,
+        "value": 3.9,
+        "share": 6.5,
+        "label": "2021",
+        "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/bulletins/religionenglandandwales/census2021"
+      }
+    ],
+    "mosqueLandmarks": [
+      {
+        "year": 2015,
+        "value": 1743
+      },
+      {
+        "year": 2017,
+        "value": 1975
+      },
+      {
+        "year": 2019,
+        "value": 2104
+      },
+      {
+        "year": 2026,
+        "value": 2166
+      }
+    ],
+    "mosqueSource": "https://www.muslimsinbritain.org/statistics/statistics01.php",
+    "mosqueNote": "Independent directory count of active masjid / prayer-room landmarks; not an ONS government count."
+  }
 }

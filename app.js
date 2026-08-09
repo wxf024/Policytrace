@@ -1,5 +1,5 @@
 const state={data:null,category:'All',query:'',negativeOnly:false,officialOnly:false,administration:'All'};
-const categoryOrder=['All','Immigration','Asylum','Border & Asylum','Statistics','Crime & Safety','Government Failure','Political Accountability','Administration'];
+const categoryOrder=['All','Immigration','Asylum','Border & Asylum','Statistics','Crime & Safety','Security & Extremism','Demographic Change','Public Space & Culture','Government Failure','Political Accountability','Administration'];
 
 async function init(){
   const res=await fetch('data.json');
@@ -7,7 +7,7 @@ async function init(){
   document.getElementById('eventCount').textContent=state.data.events.length;
   document.getElementById('pmCount').textContent=state.data.administrations.length;
   document.getElementById('updatedDate').textContent=state.data.updated;
-  renderPeople();renderAdmins();renderFilters();renderChart();renderPromises();renderRecords();bind();
+  renderPeople();renderAdmins();renderFilters();renderChart();renderSocialIndicators();renderPromises();renderRecords();bind();
   const hash=new URLSearchParams(location.search).get('pm');
   if(hash){selectAdministration(hash,true)}
 }
@@ -69,8 +69,8 @@ function renderRecords(){
     groups.push(`<div class="term-divider" id="term-${slug(a.name)}"><span>${a.name}</span><small>${formatTerm(a)}</small><a href="person.html?id=${slug(a.name)}">Profile →</a></div>${events.map(e=>`<article class="record ${toneClass(e.tone)}" data-id="${e.id}">
       <div class="record-year">${displayDate(e)}</div>
       <div class="record-node"><div class="dot"></div></div>
-      <div class="record-main"><div class="record-meta"><span class="pill">${e.category}</span><span class="pill">${e.kind}</span><span class="pill">${e.confidence}</span></div><h3>${e.title}</h3><p>${e.summary}</p></div>
-      <div class="record-side"><div class="person">${e.administration}</div><div class="relation">${e.relationship}</div>${e.metric?`<div class="metric">${e.metric.value}</div>`:''}</div>
+      <div class="record-main"><div class="record-meta"><span class="pill">${e.category}</span><span class="pill">${e.kind}</span><span class="pill">${e.confidence}</span><span class="pill term-occurrence">Occurred under ${e.administration}</span></div><h3>${e.title}</h3><p>${e.summary}</p></div>
+      <div class="record-side"><div class="person">${e.administration}</div><div class="during-term">IN OFFICE WHEN THIS OCCURRED</div><div class="relation">${e.relationship}</div>${e.metric?`<div class="metric">${e.metric.value}</div>`:''}</div>
     </article>`).join('')}${renderNewsBlock(news)}`);
   });
   document.getElementById('emptyState').hidden=groups.length>0;
@@ -88,7 +88,7 @@ function openDetail(id){
   const content=document.getElementById('dialogContent');
   content.innerHTML=`<div class="dialog-body"><div class="dialog-date">${displayDate(e)} / ${e.category.toUpperCase()}</div><h2>${e.title}</h2><p class="dialog-summary">${e.summary}</p>
     ${e.metric?`<div class="metric metric-box">${e.metric.label}: ${e.metric.value}<div class="muted metric-context">${e.metric.context}</div></div>`:''}
-    <div class="detail-grid"><div><span>Administration</span><strong><a href="person.html?id=${slug(e.administration)}">${e.administration} →</a></strong></div><div><span>Record type</span><strong>${e.kind}</strong></div><div><span>Evidence</span><strong>${e.evidence}</strong></div><div><span>Relationship</span><strong>${e.relationship}</strong></div><div><span>Confidence</span><strong>${e.confidence}</strong></div><div><span>Editorial tone</span><strong>${e.tone}</strong></div></div>
+    <div class="detail-grid"><div><span>Administration</span><strong><a href="person.html?id=${slug(e.administration)}">${e.administration} →</a></strong></div><div><span>Record type</span><strong>${e.kind}</strong></div><div><span>Evidence</span><strong>${e.evidence}</strong></div><div><span>Occurred during</span><strong>${e.administration} administration</strong></div><div><span>Relationship</span><strong>${e.relationship}</strong></div><div><span>Confidence</span><strong>${e.confidence}</strong></div><div><span>Editorial tone</span><strong>${e.tone}</strong></div></div>
     <div class="section-kicker">PRIMARY / OFFICIAL SOURCES</div><div class="source-list">${e.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">↗ ${s.label}</a>`).join('')}</div>
     <div class="tag-row">${e.tags.map(t=>`<span class="tag">#${t}</span>`).join('')}</div></div>`;
   document.getElementById('detailDialog').showModal();
@@ -111,6 +111,16 @@ function renderChart(){
   const dots=pts.map(d=>`<g class="chart-point"><circle cx="${x(d.year)}" cy="${y(d.value)}" r="5"/><text x="${x(d.year)}" y="${y(d.value)-13}" text-anchor="middle" class="point-value">${Math.round(d.value/1000)}k</text><text x="${x(d.year)}" y="${H-25}" text-anchor="middle" class="chart-label">${d.label||d.year}</text><title>${d.label||d.year}: ${d.value.toLocaleString()} net migration\n${d.note||''}</title></g>`).join('');
   document.getElementById('migrationChart').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img">${bands}${grid}<path d="${path}" class="migration-line"/>${dots}</svg><div class="chart-legend"><span><i class="legend-labour"></i>Labour PM</span><span><i class="legend-conservative"></i>Conservative PM</span><span><i class="legend-line"></i>Net migration</span></div>`;
 }
+
+function renderSocialIndicators(){
+  const s=state.data.socialIndicators; if(!s)return;
+  const pop=document.getElementById('muslimPopulationCards');
+  if(pop){pop.innerHTML=s.muslimPopulation.map(d=>`<a class="stat-card" href="${d.source}" target="_blank" rel="noopener"><span>${d.label}</span><strong>${d.value.toFixed(1)}m</strong><b>${d.share}%</b><small>identified as Muslim</small></a>`).join('')}
+  const mosque=document.getElementById('mosqueChart');
+  if(mosque){const max=Math.max(...s.mosqueLandmarks.map(d=>d.value));mosque.innerHTML=s.mosqueLandmarks.map(d=>`<div class="mini-bar-row"><span>${d.year}</span><div><i style="width:${(d.value/max*100).toFixed(1)}%"></i></div><strong>${d.value.toLocaleString()}</strong></div>`).join('')+`<a class="chart-data-link" href="${s.mosqueSource}" target="_blank" rel="noopener">Open source ↗</a>`}
+  const note=document.getElementById('mosqueNote'); if(note)note.textContent=s.mosqueNote;
+}
+
 function renderPromises(){
   const arr=state.data.promiseVsResult||[];
   document.getElementById('promiseGrid').innerHTML=arr.map(p=>`<article class="promise-card">

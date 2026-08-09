@@ -15,3 +15,7 @@ Static GitHub Pages prototype for a source-first political timeline.
 Upload all files in this folder to the repository root, replacing the old files, then use **Settings → Pages → Deploy from a branch → main / root**.
 
 No build step is required.
+
+
+## v0.5 timeline placement rule
+Every dated event is displayed under the prime minister who was in office when it occurred. The UI explicitly labels this as an in-office occurrence. This does not automatically assert that the prime minister caused the event; the separate relationship/evidence field states whether a policy connection is confirmed, disputed, contextual, or unestablished.
