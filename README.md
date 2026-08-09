@@ -81,3 +81,7 @@ Comprehensive Chinese-mode audit across home page, charts, filters, timeline, di
 
 ## v1.7.4.3 — current PM stat row
 Hero summary third row now shows the current prime minister's name on the left and LIVE / 现任 status on the right.
+
+
+## v1.7.4.4 — profile language switch scroll preservation
+Switching EN / 中文 on a prime-minister profile now preserves the user's current scroll position instead of returning to the top of the page.

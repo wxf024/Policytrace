@@ -116,7 +116,20 @@ init().catch(e=>{document.getElementById('profileMain').innerHTML=`<pre>${e}</pr
 
 window.addEventListener('load',()=>{
  applyProfileStatic();
+
+ const savedScroll=sessionStorage.getItem('policytrace-profile-scroll');
+ if(savedScroll!==null){
+   requestAnimationFrame(()=>{
+     requestAnimationFrame(()=>{
+       window.scrollTo({top:Number(savedScroll)||0,left:0,behavior:'auto'});
+       sessionStorage.removeItem('policytrace-profile-scroll');
+     });
+   });
+ }
+
  document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>{
+   if(b.dataset.lang===currentLang)return;
+   sessionStorage.setItem('policytrace-profile-scroll',String(window.scrollY));
    localStorage.setItem('policytrace-lang',b.dataset.lang);
    location.reload();
  }));
