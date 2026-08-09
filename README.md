@@ -77,3 +77,7 @@ Comprehensive Chinese-mode audit across home page, charts, filters, timeline, di
 - Promise vs Result cards restored to distinct promise / target / measured result content in Chinese.
 - Asylum and Border & Asylum topic categories merged into Border & Asylum.
 - Removed the “Sequence is not causation” disclaimer from the homepage so readers judge causality from the sourced record.
+
+
+## v1.7.4.3 — current PM stat row
+Hero summary third row now shows the current prime minister's name on the left and LIVE / 现任 status on the right.
