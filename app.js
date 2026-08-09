@@ -137,8 +137,13 @@ function applyStaticLanguage(){
   const lede=document.getElementById('heroLede');if(lede)lede.textContent=currentLang==='zh'
     ?'查看谁在执政、他们承诺了什么、改变了什么、任期内和离任后发生了什么、哪些后续新闻与其记录有关，以及官方调查最终发现了什么。'
     :'See who was in power, what they promised, what they changed, what happened during and after their term, what later news connected back to their record, and what official investigations found.';
-  set('timelineRecordsLabel','timelineRecords');set('primeMinistersLabel','primeMinisters');set('liveLabel','live');set('currentAdministrationLabel','currentAdministration');
-  set('sequenceTitle','sequenceTitle');set('sequenceBody','sequenceBody');
+  set('timelineRecordsLabel','timelineRecords');set('primeMinistersLabel','primeMinisters');set('liveLabel','live');
+  const currentAdminLabel=document.getElementById('currentAdministrationLabel');
+  if(currentAdminLabel && state?.data){
+    const current=state.data.administrations.find(a=>a.current)||state.data.administrations[state.data.administrations.length-1];
+    currentAdminLabel.textContent=adminName(current.name);
+  }
+  
 
   set('peopleKicker','peopleKicker');set('peopleTitle','peopleTitle');set('peopleDesc','peopleDesc');
   set('migrationKicker','migrationKicker');set('migrationTitle','migrationTitle');set('migrationChartTitle','migrationChartTitle');set('migrationChartNote','migrationChartNote');
@@ -212,7 +217,7 @@ function initSectionNav(){
 const state={data:null,category:'All',type:'All',migration:'All',query:'',negativeOnly:false,officialOnly:false,administration:'All'};
 const migrationOrder=['All','Direct immigration/asylum status','Immigration-system abuse','Foreign nationality only','Contextual','No established link'];
 const typeOrder=['All','Major incident','News','Protest','Political scandal','Policy failure / U-turn','Court & Investigation','Policy','Statistics'];
-const categoryOrder=['All','Immigration','Asylum','Border & Asylum','Statistics','Crime & Safety','Security & Extremism','Demographic Change','Public Space & Culture','Government Failure','Political Accountability','Administration'];
+const categoryOrder=['All','Immigration','Border & Asylum','Statistics','Crime & Safety','Security & Extremism','Demographic Change','Public Space & Culture','Government Failure','Political Accountability','Administration'];
 
 async function init(){
   const res=await fetch('data.json');
@@ -397,7 +402,18 @@ function renderSocialIndicators(){
 function renderPromises(){
   const el=document.getElementById('promiseGrid');if(!el)return;
   const rows=state.data.promiseVsResult||[];
-  el.innerHTML=rows.map(p=>`<article class="promise-card"><div class="promise-admin">${adminName(p.administration)} · ${localizedDate(p.date)}</div><h3>${trObj(p,'promise')}</h3><div class="promise-result"><div><span>${uiT('promiseTarget')}</span><strong>${trObj(p,'target')}</strong></div><b>${uiT('versus')}</b><div><span>${uiT('measuredResult')}</span><strong>${trObj(p,'result')}</strong></div></div><p>${trObj(p,'context')}</p><div class="news-links">${(p.sources||[]).map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.label} ↗</a>`).join('')}</div></article>`).join('');
+  el.innerHTML=rows.map(p=>`<article class="promise-card">
+    <div class="promise-admin">${adminName(p.administration)} · ${localizedDate(p.date)}</div>
+    <div class="promise-field-label">${currentLang==='zh'?'承诺':'PROMISE'}</div>
+    <h3>${trObj(p,'promise')}</h3>
+    <div class="promise-result">
+      <div><span>${currentLang==='zh'?'目标':'TARGET'}</span><strong>${trObj(p,'target')}</strong></div>
+      <b>${uiT('versus')}</b>
+      <div><span>${currentLang==='zh'?'实际结果':'MEASURED RESULT'}</span><strong>${trObj(p,'result')}</strong></div>
+    </div>
+    <p>${trObj(p,'context')}</p>
+    <div class="news-links">${(p.sources||[]).map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.label} ↗</a>`).join('')}</div>
+  </article>`).join('');
 }
 function bind(){
   document.getElementById('administrations').addEventListener('click',e=>{const b=e.target.closest('.admin');if(!b)return;selectAdministration(b.dataset.admin,true)});

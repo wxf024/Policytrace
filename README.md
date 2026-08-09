@@ -70,3 +70,10 @@ Fixes remaining hard-coded English visible in Chinese mode: homepage explanatory
 
 ## v1.7.4 — full i18n audit
 Comprehensive Chinese-mode audit across home page, charts, filters, timeline, dialogs, About/footer and all prime-minister profile pages. CSS/mobile layout is unchanged. External source-link titles remain in their original language.
+
+
+## v1.7.4.2 — product cleanup
+- Current administration summary now shows the current prime minister's name.
+- Promise vs Result cards restored to distinct promise / target / measured result content in Chinese.
+- Asylum and Border & Asylum topic categories merged into Border & Asylum.
+- Removed the “Sequence is not causation” disclaimer from the homepage so readers judge causality from the sourced record.

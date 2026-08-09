@@ -1,7 +1,7 @@
 {
   "country": "United Kingdom",
   "range": "1997–2026",
-  "updated": "9 August 2026 — v1.7 + 3 core accountability records",
+  "updated": "9 August 2026 — v1.7.4.2 product cleanup",
   "administrations": [
     {
       "name": "Tony Blair",
@@ -8131,7 +8131,7 @@
       "year": 2022.3,
       "date": "14 April 2022",
       "title": "UK–Rwanda migration partnership announced",
-      "category": "Asylum",
+      "category": "Border & Asylum",
       "kind": "Policy",
       "tone": "restriction",
       "administration": "Boris Johnson",
@@ -8173,8 +8173,8 @@
         "zh": "英国—卢旺达移民合作计划宣布。类型：庇护。状态：已结案。移民关联：背景相关。"
       },
       "category_i18n": {
-        "en": "Asylum",
-        "zh": "庇护"
+        "en": "Border & Asylum",
+        "zh": "边境与庇护"
       },
       "kind_i18n": {
         "en": "Policy",
@@ -12211,7 +12211,7 @@
       "year": 2024.52,
       "date": "July 2024",
       "title": "Starmer government ends Rwanda policy",
-      "category": "Asylum",
+      "category": "Border & Asylum",
       "kind": "Policy Reversal",
       "tone": "expansion",
       "administration": "Keir Starmer",
@@ -12253,8 +12253,8 @@
         "zh": "斯塔默政府终止卢旺达移民计划。类型：庇护。状态：已结案。移民关联：背景相关。"
       },
       "category_i18n": {
-        "en": "Asylum",
-        "zh": "庇护"
+        "en": "Border & Asylum",
+        "zh": "边境与庇护"
       },
       "kind_i18n": {
         "en": "Policy Reversal",
@@ -16402,19 +16402,19 @@
       ],
       "promise_i18n": {
         "en": "Reduce annual net migration from the hundreds of thousands to the “tens of thousands”.",
-        "zh": "公开承诺或政策目标"
+        "zh": "将年度净移民从“数十万”降到“数万”水平"
       },
       "target_i18n": {
         "en": "<100,000",
-        "zh": "目标：<100,000"
+        "zh": "低于100,000"
       },
       "result_i18n": {
         "en": "333,000",
-        "zh": "实际结果：333,000"
+        "zh": "2015年净移民约333,000"
       },
       "context_i18n": {
         "en": "ONS estimated net migration at 333,000 in the year ending December 2015. This records a target/result gap; it does not by itself explain why the target was missed.",
-        "zh": "这里对照当时公开承诺与后来可核实的实际结果；原始数字和表述以来源链接为准。"
+        "zh": "ONS估计截至2015年12月的一年净移民约为333,000。这里记录的是公开目标与实际结果之间的差距，并不单独解释为何目标未实现。"
       }
     },
     {
@@ -16436,19 +16436,19 @@
       ],
       "promise_i18n": {
         "en": "Reduce migration through tighter student dependant, care-worker dependant and skilled-worker rules.",
-        "zh": "公开承诺或政策目标"
+        "zh": "通过收紧学生家属、护理人员家属和技术工人规则来降低移民"
       },
       "target_i18n": {
         "en": "Lower net migration",
-        "zh": "目标：Lower net migration"
+        "zh": "降低净移民"
       },
       "result_i18n": {
         "en": "431,000",
-        "zh": "实际结果：431,000"
+        "zh": "截至2024年12月的一年约431,000"
       },
       "context_i18n": {
         "en": "ONS estimated YE December 2024 net migration at 431,000, down from 860,000 a year earlier. The result overlaps with policies enacted before and during Sunak’s term and should not be attributed to a single measure.",
-        "zh": "这里对照当时公开承诺与后来可核实的实际结果；原始数字和表述以来源链接为准。"
+        "zh": "ONS估计截至2024年12月的一年净移民约431,000，较前一年约860,000下降。该结果同时受苏纳克任期前后多项政策影响，不能归因于单一措施。"
       }
     },
     {
@@ -16470,19 +16470,19 @@
       ],
       "promise_i18n": {
         "en": "Publish reforms intended to reduce reliance on overseas recruitment and tighten settlement and skills rules.",
-        "zh": "公开承诺或政策目标"
+        "zh": "改革移民制度，减少对海外招聘的依赖并进一步收紧规则"
       },
       "target_i18n": {
         "en": "Reduce net migration",
-        "zh": "目标：Reduce net migration"
+        "zh": "降低净移民"
       },
       "result_i18n": {
         "en": "171,000",
-        "zh": "实际结果：171,000"
+        "zh": "截至2025年12月的一年约171,000"
       },
       "context_i18n": {
         "en": "ONS estimated YE December 2025 net migration at 171,000. Much of the fall followed restrictions introduced under the previous government as well as later Labour changes, so causation is mixed.",
-        "zh": "这里对照当时公开承诺与后来可核实的实际结果；原始数字和表述以来源链接为准。"
+        "zh": "ONS估计截至2025年12月的一年净移民约171,000。这里记录公开政策方向与后续统计结果，原始数字和口径以来源为准。"
       }
     },
     {
@@ -16491,7 +16491,7 @@
       "promise": "No return to the old boom-and-bust economic cycle",
       "promise_i18n": {
         "en": "No return to the old boom-and-bust economic cycle",
-        "zh": "不会重回过去的“繁荣—崩盘”经济循环"
+        "zh": "英国不会重回过去的“繁荣—崩盘”经济循环"
       },
       "target": "Sustained economic stability",
       "target_i18n": {
@@ -16501,7 +16501,7 @@
       "result": "Severe UK downturn during the 2008–09 global financial crisis",
       "result_i18n": {
         "en": "Severe UK downturn during the 2008–09 global financial crisis",
-        "zh": "英国在2008—09全球金融危机中遭遇严重经济衰退"
+        "zh": "英国在2008—09年全球金融危机中遭遇严重经济衰退"
       },
       "context": "The financial crisis was global, so this comparison tests the political claim rather than assigning sole causal responsibility to Brown.",
       "context_i18n": {
@@ -16535,7 +16535,7 @@
       "result": "Original exit date missed; May resigned before Brexit was delivered",
       "result_i18n": {
         "en": "Original exit date missed; May resigned before Brexit was delivered",
-        "zh": "原定脱欧日期被错过；梅在完成脱欧前辞职"
+        "zh": "错过原定退出日期，并在脱欧完成前辞职"
       },
       "context": "May herself said in her resignation statement that it was a deep regret that she had not been able to deliver Brexit.",
       "context_i18n": {
@@ -16569,7 +16569,7 @@
       "result": "Revised net migration estimate: about 606,000 in YE June 2022",
       "result_i18n": {
         "en": "Revised net migration estimate: about 606,000 in YE June 2022",
-        "zh": "修订后的净移民估计：截至2022年6月的一年约60.6万"
+        "zh": "截至2022年6月的一年净移民约606,000"
       },
       "context": "The number was affected by humanitarian schemes, asylum and post-pandemic movement, so this is a promise-versus-result comparison rather than a single-cause claim.",
       "context_i18n": {
