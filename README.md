@@ -51,3 +51,10 @@ Adds Policy failure / U-turn as a master-timeline type. Each record separates th
 
 ## v1.3 bilingual prototype
 Adds EN / 中文 language switching with language preference saved in localStorage. Original source labels and external links remain in their source language. Site UI, administration names, categories, status taxonomy, event/person information and profile sections switch language. English remains the canonical source data; Chinese is stored as parallel i18n fields.
+
+
+## v1.4
+Fixes the Timeline record-type filter UI. The filters are now always rendered in two explicit rows:
+Row 1: All / Major incident / News / Protest / Political scandal
+Row 2: Policy failure / U-turn / Court & Investigation / Policy / Statistics
+This prevents Political scandal and Policy failure / U-turn from disappearing due to horizontal layout or merge regressions.

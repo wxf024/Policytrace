@@ -134,3 +134,37 @@ html { scroll-behavior: smooth; }
 .lang-btn.active{background:var(--text);color:var(--bg)}
 html[lang="zh-CN"] body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei","DM Sans",sans-serif}
 @media(max-width:1120px){.language-switch{margin-left:0;margin-right:10px}}
+
+/* v1.4 — make record-type filters impossible to miss */
+#typeFilterRow{
+  display:block;
+  width:100%;
+  margin-top:10px;
+}
+.type-filter-line{
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px;
+  width:100%;
+}
+.type-filter-line + .type-filter-line{
+  margin-top:10px;
+}
+.type-filter-line-secondary{
+  padding-top:10px;
+  border-top:1px solid rgba(148,163,184,.14);
+}
+.type-filter[data-type="Political scandal"]{
+  border-color:rgba(192,132,252,.45);
+}
+.type-filter[data-type="Policy failure / U-turn"]{
+  border-color:rgba(251,146,60,.5);
+}
+.type-filter[data-type="Political scandal"].active{
+  background:rgba(168,85,247,.16);
+  color:#e9d5ff;
+}
+.type-filter[data-type="Policy failure / U-turn"].active{
+  background:rgba(249,115,22,.16);
+  color:#fed7aa;
+}

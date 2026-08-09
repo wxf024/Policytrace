@@ -28,7 +28,7 @@ function trObj(obj,key){
   const v=obj?.[key+'_i18n'];
   return v?.[currentLang] || obj?.[key] || '';
 }
-function t(key){return uiText[currentLang]?.[key]||uiText.en[key]||key;}
+function uiT(key){return uiText[currentLang]?.[key]||uiText.en[key]||key;}
 function adminName(name){
   const a=state?.data?.administrations?.find(x=>x.name===name);
   return a?.name_i18n?.[currentLang]||name;
@@ -51,12 +51,12 @@ function applyStaticLanguage(){
   document.documentElement.lang=currentLang==='zh'?'zh-CN':'en';
   const navMap={overview:'overview',people:'people',migration:'migration',social:'social',promises:'promises',timeline:'timeline',method:'method'};
   document.querySelectorAll('.page-nav a[data-nav]').forEach(a=>{
-    const key=navMap[a.dataset.nav]; if(key)a.textContent=t(key);
+    const key=navMap[a.dataset.nav]; if(key)a.textContent=uiT(key);
   });
-  const about=document.getElementById('aboutBtn'); if(about)about.textContent=t('about');
+  const about=document.getElementById('aboutBtn'); if(about)about.textContent=uiT('about');
   document.querySelectorAll('.lang-btn').forEach(b=>b.classList.toggle('active',b.dataset.lang===currentLang));
   document.querySelectorAll('.filter-label').forEach((el,i)=>{
-    const keys=['showType','migrationRel','topic']; if(keys[i])el.textContent=t(keys[i]);
+    const keys=['showType','migrationRel','topic']; if(keys[i])el.textContent=uiT(keys[i]);
   });
 }
 function setLanguage(lang){
@@ -68,17 +68,17 @@ function setLanguage(lang){
 function esc(v=''){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));}
 function detailRows(e){
   const rows=[
-    [t('location'),e.location],
-    [t('caseStatus'),trObj(e,'case_status')],
-    [t('recordType'),e.record_type==='batch'?(currentLang==='zh'?'汇总 / 批量记录':'Aggregate / batch record'):(currentLang==='zh'?'单个事件 / 案件':'Individual event / case')],
-    [t('relationship'),trObj(e,'relationship')],
-    [t('migrationRelevance'),trObj(e,'migration_relevance')],
-    [t('migrationContext'),trObj(e,'migration_context')],
-    [t('courtOutcome'),e.court_outcome],
-    [t('decision'),trObj(e,'decision_made')],[t('consequence'),trObj(e,'consequence')],
-    [t('reaction'),trObj(e,'reaction_or_doubling_down')],[t('reversal'),trObj(e,'reversal_or_admission')],
-    [t('politicianResponse'),trObj(e,'politician_response')],[t('scandalStatus'),e.scandal_status],
-    [t('publicDivergence'),trObj(e,'public_controversy')]
+    [uiT('location'),e.location],
+    [uiT('caseStatus'),trObj(e,'case_status')],
+    [uiT('recordType'),e.record_type==='batch'?(currentLang==='zh'?'汇总 / 批量记录':'Aggregate / batch record'):(currentLang==='zh'?'单个事件 / 案件':'Individual event / case')],
+    [uiT('relationship'),trObj(e,'relationship')],
+    [uiT('migrationRelevance'),trObj(e,'migration_relevance')],
+    [uiT('migrationContext'),trObj(e,'migration_context')],
+    [uiT('courtOutcome'),e.court_outcome],
+    [uiT('decision'),trObj(e,'decision_made')],[uiT('consequence'),trObj(e,'consequence')],
+    [uiT('reaction'),trObj(e,'reaction_or_doubling_down')],[uiT('reversal'),trObj(e,'reversal_or_admission')],
+    [uiT('politicianResponse'),trObj(e,'politician_response')],[uiT('scandalStatus'),e.scandal_status],
+    [uiT('publicDivergence'),trObj(e,'public_controversy')]
   ].filter(([,v])=>v);
   return `<div class="detail-grid">${rows.map(([k,v])=>`<div class="detail-row"><div>${esc(k)}</div><div>${esc(v)}</div></div>`).join('')}</div>`;
 }
@@ -148,7 +148,12 @@ function renderMigrationFilters(){
 }
 function renderTypeFilters(){
   const row=document.getElementById('typeFilterRow'); if(!row)return;
-  row.innerHTML=typeOrder.map(v=>`<button class="filter-btn type-filter ${state.type===v?'active':''}" data-type="${v}">${translatedType(v)}</button>`).join('');
+  const primary=['All','Major incident','News','Protest','Political scandal'];
+  const secondary=['Policy failure / U-turn','Court & Investigation','Policy','Statistics'];
+  const btn=v=>`<button class="filter-btn type-filter ${state.type===v?'active':''}" data-type="${v}">${translatedType(v)}</button>`;
+  row.innerHTML=`
+    <div class="type-filter-line type-filter-line-primary">${primary.map(btn).join('')}</div>
+    <div class="type-filter-line type-filter-line-secondary">${secondary.map(btn).join('')}</div>`;
 }
 function renderFilters(){
   const available=new Set(state.data.events.map(e=>e.category));
@@ -203,7 +208,7 @@ function renderUnifiedItem(item){
   return `<article class="record ${toneClass(item.tone)} ${timelineTypeClass(t)}" data-id="${item.id}" data-source="${item._relatedNews?'related':'event'}">
     <div class="record-year">${displayDate(item)}</div><div class="record-node"><div class="dot"></div></div>
     <div class="record-main"><div class="record-meta"><span class="pill record-type-pill">${sourceBadge}</span>${item.category?`<span class="pill">${trObj(item,'category')}</span>`:''}${item.migration_relevance?`<span class="pill migration-pill">${trObj(item,'migration_relevance')}</span>`:''}<span class="pill">${status}</span><span class="pill term-occurrence">${item.scope==='legacy'?'Legacy of ': 'Occurred under '}${item.administration}</span></div><h3>${trObj(item,'title')}</h3><p>${trObj(item,'summary')}</p></div>
-    <div class="record-side"><div class="person">${adminName(item.administration)}</div><div class="during-term">${item.scope==='legacy'?t('afterOffice'):t('inOffice')}</div><div class="relation">${trObj(item,'relationship')||trObj(item,'relation')||item.relationship||item.relation||''}</div>${item.metric?`<div class="metric">${item.metric.value}</div>`:''}</div>
+    <div class="record-side"><div class="person">${adminName(item.administration)}</div><div class="during-term">${item.scope==='legacy'?uiT('afterOffice'):uiT('inOffice')}</div><div class="relation">${trObj(item,'relationship')||trObj(item,'relation')||item.relationship||item.relation||''}</div>${item.metric?`<div class="metric">${item.metric.value}</div>`:''}</div>
   </article>`;
 }
 function renderRecords(){
@@ -295,7 +300,7 @@ function bind(){
   document.getElementById('aboutBtn').addEventListener('click',()=>document.getElementById('aboutDialog').showModal());
   document.getElementById('aboutClose').addEventListener('click',()=>document.getElementById('aboutDialog').close());
 }
-init().catch(err=>{document.body.innerHTML=`<pre style="color:white;padding:30px">Failed to load data.json. Serve this folder through a local/static web server.\n\n${err}</pre>`});
+init().catch(err=>{document.body.innerHTML=`<pre style="color:white;padding:30px">Failed to initialize PolicyTrace. Check data.json and JavaScript console for details.\n\n${err}</pre>`});
 
 window.addEventListener('load',initSectionNav);
 
