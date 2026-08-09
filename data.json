@@ -1,7 +1,7 @@
 {
   "country": "United Kingdom",
   "range": "1997–2026",
-  "updated": "9 August 2026 — v1.6 full Chinese UI/content mode",
+  "updated": "9 August 2026 — v1.7 + 3 core accountability records",
   "administrations": [
     {
       "name": "Tony Blair",
@@ -1156,6 +1156,107 @@
         "en": "London / Glasgow",
         "zh": "伦敦 / 格拉斯哥"
       }
+    },
+    {
+      "id": "brown-boom-bust-2008",
+      "year": 2008,
+      "date": "2007 pledge / 2008–2009 recession",
+      "title": "Brown says Britain will not return to “boom and bust”; UK enters severe 2008–09 downturn",
+      "title_i18n": {
+        "en": "Brown says Britain will not return to “boom and bust”; UK enters severe 2008–09 downturn",
+        "zh": "布朗称英国不会重回“繁荣—崩盘”循环，随后遭遇2008—09年严重经济衰退"
+      },
+      "category": "Policy Failure / U-turn",
+      "category_i18n": {
+        "en": "Policy Failure / U-turn",
+        "zh": "政策失败 / 急转弯"
+      },
+      "kind": "Promise / economic outcome",
+      "kind_i18n": {
+        "en": "Promise / economic outcome",
+        "zh": "承诺与经济结果"
+      },
+      "tone": "negative",
+      "administration": "Gordon Brown",
+      "location": "United Kingdom",
+      "location_i18n": {
+        "en": "United Kingdom",
+        "zh": "英国"
+      },
+      "summary": "As Chancellor in March 2007, shortly before becoming Prime Minister, Gordon Brown said Britain would not return to the old boom-and-bust cycle. The UK then suffered the major 2008–09 downturn during the global financial crisis.",
+      "summary_i18n": {
+        "en": "As Chancellor in March 2007, shortly before becoming Prime Minister, Gordon Brown said Britain would not return to the old boom-and-bust cycle. The UK then suffered the major 2008–09 downturn during the global financial crisis.",
+        "zh": "2007年3月、出任首相前不久，时任财政大臣戈登·布朗表示英国不会重回过去的“繁荣—崩盘”经济循环。随后英国在全球金融危机中经历了2008—09年的严重经济衰退。"
+      },
+      "evidence": "UK Parliament Hansard / Office for National Statistics",
+      "confidence": "confirmed",
+      "relationship": "Pre-office statement; consequence occurred during term",
+      "relationship_i18n": {
+        "en": "Pre-office statement; consequence occurred during term",
+        "zh": "表态发生在出任首相前不久；经济后果发生于其首相任期内"
+      },
+      "tags": [
+        "Gordon Brown",
+        "economy",
+        "promise failure",
+        "recession"
+      ],
+      "sources": [
+        {
+          "label": "UK Parliament Hansard — Financial Statement, 21 March 2007",
+          "url": "https://hansard.parliament.uk/commons/2007-03-21/debates/07032174000001/FinancialStatement"
+        },
+        {
+          "label": "ONS — discussion of the 2008–09 economic downturn",
+          "url": "https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/articles/economicreview/apr2017/previous/v1"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "case_status_i18n": {
+        "en": "confirmed sequence",
+        "zh": "事件链已确认"
+      },
+      "court_outcome": "",
+      "migration_context": "",
+      "migration_relevance": "No established link",
+      "migration_relevance_i18n": {
+        "en": "No established link",
+        "zh": "无已证实关联"
+      },
+      "public_controversy": "The global financial crisis had international causes; the sequence disproved the political claim that Britain had escaped boom-and-bust cycles, but does not by itself prove Brown caused the global crisis.",
+      "public_controversy_i18n": {
+        "en": "The global financial crisis had international causes; the sequence disproved the political claim that Britain had escaped boom-and-bust cycles, but does not by itself prove Brown caused the global crisis.",
+        "zh": "全球金融危机具有国际性原因。这一结果与“英国已经摆脱繁荣—崩盘循环”的政治表述明显冲突，但不能因此简单认定布朗个人造成了全球金融危机。"
+      },
+      "timeline_type": "Policy failure / U-turn",
+      "decision_made": "Britain would not return to the old boom-and-bust cycle.",
+      "decision_made_i18n": {
+        "en": "Britain would not return to the old boom-and-bust cycle.",
+        "zh": "英国不会重回过去的“繁荣—崩盘”经济循环。"
+      },
+      "consequence": "The UK experienced the severe 2008–09 economic downturn.",
+      "consequence_i18n": {
+        "en": "The UK experienced the severe 2008–09 economic downturn.",
+        "zh": "英国随后经历2008—09年严重经济衰退。"
+      },
+      "reaction_or_doubling_down": "",
+      "reaction_or_doubling_down_i18n": {
+        "en": "",
+        "zh": ""
+      },
+      "reversal_or_admission": "",
+      "reversal_or_admission_i18n": {
+        "en": "",
+        "zh": ""
+      },
+      "politician_response": "",
+      "politician_response_i18n": {
+        "en": "",
+        "zh": ""
+      },
+      "scandal_status": "",
+      "detail_notes": []
     },
     {
       "id": "points-2008",
@@ -5182,6 +5283,111 @@
       }
     },
     {
+      "id": "may-brexit-delivery-failure-2019",
+      "year": 2019,
+      "date": "29 March–24 May 2019",
+      "title": "May promises to deliver Brexit, misses exit date and resigns admitting she could not deliver it",
+      "title_i18n": {
+        "en": "May promises to deliver Brexit, misses exit date and resigns admitting she could not deliver it",
+        "zh": "梅承诺完成脱欧，未能按期实现，最终辞职并承认自己没能完成这一目标"
+      },
+      "category": "Policy Failure / U-turn",
+      "category_i18n": {
+        "en": "Policy Failure / U-turn",
+        "zh": "政策失败 / 急转弯"
+      },
+      "kind": "Major policy delivery failure",
+      "kind_i18n": {
+        "en": "Major policy delivery failure",
+        "zh": "重大政策执行失败"
+      },
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "United Kingdom",
+      "location_i18n": {
+        "en": "United Kingdom",
+        "zh": "英国"
+      },
+      "summary": "Theresa May came to office pledging to implement the Brexit referendum result. The UK did not leave on the planned 29 March 2019 date after Parliament repeatedly rejected her withdrawal agreement. On 24 May she announced her resignation and said it was a matter of deep regret that she had not been able to deliver Brexit.",
+      "summary_i18n": {
+        "en": "Theresa May came to office pledging to implement the Brexit referendum result. The UK did not leave on the planned 29 March 2019 date after Parliament repeatedly rejected her withdrawal agreement. On 24 May she announced her resignation and said it was a matter of deep regret that she had not been able to deliver Brexit.",
+        "zh": "特蕾莎·梅上台时承诺落实脱欧公投结果。由于议会多次否决她的脱欧协议，英国未能在原定2019年3月29日退出欧盟。5月24日，她宣布辞职，并明确表示自己没能完成脱欧是“深深的遗憾”。"
+      },
+      "evidence": "Prime Minister's Office official speeches",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "relationship_i18n": {
+        "en": "Occurred during term",
+        "zh": "发生于任期内"
+      },
+      "tags": [
+        "Theresa May",
+        "Brexit",
+        "resignation",
+        "promise failure"
+      ],
+      "sources": [
+        {
+          "label": "GOV.UK — PM statement on Brexit, 20 March 2019",
+          "url": "https://www.gov.uk/government/speeches/pm-statement-on-brexit-20-march-2019"
+        },
+        {
+          "label": "GOV.UK — Theresa May resignation statement, 24 May 2019",
+          "url": "https://www.gov.uk/government/speeches/prime-ministers-statement-in-downing-street-24-may-2019"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "case_status_i18n": {
+        "en": "confirmed sequence",
+        "zh": "事件链已确认"
+      },
+      "court_outcome": "",
+      "migration_context": "Brexit included major changes to free movement and immigration policy, but this record concerns delivery of Brexit itself.",
+      "migration_context_i18n": {
+        "en": "Brexit included major changes to free movement and immigration policy, but this record concerns delivery of Brexit itself.",
+        "zh": "脱欧涉及自由流动和移民制度的重大变化，但本条主要记录梅政府未能在其任内完成脱欧这一政治目标。"
+      },
+      "migration_relevance": "Contextual",
+      "migration_relevance_i18n": {
+        "en": "Contextual",
+        "zh": "背景相关"
+      },
+      "public_controversy": "Responsibility was contested between May's negotiating strategy, divisions inside the Conservative Party, opposition parties and Parliament as a whole.",
+      "public_controversy_i18n": {
+        "en": "Responsibility was contested between May's negotiating strategy, divisions inside the Conservative Party, opposition parties and Parliament as a whole.",
+        "zh": "责任归属长期存在争议，包括梅本人的谈判策略、保守党内部严重分裂、反对党立场以及议会整体僵局。"
+      },
+      "timeline_type": "Policy failure / U-turn",
+      "decision_made": "Deliver the referendum result and take the UK out of the EU.",
+      "decision_made_i18n": {
+        "en": "Deliver the referendum result and take the UK out of the EU.",
+        "zh": "落实脱欧公投结果并带领英国退出欧盟。"
+      },
+      "consequence": "Her agreement was repeatedly rejected; the original exit date was missed and she resigned before Brexit occurred.",
+      "consequence_i18n": {
+        "en": "Her agreement was repeatedly rejected; the original exit date was missed and she resigned before Brexit occurred.",
+        "zh": "其协议多次被议会否决，原定脱欧日期被推迟，她在真正完成脱欧前辞职。"
+      },
+      "reaction_or_doubling_down": "May repeatedly argued that her negotiated deal was the workable route to delivering Brexit.",
+      "reaction_or_doubling_down_i18n": {
+        "en": "May repeatedly argued that her negotiated deal was the workable route to delivering Brexit.",
+        "zh": "梅多次坚持认为自己谈成的协议是落实脱欧最可行的道路。"
+      },
+      "reversal_or_admission": "In her resignation speech she explicitly said she had not been able to deliver Brexit.",
+      "reversal_or_admission_i18n": {
+        "en": "In her resignation speech she explicitly said she had not been able to deliver Brexit.",
+        "zh": "在辞职讲话中，她明确承认自己没能完成脱欧。"
+      },
+      "politician_response": "She said the failure was a matter of deep regret and that her successor would need to find a parliamentary consensus.",
+      "politician_response_i18n": {
+        "en": "She said the failure was a matter of deep regret and that her successor would need to find a parliamentary consensus.",
+        "zh": "她表示对此深感遗憾，并称继任者必须找到她未能实现的议会共识。"
+      },
+      "scandal_status": "",
+      "detail_notes": []
+    },
+    {
       "id": "fishmongers-2019",
       "year": 2019,
       "date": "29 November 2019",
@@ -6807,6 +7013,115 @@
         "en": "United Kingdom",
         "zh": "英国"
       }
+    },
+    {
+      "id": "johnson-migration-numbers-promise-2022",
+      "year": 2022,
+      "date": "2019 manifesto / year ending June 2022",
+      "title": "Johnson government promises overall migration numbers will fall; net migration reaches about 606,000 by mid-2022",
+      "title_i18n": {
+        "en": "Johnson government promises overall migration numbers will fall; net migration reaches about 606,000 by mid-2022",
+        "zh": "约翰逊政府承诺总体移民数量会下降；到2022年中净移民升至约60.6万"
+      },
+      "category": "Policy Failure / U-turn",
+      "category_i18n": {
+        "en": "Policy Failure / U-turn",
+        "zh": "政策失败 / 急转弯"
+      },
+      "kind": "Promise vs result / immigration",
+      "kind_i18n": {
+        "en": "Promise vs result / immigration",
+        "zh": "承诺与结果 / 移民"
+      },
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "United Kingdom",
+      "location_i18n": {
+        "en": "United Kingdom",
+        "zh": "英国"
+      },
+      "summary": "The 2019 Conservative manifesto said overall migration numbers would come down, and the Johnson government repeated that the new points-based system would reduce overall migration. Revised ONS estimates later put net migration in the year ending June 2022 at about 606,000.",
+      "summary_i18n": {
+        "en": "The 2019 Conservative manifesto said overall migration numbers would come down, and the Johnson government repeated that the new points-based system would reduce overall migration. Revised ONS estimates later put net migration in the year ending June 2022 at about 606,000.",
+        "zh": "2019年保守党竞选纲领称总体移民数量将下降，约翰逊政府随后也表示新的积分制会降低整体移民水平。但ONS后来修订的数据显示，截至2022年6月的一年净移民约为60.6万。"
+      },
+      "evidence": "2019 Conservative manifesto / Home Office / Office for National Statistics",
+      "confidence": "confirmed",
+      "relationship": "Promise and policy occurred during term; statistic covers final months of term",
+      "relationship_i18n": {
+        "en": "Promise and policy occurred during term; statistic covers final months of term",
+        "zh": "承诺和政策均发生于任期内；统计期覆盖其执政最后阶段"
+      },
+      "tags": [
+        "Boris Johnson",
+        "migration",
+        "promise failure",
+        "points-based system"
+      ],
+      "sources": [
+        {
+          "label": "2019 Conservative Manifesto — overall numbers will come down",
+          "url": "https://democracy.chorley.gov.uk/documents/s112025/CD8.02%20-%20Conservative%20Party%20Manifesto%20December%202019.pdf"
+        },
+        {
+          "label": "GOV.UK — points-based system policy statement, February 2020",
+          "url": "https://www.gov.uk/government/publications/the-uks-points-based-immigration-system-policy-statement/the-uks-points-based-immigration-system-policy-statement"
+        },
+        {
+          "label": "ONS — revised net migration estimate for year ending June 2022",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingdecember2022"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "case_status_i18n": {
+        "en": "confirmed sequence",
+        "zh": "事件链已确认"
+      },
+      "court_outcome": "",
+      "migration_context": "Directly concerns the government's stated immigration objective and measured migration outcome.",
+      "migration_context_i18n": {
+        "en": "Directly concerns the government's stated immigration objective and measured migration outcome.",
+        "zh": "本条直接对比政府公开的移民政策目标与后来统计出的移民结果。"
+      },
+      "migration_relevance": "Direct immigration/asylum context",
+      "migration_relevance_i18n": {
+        "en": "Direct immigration/asylum context",
+        "zh": "明确移民/庇护背景"
+      },
+      "public_controversy": "The 2022 figure was affected by exceptional factors including Ukraine schemes, asylum and post-pandemic movements; it is therefore a result-versus-promise record, not proof that one policy alone caused the total.",
+      "public_controversy_i18n": {
+        "en": "The 2022 figure was affected by exceptional factors including Ukraine schemes, asylum and post-pandemic movements; it is therefore a result-versus-promise record, not proof that one policy alone caused the total.",
+        "zh": "2022年的数字受到乌克兰人道计划、庇护申请以及疫情后人员流动等特殊因素影响。因此这是一条“承诺与结果”对照记录，并不能证明单一政策独自造成全部净移民。"
+      },
+      "timeline_type": "Policy failure / U-turn",
+      "decision_made": "The government said overall migration numbers would come down.",
+      "decision_made_i18n": {
+        "en": "The government said overall migration numbers would come down.",
+        "zh": "政府表示总体移民数量将下降。"
+      },
+      "consequence": "Revised ONS data put net migration at about 606,000 in the year ending June 2022.",
+      "consequence_i18n": {
+        "en": "Revised ONS data put net migration at about 606,000 in the year ending June 2022.",
+        "zh": "ONS修订数据显示，截至2022年6月的一年净移民约60.6万。"
+      },
+      "reaction_or_doubling_down": "",
+      "reaction_or_doubling_down_i18n": {
+        "en": "",
+        "zh": ""
+      },
+      "reversal_or_admission": "",
+      "reversal_or_admission_i18n": {
+        "en": "",
+        "zh": ""
+      },
+      "politician_response": "",
+      "politician_response_i18n": {
+        "en": "",
+        "zh": ""
+      },
+      "scandal_status": "",
+      "detail_notes": []
     },
     {
       "id": "truss-mini-budget-uturn-sequence",
@@ -15737,6 +16052,108 @@
         "en": "ONS estimated YE December 2025 net migration at 171,000. Much of the fall followed restrictions introduced under the previous government as well as later Labour changes, so causation is mixed.",
         "zh": "这里对照当时公开承诺与后来可核实的实际结果；原始数字和表述以来源链接为准。"
       }
+    },
+    {
+      "administration": "Gordon Brown",
+      "date": "2007 → 2009",
+      "promise": "No return to the old boom-and-bust economic cycle",
+      "promise_i18n": {
+        "en": "No return to the old boom-and-bust economic cycle",
+        "zh": "不会重回过去的“繁荣—崩盘”经济循环"
+      },
+      "target": "Sustained economic stability",
+      "target_i18n": {
+        "en": "Sustained economic stability",
+        "zh": "保持持续经济稳定"
+      },
+      "result": "Severe UK downturn during the 2008–09 global financial crisis",
+      "result_i18n": {
+        "en": "Severe UK downturn during the 2008–09 global financial crisis",
+        "zh": "英国在2008—09全球金融危机中遭遇严重经济衰退"
+      },
+      "context": "The financial crisis was global, so this comparison tests the political claim rather than assigning sole causal responsibility to Brown.",
+      "context_i18n": {
+        "en": "The financial crisis was global, so this comparison tests the political claim rather than assigning sole causal responsibility to Brown.",
+        "zh": "金融危机具有全球性，因此这里对比的是政治表述与实际结果，而不是把全球危机的全部责任归给布朗。"
+      },
+      "sources": [
+        {
+          "label": "UK Parliament Hansard — 21 March 2007",
+          "url": "https://hansard.parliament.uk/commons/2007-03-21/debates/07032174000001/FinancialStatement"
+        },
+        {
+          "label": "ONS — 2008–09 downturn context",
+          "url": "https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/articles/economicreview/apr2017/previous/v1"
+        }
+      ]
+    },
+    {
+      "administration": "Theresa May",
+      "date": "2016 → 2019",
+      "promise": "Deliver Brexit",
+      "promise_i18n": {
+        "en": "Deliver Brexit",
+        "zh": "完成英国脱欧"
+      },
+      "target": "Implement the referendum result during her premiership",
+      "target_i18n": {
+        "en": "Implement the referendum result during her premiership",
+        "zh": "在其首相任期内落实公投结果"
+      },
+      "result": "Original exit date missed; May resigned before Brexit was delivered",
+      "result_i18n": {
+        "en": "Original exit date missed; May resigned before Brexit was delivered",
+        "zh": "原定脱欧日期被错过；梅在完成脱欧前辞职"
+      },
+      "context": "May herself said in her resignation statement that it was a deep regret that she had not been able to deliver Brexit.",
+      "context_i18n": {
+        "en": "May herself said in her resignation statement that it was a deep regret that she had not been able to deliver Brexit.",
+        "zh": "梅本人在辞职讲话中明确表示，没能完成脱欧是她“深深的遗憾”。"
+      },
+      "sources": [
+        {
+          "label": "GOV.UK — PM statement on Brexit, 20 March 2019",
+          "url": "https://www.gov.uk/government/speeches/pm-statement-on-brexit-20-march-2019"
+        },
+        {
+          "label": "GOV.UK — resignation statement, 24 May 2019",
+          "url": "https://www.gov.uk/government/speeches/prime-ministers-statement-in-downing-street-24-may-2019"
+        }
+      ]
+    },
+    {
+      "administration": "Boris Johnson",
+      "date": "2019 → 2022",
+      "promise": "Overall migration numbers will come down",
+      "promise_i18n": {
+        "en": "Overall migration numbers will come down",
+        "zh": "总体移民数量将下降"
+      },
+      "target": "Lower overall migration under the post-Brexit points-based system",
+      "target_i18n": {
+        "en": "Lower overall migration under the post-Brexit points-based system",
+        "zh": "通过脱欧后的积分制降低总体移民水平"
+      },
+      "result": "Revised net migration estimate: about 606,000 in YE June 2022",
+      "result_i18n": {
+        "en": "Revised net migration estimate: about 606,000 in YE June 2022",
+        "zh": "修订后的净移民估计：截至2022年6月的一年约60.6万"
+      },
+      "context": "The number was affected by humanitarian schemes, asylum and post-pandemic movement, so this is a promise-versus-result comparison rather than a single-cause claim.",
+      "context_i18n": {
+        "en": "The number was affected by humanitarian schemes, asylum and post-pandemic movement, so this is a promise-versus-result comparison rather than a single-cause claim.",
+        "zh": "该数字受到人道主义计划、庇护和疫情后人员流动等因素影响，因此这里只做承诺与结果的对比，不声称由单一政策造成。"
+      },
+      "sources": [
+        {
+          "label": "2019 Conservative Manifesto",
+          "url": "https://democracy.chorley.gov.uk/documents/s112025/CD8.02%20-%20Conservative%20Party%20Manifesto%20December%202019.pdf"
+        },
+        {
+          "label": "ONS — revised YE June 2022 net migration",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingdecember2022"
+        }
+      ]
     }
   ],
   "relatedNews": [
