@@ -144,10 +144,22 @@ function applyStaticLanguage(){
   setTxt('methodInferenceDesc','A proposed relationship between events. It must be labelled and supported, not smuggled in as fact.','对事件之间关系的解释。必须明确标注并有证据支持，不能把推断伪装成事实。');
   setTxt('methodOpinionTitle','Opinion','观点');
   setTxt('methodOpinionDesc','Public or editorial judgement. Kept separate from the underlying record.','公众或编辑性判断，与底层事实记录分开展示。');
+
+  const heroLede=document.getElementById('heroLede');
+  if(heroLede) heroLede.textContent=currentLang==='zh'
+    ?'查看谁在执政、他们承诺了什么、改变了什么、任期内和离任后发生了什么、哪些后续新闻与其记录有关，以及官方调查最终发现了什么。'
+    :'See who was in power, what they promised, what they changed, what happened during and after their term, what later news connected back to their record, and what official investigations found.';
+
+  const negLbl=document.getElementById('negativeOnlyLabel');
+  if(negLbl) negLbl.textContent=currentLang==='zh'?'仅显示负面结果':'Negative outcomes only';
+  const offLbl=document.getElementById('officialOnlyLabel');
+  if(offLbl) offLbl.textContent=currentLang==='zh'?'仅显示官方认定':'Official findings only';
 }
 function setLanguage(lang){
   currentLang=lang; localStorage.setItem('policytrace-lang',lang); applyStaticLanguage();
   if(state?.data){renderPeople();renderAdmins();renderMigrationFilters();renderTypeFilters();renderFilters();renderRecords();}
+
+  if(state?.data){renderPromises();renderAdmins();}
 }
 
 
@@ -228,7 +240,27 @@ function renderPeople(){
 }
 function renderAdmins(){
   const el=document.getElementById('administrations');
-  el.innerHTML=`<button class="admin admin-all active" data-admin="All"><div class="admin-name">ALL TERMS</div><div class="admin-party">1997—2026</div><div class="admin-years">SHOW EVERYTHING</div></button>`+state.data.administrations.map(a=>`<button class="admin ${a.current?'current':''}" data-admin="${a.name}"><div class="admin-name">${a.name}</div><div class="admin-party">${a.party}</div><div class="admin-years">${formatTerm(a)}</div></button>`).join('');
+  const adminZh={
+    'Tony Blair':'托尼·布莱尔','Gordon Brown':'戈登·布朗','David Cameron':'戴维·卡梅伦',
+    'Theresa May':'特蕾莎·梅','Boris Johnson':'鲍里斯·约翰逊','Liz Truss':'莉兹·特拉斯',
+    'Rishi Sunak':'里希·苏纳克','Keir Starmer':'基尔·斯塔默','Andy Burnham':'安迪·伯纳姆'
+  };
+  const partyZh={'Labour':'工党','Conservative':'保守党'};
+  const fmtTerm=a=>{
+    const raw=formatTerm(a);
+    return currentLang==='zh'
+      ? raw.replace('Present','至今')
+      : raw;
+  };
+  el.innerHTML=`<button class="admin admin-all active" data-admin="All">
+    <div class="admin-name">${currentLang==='zh'?'全部任期':'ALL TERMS'}</div>
+    <div class="admin-party">1997—2026</div>
+    <div class="admin-years">${currentLang==='zh'?'显示全部':'SHOW EVERYTHING'}</div>
+  </button>`+state.data.administrations.map(a=>`<button class="admin ${a.current?'current':''}" data-admin="${a.name}">
+    <div class="admin-name">${currentLang==='zh'?(adminZh[a.name]||a.name):a.name}</div>
+    <div class="admin-party">${currentLang==='zh'?(partyZh[a.party]||a.party):a.party}</div>
+    <div class="admin-years">${fmtTerm(a)}</div>
+  </button>`).join('');
 }
 function renderMigrationFilters(){
   const row=document.getElementById('migrationFilterRow'); if(!row)return;
@@ -367,14 +399,30 @@ function renderSocialIndicators(){
 }
 
 function renderPromises(){
-  const arr=state.data.promiseVsResult||[];
-  document.getElementById('promiseGrid').innerHTML=arr.map(p=>`<article class="promise-card">
-    <div class="promise-admin">${p.administration} • ${p.date}</div>
-    <h3>${p.promise}</h3>
-    <div class="versus"><div><span>${currentLang==='zh'?'承诺 / 目标':'PROMISE / TARGET'}</span><strong>${p.target}</strong></div><b>${currentLang==='zh'?'对比':'VS'}</b><div><span>${currentLang==='zh'?'实际结果':'MEASURED RESULT'}</span><strong>${p.result}</strong></div></div>
-    <p>${p.context}</p>
-    <div class="promise-links">${p.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.label} ↗</a>`).join('')}</div>
-  </article>`).join('');
+  const el=document.getElementById('promiseGrid'); if(!el)return;
+  const rows=state.data.promiseVsResult||[];
+  const getI18n=(obj,key)=>{
+    const v=obj?.[key+'_i18n'];
+    return currentLang==='zh'?(v?.zh||obj?.[key]||''):(v?.en||obj?.[key]||'');
+  };
+  const adminZh={
+    'Tony Blair':'托尼·布莱尔','Gordon Brown':'戈登·布朗','David Cameron':'戴维·卡梅伦',
+    'Theresa May':'特蕾莎·梅','Boris Johnson':'鲍里斯·约翰逊','Liz Truss':'莉兹·特拉斯',
+    'Rishi Sunak':'里希·苏纳克','Keir Starmer':'基尔·斯塔默','Andy Burnham':'安迪·伯纳姆'
+  };
+  const adminName=v=>currentLang==='zh'?(adminZh[v]||v):v;
+  el.innerHTML=rows.map(p=>`
+    <article class="promise-card">
+      <div class="promise-admin">${adminName(p.administration)} · ${p.date}</div>
+      <h3>${getI18n(p,'promise')}</h3>
+      <div class="promise-result">
+        <div><span>${currentLang==='zh'?'承诺 / 目标':'PROMISE / TARGET'}</span><strong>${getI18n(p,'target')}</strong></div>
+        <b>${currentLang==='zh'?'对比':'VS'}</b>
+        <div><span>${currentLang==='zh'?'实际结果':'MEASURED RESULT'}</span><strong>${getI18n(p,'result')}</strong></div>
+      </div>
+      <p>${getI18n(p,'context')}</p>
+      <div class="news-links">${(p.sources||[]).map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.label} ↗</a>`).join('')}</div>
+    </article>`).join('');
 }
 function bind(){
   document.getElementById('administrations').addEventListener('click',e=>{const b=e.target.closest('.admin');if(!b)return;selectAdministration(b.dataset.admin,true)});
