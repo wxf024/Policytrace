@@ -707,5 +707,303 @@
         }
       ]
     }
+  ],
+  "relatedNews": [
+    {
+      "id": "blair-a8-warning-2024",
+      "administration": "Tony Blair",
+      "date": "30 December 2024",
+      "year": 2024.99,
+      "title": "Released papers show ministers warned Blair about 2004 free-movement pressures",
+      "summary": "Financial Times reporting on newly released National Archives material said senior ministers warned that immediate labour-market access for citizens of new EU member states could put pressure on housing and benefits. Blair nevertheless proceeded with the policy.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Retrospective evidence about a decision taken during Blair’s term",
+      "scope": "legacy",
+      "sources": [
+        {
+          "label": "Financial Times — Cabinet warned Blair over free movement",
+          "url": "https://www.ft.com/content/2bb1963b-c293-416c-9158-7df1e9fdc36d"
+        }
+      ]
+    },
+    {
+      "id": "blair-brexit-grievances-2017",
+      "administration": "Tony Blair",
+      "date": "10 September 2017",
+      "year": 2017.69,
+      "title": "Blair says Brexit grievances over immigration had to be addressed",
+      "summary": "Reuters reported Blair arguing that any attempt to reverse Brexit had to address the grievances that produced the referendum result. The report noted that critics blamed his government’s 2004 decision for a large increase in EU migration.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Post-office reflection / contested legacy",
+      "scope": "legacy",
+      "sources": [
+        {
+          "label": "Reuters — Blair on Brexit and immigration grievances",
+          "url": "https://www.reuters.com/article/world/uk-doesnt-need-brexit-to-curb-eu-immigration-says-former-pm-blair-idUSKCN1BL0IF/"
+        }
+      ]
+    },
+    {
+      "id": "brown-immigration-fears-2009",
+      "administration": "Gordon Brown",
+      "date": "12 November 2009",
+      "year": 2009.86,
+      "title": "Brown acknowledges public fears over jobs and housing pressures from immigration",
+      "summary": "Reuters reported Brown preparing a speech acknowledging public concern that foreign workers were competing for jobs and that immigration was putting pressure on local housing.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Public response to pressures during the administration",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — Brown to address immigration fears",
+          "url": "https://www.reuters.com/article/world/us-politics/brown-to-address-immigration-fears-idUSLNE5AB013/"
+        }
+      ]
+    },
+    {
+      "id": "cameron-cse-national-threat-2015",
+      "administration": "David Cameron",
+      "date": "3 March 2015",
+      "year": 2015.17,
+      "title": "After abuse scandals, Cameron classifies child sexual abuse as a national threat",
+      "summary": "Following revelations including Rotherham, Cameron announced that child sexual abuse would be treated as a national priority comparable with organised crime and introduced additional measures aimed at preventing systemic abuse.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Government response to confirmed institutional and criminal failures",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — Cameron makes child sexual abuse a national threat",
+          "url": "https://www.reuters.com/article/world/uk/cameron-says-child-sex-abuse-to-be-classified-national-threat-idUSKBN0LZ08V/"
+        }
+      ]
+    },
+    {
+      "id": "cameron-rotherham-legacy",
+      "administration": "David Cameron",
+      "date": "2014–2015",
+      "year": 2015,
+      "title": "Rotherham failures remain a major accountability issue during Cameron’s term",
+      "summary": "The Alexis Jay inquiry estimated that at least 1,400 children were sexually exploited in Rotherham between 1997 and 2013. The abuse crossed multiple national administrations; responsibility for local institutional failure is documented separately from any claimed immigration-policy causation.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Confirmed event during term; broader causal claims remain separate",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "IICSA — Professor Alexis Jay",
+          "url": "https://www.iicsa.org.uk/about-us/who-we-are/professor-alexis-jay-obe.html"
+        }
+      ]
+    },
+    {
+      "id": "may-windrush-2018",
+      "administration": "Theresa May",
+      "date": "30 April 2018",
+      "year": 2018.33,
+      "title": "Windrush scandal forces government to repudiate “hostile environment” language",
+      "summary": "After lawful long-term residents were wrongly caught by immigration enforcement, new Home Secretary Sajid Javid rejected the phrase “hostile environment”. The scandal was tied to measures developed while Theresa May was Home Secretary and continued under her premiership.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Confirmed government failure linked to enforcement policy",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — Javid opposes hostile-environment approach",
+          "url": "https://www.reuters.com/article/world/us/new-home-secretary-javid-opposes-hostile-environment-approach-to-immigration-idUSKBN1I10VI/"
+        },
+        {
+          "label": "GOV.UK — Windrush Lessons Learned Review",
+          "url": "https://www.gov.uk/government/publications/windrush-lessons-learned-review"
+        }
+      ]
+    },
+    {
+      "id": "johnson-postbrexit-system-2020",
+      "administration": "Boris Johnson",
+      "date": "19 February 2020",
+      "year": 2020.14,
+      "title": "Johnson government unveils post-Brexit points system promising an end to reliance on “cheap labour”",
+      "summary": "Reuters reported the government’s new points-based system would end preferential treatment for EU workers and prioritise higher-skilled migration. Later migration outcomes became a major test of that promise.",
+      "status": "confirmed",
+      "tone": "contextual",
+      "relation": "Direct policy announcement later compared with migration outcomes",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — UK unveils post-Brexit immigration system",
+          "url": "https://www.reuters.com/article/world/uk-heralds-end-of-cheap-labour-from-europe-with-post-brexit-immigration-system-idUSKBN20C2NH/"
+        }
+      ]
+    },
+    {
+      "id": "johnson-careworker-legacy-2026",
+      "administration": "Boris Johnson",
+      "date": "28 April 2026",
+      "year": 2026.32,
+      "title": "Reuters links post-pandemic migration surge partly to Johnson-era care-worker rule relaxation",
+      "summary": "In a 2026 report on revised population projections, Reuters noted that the post-pandemic migration surge reflected pent-up demand as well as Johnson-government decisions to relax rules for lower-paid care workers and their families.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Retrospective analysis of policy contribution; not sole-cause attribution",
+      "scope": "legacy",
+      "sources": [
+        {
+          "label": "Reuters — UK lowers population-growth estimate as immigration slows",
+          "url": "https://www.reuters.com/world/uk/uk-lowers-population-growth-estimate-immigration-slows-2026-04-28/"
+        }
+      ]
+    },
+    {
+      "id": "truss-visa-review-2022",
+      "administration": "Liz Truss",
+      "date": "25 September 2022",
+      "year": 2022.73,
+      "title": "Truss government prepares visa review aimed at increasing labour supply",
+      "summary": "Reuters reported that Truss planned a review of visa schemes to address labour shortages, potentially expanding routes for some occupations despite resistance from ministers favouring lower immigration.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Reported policy direction during a short premiership",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — Truss to review visa schemes",
+          "url": "https://www.reuters.com/world/uk/uks-truss-review-visa-schemes-ease-labour-shortages-ft-2022-09-25/"
+        }
+      ]
+    },
+    {
+      "id": "sunak-record-migration-2023",
+      "administration": "Rishi Sunak",
+      "date": "23 November 2023",
+      "year": 2023.89,
+      "title": "ONS revisions put 2022 net migration at a new record high",
+      "summary": "Reuters reported that ONS revised year-ending December 2022 net migration to 745,000, while the year to June 2023 was 672,000. The majority of immigration was non-EU, with work and study routes major drivers.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Measured outcome inherited and continuing into Sunak’s administration",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — UK net migration hits new record high",
+          "url": "https://www.reuters.com/world/uk/annual-net-migration-uk-hits-672000-year-june-2023-2023-11-23/"
+        }
+      ]
+    },
+    {
+      "id": "sunak-election-migration-2024",
+      "administration": "Rishi Sunak",
+      "date": "5 June 2024",
+      "year": 2024.43,
+      "title": "Immigration remains a major election liability after repeated Conservative promises to reduce it",
+      "summary": "Reuters described immigration as a central election issue, citing concerns over housing, healthcare, education and social cohesion and noting that migration remained high despite repeated government pledges to reduce it.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Political accountability / promise-result gap",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — Why immigration is a major issue in Britain’s election",
+          "url": "https://www.reuters.com/world/uk/why-immigration-is-major-issue-britains-election-2024-06-05/"
+        }
+      ]
+    },
+    {
+      "id": "starmer-grooming-u-turn-2025",
+      "administration": "Keir Starmer",
+      "date": "14 June 2025",
+      "year": 2025.45,
+      "title": "Starmer reverses position and accepts a national grooming-gangs inquiry",
+      "summary": "Reuters reported that Starmer agreed to a statutory national inquiry after previously resisting calls for one, following Baroness Casey’s recommendation.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Confirmed policy reversal in response to new review findings",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — Starmer announces national grooming-gangs inquiry",
+          "url": "https://www.reuters.com/world/uk/britains-starmer-there-will-be-national-inquiry-into-grooming-gangs-2025-06-14/"
+        },
+        {
+          "label": "GOV.UK — National audit on group-based child sexual exploitation",
+          "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse"
+        }
+      ]
+    },
+    {
+      "id": "starmer-inquiry-progress-2026",
+      "administration": "Keir Starmer",
+      "date": "31 March 2026",
+      "year": 2026.25,
+      "title": "Grooming-gangs inquiry terms explicitly include ethnicity, culture, religion and institutional response",
+      "summary": "The final terms of reference require the inquiry to examine failures by statutory services and whether ethnicity, culture or religion influenced offending or institutional responses. Findings are not yet complete.",
+      "status": "unresolved",
+      "tone": "negative",
+      "relation": "Ongoing statutory inquiry; conclusions pending",
+      "scope": "legacy",
+      "sources": [
+        {
+          "label": "GOV.UK — Independent Inquiry into Grooming Gangs: terms of reference",
+          "url": "https://www.gov.uk/government/publications/independent-inquiry-into-grooming-gangs-terms-of-reference/terms-of-reference"
+        }
+      ]
+    },
+    {
+      "id": "starmer-police-funding-2026",
+      "administration": "Keir Starmer",
+      "date": "19 May 2026",
+      "year": 2026.38,
+      "title": "Police warn extra grooming-gang investigation funding may still be insufficient",
+      "summary": "The Guardian reported police concerns that a large increase in funding for Operation Beaconport might not cover the expected cost of dedicated teams reviewing and reopening cases.",
+      "status": "unresolved",
+      "tone": "negative",
+      "relation": "Implementation concern; adequacy of resources remains open",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "The Guardian — Police say extra grooming-gang funds may fall short",
+          "url": "https://www.theguardian.com/uk-news/2026/may/19/police-extra-funds-hunt-grooming-gangs-england-wales-fall-short"
+        }
+      ]
+    },
+    {
+      "id": "burnham-early-release-review-2026",
+      "administration": "Andy Burnham",
+      "date": "6 August 2026",
+      "year": 2026.6,
+      "title": "Burnham orders urgent review after grooming-gang offenders could qualify for early release",
+      "summary": "The government reviewed sentencing rules after it emerged that some historic grooming-gang offenders convicted under older offences might fall outside exclusions from an early-release scheme. The review was ongoing at the time of reporting.",
+      "status": "unresolved",
+      "tone": "negative",
+      "relation": "Current-government implementation problem; review ongoing",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "The Guardian — Burnham intervenes over possible early release",
+          "url": "https://www.theguardian.com/society/2026/aug/06/burnham-intervened-possible-early-prison-release-grooming-gang-perpetrators"
+        }
+      ]
+    },
+    {
+      "id": "burnham-smallboats-2026",
+      "administration": "Andy Burnham",
+      "date": "3 August 2026",
+      "year": 2026.59,
+      "title": "Small-boat crossings remain immediate pressure for new Burnham government",
+      "summary": "Reuters reported that more than 2,000 people had crossed the Channel in small boats in the first two weeks after Burnham took office, while the government said it would continue efforts to reduce arrivals.",
+      "status": "confirmed",
+      "tone": "negative",
+      "relation": "Measured current pressure; not attributed solely to the new government",
+      "scope": "term",
+      "sources": [
+        {
+          "label": "Reuters — Reform proposes military-led operation to stop asylum seekers",
+          "url": "https://www.reuters.com/world/uk/reform-uk-proposes-military-led-operation-stop-asylum-seekers-2026-08-03/"
+        }
+      ]
+    }
   ]
 }
