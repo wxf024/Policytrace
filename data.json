@@ -1,7 +1,7 @@
 {
   "country": "United Kingdom",
   "range": "1997–2026",
-  "updated": "9 August 2026 — v0.9 master timeline + post-office profiles",
+  "updated": "9 August 2026 — v1.2 policy failures, U-turns and political misjudgements",
   "administrations": [
     {
       "name": "Tony Blair",
@@ -107,7 +107,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "northern-disturbances-2001",
@@ -142,7 +149,54 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "blair-iraq-chilcot",
+      "year": 2003,
+      "date": "2003 decision / Chilcot report 6 July 2016",
+      "title": "Iraq war decision later condemned by Chilcot inquiry for process and planning failures",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Tony Blair",
+      "location": "United Kingdom",
+      "summary": "Blair’s government joined the US-led invasion of Iraq in March 2003. Consequence: The war produced prolonged conflict and instability; the 2016 Iraq Inquiry found that peaceful options had not been exhausted, intelligence judgments were presented with unjustified certainty, and post-war planning was inadequate.",
+      "evidence": "UK Government — Report of the Iraq Inquiry",
+      "confidence": "confirmed",
+      "relationship": "After office / legacy",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Tony Blair"
+      ],
+      "sources": [
+        {
+          "label": "UK Government — Report of the Iraq Inquiry",
+          "url": "https://www.gov.uk/government/publications/the-report-of-the-iraq-inquiry"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "The Iraq Inquiry made no criminal finding against Blair, but issued severe official findings about decision-making, intelligence presentation and planning.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Blair continued to argue that removing Saddam Hussein was the right decision, while expressing sorrow for mistakes and the suffering that followed.",
+      "decision_made": "Blair’s government joined the US-led invasion of Iraq in March 2003.",
+      "consequence": "The war produced prolonged conflict and instability; the 2016 Iraq Inquiry found that peaceful options had not been exhausted, intelligence judgments were presented with unjustified certainty, and post-war planning was inadequate.",
+      "reaction_or_doubling_down": "Blair continued to argue that removing Saddam Hussein was the right decision, while expressing sorrow for mistakes and the suffering that followed.",
+      "reversal_or_admission": "No policy reversal was possible after the invasion. The later official inquiry became the major retrospective accountability event.",
+      "scandal_status": "",
+      "detail_notes": []
     },
     {
       "id": "a8-2004",
@@ -178,7 +232,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "21-7-london-2005",
@@ -210,7 +271,14 @@
       "court_outcome": "",
       "migration_context": "No immigration-policy causation is asserted.",
       "public_controversy": "The attacks became part of subsequent debate over intelligence coverage, radicalisation and counter-terrorism powers.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "london-7-7-2005",
@@ -247,7 +315,58 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "blair-cash-for-honours-2006",
+      "year": 2006,
+      "date": "2006–20 July 2007",
+      "title": "Cash-for-honours investigation reaches Downing Street; Blair questioned three times",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Tony Blair",
+      "location": "United Kingdom",
+      "summary": "Police investigated whether political loans and donations were linked to peerages or honours. Tony Blair was questioned three times as a witness while still prime minister, making the affair one of the most serious political-corruption investigations of his premiership.",
+      "evidence": "Reuters — no charges in cash-for-honours row / Reuters — cash-for-honours investigation timeline",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Tony Blair",
+        "investigated / no charges"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — no charges in cash-for-honours row",
+          "url": "https://www.reuters.com/article/world/us/no-charges-in-cash-for-honours-row-idUSL19703783/"
+        },
+        {
+          "label": "Reuters — cash-for-honours investigation timeline",
+          "url": "https://www.reuters.com/article/world/cash-for-honours-investigation-idUSL20250303/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "investigated / no charges",
+      "court_outcome": "After a 16-month investigation, prosecutors announced that no charges would be brought.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The scandal badly damaged trust and overshadowed Blair’s final months, but the criminal investigation did not establish an offence.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Blair was interviewed as a witness, not a suspect, and his office said he had no criminal charges to answer. After prosecutors decided not to charge anyone, aides expressed relief.",
+      "scandal_status": "investigated / no charges",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-overt-2006",
@@ -279,7 +398,14 @@
       "court_outcome": "",
       "migration_context": "No simple immigration-policy causal conclusion is drawn.",
       "public_controversy": "The plot drove lasting changes in airport security and liquid restrictions.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-gamble-2007",
@@ -311,7 +437,14 @@
       "court_outcome": "",
       "migration_context": "No immigration-policy inference is added.",
       "public_controversy": "The case is relevant to domestic jihadist plotting and counter-terrorism operations.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "london-glasgow-2007",
@@ -343,7 +476,14 @@
       "court_outcome": "",
       "migration_context": "Case facts concern terrorism; immigration-policy causation is not assumed.",
       "public_controversy": "The attacks triggered major counter-terrorism investigations and long-term security debate.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "points-2008",
@@ -375,7 +515,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "exeter-bombing-2008",
@@ -407,7 +554,102 @@
       "court_outcome": "",
       "migration_context": "No immigration-policy conclusion is asserted.",
       "public_controversy": "The case is part of the record of small-scale domestic terrorist attacks.",
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "brown-10p-tax-uturn-2008",
+      "year": 2008,
+      "date": "April–May 2008",
+      "title": "Brown government forced into compensation after abolition of 10p tax rate hit low earners",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Gordon Brown",
+      "location": "United Kingdom",
+      "summary": "Abolition of the 10p starting rate of income tax, originally announced when Brown was Chancellor, took effect in April 2008. Consequence: Millions of lower-paid workers risked losing income, producing a major Labour rebellion and public backlash.",
+      "evidence": "House of Commons Library — 10p starting rate history / IFS — impact of abolishing the 10p rate",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Gordon Brown"
+      ],
+      "sources": [
+        {
+          "label": "House of Commons Library — 10p starting rate history",
+          "url": "https://researchbriefings.files.parliament.uk/documents/SN04685/SN04685.pdf"
+        },
+        {
+          "label": "IFS — impact of abolishing the 10p rate",
+          "url": "https://ifs.org.uk/news/abolition-10p-starting-rate"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "The policy was partially offset rather than simply restored; the episode became a symbol of Brown-era political miscalculation.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Brown initially defended the wider tax package but then acknowledged that people needed protection from losses.",
+      "decision_made": "Abolition of the 10p starting rate of income tax, originally announced when Brown was Chancellor, took effect in April 2008.",
+      "consequence": "Millions of lower-paid workers risked losing income, producing a major Labour rebellion and public backlash.",
+      "reaction_or_doubling_down": "Brown initially defended the wider tax package but then acknowledged that people needed protection from losses.",
+      "reversal_or_admission": "The government announced compensation through changes to personal allowances and other measures.",
+      "scandal_status": "",
       "detail_notes": []
+    },
+    {
+      "id": "brown-mcbride-smear-2009",
+      "year": 2009,
+      "date": "11–15 April 2009",
+      "title": "Gordon Brown aide Damian McBride resigns over planned smear campaign against Conservatives",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Gordon Brown",
+      "location": "United Kingdom",
+      "summary": "Leaked emails showed senior Downing Street adviser Damian McBride proposing false or salacious stories about senior Conservative politicians and their families. McBride resigned.",
+      "evidence": "Reuters — Brown furious over email smear scandal / Reuters — email rules tightened after scandal",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Gordon Brown",
+        "confirmed misconduct by adviser"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Brown furious over email smear scandal",
+          "url": "https://www.reuters.com/article/world/us/brown-furious-over-email-smear-scandal-idUSTRE53B1L9/"
+        },
+        {
+          "label": "Reuters — email rules tightened after scandal",
+          "url": "https://www.reuters.com/article/world/uk/emails-rules-tightened-after-scandal-idUSTRE53E379/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed misconduct by adviser",
+      "court_outcome": "McBride resigned; Cabinet Office rules for special advisers were tightened.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The scandal raised questions about the political culture around Brown even though there was no allegation that Brown authored the emails.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Brown said he was furious, called for tighter rules for political advisers and apologised for the behaviour of his aide.",
+      "scandal_status": "confirmed misconduct by adviser",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-retriever-2009",
@@ -439,7 +681,54 @@
           "label": "Home Office — Group-based CSE characteristics, Operation Retriever",
           "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
         }
-      ]
+      ],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "brown-mps-expenses-2009",
+      "year": 2009,
+      "date": "May–June 2009",
+      "title": "MPs’ expenses scandal erupts under Gordon Brown and engulfs Parliament",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Gordon Brown",
+      "location": "United Kingdom",
+      "summary": "Leaked expense claims across parties triggered one of Britain’s biggest political trust crises in decades. Labour ministers and MPs were among those suspended, investigated or forced to repay money.",
+      "evidence": "Reuters — expenses scandal prompts backlash against Brown",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Gordon Brown",
+        "confirmed systemic scandal"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — expenses scandal prompts backlash against Brown",
+          "url": "https://www.reuters.com/article/uk-britain-politics-backlash-analysis-sb/expenses-scandal-prompts-backlash-against-brown-idUKTRE54H0YI20090518/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed systemic scandal",
+      "court_outcome": "Numerous MPs repaid money, resigned, were deselected or later faced criminal proceedings; reforms to the expenses system followed.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "This was a cross-party scandal, not a personal Brown corruption finding, but it severely damaged his government and public trust while he was prime minister.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Brown called for reform and disciplinary action as Labour MPs were suspended and ministers came under pressure.",
+      "scandal_status": "confirmed systemic scandal",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "stephen-timms-2010",
@@ -471,7 +760,14 @@
       "court_outcome": "",
       "migration_context": "No migration-policy causation is inferred.",
       "public_controversy": "The attack raised questions about online radicalisation and security for elected representatives.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "cameron-target-2010",
@@ -503,7 +799,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "uk-riots-2011",
@@ -536,7 +839,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-span-rochdale-2012",
@@ -572,7 +882,14 @@
           "label": "Home Office — group-based CSE characteristics",
           "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
         }
-      ]
+      ],
+      "migration_relevance": "Foreign nationality only",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "oxford-bullfinch-2013",
@@ -605,7 +922,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-brooke-2013",
@@ -637,7 +961,14 @@
           "label": "Home Office — Group-based CSE characteristics, Operation Brooke",
           "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
         }
-      ]
+      ],
+      "migration_relevance": "Foreign nationality only",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "lee-rigby-2013",
@@ -674,7 +1005,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "mohammed-saleem-2013",
@@ -706,7 +1044,14 @@
       "court_outcome": "",
       "migration_context": "The victim was Muslim; this is anti-Muslim extremist violence, not immigrant crime.",
       "public_controversy": "Included to keep the terrorism ledger ideologically consistent.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "hostile-environment-2014",
@@ -738,7 +1083,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-lenten-2014",
@@ -770,7 +1122,14 @@
           "label": "Home Office — Group-based CSE characteristics, Operation Lenten",
           "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
         }
-      ]
+      ],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-erle-peterborough-2014",
@@ -801,7 +1160,14 @@
           "label": "IICSA — historical and legal context",
           "url": "https://www.iicsa.org.uk/reports-recommendations/publications/investigation/cs-organised-networks/annexes/annex-3-historical-and-legal-context.html"
         }
-      ]
+      ],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "rotherham-2014",
@@ -833,7 +1199,58 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "cameron-migration-tens-thousands-fail",
+      "year": 2015,
+      "date": "2010–2015 promise / 2015 result",
+      "title": "Cameron promises net migration in “tens of thousands”; result remains above 300,000",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "United Kingdom",
+      "summary": "Cameron repeatedly pledged or aspired to reduce annual net migration from hundreds of thousands to the tens of thousands. Consequence: By the year ending December 2015, net migration was roughly 330,000 rather than below 100,000.",
+      "evidence": "GOV.UK — Cameron immigration speech and “tens of thousands” aspiration / ONS — long-term migration historical series",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "David Cameron"
+      ],
+      "sources": [
+        {
+          "label": "GOV.UK — Cameron immigration speech and “tens of thousands” aspiration",
+          "url": "https://www.gov.uk/government/speeches/david-camerons-immigration-speech"
+        },
+        {
+          "label": "ONS — long-term migration historical series",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "This is a promise-versus-result failure rather than evidence of deliberate deception.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Cameron continued to defend tougher immigration controls and argued the government still needed to bring numbers down.",
+      "decision_made": "Cameron repeatedly pledged or aspired to reduce annual net migration from hundreds of thousands to the tens of thousands.",
+      "consequence": "By the year ending December 2015, net migration was roughly 330,000 rather than below 100,000.",
+      "reaction_or_doubling_down": "Cameron continued to defend tougher immigration controls and argued the government still needed to bring numbers down.",
+      "reversal_or_admission": "The target was never achieved before he left office.",
+      "scandal_status": "",
+      "detail_notes": []
     },
     {
       "id": "netmigration-2015",
@@ -870,7 +1287,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "jo-cox-murder-2016",
@@ -902,7 +1326,14 @@
       "court_outcome": "",
       "migration_context": "Mair held white-supremacist and anti-immigration views; this is not migrant-perpetrated violence.",
       "public_controversy": "The case remains central to debate over political hatred and extreme-right terrorism.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "brexit-2016",
@@ -934,7 +1365,102 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "cameron-brexit-referendum-gamble",
+      "year": 2016,
+      "date": "23–24 June 2016",
+      "title": "Cameron calls EU referendum, campaigns to Remain, loses and resigns",
+      "category": "Policy Failure / U-turn",
+      "kind": "Political gamble / consequence",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "United Kingdom",
+      "summary": "Cameron called an in-or-out EU referendum after promising one to settle Britain’s EU question and Conservative divisions. Consequence: Voters chose Leave. The result immediately ended Cameron’s premiership and opened years of Brexit negotiations and political instability.",
+      "evidence": "Reuters — Cameron resigns after Leave vote / Reuters — Cameron’s final Remain push",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "David Cameron"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Cameron resigns after Leave vote",
+          "url": "https://www.reuters.com/news/picture/david-cameron-resigns-idUSRTX2HW3Q/"
+        },
+        {
+          "label": "Reuters — Cameron’s final Remain push",
+          "url": "https://www.reuters.com/article/business/brits-dont-quit-cameron-declares-as-eu-referendum-in-balance-idUSKCN0Z6198/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "Calling the referendum was lawful and democratic; describing it as a policy “failure” is an evaluative judgment, so the site records it as a political gamble with a clear consequence.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Cameron accepted the result and said the country needed new leadership to implement Brexit.",
+      "decision_made": "Cameron called an in-or-out EU referendum after promising one to settle Britain’s EU question and Conservative divisions.",
+      "consequence": "Voters chose Leave. The result immediately ended Cameron’s premiership and opened years of Brexit negotiations and political instability.",
+      "reaction_or_doubling_down": "Cameron accepted the result and said the country needed new leadership to implement Brexit.",
+      "reversal_or_admission": "He resigned rather than attempt to lead the withdrawal process he had campaigned against.",
+      "scandal_status": "",
+      "detail_notes": []
+    },
+    {
+      "id": "cameron-panama-papers-2016",
+      "year": 2016,
+      "date": "4–7 April 2016",
+      "title": "Panama Papers reveal Cameron family offshore fund; PM admits he previously held shares",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "United Kingdom",
+      "summary": "The Panama Papers exposed details of Blairmore Holdings, an offshore investment fund established by David Cameron’s late father. After several days of questions, Cameron acknowledged that he and his wife had owned 5,000 units in the fund and sold them in January 2010 before he became prime minister.",
+      "evidence": "Guardian — Blairmore fund exposed in Panama Papers / Guardian — Cameron admits he profited from offshore fund",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "David Cameron",
+        "facts confirmed / no illegality established"
+      ],
+      "sources": [
+        {
+          "label": "Guardian — Blairmore fund exposed in Panama Papers",
+          "url": "https://www.theguardian.com/news/2016/apr/04/panama-papers-david-cameron-father-tax-bahamas"
+        },
+        {
+          "label": "Guardian — Cameron admits he profited from offshore fund",
+          "url": "https://www.theguardian.com/news/2016/apr/07/david-cameron-admits-he-profited-fathers-offshore-fund-panama-papers"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "facts confirmed / no illegality established",
+      "court_outcome": "The existence of the offshore investment and Cameron’s prior stake were confirmed. The reporting did not establish that Cameron broke tax law by owning the shares.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The controversy centred on transparency and the contrast between Cameron’s public stance on tax avoidance and his family’s offshore arrangements.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Cameron said the investment had been properly taxed and that he sold the stake before entering Downing Street. His statements evolved over several days before he gave the fuller disclosure.",
+      "scandal_status": "facts confirmed / no illegality established",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "parsons-green-2017",
@@ -967,7 +1493,94 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "may-snap-election-2017",
+      "year": 2017,
+      "date": "18 April–9 June 2017",
+      "title": "May calls snap election to strengthen majority — and loses it instead",
+      "category": "Policy Failure / U-turn",
+      "kind": "Political gamble / consequence",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "United Kingdom",
+      "summary": "May called an early general election while Conservatives held a polling lead, arguing she needed a stronger mandate for Brexit negotiations. Consequence: The Conservatives lost their parliamentary majority and May had to rely on the Democratic Unionist Party to remain in government.",
+      "evidence": "Reuters — election debacle leaves May government in minority",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Theresa May"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — election debacle leaves May government in minority",
+          "url": "https://www.reuters.com/article/world/election-debacle-leaves-uk-government-in-a-minority-on-eve-of-brexit-talks-idUSKBN18Z0RN/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "A clear political-strategy failure, not a legal or ethical scandal.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "After the result May apologised to Conservative candidates who lost and said she would provide stability.",
+      "decision_made": "May called an early general election while Conservatives held a polling lead, arguing she needed a stronger mandate for Brexit negotiations.",
+      "consequence": "The Conservatives lost their parliamentary majority and May had to rely on the Democratic Unionist Party to remain in government.",
+      "reaction_or_doubling_down": "After the result May apologised to Conservative candidates who lost and said she would provide stability.",
+      "reversal_or_admission": "There was no reversal of the election itself; the intended strategy produced the opposite parliamentary result.",
+      "scandal_status": "",
+      "detail_notes": []
+    },
+    {
+      "id": "may-dementia-tax-uturn-2017",
+      "year": 2017,
+      "date": "18–22 May 2017",
+      "title": "May launches social-care plan, faces backlash, then changes it while insisting “nothing has changed”",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "United Kingdom",
+      "summary": "The Conservative manifesto proposed requiring more people to pay for care in their own homes from their assets, subject to a £100,000 floor. Consequence: The proposal was rapidly branded the “dementia tax”, alarmed Conservative candidates and coincided with a sharp narrowing of May’s polling lead.",
+      "evidence": "Reuters — May forced into dementia-tax U-turn",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Theresa May"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — May forced into dementia-tax U-turn",
+          "url": "https://www.reuters.com/article/world/rattled-uk-pm-may-forced-into-dementia-tax-u-turn-after-poll-lead-halves-idUSKBN18H14R/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "The policy never entered law in the form originally presented during the campaign.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "May initially defended the policy. When she announced that a cap on total care costs would be added, she insisted the policy had not changed.",
+      "decision_made": "The Conservative manifesto proposed requiring more people to pay for care in their own homes from their assets, subject to a £100,000 floor.",
+      "consequence": "The proposal was rapidly branded the “dementia tax”, alarmed Conservative candidates and coincided with a sharp narrowing of May’s polling lead.",
+      "reaction_or_doubling_down": "May initially defended the policy. When she announced that a cap on total care costs would be added, she insisted the policy had not changed.",
+      "reversal_or_admission": "The introduction of a cap was widely treated as a U-turn only days after the manifesto launch.",
+      "scandal_status": "",
+      "detail_notes": []
     },
     {
       "id": "finsbury-park-2017",
@@ -1004,7 +1617,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "westminster-2017",
@@ -1036,7 +1656,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "london-bridge-2017",
@@ -1069,7 +1696,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-warrenton-2017",
@@ -1101,7 +1735,14 @@
           "label": "Home Office — Group-based CSE characteristics, Operation Warrenton",
           "url": "https://www.gov.uk/government/publications/group-based-child-sexual-exploitation-characteristics-of-offending/group-based-child-sexual-exploitation-characteristics-of-offending-accessible-version"
         }
-      ]
+      ],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "manchester-arena-2017",
@@ -1139,7 +1780,55 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "care-agency-illegal-workers-2017-18",
+      "year": 2018,
+      "date": "2017–2018 conduct / sentence 5 December 2025",
+      "title": "Care-agency boss convicted of knowingly employing 13 people with no right to work",
+      "category": "Immigration System Abuse",
+      "kind": "Illegal working / immigration facilitation",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "East Sussex",
+      "summary": "Benoy Thomas arranged care work for 13 Indian nationals despite knowing they had no right to work in the UK. CPS said some were placed with vulnerable people without adequate training or medical expertise.",
+      "evidence": "CPS — care home agency boss jailed for hiring illegal migrants",
+      "confidence": "confirmed",
+      "relationship": "Conduct occurred during Theresa May’s term; conviction and sentence came later.",
+      "tags": [
+        "Court & Investigation",
+        "Illegal working / immigration facilitation",
+        "East Sussex",
+        "Immigration-system abuse"
+      ],
+      "sources": [
+        {
+          "label": "CPS — care home agency boss jailed for hiring illegal migrants",
+          "url": "https://www.cps.gov.uk/south-east/news/care-home-agency-boss-jailed-hiring-illegal-migrants"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Thomas convicted on 13 counts and sentenced to 2½ years; disqualified as director for eight years.",
+      "migration_context": "CPS expressly states the workers were Indian nationals with no right to work and that Thomas knowingly assisted their unlawful immigration/employment.",
+      "migration_relevance": "Immigration-system abuse",
+      "public_controversy": "The case also raises safeguarding concerns because illegally employed workers were placed with vulnerable care recipients.",
+      "timeline_type": "Court & Investigation",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "martyna-ogonowska-self-defence-appeal",
@@ -1172,7 +1861,14 @@
       "court_outcome": "Murder conviction upheld; 17-year minimum term left in place after the 2025 sentence appeal.",
       "migration_context": "No immigration connection is asserted.",
       "public_controversy": "Justice for Women described her as a victim of a misogynistic justice system; the Court of Appeal held that the trial judge was entitled to reject parts of her account and that the sentence was not manifestly excessive.",
-      "timeline_type": "News"
+      "timeline_type": "News",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "windrush-2018",
@@ -1204,7 +1900,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "manchester-victoria-2018",
@@ -1236,7 +1939,58 @@
       "court_outcome": "",
       "migration_context": "No immigration-policy causation is asserted.",
       "public_controversy": "The case contributed to the post-2017 terrorism threat picture.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "may-windrush-2018-scandal",
+      "year": 2018,
+      "date": "April 2018",
+      "title": "Windrush scandal forces government apology and Amber Rudd resignation",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "United Kingdom",
+      "summary": "Long-term lawful UK residents from the Windrush generation were wrongly threatened with deportation, denied work, healthcare or benefits, or otherwise harmed by Home Office immigration enforcement. The scandal was widely linked to the “hostile environment” system May had developed as Home Secretary.",
+      "evidence": "Reuters — new Home Secretary rejects hostile-environment language after Windrush / Guardian — May apologises over Windrush treatment",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Theresa May",
+        "officially acknowledged government failure"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — new Home Secretary rejects hostile-environment language after Windrush",
+          "url": "https://www.reuters.com/article/world/uks-new-interior-minister-javid-opposes-hostile-environment-approach-to-immig-idUSKBN1I10VY/"
+        },
+        {
+          "label": "Guardian — May apologises over Windrush treatment",
+          "url": "https://www.theguardian.com/uk-news/2018/apr/17/uk-still-uncertain-about-windrush-era-deportations"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "officially acknowledged government failure",
+      "court_outcome": "Home Secretary Amber Rudd resigned after misleading Parliament over removal targets. Later official reviews concluded the Home Office had failed badly and ignored warnings.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The main controversy was how much personal responsibility May bore for a system she had created before becoming prime minister, versus operational failures by the Home Office.",
+      "timeline_type": "Political scandal",
+      "politician_response": "May apologised to Caribbean leaders and promised that affected people would not be deported. Her government created support and compensation measures.",
+      "scandal_status": "officially acknowledged government failure",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "stanwell-attack-2019",
@@ -1268,7 +2022,14 @@
       "court_outcome": "",
       "migration_context": "The attack targeted a victim in a context of extreme-right ideology; it is included alongside Islamist attacks for consistency.",
       "public_controversy": "The case illustrates the growth of extreme-right terrorism identified by the Home Office.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "birmingham-school-protests-2019",
@@ -1300,7 +2061,14 @@
       "court_outcome": "",
       "migration_context": "This is a community-cohesion and religious-extremism issue, not a crime-by-immigrants claim.",
       "public_controversy": "Public debate divided over parental rights, religious belief, LGBT equality and intimidation around schools.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "neo-nazi-gig-hate-2019",
@@ -1332,7 +2100,14 @@
       "court_outcome": "",
       "migration_context": "The case involved racist extremist ideology rather than migrant offending.",
       "public_controversy": "The long gap between conduct and convictions is shown so users can distinguish the event date from the judicial outcome date.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "fishmongers-2019",
@@ -1369,7 +2144,54 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "johnson-exam-algorithm-uturn-2020",
+      "year": 2020,
+      "date": "13–17 August 2020",
+      "title": "Johnson government calls exam results robust, then scraps grading algorithm days later",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "United Kingdom",
+      "summary": "With exams cancelled during COVID, England used an algorithm to moderate teacher-predicted A-level grades. Consequence: Nearly 40% of results were downgraded, triggering protests, university admissions chaos and accusations that pupils at disadvantaged schools were unfairly hit.",
+      "evidence": "Reuters — UK government U-turns on exam grades",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Boris Johnson"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — UK government U-turns on exam grades",
+          "url": "https://www.reuters.com/article/world/uk/uk-government-u-turns-on-england-school-exam-grades-after-uproar-idUSKCN25D1L7/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "The reversal is one of the clearest examples of public defence immediately followed by a full U-turn.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Johnson initially described the results as robust and dependable; Education Secretary Gavin Williamson said there would be “no U-turn”.",
+      "decision_made": "With exams cancelled during COVID, England used an algorithm to moderate teacher-predicted A-level grades.",
+      "consequence": "Nearly 40% of results were downgraded, triggering protests, university admissions chaos and accusations that pupils at disadvantaged schools were unfairly hit.",
+      "reaction_or_doubling_down": "Johnson initially described the results as robust and dependable; Education Secretary Gavin Williamson said there would be “no U-turn”.",
+      "reversal_or_admission": "Four days after results were released, the government abandoned the algorithm and allowed teacher-assessed grades.",
+      "scandal_status": "",
+      "detail_notes": []
     },
     {
       "id": "streatham-2020",
@@ -1406,7 +2228,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "whitemoor-2020",
@@ -1438,7 +2267,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "reading-attack-2020",
@@ -1476,7 +2312,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "amess-2021",
@@ -1509,7 +2352,58 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "cameron-greensill-2021",
+      "year": 2021,
+      "date": "2020 lobbying / 20 July 2021 committee findings",
+      "title": "Cameron’s Greensill lobbying judged a “significant lack of judgement”",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "location": "United Kingdom",
+      "summary": "After leaving office, Cameron repeatedly contacted ministers and senior officials to lobby for Greensill Capital to gain access to government COVID-support schemes. A parliamentary committee later criticised his use of personal contacts and informal channels.",
+      "evidence": "Reuters — parliamentary committee criticises Cameron over Greensill / Reuters — Cameron’s extensive Greensill contacts disclosed",
+      "confidence": "confirmed",
+      "relationship": "After office / legacy",
+      "tags": [
+        "Political scandal",
+        "David Cameron",
+        "official criticism / no criminal finding"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — parliamentary committee criticises Cameron over Greensill",
+          "url": "https://www.reuters.com/world/uk/former-uk-pm-showed-lack-judgement-over-greensill-lobbying-parliament-committee-2021-07-19/"
+        },
+        {
+          "label": "Reuters — Cameron’s extensive Greensill contacts disclosed",
+          "url": "https://www.reuters.com/world/uk/former-uk-pm-cameron-had-extensive-contact-with-senior-ministers-over-greensill-2021-05-11/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "official criticism / no criminal finding",
+      "court_outcome": "A parliamentary committee concluded that Cameron showed a significant lack of judgement. The affair prompted renewed calls for tighter lobbying rules.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The scandal was especially damaging because Cameron was a former prime minister using private access for a company in which he had a financial interest.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Cameron defended his conduct, saying he had a genuine economic case to make and that his communications should be seen in the context of trying to help a company during the pandemic.",
+      "scandal_status": "official criticism / no criminal finding",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "pbs-2021",
@@ -1541,7 +2435,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "patrick-ruane-encouragement-2021",
@@ -1573,7 +2474,98 @@
       "court_outcome": "",
       "migration_context": "No immigration connection.",
       "public_controversy": "The jury acquitted him on a separate possession-of-terrorist-document count, so the site distinguishes proved and unproved allegations.",
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "johnson-paterson-uturn-2021",
+      "year": 2021,
+      "date": "3–4 November 2021",
+      "title": "Johnson government changes standards process to protect Owen Paterson, then reverses within 24 hours",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "United Kingdom",
+      "summary": "After Parliament’s standards watchdog found Conservative MP Owen Paterson committed paid advocacy, Johnson’s government backed a move to block his suspension and replace the standards process. Consequence: The decision caused immediate accusations that the government was rewriting anti-corruption rules to protect an ally.",
+      "evidence": "Reuters — government U-turns on corruption-rule change",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Boris Johnson"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — government U-turns on corruption-rule change",
+          "url": "https://www.reuters.com/world/uk/uk-government-backs-down-plans-rip-up-corruption-rules-after-sleaze-claims-2021-11-04/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "Reuters described the move as a government U-turn after a major sleaze backlash.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Ministers initially defended reform of the standards system.",
+      "decision_made": "After Parliament’s standards watchdog found Conservative MP Owen Paterson committed paid advocacy, Johnson’s government backed a move to block his suspension and replace the standards process.",
+      "consequence": "The decision caused immediate accusations that the government was rewriting anti-corruption rules to protect an ally.",
+      "reaction_or_doubling_down": "Ministers initially defended reform of the standards system.",
+      "reversal_or_admission": "The government abandoned the plan the following day and Paterson resigned as an MP.",
+      "scandal_status": "",
       "detail_notes": []
+    },
+    {
+      "id": "johnson-flat-refurbishment-2021",
+      "year": 2021,
+      "date": "April–December 2021",
+      "title": "Downing Street flat-refurbishment funding triggers Electoral Commission investigation",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "United Kingdom",
+      "summary": "Questions arose over how expensive renovations to Johnson’s Downing Street residence were financed and whether donations had been properly reported. The Electoral Commission opened a formal investigation into Conservative Party reporting.",
+      "evidence": "Reuters — formal probe into Johnson flat funding / Guardian — Conservative Party fined over flat redecoration",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Boris Johnson",
+        "confirmed reporting failures by party"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — formal probe into Johnson flat funding",
+          "url": "https://www.reuters.com/world/europe/uks-johnson-faces-formal-probe-over-funding-apartment-renovation-2021-04-28/"
+        },
+        {
+          "label": "Guardian — Conservative Party fined over flat redecoration",
+          "url": "https://www.theguardian.com/politics/2021/dec/09/conservative-party-fined-17000-over-downing-st-redecoration"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed reporting failures by party",
+      "court_outcome": "The Electoral Commission fined the Conservative Party £17,800 for serious reporting failures connected with the donation funding.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "Debate continued over what Johnson knew about the source of funds and whether his public explanations were complete.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Johnson said he had personally covered the costs and that he had followed the rules. Downing Street said it would cooperate with investigations.",
+      "scandal_status": "confirmed reporting failures by party",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "batley-school-protests-2021",
@@ -1605,7 +2597,14 @@
       "court_outcome": "",
       "migration_context": "Religious/community context is direct; no general immigration-policy causal claim is made.",
       "public_controversy": "The episode produced intense disagreement over blasphemy, free expression, school safeguarding and community pressure.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "muslim-population-2021",
@@ -1643,7 +2642,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "liverpool-hospital-2021",
@@ -1681,7 +2687,54 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "sunak-partygate-fine-2022",
+      "year": 2022,
+      "date": "12 April 2022",
+      "title": "Rishi Sunak fined over Downing Street birthday gathering during lockdown",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "United Kingdom",
+      "summary": "While Chancellor, Sunak received a fixed-penalty notice for attending Boris Johnson’s birthday gathering in Downing Street during COVID restrictions.",
+      "evidence": "Institute for Government — Partygate fines including Sunak",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Rishi Sunak",
+        "confirmed police penalty"
+      ],
+      "sources": [
+        {
+          "label": "Institute for Government — Partygate fines including Sunak",
+          "url": "https://www.instituteforgovernment.org.uk/article/explainer/partygate-investigations"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed police penalty",
+      "court_outcome": "Police penalty issued and paid; no criminal prosecution followed.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The episode later mattered to Sunak’s promise as prime minister to restore integrity after Johnson.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Sunak apologised and paid the fine.",
+      "scandal_status": "confirmed police penalty",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "telford-inquiry-2022",
@@ -1714,7 +2767,146 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "truss-mini-budget-uturn-sequence",
+      "year": 2022,
+      "date": "23 September–20 October 2022",
+      "title": "Truss defends mini-budget, reverses tax plans, fires Chancellor and resigns after 45 days",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Liz Truss",
+      "location": "United Kingdom",
+      "summary": "Truss and Chancellor Kwasi Kwarteng announced a large package of unfunded tax cuts. Consequence: Sterling fell, gilt yields surged, mortgage markets were disrupted and the Bank of England intervened to stabilise pension funds.",
+      "evidence": "Reuters — Truss acknowledges market disruption / Reuters — sterling reacts to partial U-turn",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Liz Truss"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Truss acknowledges market disruption",
+          "url": "https://www.reuters.com/world/uk/uks-truss-i-recognise-there-has-been-market-disruption-2022-09-30/"
+        },
+        {
+          "label": "Reuters — sterling reacts to partial U-turn",
+          "url": "https://www.reuters.com/markets/europe/sterling-holds-gains-u-turn-hopes-2022-10-14/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "The policy reversal was effectively total and the premiership ended after 45 days.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Truss initially defended the direction of policy and argued Britain needed faster growth.",
+      "decision_made": "Truss and Chancellor Kwasi Kwarteng announced a large package of unfunded tax cuts.",
+      "consequence": "Sterling fell, gilt yields surged, mortgage markets were disrupted and the Bank of England intervened to stabilise pension funds.",
+      "reaction_or_doubling_down": "Truss initially defended the direction of policy and argued Britain needed faster growth.",
+      "reversal_or_admission": "She reversed the corporation-tax decision, her new Chancellor scrapped most remaining measures, and Truss resigned.",
+      "scandal_status": "",
+      "detail_notes": []
+    },
+    {
+      "id": "truss-mini-budget-crisis-2022",
+      "year": 2022,
+      "date": "23 September–20 October 2022",
+      "title": "Truss mini-budget triggers market turmoil, pension-fund stress and rapid policy reversal",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Liz Truss",
+      "location": "United Kingdom",
+      "summary": "The Truss government’s largely unfunded tax-cut package triggered a sharp fall in sterling, surging government-bond yields, mortgage-market disruption and emergency Bank of England intervention to stabilise pension funds.",
+      "evidence": "Reuters — Truss acknowledges market disruption / Reuters — Truss later blames economic orthodoxy for downfall",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Liz Truss",
+        "confirmed policy and market crisis"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Truss acknowledges market disruption",
+          "url": "https://www.reuters.com/world/uk/uks-truss-i-recognise-there-has-been-market-disruption-2022-09-30/"
+        },
+        {
+          "label": "Reuters — Truss later blames economic orthodoxy for downfall",
+          "url": "https://www.reuters.com/world/uk/uks-shortest-serving-pm-liz-truss-blames-economic-orthodoxy-downfall-2023-02-05/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed policy and market crisis",
+      "court_outcome": "Most major tax measures were reversed. Truss resigned after 45 days as prime minister, making her the shortest-serving UK PM.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "Whether to call this a “scandal” is partly political judgement; the market disruption and policy reversals are factual and heavily documented.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Truss initially defended the plan and blamed much of the turmoil on global factors. She later reversed major elements, fired Chancellor Kwasi Kwarteng and ultimately resigned.",
+      "scandal_status": "confirmed policy and market crisis",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "johnson-pincher-2022",
+      "year": 2022,
+      "date": "30 June–7 July 2022",
+      "title": "Chris Pincher scandal exposes what Johnson knew before appointment; government collapses",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "United Kingdom",
+      "summary": "Deputy Chief Whip Chris Pincher resigned after allegations of sexual misconduct. The government’s account of what Johnson knew before appointing him changed as evidence emerged that Johnson had previously been briefed about complaints.",
+      "evidence": "Reuters — Johnson apologises over Pincher appointment / Reuters — Johnson quits after government resignations",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Boris Johnson",
+        "confirmed political handling failure"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Johnson apologises over Pincher appointment",
+          "url": "https://www.reuters.com/world/uk/uks-boris-johnson-apologises-mistake-pincher-appointment-2022-07-05/"
+        },
+        {
+          "label": "Reuters — Johnson quits after government resignations",
+          "url": "https://www.reuters.com/world/uk/uks-johnson-digs-ministers-desert-government-2022-07-07/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed political handling failure",
+      "court_outcome": "The scandal triggered a wave of ministerial resignations and Johnson announced his resignation as Conservative leader on 7 July 2022.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The key issue was not guilt for Pincher’s alleged conduct, but whether Johnson knowingly appointed him despite prior warnings and then gave an inaccurate account.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Johnson apologised and said appointing Pincher had been a mistake, saying he had forgotten an earlier briefing.",
+      "scandal_status": "confirmed political handling failure",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "dover-migrant-centre-attack-2022",
@@ -1746,7 +2938,54 @@
       "court_outcome": "",
       "migration_context": "The target was a migrant processing centre; this is anti-migrant extremist violence.",
       "public_controversy": "The attacker died, so there was no criminal trial; official terrorism assessment rather than a jury verdict establishes the classification.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "sunak-wife-nondom-2022",
+      "year": 2022,
+      "date": "6–8 April 2022",
+      "title": "Akshata Murty’s non-dom tax status creates conflict-of-interest and fairness controversy",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "United Kingdom",
+      "summary": "It emerged that Sunak’s wife, Akshata Murty, had non-domiciled tax status and therefore did not pay UK tax on foreign income at the same time Sunak, as Chancellor, was raising taxes.",
+      "evidence": "Reuters — Sunak faces questions over wife’s non-dom tax status",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Rishi Sunak",
+        "confirmed status / no illegality established"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Sunak faces questions over wife’s non-dom tax status",
+          "url": "https://www.reuters.com/world/uk/wife-uks-finance-minister-sunak-is-non-domiciled-tax-purposes-spokeswoman-2022-04-06/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed status / no illegality established",
+      "court_outcome": "The tax status was legal; the controversy was political and ethical rather than a finding of tax evasion.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The dispute centred on fairness, transparency and the household finances of the Chancellor responsible for tax policy.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Murty’s spokesperson said the arrangement was lawful. She later announced that she would pay UK tax on worldwide income while retaining legal non-dom status.",
+      "scandal_status": "confirmed status / no illegality established",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "gchq-intern-files-2022",
@@ -1778,7 +3017,58 @@
       "court_outcome": "",
       "migration_context": "No immigration-policy connection.",
       "public_controversy": "The case is a national-security breach rather than ideological terrorism; separate indecent-image offences were also prosecuted.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "johnson-partygate-2021-22",
+      "year": 2022,
+      "date": "Late 2021–25 May 2022",
+      "title": "Partygate: lockdown-breaking gatherings, police fines and Sue Gray report",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "United Kingdom",
+      "summary": "Reports revealed parties and gatherings in Downing Street and Whitehall during COVID restrictions. Police issued fixed-penalty notices, including to Johnson and then-Chancellor Rishi Sunak. Sue Gray’s investigation documented repeated failures of leadership and judgement.",
+      "evidence": "Sue Gray — final findings on Downing Street gatherings / Institute for Government — Partygate investigations summary",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Boris Johnson",
+        "confirmed rule breaches"
+      ],
+      "sources": [
+        {
+          "label": "Sue Gray — final findings on Downing Street gatherings",
+          "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1078404/2022-05-25_FINAL_FINDINGS_OF_SECOND_PERMANENT_SECRETARY_INTO_ALLEGED_GATHERINGS.pdf"
+        },
+        {
+          "label": "Institute for Government — Partygate investigations summary",
+          "url": "https://www.instituteforgovernment.org.uk/article/explainer/partygate-investigations"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed rule breaches",
+      "court_outcome": "Police fines established breaches of COVID regulations. The Sue Gray report found serious failures of leadership and standards in No. 10 and the Cabinet Office.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "Public anger was intensified because families had been prevented from seeing dying relatives or attending funerals under the same restrictions.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Johnson repeatedly apologised, said he took responsibility, and argued he believed events were work-related or within the rules.",
+      "scandal_status": "confirmed rule breaches",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "leicester-unrest-2022",
@@ -1816,7 +3106,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "rwanda-2022",
@@ -1848,7 +3145,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "small-boats-2022",
@@ -1885,7 +3189,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "knowsley-asylum-hotel-riot-2023",
@@ -1917,7 +3228,54 @@
       "court_outcome": "",
       "migration_context": "Direct asylum-policy context because the protest targeted an asylum hotel.",
       "public_controversy": "The Khan Review framed it as part of serious disorder and conflict affecting social cohesion; individual criminal liability remained separate.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Direct immigration/asylum status",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "johnson-privileges-committee-2023",
+      "year": 2023,
+      "date": "15 June 2023",
+      "title": "Privileges Committee concludes Boris Johnson deliberately misled Parliament over Partygate",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "location": "United Kingdom",
+      "summary": "After Johnson left office, the Commons Privileges Committee concluded that he had deliberately misled the House about lockdown gatherings and committed repeated contempts of Parliament.",
+      "evidence": "House of Commons Privileges Committee — final report summary",
+      "confidence": "confirmed",
+      "relationship": "After office / legacy",
+      "tags": [
+        "Political scandal",
+        "Boris Johnson",
+        "official parliamentary finding"
+      ],
+      "sources": [
+        {
+          "label": "House of Commons Privileges Committee — final report summary",
+          "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmprivi/564/summary.html"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "official parliamentary finding",
+      "court_outcome": "The committee said it would have recommended a 90-day suspension if Johnson had remained an MP.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "This is stronger than a media allegation: it is a formal parliamentary finding, although Johnson continued to dispute it.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Johnson rejected the committee’s conclusions, accused it of bias and resigned as an MP shortly before the final report.",
+      "scandal_status": "official parliamentary finding",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "farooq-hospital-bomb-2023",
@@ -1949,7 +3307,54 @@
       "court_outcome": "",
       "public_controversy": "Court outcome established the plot. Public concern focused on hospital security, radicalisation and prevention.",
       "migration_context": "Do not infer migration status from name or religion; this record is about the established terror plot.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "sunak-seatbelt-fine-2023",
+      "year": 2023,
+      "date": "20 January 2023",
+      "title": "Sunak fined by police for filming social-media video without a seat belt",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "United Kingdom",
+      "summary": "Police issued Sunak a fixed penalty after he removed his seat belt in a moving car while filming a social-media clip.",
+      "evidence": "Reuters — Sunak fined for failing to wear seat belt",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Rishi Sunak",
+        "confirmed police penalty"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Sunak fined for failing to wear seat belt",
+          "url": "https://www.reuters.com/world/uk/uk-pm-sunak-gets-fined-by-police-failing-wear-seatbelt-2023-01-20/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed police penalty",
+      "court_outcome": "Fine issued and accepted.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "Minor compared with other scandals, but included because the site now records both major and small ethics/legal incidents involving prime ministers.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Sunak apologised and described it as a brief error of judgement.",
+      "scandal_status": "confirmed police penalty",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "cocad-719-2023",
@@ -1981,7 +3386,94 @@
       "court_outcome": "",
       "public_controversy": "The audit explicitly warns that definitions, manual review and incomplete data make the figure an imperfect measure of true scale.",
       "migration_context": "Casey found national ethnicity data insufficient for a national conclusion, while some local force data showed disproportionate numbers of Asian-background male suspects.",
+      "detail_notes": [],
+      "migration_relevance": "Foreign nationality only",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "sunak-hs2-north-cancel-2023",
+      "year": 2023,
+      "date": "4 October 2023",
+      "title": "Sunak cancels HS2 Birmingham–Manchester leg after years of spending and disruption",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "United Kingdom",
+      "summary": "Sunak cancelled the northern leg of HS2, arguing costs had become too high and that money would be redirected to other transport projects. Consequence: Years of planning, property acquisition and construction preparation had already occurred; business groups and northern leaders warned of lost capacity and productivity benefits.",
+      "evidence": "Reuters — Sunak cancels HS2 northern leg",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Rishi Sunak"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Sunak cancels HS2 northern leg",
+          "url": "https://www.reuters.com/world/uk/uk-pm-sunak-confirms-cancellation-hs2-northern-leg-2023-10-04/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "This is a major policy reversal; whether cancellation was the correct decision remains politically disputed.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Sunak framed the cancellation as a “tough decision” and a break with failed consensus politics rather than an admission of error.",
+      "decision_made": "Sunak cancelled the northern leg of HS2, arguing costs had become too high and that money would be redirected to other transport projects.",
+      "consequence": "Years of planning, property acquisition and construction preparation had already occurred; business groups and northern leaders warned of lost capacity and productivity benefits.",
+      "reaction_or_doubling_down": "Sunak framed the cancellation as a “tough decision” and a break with failed consensus politics rather than an admission of error.",
+      "reversal_or_admission": "The government replaced the northern HS2 plan with a package branded Network North.",
+      "scandal_status": "",
       "detail_notes": []
+    },
+    {
+      "id": "sunak-koru-kids-2023",
+      "year": 2023,
+      "date": "April–August 2023",
+      "title": "Standards watchdog finds Sunak inadvertently failed to declare wife’s financial interest",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "United Kingdom",
+      "summary": "Parliament’s Standards Commissioner investigated Sunak after he failed to declare his wife’s shareholding in childcare company Koru Kids while discussing government childcare policy that could benefit firms in the sector.",
+      "evidence": "AP — standards watchdog finds Sunak inadvertently broke rules",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Rishi Sunak",
+        "confirmed minor rules breach"
+      ],
+      "sources": [
+        {
+          "label": "AP — standards watchdog finds Sunak inadvertently broke rules",
+          "url": "https://apnews.com/article/ecaee002fa07a9904143143cf5288137"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed minor rules breach",
+      "court_outcome": "The commissioner found the breach was inadvertent and imposed no sanction.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The finding was a genuine rules breach, but the watchdog explicitly rejected the idea that Sunak deliberately concealed the interest.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Sunak apologised and said the omission arose from a misunderstanding of the declaration rules.",
+      "scandal_status": "confirmed minor rules breach",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "netmigration-peak-2023",
@@ -2018,7 +3510,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "clark-vinogradova-charges-2024",
@@ -2050,7 +3549,55 @@
       "court_outcome": "",
       "migration_context": "No immigration or ethnicity conclusion should be inferred from names.",
       "public_controversy": "At charging stage guilt is not established. The site therefore labels this OPEN rather than presenting the allegations as convictions.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "bulgarian-benefit-fraud-53m-2024",
+      "year": 2024,
+      "date": "10 April 2024",
+      "title": "Five Bulgarian nationals plead guilty in £53.9m Universal Credit fraud — largest benefit fraud case in England and Wales",
+      "category": "Fraud & Public Money",
+      "kind": "Benefit fraud / organised fraud",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "London / England and Wales",
+      "summary": "Five defendants admitted using fabricated Universal Credit claims, false tenancy agreements, shell companies, counterfeit payslips, forged GP notes and false identity documents in a fraud worth £53.9 million.",
+      "evidence": "DWP / GOV.UK — £53.9m benefit fraud case",
+      "confidence": "confirmed",
+      "relationship": "Convictions announced during Rishi Sunak’s term.",
+      "tags": [
+        "Major incident",
+        "Benefit fraud / organised fraud",
+        "London / England and Wales",
+        "Foreign nationality only"
+      ],
+      "sources": [
+        {
+          "label": "DWP / GOV.UK — £53.9m benefit fraud case",
+          "url": "https://www.gov.uk/government/news/fraudsters-behind-539-million-benefits-scam-brought-to-justice-in-countrys-largest-benefit-fraud-case"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "All five pleaded guilty; sentencing and confiscation proceedings followed.",
+      "migration_context": "GOV.UK states all five defendants were Bulgarian nationals. The source does not by itself establish when or under what immigration route each entered the UK.",
+      "migration_relevance": "Foreign nationality only",
+      "public_controversy": "This is directly relevant to welfare-system abuse, but nationality alone should not be converted into an unsupported claim about immigration status.",
+      "timeline_type": "Major incident",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "colin-mcneil-websites-2024",
@@ -2082,7 +3629,14 @@
       "court_outcome": "",
       "migration_context": "No immigration connection to the offender is asserted; the content promoted racist and anti-minority violence.",
       "public_controversy": "The case concerns online facilitation and encouragement rather than a completed physical attack.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "sunderland-disorder-2aug2024",
@@ -2114,7 +3668,14 @@
       "court_outcome": "",
       "public_controversy": "Courts sentenced participants for specific offences; broader explanations remained politically contested.",
       "migration_context": "Migration and asylum grievances were present in the wider mobilization, but individual criminal responsibility remained case-specific.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "wagner-warehouse-arson-2024",
@@ -2146,7 +3707,59 @@
       "court_outcome": "",
       "migration_context": "This is a hostile-state / organised-security case, not an immigration-policy case.",
       "public_controversy": "One defendant was acquitted and another was found not guilty on some disclosure counts, illustrating why the site records defendant-level outcomes rather than treating every charge as proven.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "rhiannon-whyte-murder-2024",
+      "year": 2024,
+      "date": "20 October 2024 / conviction 24 October 2025",
+      "title": "Sudanese resident of asylum hotel convicted of murdering hotel worker Rhiannon Whyte",
+      "category": "Crime & Safety",
+      "kind": "Murder / knife attack",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Walsall",
+      "summary": "Deng Chol Majek followed 27-year-old hotel worker Rhiannon Whyte to a railway station and stabbed her 23 times with a screwdriver. He had been staying at the hotel where she worked, which housed asylum seekers.",
+      "evidence": "CPS — Rhiannon Whyte murder conviction / Reuters — Sudanese teen convicted of murdering asylum-hotel worker",
+      "confidence": "confirmed",
+      "relationship": "Murder occurred during Keir Starmer’s term; conviction followed in 2025.",
+      "tags": [
+        "Major incident",
+        "Murder / knife attack",
+        "Walsall",
+        "Direct immigration/asylum context"
+      ],
+      "sources": [
+        {
+          "label": "CPS — Rhiannon Whyte murder conviction",
+          "url": "https://www.cps.gov.uk/west-midlands/news/man-convicted-murdering-walsall-hotel-worker-train-station-platform"
+        },
+        {
+          "label": "Reuters — Sudanese teen convicted of murdering asylum-hotel worker",
+          "url": "https://www.reuters.com/world/sudanese-teen-found-guilty-murdering-asylum-hotel-worker-england-2025-10-24/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Majek convicted of murder and possession of an offensive weapon.",
+      "migration_context": "CPS identifies Majek as a Sudanese national and states he was staying at the hotel housing asylum seekers. Reuters likewise describes him as a Sudanese national who had been staying there.",
+      "migration_relevance": "Direct immigration/asylum context",
+      "public_controversy": "The prosecution said he singled her out for an unknown reason; the site therefore does not invent a motive.",
+      "timeline_type": "Major incident",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "alex-hutton-assault-terrorism-2024",
@@ -2178,7 +3791,14 @@
       "court_outcome": "",
       "migration_context": "No migrant-perpetrator connection; included to record extreme-right violence consistently.",
       "public_controversy": "The case links terrorism material and a separately charged assault, but those are legally distinct offences.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "neo-nazi-asylum-seeker-stabbing-2024",
@@ -2210,7 +3830,14 @@
       "court_outcome": "",
       "public_controversy": "This entry is included to record anti-migrant extremist violence consistently alongside Islamist and other extremist violence.",
       "migration_context": "The victim was an Eritrean asylum seeker; the offender's anti-asylum motive was established in prosecution evidence.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Direct immigration/asylum status",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "cse-17100-2024",
@@ -2242,7 +3869,14 @@
       "court_outcome": "",
       "public_controversy": "Casey concluded official data still could not give a reliable national picture of group-based CSE.",
       "migration_context": "This is not a Muslim/immigrant-specific statistic.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "manchester-airport-incident-2024",
@@ -2274,7 +3908,14 @@
       "court_outcome": "",
       "migration_context": "No immigration or religious classification is asserted unless established by court evidence.",
       "public_controversy": "This is a direct example of public perception diverging from the later CPS charging decision: viral video focused criticism on police, while prosecutors said the evidential test supported charges against two civilians and not officers. Charges are not convictions.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "choudary-conviction-2024",
@@ -2306,7 +3947,14 @@
       "court_outcome": "",
       "public_controversy": "The court established the offences. Public controversy concerns his long history of extremist activism and earlier state responses.",
       "migration_context": "Not an immigration case by itself; relevant to Islamist extremism and domestic radicalisation.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "southport-2024",
@@ -2339,7 +3987,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "blackpool-disorder-3aug2024",
@@ -2371,7 +4026,14 @@
       "court_outcome": "",
       "public_controversy": "No single court ruling resolved the wider political interpretation of the disorder.",
       "migration_context": "Part of the wider anti-immigration unrest; case-level causes vary.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "hull-disorder-3aug2024",
@@ -2403,7 +4065,14 @@
       "court_outcome": "",
       "public_controversy": "Courts dealt with individual offences; public debate concerned immigration, misinformation and policing.",
       "migration_context": "The disorder was part of a wider wave strongly associated with anti-immigration mobilization.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "liverpool-disorder-3aug2024",
@@ -2435,7 +4104,14 @@
       "court_outcome": "",
       "public_controversy": "Individual criminal convictions did not determine the broader political cause.",
       "migration_context": "Anti-immigration narratives formed part of the unrest.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "stoke-disorder-3aug2024",
@@ -2467,7 +4143,14 @@
       "court_outcome": "",
       "public_controversy": "Broader social interpretations went beyond the narrow issues decided in criminal cases.",
       "migration_context": "Anti-immigration rhetoric was part of the wider unrest.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "southport-disorder-30jul2024",
@@ -2499,7 +4182,14 @@
       "court_outcome": "",
       "public_controversy": "Courts prosecuted rioters individually; public debate focused heavily on misinformation, policing and immigration rhetoric.",
       "migration_context": "Immigration link to the underlying murders: false. Migration/asylum rhetoric was part of subsequent disorder.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "uk-disorder-2024",
@@ -2537,7 +4227,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "aldershot-disorder-31jul2024",
@@ -2569,7 +4266,14 @@
       "court_outcome": "",
       "public_controversy": "Public controversy concerned local asylum accommodation as well as disorder and misinformation.",
       "migration_context": "Asylum accommodation was a focus of the protest.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "hartlepool-disorder-31jul2024",
@@ -2601,7 +4305,14 @@
       "court_outcome": "",
       "public_controversy": "Individual sentences do not amount to a judicial ruling on the broader political causes of the unrest.",
       "migration_context": "Anti-immigration and anti-asylum narratives formed part of the wider unrest.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "london-disorder-31jul2024",
@@ -2633,7 +4344,14 @@
       "court_outcome": "",
       "public_controversy": "Court cases addressed individual criminal conduct; political debate focused on protest, disorder and immigration.",
       "migration_context": "Migration rhetoric was explicit in the protest context; no causal link to the Southport murders.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "middlesbrough-riot-4aug2024",
@@ -2665,7 +4383,14 @@
       "court_outcome": "",
       "public_controversy": "Individual sentences and the public argument over immigration and cohesion addressed different questions.",
       "migration_context": "The riot formed part of the wider anti-immigration unrest.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "rotherham-hotel-riot-4aug2024",
@@ -2697,7 +4422,14 @@
       "court_outcome": "",
       "public_controversy": "Courts convicted participants for violent offences; wider debate concerned asylum hotels, community anger and far-right mobilisation.",
       "migration_context": "Direct asylum-policy context: the building was being used as asylum accommodation.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "tamworth-hotel-riot-4aug2024",
@@ -2729,7 +4461,14 @@
       "court_outcome": "",
       "public_controversy": "Court proceedings addressed criminal conduct; political responsibility for asylum-hotel policy remained separate.",
       "migration_context": "Direct asylum-accommodation context.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "plymouth-disorder-5aug2024",
@@ -2761,7 +4500,146 @@
       "court_outcome": "",
       "public_controversy": "Court outcomes on individual offences did not settle wider political narratives.",
       "migration_context": "Part of the wider migration-focused unrest, while local incidents involved multiple groups.",
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "sunak-dday-apology-2024",
+      "year": 2024,
+      "date": "6–7 June 2024",
+      "title": "Sunak leaves D-Day commemorations early for campaign interview, then apologises",
+      "category": "Policy Failure / U-turn",
+      "kind": "Political gaffe / admission",
+      "tone": "negative",
+      "administration": "Rishi Sunak",
+      "location": "United Kingdom",
+      "summary": "During the 2024 election campaign Sunak left international D-Day commemorations in Normandy before a major leaders’ event to record a television interview. Consequence: The decision caused anger among veterans, Conservative politicians and opponents and became a major campaign gaffe.",
+      "evidence": "Reuters — Sunak apologises for leaving D-Day events early",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Rishi Sunak"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Sunak apologises for leaving D-Day events early",
+          "url": "https://www.reuters.com/world/uk/uk-pm-sunak-apologises-leaving-d-day-commemorations-early-2024-06-07/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "A small but highly visible political misjudgement, included under the same accountability format.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Sunak said leaving early had been a mistake and apologised the next morning.",
+      "decision_made": "During the 2024 election campaign Sunak left international D-Day commemorations in Normandy before a major leaders’ event to record a television interview.",
+      "consequence": "The decision caused anger among veterans, Conservative politicians and opponents and became a major campaign gaffe.",
+      "reaction_or_doubling_down": "Sunak said leaving early had been a mistake and apologised the next morning.",
+      "reversal_or_admission": "No policy reversal was involved; this is an explicit admission of a bad judgement call.",
+      "scandal_status": "",
       "detail_notes": []
+    },
+    {
+      "id": "starmer-freebies-2024",
+      "year": 2024,
+      "date": "August–October 2024",
+      "title": "Starmer “freebies” row over clothing, glasses, tickets and donor-funded hospitality",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "Starmer faced sustained scrutiny after disclosures that he had accepted more than £100,000 in gifts, benefits and hospitality since 2019, including clothing, glasses and tickets, while donor Waheed Alli also funded items linked to his wife.",
+      "evidence": "Reuters — Starmer accepted more gifts than any other MP in Sky analysis / Reuters — Starmer says he will stop accepting clothing donations / AP — Starmer repays more than £6,000 of gifts",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Keir Starmer",
+        "gifts largely declared / declaration controversy"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Starmer accepted more gifts than any other MP in Sky analysis",
+          "url": "https://www.reuters.com/world/uk/uk-pm-starmer-accepted-more-gifts-than-any-other-member-parliament-sky-news-2024-09-18/"
+        },
+        {
+          "label": "Reuters — Starmer says he will stop accepting clothing donations",
+          "url": "https://www.reuters.com/world/uk/uk-pm-starmer-says-he-will-not-accept-any-more-donations-clothes-2024-09-20/"
+        },
+        {
+          "label": "AP — Starmer repays more than £6,000 of gifts",
+          "url": "https://apnews.com/article/74e7242bf2f03ea119ef324d5abc8dcd"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "gifts largely declared / declaration controversy",
+      "court_outcome": "The gifts themselves were legal. The controversy led to repayments and tighter transparency rules; reporting also raised questions about late declaration of some items.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "Criticism focused on hypocrisy and access, especially while the government was cutting winter fuel support for many pensioners.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Starmer said the gifts were within the rules, later stopped accepting clothing donations and repaid more than £6,000 worth of gifts and hospitality.",
+      "scandal_status": "gifts largely declared / declaration controversy",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "starmer-alli-pass-2024",
+      "year": 2024,
+      "date": "August–October 2024",
+      "title": "Waheed Alli Downing Street pass fuels “cash for access” and cronyism accusations",
+      "category": "Political Scandal",
+      "kind": "Political scandal",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "Labour donor Waheed Alli was found to have held a temporary Downing Street security pass despite having no formal government role, while also being a significant donor to Labour and Starmer.",
+      "evidence": "Guardian — how the Freebiegate controversy developed / Reuters — Alli investigated by Lords standards watchdog",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Political scandal",
+        "Keir Starmer",
+        "reported access controversy / no improper favour proven"
+      ],
+      "sources": [
+        {
+          "label": "Guardian — how the Freebiegate controversy developed",
+          "url": "https://www.theguardian.com/lifeandstyle/2024/dec/27/the-public-expected-us-to-be-squeaky-clean-now-they-think-were-all-the-same-how-freebiegate-rocked-labour"
+        },
+        {
+          "label": "Reuters — Alli investigated by Lords standards watchdog",
+          "url": "https://www.reuters.com/world/uk/uk-politician-alli-under-investigation-by-lords-commissioner-2024-10-02/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "reported access controversy / no improper favour proven",
+      "court_outcome": "No evidence was established that Alli received an improper government favour in exchange for donations. Separate parliamentary findings later concerned Alli’s own declaration breaches.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "The issue became politically potent because it linked large donations, personal gifts and unusual access to No. 10.",
+      "timeline_type": "Political scandal",
+      "politician_response": "Downing Street said temporary passes can be issued for operational reasons. Starmer rejected claims that donations bought influence.",
+      "scandal_status": "reported access controversy / no improper favour proven",
+      "detail_notes": [],
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "jason-savage-plot-2024",
@@ -2793,7 +4671,14 @@
       "court_outcome": "",
       "migration_context": "CPS described Savage as a Muslim convert motivated by Islamic State ideology; this is not an immigration-status claim.",
       "public_controversy": "The intended target included an Islamic cleric who opposed al-Qaida and ISIS, complicating simplistic community narratives.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "restrictions-2024",
@@ -2825,7 +4710,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "rwanda-cancel-2024",
@@ -2857,7 +4749,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "russian-spy-ring-2025",
@@ -2889,7 +4788,14 @@
       "court_outcome": "",
       "public_controversy": "Court established espionage offences; broader national-security implications extend beyond migration policy.",
       "migration_context": "Foreign-nationality or immigration status should not be equated with immigration-policy causation.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Direct immigration/asylum status",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "casey-rochdale-convictions-2025",
@@ -2922,7 +4828,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "unite-kingdom-2025",
@@ -2955,7 +4868,137 @@
       "court_outcome": "Individual protest-related cases proceeded separately.",
       "migration_context": "Direct: the march was explicitly anti-immigration.",
       "public_controversy": "Supporters framed the march around borders and free speech; opponents and counter-protesters described it as divisive or far-right.",
-      "timeline_type": "Protest"
+      "timeline_type": "Protest",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "eu-rights-immigration-scam-2025",
+      "year": 2025,
+      "date": "16 June 2025 / published 7 January 2026",
+      "title": "Immigration adviser and accomplice convicted over EU Treaty Rights immigration scam",
+      "category": "Fraud & Public Money",
+      "kind": "Immigration advice fraud",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "West Midlands",
+      "summary": "Syed Ali Shah Gilani pleaded guilty to providing unqualified immigration advice and services; Risalat Hussain pleaded guilty to fraud by false representation in a scheme linked to immigration status.",
+      "evidence": "Home Office — convictions following EU Treaty Rights immigration scam",
+      "confidence": "confirmed",
+      "relationship": "Convictions entered during Keir Starmer’s term.",
+      "tags": [
+        "Court & Investigation",
+        "Immigration advice fraud",
+        "West Midlands",
+        "Immigration-system abuse"
+      ],
+      "sources": [
+        {
+          "label": "Home Office — convictions following EU Treaty Rights immigration scam",
+          "url": "https://www.gov.uk/government/news/convictions-following-eu-treaty-rights-immigration-scam"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Gilani received a suspended prison sentence and compensation order; Hussain was fined.",
+      "migration_context": "The offences directly concerned fraudulent or unqualified immigration advice and applications.",
+      "migration_relevance": "Immigration-system abuse",
+      "public_controversy": "This record concerns exploitation/manipulation of immigration rules rather than violent crime.",
+      "timeline_type": "Court & Investigation",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "asylum-hotel-cost-protests-2025",
+      "year": 2025,
+      "date": "17 December 2025",
+      "title": "Reuters documents asylum-hotel conduct claims, online videographers and near-weekly protests",
+      "category": "Social & Moral Controversy",
+      "kind": "Social controversy / asylum hotels",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Multiple UK asylum hotels",
+      "summary": "Reuters reported on a network of videographers filming inside and around asylum hotels. Some described residents rejecting hotel food or making questionable asylum claims, while the report explicitly said Reuters could not verify several individual anecdotes. Police said online content was helping intensify protests.",
+      "evidence": "Reuters — asylum-hotel videographers and protests",
+      "confidence": "reported",
+      "relationship": "Reported during Keir Starmer’s term.",
+      "tags": [
+        "News",
+        "Social controversy / asylum hotels",
+        "Multiple UK asylum hotels",
+        "Contextual"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — asylum-hotel videographers and protests",
+          "url": "https://www.reuters.com/world/uk/how-combative-videographers-fire-up-britains-asylum-hotel-protests-2025-12-17/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "reported / mixed verification",
+      "court_outcome": "No single court outcome; some videographers faced arrests or bail restrictions.",
+      "migration_context": "The report concerns residents of asylum hotels and the public reaction to government-funded accommodation. Some conduct allegations were firsthand claims that Reuters could not independently verify.",
+      "migration_relevance": "Contextual",
+      "public_controversy": "Included because the site now records widely reported moral/social controversies, but unverified anecdotes are labelled as such rather than presented as facts.",
+      "timeline_type": "News",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "people-smuggling-uk-france-network-2025",
+      "year": 2025,
+      "date": "17 July 2025",
+      "title": "Twelve-person smuggling network jailed after moving migrants between UK and France with fake IDs",
+      "category": "Immigration System Abuse",
+      "kind": "People smuggling / fake documents",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "London / UK–France",
+      "summary": "A major network organised migrants, drivers and HGV rendezvous, collected money and supplied fake identity documents. CPS says twelve members received prison sentences.",
+      "evidence": "CPS — people smugglers jailed for UK–France operation",
+      "confidence": "confirmed",
+      "relationship": "Sentences occurred during Keir Starmer’s term.",
+      "tags": [
+        "Major incident",
+        "People smuggling / fake documents",
+        "London / UK–France",
+        "Immigration-system abuse"
+      ],
+      "sources": [
+        {
+          "label": "CPS — people smugglers jailed for UK–France operation",
+          "url": "https://www.cps.gov.uk/cps/news/people-smugglers-jailed-uk-france-operation"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Network members received sentences ranging up to 13½ years.",
+      "migration_context": "The offences were explicitly conspiracy to assist unlawful immigration and possession of false identity documents.",
+      "migration_relevance": "Immigration-system abuse",
+      "public_controversy": "Migrants in the operation are potential victims/customers of smugglers; this record concerns organised immigration crime, not migrant criminality as a group.",
+      "timeline_type": "Major incident",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "iran-nsa-charges-2025",
@@ -2987,7 +5030,96 @@
       "court_outcome": "",
       "public_controversy": "Because proceedings were active, the site must not present guilt as established.",
       "migration_context": "Nationality is established by the CPS report; immigration-policy causation is not.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Foreign nationality only",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "one-in-one-out-eritrean-injunction-2025",
+      "year": 2025,
+      "date": "17 September 2025",
+      "title": "Eritrean asylum seeker temporarily blocks removal to France under “one in, one out” scheme",
+      "category": "Court & Investigation",
+      "kind": "Asylum removal / legal challenge",
+      "tone": "neutral",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom / France",
+      "summary": "A High Court injunction temporarily prevented removal of a 25-year-old Eritrean asylum seeker to France after he raised a trafficking claim. The government described last-minute legal blocks as a threat to the new removal scheme.",
+      "evidence": "Reuters — legal challenge blocks migrant removal",
+      "confidence": "open",
+      "relationship": "Occurred during Keir Starmer’s term.",
+      "tags": [
+        "Court & Investigation",
+        "Asylum removal / legal challenge",
+        "United Kingdom / France",
+        "Direct immigration/asylum status"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — legal challenge blocks migrant removal",
+          "url": "https://www.reuters.com/world/uk/uk-government-says-it-will-fight-legal-blocks-preventing-migrant-removals-2025-09-17/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "open / legal proceedings",
+      "court_outcome": "Temporary injunction; merits not finally resolved at time of report.",
+      "migration_context": "Reuters explicitly identifies the claimant as an Eritrean asylum seeker who arrived by small boat.",
+      "migration_relevance": "Direct immigration/asylum status",
+      "public_controversy": "This is a legal/process controversy rather than misconduct: the court found a serious issue to be tried, while ministers criticised last-minute claims.",
+      "timeline_type": "Court & Investigation",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "ebid-12m-smuggling-operation-2025",
+      "year": 2025,
+      "date": "20 May 2025",
+      "title": "UK-based smuggler jailed 25 years over £12.3m network moving thousands of migrants",
+      "category": "Immigration System Abuse",
+      "kind": "People smuggling / organised immigration crime",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "London / Mediterranean",
+      "summary": "Ahmed Ramadan Mohamad Ebid helped organise vessels and crews moving thousands of migrants from Libya to Italy. Authorities intercepted seven crossings involving 3,781 people; prosecutors estimated the network made more than £12.3 million.",
+      "evidence": "CPS — £12.3m people-smuggling operation",
+      "confidence": "confirmed",
+      "relationship": "Sentence occurred during Keir Starmer’s term; offending was mainly 2022–2023.",
+      "tags": [
+        "Major incident",
+        "People smuggling / organised immigration crime",
+        "London / Mediterranean",
+        "Immigration-system abuse"
+      ],
+      "sources": [
+        {
+          "label": "CPS — £12.3m people-smuggling operation",
+          "url": "https://www.cps.gov.uk/cps/news/people-smuggler-jailed-role-ps123m-operation"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Guilty plea; 25-year prison sentence.",
+      "migration_context": "The case is explicitly organised unlawful-immigration facilitation. CPS says Ebid was UK-based.",
+      "migration_relevance": "Immigration-system abuse",
+      "public_controversy": "A Newton hearing rejected Ebid’s claim that he was a low-level humanitarian actor and found he acted at a very high level for personal gain.",
+      "timeline_type": "Major incident",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "ocsaus-179-live-2025",
@@ -3019,7 +5151,14 @@
       "court_outcome": "",
       "public_controversy": "The difficulty identifying case types was itself part of Casey's criticism of the data system.",
       "migration_context": "No demographic or immigration inference should be made from the aggregate.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "saadaoui-hussein-plot-2025",
@@ -3051,7 +5190,178 @@
       "court_outcome": "",
       "public_controversy": "Court findings are definitive on the charged offences; public debate may focus on ideology and prevention.",
       "migration_context": "Migration status is not asserted unless a source establishes it.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "home-office-asylum-bribery-2025",
+      "year": 2025,
+      "date": "23 June 2025",
+      "title": "Home Office asylum officer jailed for taking bribes to overturn refused asylum claim",
+      "category": "Fraud & Public Money",
+      "kind": "Bribery / asylum-system corruption",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Manchester",
+      "summary": "Home Office executive officer Imran Mulla abused access to asylum files to grant an application after receiving money. Nural Amin Begh, a Bangladeshi foreign national whose asylum claim had been refused, paid £3,500 and was jailed for bribery.",
+      "evidence": "CPS — former Home Office employee jailed for bribery",
+      "confidence": "confirmed",
+      "relationship": "Prosecution and sentence occurred during Keir Starmer’s term.",
+      "tags": [
+        "Court & Investigation",
+        "Bribery / asylum-system corruption",
+        "Manchester",
+        "Immigration-system abuse"
+      ],
+      "sources": [
+        {
+          "label": "CPS — former Home Office employee jailed for bribery",
+          "url": "https://www.cps.gov.uk/north-west/news/former-home-office-employee-jailed-bribery"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Mulla: 4½ years; Begh: 18 months.",
+      "migration_context": "The CPS expressly states that Begh was a Bangladeshi foreign national with a refused asylum application and that the bribery was used to reverse the decision.",
+      "migration_relevance": "Immigration-system abuse",
+      "public_controversy": "The case demonstrates corruption inside the asylum system; it should not be generalised to asylum applicants as a class.",
+      "timeline_type": "Court & Investigation",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "epping-kebatu-wrong-release-2025",
+      "year": 2025,
+      "date": "24 October 2025",
+      "title": "Epping sex offender accidentally released from prison after conviction, triggering three-day manhunt",
+      "category": "Government Failure",
+      "kind": "Prison release failure / sex-offender case",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Essex / London",
+      "summary": "Hadush Gerberslasie Kebatu, the Ethiopian asylum seeker whose sexual-assault case sparked protests at the Bell Hotel, was mistakenly released from prison after sentencing. He was recaptured after a three-day search.",
+      "evidence": "Reuters — asylum seeker wrongly released from prison",
+      "confidence": "confirmed",
+      "relationship": "Wrong release occurred during Keir Starmer’s term.",
+      "tags": [
+        "News",
+        "Prison release failure / sex-offender case",
+        "Essex / London",
+        "Direct immigration/asylum status"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — asylum seeker wrongly released from prison",
+          "url": "https://www.reuters.com/world/africa/uk-asylum-seeker-jailed-sex-assault-released-by-mistake-2025-10-24/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Already convicted and sentenced; erroneous release was an administrative failure.",
+      "migration_context": "Reuters explicitly identifies Kebatu as an Ethiopian asylum seeker.",
+      "migration_relevance": "Direct immigration/asylum status",
+      "public_controversy": "The mistaken release intensified public anger over asylum accommodation and competence of the justice system.",
+      "timeline_type": "News",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "fake-immigration-lawyers-2025",
+      "year": 2025,
+      "date": "27 April 2025",
+      "title": "Government announces tougher penalties for fake immigration advisers exploiting asylum applicants",
+      "category": "Immigration System Abuse",
+      "kind": "Rogue immigration advice / exploitation",
+      "tone": "neutral",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "The government announced powers for fines of up to £15,000 against people illegally posing as immigration lawyers or advisers, citing exploitation and rogue advice in the asylum system.",
+      "evidence": "Home Office — powers against fake asylum lawyers",
+      "confidence": "confirmed",
+      "relationship": "Policy announced during Keir Starmer’s term.",
+      "tags": [
+        "Policy",
+        "Rogue immigration advice / exploitation",
+        "United Kingdom",
+        "Immigration-system abuse"
+      ],
+      "sources": [
+        {
+          "label": "Home Office — powers against fake asylum lawyers",
+          "url": "https://www.gov.uk/government/news/new-powers-to-root-out-fake-lawyers-giving-rogue-asylum-advice"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "policy response",
+      "court_outcome": "Not a single criminal case; policy response to a documented problem.",
+      "migration_context": "This is an immigration-system integrity story rather than migrant offending.",
+      "migration_relevance": "Immigration-system abuse",
+      "public_controversy": "The problem involves people exploiting migrants and the asylum system; responsibility can lie with advisers rather than applicants.",
+      "timeline_type": "Policy",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "epping-kebatu-deported-2025",
+      "year": 2025,
+      "date": "29 October 2025",
+      "title": "Epping sex offender deported to Ethiopia after mistaken release and recapture",
+      "category": "Court & Investigation",
+      "kind": "Deportation / follow-up",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom / Ethiopia",
+      "summary": "After the mistaken release and three-day manhunt, the government deported Hadush Gerberslasie Kebatu to Ethiopia.",
+      "evidence": "Reuters — Kebatu deported to Ethiopia",
+      "confidence": "confirmed",
+      "relationship": "Government response occurred during Keir Starmer’s term.",
+      "tags": [
+        "News",
+        "Deportation / follow-up",
+        "United Kingdom / Ethiopia",
+        "Direct immigration/asylum status"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Kebatu deported to Ethiopia",
+          "url": "https://www.reuters.com/world/uk/uk-deports-ethiopian-sex-offender-who-was-wrongly-released-prison-2025-10-29/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Deported after serving only part of the original process because of removal action following recapture.",
+      "migration_context": "Reuters identifies him as an Ethiopian asylum seeker and records his deportation.",
+      "migration_relevance": "Direct immigration/asylum status",
+      "public_controversy": "This follow-up lets readers see the complete sequence: offence → conviction → mistaken release → recapture → deportation.",
+      "timeline_type": "News",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "henry-nowak-2025",
@@ -3090,7 +5400,14 @@
       "court_outcome": "Digwa was convicted of murder and sentenced to life with a minimum term of 21 years.",
       "migration_context": "The killer was identified in AP reporting as Sikh; the reliable sources cited here do not establish that the murder was caused by immigration policy.",
       "public_controversy": "The court rejected Digwa’s claim that he had been the victim of racist aggression. Public debate focused on whether the accusation of racism distorted police decision-making; Nowak’s father urged that the case not be used to inflame racial or religious division.",
-      "timeline_type": "Major incident"
+      "timeline_type": "Major incident",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "jordan-richardson-plot-2025",
@@ -3122,7 +5439,14 @@
       "court_outcome": "",
       "public_controversy": "The court established terrorism offences; broader ideological debate is separate.",
       "migration_context": "No immigration connection should be inferred; CPS described him as an Islamic convert.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "dighton-police-station-2025",
@@ -3154,7 +5478,55 @@
       "court_outcome": "",
       "public_controversy": "Court finding established terrorism connection; online speculation should not override that record.",
       "migration_context": "No migration connection established in the source.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "brighton-beach-asylum-hotel-rape-2025",
+      "year": 2025,
+      "date": "4 October 2025 / convictions 23 April 2026",
+      "title": "Three asylum/immigration-hotel residents convicted over rape of woman on Brighton beach",
+      "category": "Crime & Safety",
+      "kind": "Rape / sexual violence",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Brighton",
+      "summary": "Ibrahim Alshafe and Abdulla Ahmadi raped an intoxicated woman after she became separated from friends; Karin Al-Danasurt filmed the assault and was convicted as a participant. CPS states all three lived in a hotel for people seeking or appealing asylum or immigration status.",
+      "evidence": "CPS — Brighton beach rape convictions",
+      "confidence": "confirmed",
+      "relationship": "Attack occurred during Keir Starmer’s term; convictions followed in April 2026.",
+      "tags": [
+        "Major incident",
+        "Rape / sexual violence",
+        "Brighton",
+        "Direct immigration/asylum status"
+      ],
+      "sources": [
+        {
+          "label": "CPS — Brighton beach rape convictions",
+          "url": "https://www.cps.gov.uk/south-east/news/three-men-guilty-raping-woman-brighton-beach"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "All three found guilty of rape offences.",
+      "migration_context": "CPS explicitly states all three were resident at accommodation for people seeking or appealing asylum or immigration status.",
+      "migration_relevance": "Direct immigration/asylum status",
+      "public_controversy": "This is a direct case-level immigration connection; it does not establish a population-level crime rate.",
+      "timeline_type": "Major incident",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "operation-beaconport-1273-2025",
@@ -3186,7 +5558,14 @@
       "court_outcome": "",
       "public_controversy": "This is a batch record. It must not be displayed as 1,273 convictions or 1,273 proven institutional cover-ups.",
       "migration_context": "Ethnicity-data gaps and offender-network profiling are explicitly part of the review, but case-level demographic facts vary.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "palestine-action-138-charges-2025",
@@ -3218,6 +5597,134 @@
       "court_outcome": "",
       "public_controversy": "There is significant public controversy over the proscription and charging policy; guilt must be assessed case by case by courts.",
       "migration_context": "Not an immigration case. Included because it is a major public-order / terrorism-law enforcement controversy.",
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "bell-hotel-injunction-2025",
+      "year": 2025,
+      "date": "August 2025",
+      "title": "Epping council wins temporary injunction against Bell Hotel asylum use; government appeals",
+      "category": "Court & Investigation",
+      "kind": "Asylum hotel / court dispute",
+      "tone": "neutral",
+      "administration": "Keir Starmer",
+      "location": "Epping, Essex",
+      "summary": "After protests linked to the Kebatu sexual-assault case, a court temporarily blocked use of the Bell Hotel for asylum accommodation. The government appealed, arguing that similar injunctions could destabilise the national asylum-housing system.",
+      "evidence": "Reuters — government fights Epping asylum-hotel injunction",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Keir Starmer’s term.",
+      "tags": [
+        "Court & Investigation",
+        "Asylum hotel / court dispute",
+        "Epping, Essex",
+        "Direct immigration/asylum status"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — government fights Epping asylum-hotel injunction",
+          "url": "https://www.reuters.com/world/uk/injunction-over-asylum-seekers-hotel-risks-further-protests-uk-government-says-2025-08-28/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "court dispute",
+      "court_outcome": "Temporary injunction granted; government appealed.",
+      "migration_context": "The dispute directly concerned state accommodation of asylum seekers.",
+      "migration_relevance": "Direct immigration/asylum status",
+      "public_controversy": "Local-control, public-safety and national-asylum-capacity arguments sharply diverged.",
+      "timeline_type": "Court & Investigation",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "starmer-grooming-inquiry-uturn-2025",
+      "year": 2025,
+      "date": "January–14 June 2025",
+      "title": "Starmer resists new national grooming-gangs inquiry, then accepts one after Casey review",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "For months Starmer’s government resisted demands for another national statutory inquiry, arguing that existing recommendations should be implemented and local inquiries supported. Consequence: Political pressure intensified while the Casey audit found serious data and institutional problems and recommended a national inquiry.",
+      "evidence": "Reuters — Starmer announces national grooming-gangs inquiry after previously resisting",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Keir Starmer"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Starmer announces national grooming-gangs inquiry after previously resisting",
+          "url": "https://www.reuters.com/world/uk/britains-starmer-there-will-be-national-inquiry-into-grooming-gangs-2025-06-14/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "The later decision was a substantive policy reversal, although the government argued it followed new evidence from Casey rather than simply yielding to political pressure.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Starmer initially defended the government’s approach and criticised misinformation around the issue.",
+      "decision_made": "For months Starmer’s government resisted demands for another national statutory inquiry, arguing that existing recommendations should be implemented and local inquiries supported.",
+      "consequence": "Political pressure intensified while the Casey audit found serious data and institutional problems and recommended a national inquiry.",
+      "reaction_or_doubling_down": "Starmer initially defended the government’s approach and criticised misinformation around the issue.",
+      "reversal_or_admission": "On 14 June 2025 he accepted Casey’s recommendation and announced a new national inquiry.",
+      "scandal_status": "",
+      "detail_notes": []
+    },
+    {
+      "id": "starmer-winter-fuel-uturn-2025",
+      "year": 2025,
+      "date": "July 2024–9 June 2025",
+      "title": "Starmer government cuts winter fuel support for most pensioners, then restores it to millions",
+      "category": "Policy Failure / U-turn",
+      "kind": "Policy failure / U-turn",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "Soon after taking office, Labour restricted winter fuel payments to the poorest pensioners as part of its fiscal tightening. Consequence: The decision affected roughly 11 million pensioners, generated months of backlash and was widely blamed for damaging Labour politically.",
+      "evidence": "Reuters — winter fuel payments restored to millions",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term",
+      "tags": [
+        "Policy failure",
+        "U-turn",
+        "Keir Starmer"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — winter fuel payments restored to millions",
+          "url": "https://www.reuters.com/world/uk/uk-restore-winter-fuel-payments-millions-pensioners-major-u-turn-2025-06-09/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "confirmed sequence",
+      "court_outcome": "The government retained some means-testing, so this was a substantial reversal rather than a complete restoration of the old universal system.",
+      "migration_context": "No migration connection required.",
+      "migration_relevance": "No established link",
+      "public_controversy": "",
+      "timeline_type": "Policy failure / U-turn",
+      "politician_response": "Starmer and Reeves defended the initial cut as necessary because of the public finances, then later said improved finances allowed support to be widened again.",
+      "decision_made": "Soon after taking office, Labour restricted winter fuel payments to the poorest pensioners as part of its fiscal tightening.",
+      "consequence": "The decision affected roughly 11 million pensioners, generated months of backlash and was widely blamed for damaging Labour politically.",
+      "reaction_or_doubling_down": "Starmer and Reeves defended the initial cut as necessary because of the public finances, then later said improved finances allowed support to be widened again.",
+      "reversal_or_admission": "In June 2025 the government restored payments to millions of pensioners, a major U-turn costing about £1.25 billion.",
+      "scandal_status": "",
       "detail_notes": []
     },
     {
@@ -3251,7 +5758,55 @@
       "court_outcome": "Convicted and jailed for 12 months.",
       "migration_context": "Direct: the defendant was an Ethiopian asylum seeker housed at the Bell Hotel after arriving by small boat.",
       "public_controversy": "The criminal case became a catalyst for protests over asylum hotels and fears about public safety.",
-      "timeline_type": "News"
+      "timeline_type": "News",
+      "migration_relevance": "Direct immigration/asylum status",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "asylum-claims-record-2025",
+      "year": 2025,
+      "date": "Year to June 2025",
+      "title": "UK asylum claims hit record 111,000+; hotel use and small-boat arrivals fuel political pressure",
+      "category": "Statistics",
+      "kind": "Asylum-system pressure / statistics",
+      "tone": "neutral",
+      "administration": "Keir Starmer",
+      "location": "United Kingdom",
+      "summary": "Reuters reported more than 111,000 asylum claims in the year to June 2025, a 14% annual rise and above the previous 2002 peak. Hotel use rose year-on-year and small-boat arrivals were up 38%.",
+      "evidence": "Reuters — asylum claims hit record",
+      "confidence": "confirmed",
+      "relationship": "Recorded during Keir Starmer’s term.",
+      "tags": [
+        "Statistics",
+        "Asylum-system pressure / statistics",
+        "United Kingdom",
+        "Direct immigration/asylum status"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — asylum claims hit record",
+          "url": "https://www.reuters.com/world/uk/opponents-seek-turn-screw-uks-starmer-asylum-claims-hit-record-2025-08-21/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "statistical record",
+      "court_outcome": "Not applicable.",
+      "migration_context": "This is a system-wide asylum statistic, not a crime record.",
+      "migration_relevance": "Direct immigration/asylum status",
+      "public_controversy": "It provides context for why individual crime stories and hotel controversies had unusually large political impact.",
+      "timeline_type": "Statistics",
+      "detail_notes": [],
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "whitepaper-2025",
@@ -3284,7 +5839,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "casey-2025",
@@ -3321,7 +5883,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "netmigration-2025",
@@ -3358,7 +5927,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "morgan-mckenzie-terror-material-2026",
@@ -3390,7 +5966,54 @@
       "court_outcome": "",
       "migration_context": "No immigration connection.",
       "public_controversy": "This entry deliberately preserves the prosecution's distinction: terrorist-material possession was proved; an attack plot was not charged as credible/actionable.",
-      "detail_notes": []
+      "detail_notes": [],
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
+    },
+    {
+      "id": "henry-nowak-protest-2026",
+      "year": 2026,
+      "date": "2 June 2026",
+      "title": "Hundreds protest outside Southampton police station over Henry Nowak case",
+      "category": "Political Accountability",
+      "kind": "Public protest / disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Southampton",
+      "summary": "Hundreds gathered outside Southampton police station after bodycam footage from the Nowak case became public. A later march toward the scene of the killing included clashes with riot police and objects thrown at officers.",
+      "evidence": "Associated Press reporting",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Keir Starmer’s term and directly followed the public release of evidence in the Nowak case.",
+      "tags": [
+        "protest",
+        "Southampton",
+        "Henry Nowak",
+        "policing"
+      ],
+      "sources": [
+        {
+          "label": "AP — Southampton protest and clashes",
+          "url": "https://apnews.com/article/uk-stabbing-victim-handcuffed-sikhs-knives-race-26af31dfd5b39a37f1c27cf5cda2c7ce"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed / related investigations ongoing",
+      "court_outcome": "Not applicable; any protest offences are case-specific.",
+      "migration_context": "The protest was tied to public perceptions of race, policing and knife law rather than a settled immigration-policy finding.",
+      "public_controversy": "Competing narratives included claims of two-tier policing and official warnings against turning the murder into communal division.",
+      "timeline_type": "Protest",
+      "migration_relevance": "Contextual",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "london-cse-review-2026",
@@ -3424,40 +6047,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
-    },
-    {
-      "id": "henry-nowak-protest-2026",
-      "year": 2026,
-      "date": "2 June 2026",
-      "title": "Hundreds protest outside Southampton police station over Henry Nowak case",
-      "category": "Political Accountability",
-      "kind": "Public protest / disorder",
-      "tone": "negative",
-      "administration": "Keir Starmer",
-      "location": "Southampton",
-      "summary": "Hundreds gathered outside Southampton police station after bodycam footage from the Nowak case became public. A later march toward the scene of the killing included clashes with riot police and objects thrown at officers.",
-      "evidence": "Associated Press reporting",
-      "confidence": "confirmed",
-      "relationship": "Occurred during Keir Starmer’s term and directly followed the public release of evidence in the Nowak case.",
-      "tags": [
-        "protest",
-        "Southampton",
-        "Henry Nowak",
-        "policing"
-      ],
-      "sources": [
-        {
-          "label": "AP — Southampton protest and clashes",
-          "url": "https://apnews.com/article/uk-stabbing-victim-handcuffed-sikhs-knives-race-26af31dfd5b39a37f1c27cf5cda2c7ce"
-        }
-      ],
-      "record_type": "news",
-      "case_status": "closed / related investigations ongoing",
-      "court_outcome": "Not applicable; any protest offences are case-specific.",
-      "migration_context": "The protest was tied to public perceptions of race, policing and knife law rather than a settled immigration-policy finding.",
-      "public_controversy": "Competing narratives included claims of two-tier policing and official warnings against turning the murder into communal division.",
-      "timeline_type": "Protest"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "covent-garden-stabbings-2026",
@@ -3490,7 +6087,14 @@
       "court_outcome": "No final court outcome at time of entry.",
       "migration_context": "No immigration connection is reported.",
       "public_controversy": "None required for inclusion: this is intentionally a small breaking-news record.",
-      "timeline_type": "News"
+      "timeline_type": "News",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "simon-levy-system-failures-2026",
@@ -3524,7 +6128,14 @@
       "court_outcome": "Convicted of two murders, rape and other serious offences; life sentence required for murder.",
       "migration_context": "No immigration connection is asserted.",
       "public_controversy": "Authorities themselves accepted failings that allowed Levy to continue offending, making this a documented institutional-failure story rather than merely social-media criticism.",
-      "timeline_type": "Major incident"
+      "timeline_type": "Major incident",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "eid-public-space-2026",
@@ -3562,7 +6173,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "newham-eid-2026",
@@ -3597,7 +6215,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "burnham-2026",
@@ -3633,7 +6258,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     },
     {
       "id": "mosque-directory-2026",
@@ -3676,7 +6308,14 @@
       "public_controversy": "",
       "migration_context": "",
       "detail_notes": [],
-      "location": "United Kingdom"
+      "location": "United Kingdom",
+      "migration_relevance": "No established link",
+      "politician_response": "",
+      "scandal_status": "",
+      "decision_made": "",
+      "consequence": "",
+      "reaction_or_doubling_down": "",
+      "reversal_or_admission": ""
     }
   ],
   "netMigration": [

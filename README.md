@@ -35,3 +35,15 @@ Incident Ledger expansion. Adds individual disorder/security cases plus official
 
 ## v0.9
 Adds a unified master timeline with record-type filters (Major incident, News, Protest, Court & Investigation, Policy, Statistics), integrates linked news into the same stream, adds post-office / current-activity profiles for former prime ministers, and adds several small-news and public-controversy records including Henry Nowak, Epping, Unite the Kingdom, Martyna Ogonowska, Simon Levy and Covent Garden.
+
+
+## v1.0
+Expands migration-linked news and adds a Migration Relevance filter: Direct immigration/asylum status, Immigration-system abuse, Foreign nationality only, Contextual, and No established link. Adds benefit fraud, asylum-hotel sexual violence and murder cases, asylum bribery, illegal-working facilitation, organised smuggling, court challenges and social/moral controversy reporting. Unverified claims remain explicitly labelled.
+
+
+## v1.1
+Adds Political scandal as a master-timeline record type. Scandal entries track first exposure/date, what was alleged or confirmed, politician response, official/judicial outcome, and remaining controversy. Initial set includes Blair cash-for-honours, Brown McBride/expenses, Cameron Panama Papers and Greensill, May Windrush, Johnson flat funding/Partygate/Pincher/Privileges Committee, Truss mini-budget crisis, Sunak Partygate/non-dom/Koru Kids/seatbelt, and Starmer freebies/Alli access.
+
+
+## v1.2
+Adds Policy failure / U-turn as a master-timeline type. Each record separates the original decision, consequence, initial defence/doubling-down, later reversal or admission, and final outcome. Initial cases include Iraq/Chilcot, Brown 10p tax, Cameron migration target and Brexit referendum gamble, May dementia-tax and snap election, Johnson exam algorithm and Paterson standards U-turn, Truss mini-budget, Sunak HS2 and D-Day apology, and Starmer winter-fuel and grooming-inquiry reversals.

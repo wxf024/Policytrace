@@ -113,3 +113,12 @@ html { scroll-behavior: smooth; }
 .current-role span{font:600 .7rem "IBM Plex Mono",monospace;text-transform:uppercase;color:var(--muted)}
 .after-office-current{padding:24px;border:1px solid var(--line);border-radius:14px}
 @media(max-width:720px){.after-office-card{grid-template-columns:1fr}.current-role{grid-template-columns:1fr}}
+
+.migration-filter-row{margin-bottom:4px}
+.migration-pill{border-color:rgba(96,165,250,.35)!important;color:#93c5fd!important}
+
+.type-political-scandal .dot{box-shadow:0 0 0 4px rgba(168,85,247,.14)}
+.type-political-scandal .record-type-pill{border-color:rgba(192,132,252,.45)!important;color:#d8b4fe!important}
+
+.type-policy-failure-u-turn .dot{box-shadow:0 0 0 4px rgba(249,115,22,.16)}
+.type-policy-failure-u-turn .record-type-pill{border-color:rgba(251,146,60,.5)!important;color:#fdba74!important}
