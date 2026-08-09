@@ -74,7 +74,3 @@ Adds only targeted high-value gaps rather than bulk news: Gordon Brown's boom-an
 
 ## v1.9 — hard-coded English cleanup
 Chinese mode now localizes remaining visible English on the UK hero, counters, social-change cards, Promise-vs-Result cards, timeline administration tabs, status/relationship badges, profile links and the full Method/Evidence-before-verdict section. Original-source labels/titles remain untouched.
-
-
-## v2.0 — mobile header/navigation fix
-Fixes mobile header clipping where Overview / People / Migration / Social change / Promise vs Result / Timeline / Method were hidden and only part of About was visible. Mobile header is now a three-row stack: brand, language switch, and a horizontally scrollable section navigation bar. Section anchor offset was also corrected for the taller mobile header.
