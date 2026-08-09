@@ -70,7 +70,3 @@ Fixes remaining hard-coded English visible in Chinese mode: homepage explanatory
 
 ## v1.8 — UK MVP representative accountability completion
 Adds only targeted high-value gaps rather than bulk news: Gordon Brown's boom-and-bust claim versus the 2008–09 downturn, Theresa May's failure to deliver Brexit before resigning, and Boris Johnson's pledge to reduce overall migration versus the revised YE June 2022 net migration estimate. Matching bilingual Promise vs Result cards were added to the relevant profiles.
-
-
-## v1.9 — hard-coded English cleanup
-Chinese mode now localizes remaining visible English on the UK hero, counters, social-change cards, Promise-vs-Result cards, timeline administration tabs, status/relationship badges, profile links and the full Method/Evidence-before-verdict section. Original-source labels/titles remain untouched.
