@@ -32,6 +32,7 @@ let currentLang=localStorage.getItem('policytrace-lang')||'en';
 function pt(k){return profileUi[currentLang]?.[k]||profileUi.en[k]||k}
 function trObj(obj,key){const v=obj?.[key+'_i18n']; if(currentLang==='zh') return v?.zh||''; return v?.en||obj?.[key]||''}
 function adminLabel(a){return a?.name_i18n?.[currentLang]||a?.name||''}
+function partyLabel(a){return currentLang==='zh'?(a?.party_i18n?.zh||({'Labour':'工党','Conservative':'保守党'}[a?.party])||a?.party||''):(a?.party||'')}
 function applyProfileStatic(){
  document.documentElement.lang=currentLang==='zh'?'zh-CN':'en';
  const map={profile:'profile','term-record':'term','after-office':'after','profile-promises':'promise'};
