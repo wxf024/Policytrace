@@ -66,7 +66,3 @@ Chinese mode no longer falls back to English site content. All 153 current event
 
 ## v1.7 — complete Chinese visible UI
 Fixes remaining hard-coded English visible in Chinese mode: homepage explanatory text, causation note, prime-minister section, person cards, scoreboard labels, migration section/chart labels, social-change section/cards, and modal top metadata labels. Original source titles and outbound links remain in their source language.
-
-
-## v1.8 — UK MVP representative accountability completion
-Adds only targeted high-value gaps rather than bulk news: Gordon Brown's boom-and-bust claim versus the 2008–09 downturn, Theresa May's failure to deliver Brexit before resigning, and Boris Johnson's pledge to reduce overall migration versus the revised YE June 2022 net migration estimate. Matching bilingual Promise vs Result cards were added to the relevant profiles.
