@@ -7,15 +7,17 @@
   <title>PolicyTrace — United Kingdom 1997–2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#">POLICY<span>TRACE</span></a>
+    <a class="brand" href="index.html">POLICY<span>TRACE</span></a>
     <nav>
+      <a href="#people">People</a>
       <a class="active" href="#timeline">Timeline</a>
-      <a href="#method">Method</a>
+      <a href="#migration">Migration</a>
+      <a href="#promises">Promise vs Result</a>
       <button id="aboutBtn" class="ghost-btn">About</button>
     </nav>
   </header>
@@ -25,11 +27,11 @@
       <div>
         <div class="eyebrow">PUBLIC RECORD • SOURCE-FIRST</div>
         <h1>United Kingdom<br><span>1997—2026</span></h1>
-        <p class="lede">Track what governments promised, what they changed, what happened afterwards, and what official investigations later found.</p>
+        <p class="lede">See who was in power, what they promised, what they changed, what happened during and after their term, and what official investigations later found.</p>
       </div>
       <div class="hero-stats">
         <div><strong id="eventCount">0</strong><span>timeline records</span></div>
-        <div><strong>9</strong><span>prime ministers</span></div>
+        <div><strong id="pmCount">0</strong><span>prime ministers</span></div>
         <div><strong>LIVE</strong><span>current administration</span></div>
       </div>
     </section>
@@ -39,7 +41,39 @@
       <div><strong>Sequence is not causation.</strong><br><span>Every relationship is labelled so a policy that precedes an outcome is not automatically presented as its cause.</span></div>
     </section>
 
+    <section class="section-block" id="people">
+      <div class="section-head">
+        <div><div class="section-kicker">WHO WAS IN POWER?</div><h2>Prime ministers</h2></div>
+        <p>Click a leader to see their term, promises, policy actions and all timeline records attached to their administration.</p>
+      </div>
+      <div class="people-grid" id="peopleGrid"></div>
+    </section>
+
+    <section class="section-block" id="migration">
+      <div class="section-head">
+        <div><div class="section-kicker">MEASURED OUTCOME</div><h2>Net migration</h2></div>
+        <p>Selected official UK net-migration estimates. Methodology changed over time, so the chart is a trend view rather than a perfectly like-for-like historical series.</p>
+      </div>
+      <div class="chart-card">
+        <div class="chart-topline"><span>UK long-term net migration</span><span class="muted">selected year-ending estimates</span></div>
+        <div id="migrationChart" class="migration-chart" aria-label="UK net migration chart"></div>
+        <div class="chart-source">Source notes are attached to chart points in <code>data.json</code>.</div>
+      </div>
+    </section>
+
+    <section class="section-block" id="promises">
+      <div class="section-head">
+        <div><div class="section-kicker">ACCOUNTABILITY</div><h2>Promise vs result</h2></div>
+        <p>Political commitments are shown beside measurable outcomes. A missed target is not automatically evidence of bad faith; it is simply a documented gap between commitment and result.</p>
+      </div>
+      <div class="promise-grid" id="promiseGrid"></div>
+    </section>
+
     <section class="controls" id="timeline">
+      <div class="section-head compact-head">
+        <div><div class="section-kicker">CHRONOLOGY</div><h2>Timeline</h2></div>
+        <p>Select an administration to jump directly to its term, or use search and evidence filters.</p>
+      </div>
       <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search policy, event, person, tag…" /></div>
       <div class="filter-row" id="filterRow"></div>
       <div class="toggles">
@@ -76,7 +110,7 @@
     <button class="dialog-close" id="aboutClose" aria-label="Close">×</button>
     <div class="dialog-body">
       <div class="section-kicker">ABOUT POLICYTRACE</div>
-      <h2>A political timeline, not a guilt-by-association engine.</h2>
+      <h2>Follow decisions, outcomes and evidence.</h2>
       <p>This prototype separates policy actions, measured outcomes, investigations and causal claims. It is designed so strong conclusions can be made when evidence supports them — and visibly withheld when it does not.</p>
       <p class="muted">Prototype dataset updated 9 August 2026. Sources are linked on every record.</p>
     </div>
