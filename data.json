@@ -1,7 +1,7 @@
 {
   "country": "United Kingdom",
   "range": "1997–2026",
-  "updated": "9 August 2026 — v0.8 incident-ledger expansion",
+  "updated": "9 August 2026 — v0.9 master timeline + post-office profiles",
   "administrations": [
     {
       "name": "Tony Blair",
@@ -1140,6 +1140,39 @@
       "migration_context": "",
       "detail_notes": [],
       "location": "United Kingdom"
+    },
+    {
+      "id": "martyna-ogonowska-self-defence-appeal",
+      "year": 2018,
+      "date": "2018 killing / 9 May 2025 appeal",
+      "title": "Woman jailed for killing man while he sexually assaulted her loses sentence appeal",
+      "category": "Crime & Safety",
+      "kind": "Court controversy / self-defence",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "location": "Peterborough / Court of Appeal",
+      "summary": "Martyna Ogonowska was convicted of murdering Filip Jaskiewicz after stabbing him during an encounter in which the sentencing judge accepted that he had touched her sexually and been violent shortly before he was killed. Her conviction and 17-year minimum term survived later appeals, while women’s-justice campaigners publicly argued that the case reflected failures in how trauma and sexual violence were treated.",
+      "evidence": "Court judgment and reported legal controversy",
+      "confidence": "confirmed",
+      "relationship": "Underlying killing occurred during Theresa May’s term; later appeal occurred under Keir Starmer.",
+      "tags": [
+        "self-defence",
+        "appeal",
+        "sexual assault",
+        "court controversy"
+      ],
+      "sources": [
+        {
+          "label": "Guardian — appeal and competing legal/public interpretations",
+          "url": "https://www.theguardian.com/uk-news/2025/may/09/uk-woman-loses-jail-term-appeal-after-killing-man-as-he-sexually-assaulted-her"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Murder conviction upheld; 17-year minimum term left in place after the 2025 sentence appeal.",
+      "migration_context": "No immigration connection is asserted.",
+      "public_controversy": "Justice for Women described her as a victim of a misogynistic justice system; the Court of Appeal held that the trial judge was entitled to reject parts of her account and that the sentence was not manifestly excessive.",
+      "timeline_type": "News"
     },
     {
       "id": "windrush-2018",
@@ -2892,6 +2925,39 @@
       "location": "United Kingdom"
     },
     {
+      "id": "unite-kingdom-2025",
+      "year": 2025,
+      "date": "13 September 2025",
+      "title": "Around 110,000 join Unite the Kingdom anti-immigration march in London",
+      "category": "Political Accountability",
+      "kind": "Mass protest",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Central London",
+      "summary": "Metropolitan Police estimated around 110,000 people attended the anti-immigration Unite the Kingdom march, while around 5,000 attended a counter-protest. Police reported serious disorder, injured officers and arrests.",
+      "evidence": "Reuters / Metropolitan Police reporting",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Keir Starmer’s term amid an intense national debate over immigration and asylum hotels.",
+      "tags": [
+        "protest",
+        "anti-immigration",
+        "Unite the Kingdom",
+        "London"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — 110,000 march and police disorder",
+          "url": "https://www.reuters.com/world/uk/police-protesters-scuffle-110000-join-anti-migrant-london-protest-2025-09-13/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed / later prosecutions",
+      "court_outcome": "Individual protest-related cases proceeded separately.",
+      "migration_context": "Direct: the march was explicitly anti-immigration.",
+      "public_controversy": "Supporters framed the march around borders and free speech; opponents and counter-protesters described it as divisive or far-right.",
+      "timeline_type": "Protest"
+    },
+    {
       "id": "iran-nsa-charges-2025",
       "year": 2025,
       "date": "17 May 2025",
@@ -2986,6 +3052,45 @@
       "public_controversy": "Court findings are definitive on the charged offences; public debate may focus on ideology and prevention.",
       "migration_context": "Migration status is not asserted unless a source establishes it.",
       "detail_notes": []
+    },
+    {
+      "id": "henry-nowak-2025",
+      "year": 2025,
+      "date": "3 December 2025 / June–July 2026 follow-up",
+      "title": "Henry Nowak stabbed to death, then handcuffed by police while dying",
+      "category": "Crime & Safety",
+      "kind": "Murder / policing controversy",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Southampton",
+      "summary": "Eighteen-year-old Henry Nowak was fatally stabbed by Vickrum Singh Digwa. Digwa told police that Nowak had racially attacked him; officers handcuffed the wounded Nowak and appeared to dismiss his statements that he had been stabbed. A court later found Digwa had lied about being the victim of racism. Bodycam footage triggered protests and a major policing controversy.",
+      "evidence": "AP court and bodycam reporting; police-watchdog follow-up",
+      "confidence": "confirmed",
+      "relationship": "Murder occurred during Keir Starmer’s term; sentencing, protests and misconduct investigation continued in 2026.",
+      "tags": [
+        "Henry Nowak",
+        "Southampton",
+        "police",
+        "knife crime",
+        "Sikh",
+        "two-tier policing debate"
+      ],
+      "sources": [
+        {
+          "label": "AP — court outcome, bodycam and protest",
+          "url": "https://apnews.com/article/uk-stabbing-victim-handcuffed-sikhs-knives-race-26af31dfd5b39a37f1c27cf5cda2c7ce"
+        },
+        {
+          "label": "ABC — two officers investigated for gross misconduct",
+          "url": "https://www.abc.net.au/news/2026-07-01/henry-nowak-police-investigated-gross-misconduct/106867474"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "murder closed / police conduct investigation open",
+      "court_outcome": "Digwa was convicted of murder and sentenced to life with a minimum term of 21 years.",
+      "migration_context": "The killer was identified in AP reporting as Sikh; the reliable sources cited here do not establish that the murder was caused by immigration policy.",
+      "public_controversy": "The court rejected Digwa’s claim that he had been the victim of racist aggression. Public debate focused on whether the accusation of racism distorted police decision-making; Nowak’s father urged that the case not be used to inflame racial or religious division.",
+      "timeline_type": "Major incident"
     },
     {
       "id": "jordan-richardson-plot-2025",
@@ -3114,6 +3219,39 @@
       "public_controversy": "There is significant public controversy over the proscription and charging policy; guilt must be assessed case by case by courts.",
       "migration_context": "Not an immigration case. Included because it is a major public-order / terrorism-law enforcement controversy.",
       "detail_notes": []
+    },
+    {
+      "id": "epping-hotel-sex-assault-2025",
+      "year": 2025,
+      "date": "July–23 September 2025",
+      "title": "Epping asylum-hotel resident convicted of sexual assaults that triggered national protests",
+      "category": "Crime & Safety",
+      "kind": "Sexual assault / asylum-hotel controversy",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Epping, Essex",
+      "summary": "Hadush Gerberslasie Kebatu, an Ethiopian asylum seeker who had arrived by small boat, was convicted of sexually assaulting a 14-year-old girl and another woman. His arrest triggered protests at the Bell Hotel that spread into a wider national argument over asylum accommodation and public safety.",
+      "evidence": "Reuters court reporting",
+      "confidence": "confirmed",
+      "relationship": "Offending, prosecution and protests occurred during Keir Starmer’s term.",
+      "tags": [
+        "Epping",
+        "asylum hotel",
+        "sexual assault",
+        "protest"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — conviction and 12-month sentence",
+          "url": "https://www.reuters.com/world/uk/asylum-seeker-jailed-sex-assault-teen-that-sparked-uk-protests-2025-09-23/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed",
+      "court_outcome": "Convicted and jailed for 12 months.",
+      "migration_context": "Direct: the defendant was an Ethiopian asylum seeker housed at the Bell Hotel after arriving by small boat.",
+      "public_controversy": "The criminal case became a catalyst for protests over asylum hotels and fears about public safety.",
+      "timeline_type": "News"
     },
     {
       "id": "whitepaper-2025",
@@ -3287,6 +3425,106 @@
       "migration_context": "",
       "detail_notes": [],
       "location": "United Kingdom"
+    },
+    {
+      "id": "henry-nowak-protest-2026",
+      "year": 2026,
+      "date": "2 June 2026",
+      "title": "Hundreds protest outside Southampton police station over Henry Nowak case",
+      "category": "Political Accountability",
+      "kind": "Public protest / disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "location": "Southampton",
+      "summary": "Hundreds gathered outside Southampton police station after bodycam footage from the Nowak case became public. A later march toward the scene of the killing included clashes with riot police and objects thrown at officers.",
+      "evidence": "Associated Press reporting",
+      "confidence": "confirmed",
+      "relationship": "Occurred during Keir Starmer’s term and directly followed the public release of evidence in the Nowak case.",
+      "tags": [
+        "protest",
+        "Southampton",
+        "Henry Nowak",
+        "policing"
+      ],
+      "sources": [
+        {
+          "label": "AP — Southampton protest and clashes",
+          "url": "https://apnews.com/article/uk-stabbing-victim-handcuffed-sikhs-knives-race-26af31dfd5b39a37f1c27cf5cda2c7ce"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "closed / related investigations ongoing",
+      "court_outcome": "Not applicable; any protest offences are case-specific.",
+      "migration_context": "The protest was tied to public perceptions of race, policing and knife law rather than a settled immigration-policy finding.",
+      "public_controversy": "Competing narratives included claims of two-tier policing and official warnings against turning the murder into communal division.",
+      "timeline_type": "Protest"
+    },
+    {
+      "id": "covent-garden-stabbings-2026",
+      "year": 2026,
+      "date": "5 August 2026",
+      "title": "Woman arrested after four men stabbed in Covent Garden",
+      "category": "Crime & Safety",
+      "kind": "Breaking crime news",
+      "tone": "negative",
+      "administration": "Andy Burnham",
+      "location": "Covent Garden, London",
+      "summary": "Four men were stabbed in a daytime incident in Covent Garden. A 47-year-old woman was arrested on suspicion of assault and possession of an offensive weapon. Police said the incident appeared isolated and reports indicated possible mental-health concerns.",
+      "evidence": "News report citing Metropolitan Police",
+      "confidence": "open",
+      "relationship": "Occurred during Andy Burnham’s term.",
+      "tags": [
+        "news",
+        "stabbing",
+        "London",
+        "open case"
+      ],
+      "sources": [
+        {
+          "label": "Guardian — four men stabbed; woman arrested",
+          "url": "https://www.theguardian.com/uk-news/2026/aug/05/woman-arrested-three-stabbed-london-covent-garden"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "open / investigation",
+      "court_outcome": "No final court outcome at time of entry.",
+      "migration_context": "No immigration connection is reported.",
+      "public_controversy": "None required for inclusion: this is intentionally a small breaking-news record.",
+      "timeline_type": "News"
+    },
+    {
+      "id": "simon-levy-system-failures-2026",
+      "year": 2026,
+      "date": "7 August 2026",
+      "title": "Serial sex attacker convicted of two murders after repeated releases; police and prosecutors admit failings",
+      "category": "Government Failure",
+      "kind": "Murder / repeat offender / institutional failure",
+      "tone": "negative",
+      "administration": "Andy Burnham",
+      "location": "London",
+      "summary": "Simon Levy was convicted of murdering two women and of serious sexual violence. Police and prosecutors acknowledged errors after he was repeatedly arrested or suspected but remained free and continued offending. The Metropolitan Police referred itself to the IOPC.",
+      "evidence": "Reuters court reporting and agency admissions",
+      "confidence": "confirmed",
+      "relationship": "Conviction and institutional admissions occurred during Andy Burnham’s term; much of the offending and earlier failures occurred under Keir Starmer.",
+      "tags": [
+        "repeat offender",
+        "police failure",
+        "CPS",
+        "sexual violence",
+        "murder"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — convictions and admitted police/prosecution failures",
+          "url": "https://www.reuters.com/world/uk/serial-uk-sex-attacker-guilty-double-murder-prompting-questions-police-2026-08-07/"
+        }
+      ],
+      "record_type": "news",
+      "case_status": "criminal case closed / oversight investigation open",
+      "court_outcome": "Convicted of two murders, rape and other serious offences; life sentence required for murder.",
+      "migration_context": "No immigration connection is asserted.",
+      "public_controversy": "Authorities themselves accepted failings that allowed Levy to continue offending, making this a documented institutional-failure story rather than merely social-media criticism.",
+      "timeline_type": "Major incident"
     },
     {
       "id": "eid-public-space-2026",
@@ -3897,5 +4135,207 @@
     ],
     "mosqueSource": "https://www.muslimsinbritain.org/statistics/statistics01.php",
     "mosqueNote": "Independent directory count of active masjid / prayer-room landmarks; not an ONS government count."
-  }
+  },
+  "postOffice": [
+    {
+      "administration": "Tony Blair",
+      "date": "27 June 2007 → present",
+      "year": 2007.5,
+      "status": "current",
+      "title": "International advisory, institute and Middle East work after Downing Street",
+      "summary": "After leaving office Blair served as the Quartet Representative in the Middle East, later built the Tony Blair Institute for Global Change, and remains its Executive Chairman. In 2026 his institute was also involved in work connected to post-war Gaza governance planning.",
+      "current": "Executive Chairman, Tony Blair Institute for Global Change",
+      "tags": [
+        "think tank",
+        "government advisory",
+        "Middle East",
+        "Gaza"
+      ],
+      "sources": [
+        {
+          "label": "Tony Blair Institute — official site",
+          "url": "https://institute.global/"
+        },
+        {
+          "label": "Financial Times — TBI and Gaza technocrats (2026)",
+          "url": "https://www.ft.com/content/49f7bd5e-b370-415e-a8b2-1688186ba537"
+        }
+      ]
+    },
+    {
+      "administration": "Gordon Brown",
+      "date": "11 May 2010 → present",
+      "year": 2010.5,
+      "status": "current",
+      "title": "UN education and global-health roles",
+      "summary": "Brown has remained active in international policy after office. His office lists him as UN Special Envoy for Global Education and WHO Ambassador for Global Health Financing. In 2026 he was also brought back into Labour advisory work on global finance.",
+      "current": "UN Special Envoy for Global Education; WHO Ambassador for Global Health Financing",
+      "tags": [
+        "UN",
+        "WHO",
+        "education",
+        "global finance"
+      ],
+      "sources": [
+        {
+          "label": "Office of Gordon & Sarah Brown — current biography",
+          "url": "https://gordonandsarahbrown.com/gordon-brown/"
+        },
+        {
+          "label": "Guardian — 2026 global-finance envoy appointment",
+          "url": "https://www.theguardian.com/politics/2026/may/09/starmer-brings-gordon-brown-harriet-harman-ease-pressure-resign"
+        }
+      ]
+    },
+    {
+      "administration": "David Cameron",
+      "date": "13 July 2016 → present",
+      "year": 2016.6,
+      "status": "current",
+      "title": "Charity, advisory work, return to Cabinet, then post-ministerial roles",
+      "summary": "Cameron took charitable and advisory roles after resigning, returned to government as Foreign Secretary in November 2023 and entered the House of Lords, then left frontline government in 2024. In February 2025 he returned as President of Alzheimer’s Research UK.",
+      "current": "President, Alzheimer’s Research UK; member of the House of Lords",
+      "tags": [
+        "charity",
+        "House of Lords",
+        "foreign secretary",
+        "advisory"
+      ],
+      "sources": [
+        {
+          "label": "Alzheimer’s Research UK — President",
+          "url": "https://www.alzheimersresearchuk.org/about-us/who-we-are/our-organisation/our-president/"
+        },
+        {
+          "label": "AP — Cameron returns as Foreign Secretary in 2023",
+          "url": "https://apnews.com/article/britain-david-cameron-returns-foreign-secretary-81dadeb68e681d0fcf0a6221441f5941"
+        }
+      ]
+    },
+    {
+      "administration": "Theresa May",
+      "date": "24 July 2019 → present",
+      "year": 2019.6,
+      "status": "current",
+      "title": "Backbench work, House of Lords, anti-slavery work and international-affairs roles",
+      "summary": "May remained an MP until 2024, then entered the House of Lords. She has focused heavily on modern slavery and human trafficking and now holds international-affairs roles including President of Chatham House and a senior fellowship at Yale.",
+      "current": "President, Chatham House; Blue Center Senior Fellow, Yale; member of the House of Lords",
+      "tags": [
+        "House of Lords",
+        "modern slavery",
+        "Chatham House",
+        "Yale"
+      ],
+      "sources": [
+        {
+          "label": "Chatham House — Baroness May profile",
+          "url": "https://www.chathamhouse.org/about-us/our-people/baroness-may-maidenhead"
+        },
+        {
+          "label": "Yale Jackson — Blue Senior Fellow",
+          "url": "https://jackson.yale.edu/news/theresa-may-named-inaugural-blue-senior-fellow/"
+        }
+      ]
+    },
+    {
+      "administration": "Boris Johnson",
+      "date": "6 September 2022 → present",
+      "year": 2022.7,
+      "status": "current",
+      "title": "Speaking, journalism, publishing and continued political commentary",
+      "summary": "Johnson left the Commons in 2023 and has since pursued paid speaking, newspaper commentary and publishing. His memoir Unleashed was published in 2024. Reporting has also scrutinised his post-office business and lobbying contacts; those allegations should be shown as reporting or investigations rather than assumed wrongdoing.",
+      "current": "Private citizen; speaker, author and political commentator",
+      "tags": [
+        "speaking",
+        "journalism",
+        "memoir",
+        "private office"
+      ],
+      "sources": [
+        {
+          "label": "The Week — post-premiership activities and scrutiny",
+          "url": "https://theweek.com/news/politics/955705/what-would-boris-johnson-do-after-leaving-downing-street"
+        },
+        {
+          "label": "AP — memoir deal",
+          "url": "https://apnews.com/article/c166ceb15fd747d7f047e16a9f348b2f"
+        }
+      ]
+    },
+    {
+      "administration": "Liz Truss",
+      "date": "25 October 2022 → present",
+      "year": 2022.8,
+      "status": "current",
+      "title": "Political campaigning, memoir, media and private initiatives",
+      "summary": "After her brief premiership Truss returned to the backbenches, published Ten Years to Save the West, helped launch Popular Conservatism, lost her Commons seat in 2024, and later launched The Liz Truss Show. She has remained active in conservative political networks.",
+      "current": "Private citizen; political campaigner, author and media host",
+      "tags": [
+        "PopCon",
+        "memoir",
+        "media",
+        "campaigning"
+      ],
+      "sources": [
+        {
+          "label": "UK Government — former PM biography",
+          "url": "https://www.gov.uk/government/people/elizabeth-truss"
+        },
+        {
+          "label": "Background chronology of post-premiership activities",
+          "url": "https://en.wikipedia.org/wiki/Liz_Truss#Post-premiership_(2022%E2%80%93present)"
+        }
+      ]
+    },
+    {
+      "administration": "Rishi Sunak",
+      "date": "5 July 2024 → present",
+      "year": 2024.6,
+      "status": "current",
+      "title": "Academia, charity and paid corporate advisory roles",
+      "summary": "Sunak remained Conservative leader until November 2024. In 2025 he took academic fellowships, founded the Richmond Project with Akshata Murty, joined Goldman Sachs as a senior adviser and later took paid advisory roles with Microsoft and Anthropic, subject to post-government restrictions.",
+      "current": "Senior adviser, Goldman Sachs; adviser to Microsoft and Anthropic; academic fellowships; Richmond Project co-founder",
+      "tags": [
+        "Goldman Sachs",
+        "Microsoft",
+        "Anthropic",
+        "academia",
+        "charity"
+      ],
+      "sources": [
+        {
+          "label": "Reuters — Sunak joins Goldman Sachs",
+          "url": "https://www.reuters.com/business/former-uk-pm-sunak-joins-goldman-sachs-adviser-financial-times-reports-2025-07-08/"
+        },
+        {
+          "label": "Post-premiership chronology",
+          "url": "https://en.wikipedia.org/wiki/Rishi_Sunak#Post-premiership_(2024%E2%80%93present)"
+        }
+      ]
+    },
+    {
+      "administration": "Keir Starmer",
+      "date": "20 July 2026 → present",
+      "year": 2026.55,
+      "status": "current",
+      "title": "Returns to the Labour backbenches after leaving Downing Street",
+      "summary": "After leaving office in July 2026 Starmer remained an MP on the Labour backbenches. Reporting around his departure said his longer-term post-office plans had not yet been settled.",
+      "current": "Backbench Labour MP; longer-term plans not yet settled publicly",
+      "tags": [
+        "backbench",
+        "Labour",
+        "post-office"
+      ],
+      "sources": [
+        {
+          "label": "AP — Starmer’s final PMQs and post-office status",
+          "url": "https://apnews.com/article/f546582ef86a10fc435c3d33e023a1b0"
+        },
+        {
+          "label": "Guardian — what Starmer may do next",
+          "url": "https://www.theguardian.com/politics/2026/jul/18/what-will-keir-starmer-do-next"
+        }
+      ]
+    }
+  ]
 }

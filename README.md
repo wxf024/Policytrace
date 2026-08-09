@@ -31,3 +31,7 @@ Navigation rebuilt so left-to-right order matches top-to-bottom page order. Home
 
 ## v0.8
 Incident Ledger expansion. Adds individual disorder/security cases plus official aggregate records. Detail fields now support case status, location, migration/asylum context, court outcome and public/judicial controversy. Aggregate records are explicitly labelled and are never expanded into fake individual cases.
+
+
+## v0.9
+Adds a unified master timeline with record-type filters (Major incident, News, Protest, Court & Investigation, Policy, Statistics), integrates linked news into the same stream, adds post-office / current-activity profiles for former prime ministers, and adds several small-news and public-controversy records including Henry Nowak, Epping, Unite the Kingdom, Martyna Ogonowska, Simon Levy and Covent Garden.

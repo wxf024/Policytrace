@@ -35,7 +35,8 @@ function initSectionNav(){
   setActive((location.hash||'#overview').slice(1));
 }
 
-const state={data:null,category:'All',query:'',negativeOnly:false,officialOnly:false,administration:'All'};
+const state={data:null,category:'All',type:'All',query:'',negativeOnly:false,officialOnly:false,administration:'All'};
+const typeOrder=['All','Major incident','News','Protest','Court & Investigation','Policy','Statistics'];
 const categoryOrder=['All','Immigration','Asylum','Border & Asylum','Statistics','Crime & Safety','Security & Extremism','Demographic Change','Public Space & Culture','Government Failure','Political Accountability','Administration'];
 
 async function init(){
@@ -44,7 +45,7 @@ async function init(){
   document.getElementById('eventCount').textContent=state.data.events.length;
   document.getElementById('pmCount').textContent=state.data.administrations.length;
   document.getElementById('updatedDate').textContent=state.data.updated;
-  renderPeople();renderAdmins();renderFilters();renderChart();renderSocialIndicators();renderPromises();renderRecords();bind();
+  renderPeople();renderAdmins();renderTypeFilters();renderFilters();renderChart();renderSocialIndicators();renderPromises();renderRecords();bind();
   const hash=new URLSearchParams(location.search).get('pm');
   if(hash){selectAdministration(hash,true)}
 }
@@ -70,18 +71,38 @@ function renderAdmins(){
   const el=document.getElementById('administrations');
   el.innerHTML=`<button class="admin admin-all active" data-admin="All"><div class="admin-name">ALL TERMS</div><div class="admin-party">1997—2026</div><div class="admin-years">SHOW EVERYTHING</div></button>`+state.data.administrations.map(a=>`<button class="admin ${a.current?'current':''}" data-admin="${a.name}"><div class="admin-name">${a.name}</div><div class="admin-party">${a.party}</div><div class="admin-years">${formatTerm(a)}</div></button>`).join('');
 }
+function renderTypeFilters(){
+  const row=document.getElementById('typeFilterRow'); if(!row)return;
+  row.innerHTML=typeOrder.map(t=>`<button class="filter-btn type-filter ${state.type===t?'active':''}" data-type="${t}">${t}</button>`).join('');
+}
 function renderFilters(){
   const available=new Set(state.data.events.map(e=>e.category));
   const cats=categoryOrder.filter(c=>c==='All'||available.has(c));
   document.getElementById('filterRow').innerHTML=cats.map(c=>`<button class="filter-btn ${state.category===c?'active':''}" data-cat="${c}">${c}</button>`).join('');
 }
 function official(e){return /Official|ONS|Independent inquiry|legislation|Prime Minister|Home Office|government/i.test(e.evidence)}
+function timelineType(e){
+  if(e.timeline_type)return e.timeline_type;
+  const k=(e.kind||'').toLowerCase(), c=(e.category||'').toLowerCase();
+  if(e.record_type==='news')return 'News';
+  if(/protest|riot|public disorder|demonstration/.test(k))return 'Protest';
+  if(/statistics|demographic/.test(c)||/dataset|statistical/.test(k))return 'Statistics';
+  if(/policy|immigration|asylum|border/.test(c)&&!/attack|crime|failure/.test(c))return 'Policy';
+  if(/investigation|inquiry|court|conviction|appeal|review|charging|case review/.test(k)||/government failure/.test(c))return 'Court & Investigation';
+  if(/security|extremism|crime & safety/.test(c)||/murder|attack|bomb|stabb|sexual exploitation|terror/.test(k))return 'Major incident';
+  return 'News';
+}
+function timelineTypeClass(t){return 'type-'+String(t).toLowerCase().replace(/[^a-z0-9]+/g,'-')}
 function eventMatches(e){
   const q=state.query.toLowerCase();
-  const hay=[e.title,e.summary,e.category,e.kind,e.administration,...e.tags].join(' ').toLowerCase();
-  return (state.category==='All'||e.category===state.category)&&(state.administration==='All'||e.administration===state.administration)&&(!q||hay.includes(q))&&(!state.negativeOnly||e.tone==='negative')&&(!state.officialOnly||official(e));
+  const hay=[e.title,e.summary,e.category,e.kind,e.administration,...(e.tags||[])].join(' ').toLowerCase();
+  return (state.category==='All'||e.category===state.category)
+    &&(state.type==='All'||timelineType(e)===state.type)
+    &&(state.administration==='All'||e.administration===state.administration)
+    &&(!q||hay.includes(q))&&(!state.negativeOnly||e.tone==='negative')&&(!state.officialOnly||official(e));
 }
 function newsMatches(n){
+  if(state.type!=='All'&&state.type!=='News') return false;
   if(state.category!=='All') return false;
   if(state.administration!=='All'&&n.administration!==state.administration) return false;
   if(state.negativeOnly&&n.tone!=='negative') return false;
@@ -96,23 +117,37 @@ function renderNewsBlock(items){
   if(!items.length)return '';
   return `<section class="term-news"><div class="term-news-head"><div><span>RELATED NEWS / FOLLOW-UP</span><strong>${items.length} linked item${items.length>1?'s':''}</strong></div><small>Linked coverage does not by itself prove personal responsibility.</small></div><div class="news-list">${items.map(n=>`<article class="news-card ${n.status==='unresolved'?'news-open':''}"><div class="news-meta"><span>${n.date}</span><b class="news-status ${n.status}">${statusLabel(n.status)}</b><em>${n.scope==='legacy'?'LEGACY / AFTER OFFICE':'DURING TERM'}</em></div><h4>${n.title}</h4><p>${n.summary}</p><div class="news-relation">${n.relation}</div><div class="news-links">${n.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.label} ↗</a>`).join('')}</div></article>`).join('')}</div></section>`;
 }
+function renderUnifiedItem(item){
+  const t=timelineType(item);
+  const sourceBadge=item._relatedNews?'NEWS / FOLLOW-UP':t.toUpperCase();
+  const status=item.status?statusLabel(item.status):(item.confidence||'');
+  return `<article class="record ${toneClass(item.tone)} ${timelineTypeClass(t)}" data-id="${item.id}" data-source="${item._relatedNews?'related':'event'}">
+    <div class="record-year">${displayDate(item)}</div><div class="record-node"><div class="dot"></div></div>
+    <div class="record-main"><div class="record-meta"><span class="pill record-type-pill">${sourceBadge}</span>${item.category?`<span class="pill">${item.category}</span>`:''}<span class="pill">${status}</span><span class="pill term-occurrence">${item.scope==='legacy'?'Legacy of ': 'Occurred under '}${item.administration}</span></div><h3>${item.title}</h3><p>${item.summary}</p></div>
+    <div class="record-side"><div class="person">${item.administration}</div><div class="during-term">${item.scope==='legacy'?'AFTER OFFICE / LEGACY':'IN OFFICE WHEN THIS OCCURRED'}</div><div class="relation">${item.relationship||item.relation||''}</div>${item.metric?`<div class="metric">${item.metric.value}</div>`:''}</div>
+  </article>`;
+}
 function renderRecords(){
   const groups=[];
   state.data.administrations.forEach(a=>{
     if(state.administration!=='All'&&state.administration!==a.name)return;
-    const events=state.data.events.filter(e=>e.administration===a.name&&eventMatches(e)).sort((x,y)=>x.year-y.year);
-    const news=(state.data.relatedNews||[]).filter(n=>n.administration===a.name&&newsMatches(n)).sort((x,y)=>x.year-y.year);
-    if(!events.length&&!news.length)return;
-    groups.push(`<div class="term-divider" id="term-${slug(a.name)}"><span>${a.name}</span><small>${formatTerm(a)}</small><a href="person.html?id=${slug(a.name)}">Profile →</a></div>${events.map(e=>`<article class="record ${toneClass(e.tone)}" data-id="${e.id}">
-      <div class="record-year">${displayDate(e)}</div>
-      <div class="record-node"><div class="dot"></div></div>
-      <div class="record-main"><div class="record-meta"><span class="pill">${e.category}</span><span class="pill">${e.kind}</span><span class="pill">${e.confidence}</span><span class="pill term-occurrence">Occurred under ${e.administration}</span></div><h3>${e.title}</h3><p>${e.summary}</p></div>
-      <div class="record-side"><div class="person">${e.administration}</div><div class="during-term">IN OFFICE WHEN THIS OCCURRED</div><div class="relation">${e.relationship}</div>${e.metric?`<div class="metric">${e.metric.value}</div>`:''}</div>
-    </article>`).join('')}${renderNewsBlock(news)}`);
+    const events=state.data.events.filter(e=>e.administration===a.name&&eventMatches(e));
+    const related=(state.data.relatedNews||[]).filter(n=>n.administration===a.name&&newsMatches(n)).map(n=>({...n,_relatedNews:true,timeline_type:'News',category:'Related news',kind:'News / follow-up',relationship:n.relation,confidence:n.status,record_type:'news'}));
+    const items=[...events,...related].sort((x,y)=>(Number(x.year)||0)-(Number(y.year)||0));
+    if(!items.length)return;
+    groups.push(`<div class="term-divider" id="term-${slug(a.name)}"><span>${a.name}</span><small>${formatTerm(a)}</small><a href="person.html?id=${slug(a.name)}">Profile →</a></div>${items.map(renderUnifiedItem).join('')}`);
   });
   document.getElementById('emptyState').hidden=groups.length>0;
   document.getElementById('timelineList').innerHTML=groups.join('');
-  document.querySelectorAll('.record').forEach(el=>el.addEventListener('click',()=>openDetail(el.dataset.id)));
+  document.querySelectorAll('.record').forEach(el=>el.addEventListener('click',()=>openAnyDetail(el.dataset.id,el.dataset.source)));
+}
+function openAnyDetail(id,source){
+  if(source==='related'){
+    const n=(state.data.relatedNews||[]).find(x=>x.id===id); if(!n)return;
+    document.getElementById('dialogContent').innerHTML=`<div class="dialog-body"><div class="dialog-date">${n.date} / NEWS</div><h2>${n.title}</h2><p class="dialog-summary">${n.summary}</p><div class="detail-grid"><div><span>Administration</span><strong>${n.administration}</strong></div><div><span>Status</span><strong>${statusLabel(n.status)}</strong></div><div><span>Relationship</span><strong>${n.relation}</strong></div><div><span>Scope</span><strong>${n.scope==='legacy'?'After office / legacy':'During term'}</strong></div></div><div class="section-kicker">ORIGINAL LINKS</div><div class="source-list">${n.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">↗ ${s.label}</a>`).join('')}</div></div>`;
+    document.getElementById('detailDialog').showModal(); return;
+  }
+  openDetail(id);
 }
 function selectAdministration(name,scroll=false){
   state.administration=name;
@@ -171,6 +206,7 @@ function renderPromises(){
 }
 function bind(){
   document.getElementById('administrations').addEventListener('click',e=>{const b=e.target.closest('.admin');if(!b)return;selectAdministration(b.dataset.admin,true)});
+  document.getElementById('typeFilterRow').addEventListener('click',e=>{const b=e.target.closest('[data-type]');if(!b)return;state.type=b.dataset.type;renderTypeFilters();renderRecords()});
   document.getElementById('filterRow').addEventListener('click',e=>{if(!e.target.matches('.filter-btn'))return;state.category=e.target.dataset.cat;renderFilters();renderRecords()});
   document.getElementById('searchInput').addEventListener('input',e=>{state.query=e.target.value;renderRecords()});
   document.getElementById('negativeOnly').addEventListener('change',e=>{state.negativeOnly=e.target.checked;renderRecords()});
