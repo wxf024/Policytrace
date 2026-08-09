@@ -47,3 +47,7 @@ Adds Political scandal as a master-timeline record type. Scandal entries track f
 
 ## v1.2
 Adds Policy failure / U-turn as a master-timeline type. Each record separates the original decision, consequence, initial defence/doubling-down, later reversal or admission, and final outcome. Initial cases include Iraq/Chilcot, Brown 10p tax, Cameron migration target and Brexit referendum gamble, May dementia-tax and snap election, Johnson exam algorithm and Paterson standards U-turn, Truss mini-budget, Sunak HS2 and D-Day apology, and Starmer winter-fuel and grooming-inquiry reversals.
+
+
+## v1.3 bilingual prototype
+Adds EN / 中文 language switching with language preference saved in localStorage. Original source labels and external links remain in their source language. Site UI, administration names, categories, status taxonomy, event/person information and profile sections switch language. English remains the canonical source data; Chinese is stored as parallel i18n fields.

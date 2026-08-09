@@ -122,3 +122,15 @@ html { scroll-behavior: smooth; }
 
 .type-policy-failure-u-turn .dot{box-shadow:0 0 0 4px rgba(249,115,22,.16)}
 .type-policy-failure-u-turn .record-type-pill{border-color:rgba(251,146,60,.5)!important;color:#fdba74!important}
+
+.language-switch{
+  display:flex;align-items:center;gap:4px;margin-left:auto;margin-right:20px;
+  padding:4px;border:1px solid var(--line);border-radius:999px;background:rgba(15,23,42,.45)
+}
+.lang-btn{
+  border:0;background:transparent;color:var(--muted);font:700 .72rem "IBM Plex Mono",monospace;
+  padding:7px 10px;border-radius:999px;cursor:pointer
+}
+.lang-btn.active{background:var(--text);color:var(--bg)}
+html[lang="zh-CN"] body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei","DM Sans",sans-serif}
+@media(max-width:1120px){.language-switch{margin-left:0;margin-right:10px}}

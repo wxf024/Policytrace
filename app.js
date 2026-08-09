@@ -1,14 +1,84 @@
 
+const uiText={
+  en:{
+    overview:'Overview',people:'People',migration:'Migration',social:'Social change',promises:'Promise vs Result',
+    timeline:'Timeline',method:'Method',about:'About',showType:'SHOW RECORD TYPE',migrationRel:'MIGRATION RELEVANCE',topic:'TOPIC',
+    all:'All',inOffice:'IN OFFICE WHEN THIS OCCURRED',afterOffice:'AFTER OFFICE / LEGACY',
+    originalLinks:'ORIGINAL LINKS',administration:'Administration',type:'Type',evidence:'Evidence',confidence:'Confidence',
+    location:'Location',caseStatus:'Case status',recordType:'Record type',relationship:'Relationship to PM',
+    migrationContext:'Migration / asylum context',migrationRelevance:'Migration relevance',
+    courtOutcome:'Court / official outcome',publicDivergence:'Public / judicial divergence',
+    politicianResponse:'Politician response',decision:'Decision / original position',consequence:'Consequence',
+    reaction:'Initial reaction / doubling down',reversal:'Reversal / admission',scandalStatus:'Scandal / investigation status'
+  },
+  zh:{
+    overview:'概览',people:'人物',migration:'移民',social:'社会变化',promises:'承诺 vs 结果',
+    timeline:'时间线',method:'方法',about:'关于',showType:'记录类型',migrationRel:'移民关联度',topic:'主题',
+    all:'全部',inOffice:'事件发生时在任',afterOffice:'离任后 / 遗留影响',
+    originalLinks:'原始来源',administration:'执政者',type:'类型',evidence:'证据',confidence:'可信度',
+    location:'地点',caseStatus:'案件状态',recordType:'记录类型',relationship:'与首相的关系',
+    migrationContext:'移民 / 庇护背景',migrationRelevance:'移民关联度',
+    courtOutcome:'法院 / 官方结果',publicDivergence:'公众观点 / 司法结果差异',
+    politicianResponse:'政客回应',decision:'原始决定 / 立场',consequence:'后果',
+    reaction:'最初回应 / 坚持立场',reversal:'反转 / 承认',scandalStatus:'丑闻 / 调查状态'
+  }
+};
+let currentLang=localStorage.getItem('policytrace-lang')||'en';
+function trObj(obj,key){
+  const v=obj?.[key+'_i18n'];
+  return v?.[currentLang] || obj?.[key] || '';
+}
+function t(key){return uiText[currentLang]?.[key]||uiText.en[key]||key;}
+function adminName(name){
+  const a=state?.data?.administrations?.find(x=>x.name===name);
+  return a?.name_i18n?.[currentLang]||name;
+}
+function translatedType(v){
+  const z={
+    'All':'全部','Major incident':'重大事件','News':'新闻','Protest':'抗议','Political scandal':'政治丑闻',
+    'Policy failure / U-turn':'政策失败 / 急转弯','Court & Investigation':'法院与调查','Policy':'政策','Statistics':'统计'
+  };
+  return currentLang==='zh'?(z[v]||v):v;
+}
+function translatedMigration(v){
+  const z={
+    'All':'全部','Direct immigration/asylum status':'明确移民/庇护身份','Direct immigration/asylum context':'明确移民/庇护背景',
+    'Immigration-system abuse':'移民制度滥用','Foreign nationality only':'仅确认外国国籍','Contextual':'背景相关','No established link':'无已证实关联'
+  };
+  return currentLang==='zh'?(z[v]||v):v;
+}
+function applyStaticLanguage(){
+  document.documentElement.lang=currentLang==='zh'?'zh-CN':'en';
+  const navMap={overview:'overview',people:'people',migration:'migration',social:'social',promises:'promises',timeline:'timeline',method:'method'};
+  document.querySelectorAll('.page-nav a[data-nav]').forEach(a=>{
+    const key=navMap[a.dataset.nav]; if(key)a.textContent=t(key);
+  });
+  const about=document.getElementById('aboutBtn'); if(about)about.textContent=t('about');
+  document.querySelectorAll('.lang-btn').forEach(b=>b.classList.toggle('active',b.dataset.lang===currentLang));
+  document.querySelectorAll('.filter-label').forEach((el,i)=>{
+    const keys=['showType','migrationRel','topic']; if(keys[i])el.textContent=t(keys[i]);
+  });
+}
+function setLanguage(lang){
+  currentLang=lang; localStorage.setItem('policytrace-lang',lang); applyStaticLanguage();
+  if(state?.data){renderPeople();renderAdmins();renderMigrationFilters();renderTypeFilters();renderFilters();renderRecords();}
+}
+
+
 function esc(v=''){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));}
 function detailRows(e){
   const rows=[
-    ['Location',e.location],
-    ['Case status',e.case_status],
-    ['Record type',e.record_type==='batch'?'Aggregate / batch record':'Individual event / case'],
-    ['Relationship to PM',e.relationship],
-    ['Migration relevance',e.migration_relevance],['Migration / asylum context',e.migration_context],
-    ['Court / official outcome',e.court_outcome],
-    ['Decision / original position',e.decision_made],['Consequence',e.consequence],['Initial reaction / doubling down',e.reaction_or_doubling_down],['Reversal / admission',e.reversal_or_admission],['Politician response',e.politician_response],['Scandal / investigation status',e.scandal_status],['Public / judicial divergence',e.public_controversy]
+    [t('location'),e.location],
+    [t('caseStatus'),trObj(e,'case_status')],
+    [t('recordType'),e.record_type==='batch'?(currentLang==='zh'?'汇总 / 批量记录':'Aggregate / batch record'):(currentLang==='zh'?'单个事件 / 案件':'Individual event / case')],
+    [t('relationship'),trObj(e,'relationship')],
+    [t('migrationRelevance'),trObj(e,'migration_relevance')],
+    [t('migrationContext'),trObj(e,'migration_context')],
+    [t('courtOutcome'),e.court_outcome],
+    [t('decision'),trObj(e,'decision_made')],[t('consequence'),trObj(e,'consequence')],
+    [t('reaction'),trObj(e,'reaction_or_doubling_down')],[t('reversal'),trObj(e,'reversal_or_admission')],
+    [t('politicianResponse'),trObj(e,'politician_response')],[t('scandalStatus'),e.scandal_status],
+    [t('publicDivergence'),trObj(e,'public_controversy')]
   ].filter(([,v])=>v);
   return `<div class="detail-grid">${rows.map(([k,v])=>`<div class="detail-row"><div>${esc(k)}</div><div>${esc(v)}</div></div>`).join('')}</div>`;
 }
@@ -74,11 +144,11 @@ function renderAdmins(){
 }
 function renderMigrationFilters(){
   const row=document.getElementById('migrationFilterRow'); if(!row)return;
-  row.innerHTML=migrationOrder.map(t=>`<button class="filter-btn migration-filter ${state.migration===t?'active':''}" data-migration="${t}">${t}</button>`).join('');
+  row.innerHTML=migrationOrder.map(v=>`<button class="filter-btn migration-filter ${state.migration===v?'active':''}" data-migration="${v}">${translatedMigration(v)}</button>`).join('');
 }
 function renderTypeFilters(){
   const row=document.getElementById('typeFilterRow'); if(!row)return;
-  row.innerHTML=typeOrder.map(t=>`<button class="filter-btn type-filter ${state.type===t?'active':''}" data-type="${t}">${t}</button>`).join('');
+  row.innerHTML=typeOrder.map(v=>`<button class="filter-btn type-filter ${state.type===v?'active':''}" data-type="${v}">${translatedType(v)}</button>`).join('');
 }
 function renderFilters(){
   const available=new Set(state.data.events.map(e=>e.category));
@@ -132,8 +202,8 @@ function renderUnifiedItem(item){
   const status=item.status?statusLabel(item.status):(item.confidence||'');
   return `<article class="record ${toneClass(item.tone)} ${timelineTypeClass(t)}" data-id="${item.id}" data-source="${item._relatedNews?'related':'event'}">
     <div class="record-year">${displayDate(item)}</div><div class="record-node"><div class="dot"></div></div>
-    <div class="record-main"><div class="record-meta"><span class="pill record-type-pill">${sourceBadge}</span>${item.category?`<span class="pill">${item.category}</span>`:''}${item.migration_relevance?`<span class="pill migration-pill">${item.migration_relevance}</span>`:''}<span class="pill">${status}</span><span class="pill term-occurrence">${item.scope==='legacy'?'Legacy of ': 'Occurred under '}${item.administration}</span></div><h3>${item.title}</h3><p>${item.summary}</p></div>
-    <div class="record-side"><div class="person">${item.administration}</div><div class="during-term">${item.scope==='legacy'?'AFTER OFFICE / LEGACY':'IN OFFICE WHEN THIS OCCURRED'}</div><div class="relation">${item.relationship||item.relation||''}</div>${item.metric?`<div class="metric">${item.metric.value}</div>`:''}</div>
+    <div class="record-main"><div class="record-meta"><span class="pill record-type-pill">${sourceBadge}</span>${item.category?`<span class="pill">${trObj(item,'category')}</span>`:''}${item.migration_relevance?`<span class="pill migration-pill">${trObj(item,'migration_relevance')}</span>`:''}<span class="pill">${status}</span><span class="pill term-occurrence">${item.scope==='legacy'?'Legacy of ': 'Occurred under '}${item.administration}</span></div><h3>${trObj(item,'title')}</h3><p>${trObj(item,'summary')}</p></div>
+    <div class="record-side"><div class="person">${adminName(item.administration)}</div><div class="during-term">${item.scope==='legacy'?t('afterOffice'):t('inOffice')}</div><div class="relation">${trObj(item,'relationship')||trObj(item,'relation')||item.relationship||item.relation||''}</div>${item.metric?`<div class="metric">${item.metric.value}</div>`:''}</div>
   </article>`;
 }
 function renderRecords(){
@@ -228,3 +298,8 @@ function bind(){
 init().catch(err=>{document.body.innerHTML=`<pre style="color:white;padding:30px">Failed to load data.json. Serve this folder through a local/static web server.\n\n${err}</pre>`});
 
 window.addEventListener('load',initSectionNav);
+
+window.addEventListener('load',()=>{
+  applyStaticLanguage();
+  document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
+});
