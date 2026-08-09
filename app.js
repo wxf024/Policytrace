@@ -1,3 +1,25 @@
+
+function initSectionNav(){
+  const links=[...document.querySelectorAll('.page-nav a[data-nav]')];
+  const sections=[...document.querySelectorAll('.nav-section[data-section]')];
+  if(!links.length||!sections.length)return;
+
+  const setActive=(id)=>{
+    links.forEach(a=>a.classList.toggle('active',a.dataset.nav===id));
+  };
+
+  const observer=new IntersectionObserver(entries=>{
+    const visible=entries
+      .filter(e=>e.isIntersecting)
+      .sort((a,b)=>Math.abs(a.boundingClientRect.top)-Math.abs(b.boundingClientRect.top));
+    if(visible.length)setActive(visible[0].target.dataset.section);
+  },{rootMargin:'-22% 0px -64% 0px',threshold:[0,0.05,0.2]});
+
+  sections.forEach(s=>observer.observe(s));
+  links.forEach(a=>a.addEventListener('click',()=>setActive(a.dataset.nav)));
+  setActive((location.hash||'#overview').slice(1));
+}
+
 const state={data:null,category:'All',query:'',negativeOnly:false,officialOnly:false,administration:'All'};
 const categoryOrder=['All','Immigration','Asylum','Border & Asylum','Statistics','Crime & Safety','Security & Extremism','Demographic Change','Public Space & Culture','Government Failure','Political Accountability','Administration'];
 
@@ -142,3 +164,5 @@ function bind(){
   document.getElementById('aboutClose').addEventListener('click',()=>document.getElementById('aboutDialog').close());
 }
 init().catch(err=>{document.body.innerHTML=`<pre style="color:white;padding:30px">Failed to load data.json. Serve this folder through a local/static web server.\n\n${err}</pre>`});
+
+window.addEventListener('load',initSectionNav);

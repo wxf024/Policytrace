@@ -27,3 +27,67 @@
 .profile-relation{margin-top:.8rem;padding-top:.7rem;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:.2rem}
 .profile-relation span{font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .profile-relation strong{font-size:.78rem;line-height:1.35}
+
+.safety-ledger-callout{
+  margin:28px 0 10px;padding:24px;border:1px solid rgba(239,68,68,.32);
+  border-radius:18px;background:linear-gradient(135deg,rgba(127,29,29,.22),rgba(15,23,42,.9));
+}
+.safety-ledger-callout h2{margin:.35rem 0 .5rem;font-size:clamp(1.25rem,2.2vw,1.8rem)}
+.safety-ledger-callout p{margin:0;max-width:900px;color:var(--muted)}
+.safety-ledger-callout .eyebrow{font-size:.75rem;font-weight:800;letter-spacing:.12em;color:#fca5a5}
+
+
+/* v0.7 navigation: left-to-right follows top-to-bottom page order */
+html { scroll-behavior: smooth; }
+.nav-section { scroll-margin-top: 88px; }
+
+.topbar .page-nav {
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:28px;
+  white-space:nowrap;
+}
+.topbar .page-nav a,
+.topbar .page-nav .ghost-btn {
+  position:relative;
+}
+.topbar .page-nav a.active {
+  color:var(--text);
+}
+.topbar .page-nav a.active::after {
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:-10px;
+  height:2px;
+  background:var(--accent);
+}
+.topbar .page-nav .nav-return {
+  padding-left:18px;
+  border-left:1px solid var(--line);
+}
+
+@media (max-width: 1120px){
+  .topbar{align-items:flex-start}
+  .topbar .page-nav{
+    gap:18px;
+    overflow-x:auto;
+    max-width:78vw;
+    padding-bottom:8px;
+    scrollbar-width:thin;
+  }
+}
+@media (max-width: 760px){
+  .topbar{
+    position:sticky;
+    flex-direction:column;
+    gap:12px;
+  }
+  .topbar .page-nav{
+    width:100%;
+    max-width:100%;
+    justify-content:flex-start;
+  }
+}

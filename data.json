@@ -1,7 +1,7 @@
 {
   "country": "United Kingdom",
   "range": "1997–2026",
-  "updated": "9 August 2026 — v0.4",
+  "updated": "9 August 2026 — v0.6 public-safety expansion",
   "administrations": [
     {
       "name": "Tony Blair",
@@ -103,6 +103,34 @@
       ]
     },
     {
+      "id": "northern-disturbances-2001",
+      "year": 2001,
+      "date": "May–July 2001",
+      "title": "Oldham, Burnley and Bradford disturbances expose severe community segregation",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Tony Blair",
+      "summary": "Serious disorder in northern English towns led to the national community-cohesion agenda. Later official and local-government summaries described sharply divided communities and 'parallel lives'. This is an integration/social-cohesion event, not evidence that immigration alone caused the disorder.",
+      "evidence": "Government/local-government reviews",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; integration relevance supported; single-cause attribution unproven",
+      "tags": [
+        "riots",
+        "community cohesion",
+        "integration",
+        "Oldham",
+        "Burnley",
+        "Bradford"
+      ],
+      "sources": [
+        {
+          "label": "UK government/local-government material on the 2001 disturbances and community cohesion",
+          "url": "https://www.gov.uk/government/publications/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom"
+        }
+      ]
+    },
+    {
       "id": "a8-2004",
       "year": 2004,
       "date": "1 May 2004",
@@ -128,6 +156,36 @@
         {
           "label": "House of Lords EU Committee",
           "url": "https://publications.parliament.uk/pa/ld201617/ldselect/ldeucom/121/12104.htm"
+        }
+      ]
+    },
+    {
+      "id": "london-7-7-2005",
+      "year": 2005,
+      "date": "7 July 2005",
+      "title": "7/7 London bombings kill 52 victims",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Tony Blair",
+      "summary": "Four suicide bombers attacked London's transport system, killing 52 victims and injuring hundreds. The official record and later intelligence reviews examined radicalisation and whether the attack could have been prevented. Several perpetrators were British-born, so this should not be presented simply as an immigrant-perpetrated attack.",
+      "evidence": "Official Home Office / ISC reports",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; Islamist-terrorism relevance confirmed; immigration-causation label inappropriate",
+      "tags": [
+        "7/7",
+        "terrorism",
+        "Islamist extremism",
+        "London"
+      ],
+      "sources": [
+        {
+          "label": "Home Office — official account of the 7 July 2005 bombings",
+          "url": "https://www.gov.uk/government/publications/report-of-the-official-account-of-the-bombings-in-london-on-7th-july-2005"
+        },
+        {
+          "label": "ISC — review of intelligence on 7/7",
+          "url": "https://www.gov.uk/government/publications/london-terrorist-attacks-on-77-review-of-the-intelligence"
         }
       ]
     },
@@ -178,6 +236,88 @@
         {
           "label": "Prime Minister outlines new measures on immigration",
           "url": "https://www.gov.uk/government/news/prime-minister-outlines-new-measures-on-immigration"
+        }
+      ]
+    },
+    {
+      "id": "uk-riots-2011",
+      "year": 2011,
+      "date": "6–11 August 2011",
+      "title": "2011 England riots spread across London and other cities",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "summary": "Large-scale rioting, looting, arson and violence spread from Tottenham to multiple English cities. Government reviews focused on policing, gangs, deprivation and social resilience. It belongs on the public-safety timeline but is not properly classed as an immigration-caused event.",
+      "evidence": "Government review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; broad social-policy relevance; immigration causal link unestablished",
+      "tags": [
+        "2011 riots",
+        "public disorder",
+        "London",
+        "gangs"
+      ],
+      "sources": [
+        {
+          "label": "Government response to the Riots, Communities and Victims Panel",
+          "url": "https://www.gov.uk/government/publications/government-response-to-the-riots-communities-and-victims-panels-final-report"
+        }
+      ]
+    },
+    {
+      "id": "oxford-bullfinch-2013",
+      "year": 2013,
+      "date": "14 May 2013",
+      "title": "Operation Bullfinch convictions expose organised child sexual exploitation in Oxford",
+      "category": "Crime & Safety",
+      "kind": "Organised sexual exploitation",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "summary": "Seven men were convicted on 59 counts including rape and facilitating child prostitution; Oxfordshire later reviewed safeguarding failures. The case is relevant to the national grooming-gang record and institutional response.",
+      "evidence": "Oxfordshire County Council record",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; institutional-failure relevance documented",
+      "tags": [
+        "Oxford",
+        "Operation Bullfinch",
+        "CSE",
+        "grooming gangs"
+      ],
+      "sources": [
+        {
+          "label": "Oxfordshire County Council — action in response to child sexual exploitation",
+          "url": "https://mycouncil.oxfordshire.gov.uk/documents/s23353/CA_NOV2613R11.pdf"
+        }
+      ]
+    },
+    {
+      "id": "lee-rigby-2013",
+      "year": 2013,
+      "date": "22 May 2013",
+      "title": "Murder of Fusilier Lee Rigby in Woolwich",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "David Cameron",
+      "summary": "Lee Rigby was murdered in broad daylight by Michael Adebolajo and Michael Adebowale. The government and Intelligence and Security Committee treated the killing as terrorism and reviewed what agencies knew beforehand.",
+      "evidence": "Official government / ISC material",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; Islamist-extremism link confirmed",
+      "tags": [
+        "Lee Rigby",
+        "Woolwich",
+        "terrorism",
+        "Islamist extremism"
+      ],
+      "sources": [
+        {
+          "label": "Home Secretary statement after convictions",
+          "url": "https://www.gov.uk/government/news/home-secretary-statement-on-the-murder-of-drummer-lee-rigby"
+        },
+        {
+          "label": "Government response to ISC report",
+          "url": "https://assets.publishing.service.gov.uk/media/5a7f26d3ed915d74e33f4a73/47718_Cm_9012_print_ready.pdf"
         }
       ]
     },
@@ -287,6 +427,144 @@
       ]
     },
     {
+      "id": "parsons-green-2017",
+      "year": 2017,
+      "date": "15 September 2017",
+      "title": "Parsons Green Tube bombing",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "summary": "An improvised explosive device detonated on a District line train at Parsons Green. The incident formed part of the official review of the five major 2017 attacks.",
+      "evidence": "Government / ISC review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; terrorism link confirmed",
+      "tags": [
+        "Parsons Green",
+        "bombing",
+        "terrorism",
+        "2017 attacks"
+      ],
+      "sources": [
+        {
+          "label": "Government page — 2017 terror attacks review",
+          "url": "https://www.gov.uk/government/publications/the-2017-terror-attacks-review-2018-report"
+        }
+      ]
+    },
+    {
+      "id": "finsbury-park-2017",
+      "year": 2017,
+      "date": "19 June 2017",
+      "title": "Finsbury Park attack targets Muslim worshippers",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "summary": "A far-right terrorist drove a vehicle into Muslim worshippers. It is included so the timeline records serious extremist violence consistently rather than only attacks committed by Islamists.",
+      "evidence": "Government statement / ISC review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; extreme-right terrorism link confirmed",
+      "tags": [
+        "Finsbury Park",
+        "far right",
+        "terrorism",
+        "anti-Muslim"
+      ],
+      "sources": [
+        {
+          "label": "Home Secretary statement on 2017 terrorist attacks",
+          "url": "https://www.gov.uk/government/speeches/home-secretary-statement-on-recent-terrorist-attacks"
+        },
+        {
+          "label": "Government page — 2017 terror attacks review",
+          "url": "https://www.gov.uk/government/publications/the-2017-terror-attacks-review-2018-report"
+        }
+      ]
+    },
+    {
+      "id": "westminster-2017",
+      "year": 2017,
+      "date": "22 March 2017",
+      "title": "Westminster terrorist attack",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "summary": "A vehicle-and-knife terrorist attack struck Westminster. It was one of five serious UK terrorist attacks reviewed by the Intelligence and Security Committee in relation to intelligence handling and lessons for counter-terrorism.",
+      "evidence": "ISC / government review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; terrorism link confirmed",
+      "tags": [
+        "Westminster",
+        "terrorism",
+        "2017 attacks"
+      ],
+      "sources": [
+        {
+          "label": "Government page — 2017 terror attacks review",
+          "url": "https://www.gov.uk/government/publications/the-2017-terror-attacks-review-2018-report"
+        }
+      ]
+    },
+    {
+      "id": "london-bridge-2017",
+      "year": 2017,
+      "date": "3 June 2017",
+      "title": "London Bridge and Borough Market terrorist attack",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "summary": "Attackers used a vehicle and knives at London Bridge and Borough Market. The attack was included in the official 2017 intelligence and policing reviews.",
+      "evidence": "ISC / government review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; Islamist-terrorism link confirmed",
+      "tags": [
+        "London Bridge",
+        "Borough Market",
+        "terrorism",
+        "2017 attacks"
+      ],
+      "sources": [
+        {
+          "label": "Government page — 2017 terror attacks review",
+          "url": "https://www.gov.uk/government/publications/the-2017-terror-attacks-review-2018-report"
+        }
+      ]
+    },
+    {
+      "id": "manchester-arena-2017",
+      "year": 2017.39,
+      "date": "22 May 2017",
+      "title": "Manchester Arena bombing kills 22 people",
+      "category": "Security & Extremism",
+      "kind": "Attack",
+      "tone": "negative",
+      "administration": "Theresa May",
+      "summary": "Salman Abedi detonated a suicide bomb at Manchester Arena, killing 22 people. The official inquiry found he was Manchester-born to parents who had been granted asylum after fleeing Libya. This is recorded as an extremism and integration-related event; the site does not treat his parents' asylum status as proof that asylum policy caused the attack.",
+      "evidence": "Official inquiry",
+      "confidence": "confirmed",
+      "relationship": "Attack during term; migration-family background is contextual, not established causation",
+      "tags": [
+        "terrorism",
+        "Manchester",
+        "Islamist extremism",
+        "integration",
+        "asylum background"
+      ],
+      "sources": [
+        {
+          "label": "Manchester Arena Inquiry — Volume 3",
+          "url": "https://www.gov.uk/government/publications/manchester-arena-inquiry-volume-3-radicalisation-and-preventability"
+        },
+        {
+          "label": "2017 attacks open report",
+          "url": "https://www.gov.uk/government/publications/attacks-in-london-and-manchester-march-june-2017"
+        }
+      ]
+    },
+    {
       "id": "windrush-2018",
       "year": 2018,
       "date": "2018–2020",
@@ -312,6 +590,148 @@
       ]
     },
     {
+      "id": "fishmongers-2019",
+      "year": 2019,
+      "date": "29 November 2019",
+      "title": "Fishmongers' Hall terrorist attack kills two",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "Usman Khan, a previously convicted terrorist released from prison, killed Saskia Jones and Jack Merritt. The case triggered reviews of terrorist-offender release and public-protection arrangements.",
+      "evidence": "Official government / IOPC material",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; offender-management policy relevance confirmed",
+      "tags": [
+        "Fishmongers Hall",
+        "Usman Khan",
+        "terrorism",
+        "early release"
+      ],
+      "sources": [
+        {
+          "label": "Government response on terrorism legislation and Fishmongers' Hall",
+          "url": "https://www.gov.uk/government/publications/response-to-the-operation-of-the-terrorism-acts-in-2019-report/response-to-the-annual-report-on-the-operation-of-the-terrorism-acts-in-2019-accessible-version"
+        },
+        {
+          "label": "IOPC recommendations following Fishmongers' Hall",
+          "url": "https://www.policeconduct.gov.uk/news/iopc-recommendations-following-fishmongers-hall-terror-attack-being-implemented-nationally"
+        }
+      ]
+    },
+    {
+      "id": "streatham-2020",
+      "year": 2020,
+      "date": "2 February 2020",
+      "title": "Streatham terrorist stabbing",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "Sudesh Amman stabbed members of the public shortly after release from prison while under surveillance. The attack helped prompt emergency legislation ending automatic early release for terrorist offenders.",
+      "evidence": "Government / IOPC material",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; offender-release policy relevance confirmed",
+      "tags": [
+        "Streatham",
+        "terrorism",
+        "early release",
+        "Sudesh Amman"
+      ],
+      "sources": [
+        {
+          "label": "Government response to Streatham incident",
+          "url": "https://www.gov.uk/government/speeches/government-response-to-the-streatham-incident"
+        },
+        {
+          "label": "Automatic early release of terrorists ends",
+          "url": "https://www.gov.uk/government/news/automatic-early-release-of-terrorists-ends"
+        }
+      ]
+    },
+    {
+      "id": "whitemoor-2020",
+      "year": 2020,
+      "date": "9 January 2020",
+      "title": "HMP Whitemoor terrorist attack",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "The government later listed the HMP Whitemoor assault as one of three terrorist attacks in the UK during 2020, alongside Streatham and Reading.",
+      "evidence": "Independent Reviewer / government response",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; terrorism link confirmed",
+      "tags": [
+        "Whitemoor",
+        "prison",
+        "terrorism"
+      ],
+      "sources": [
+        {
+          "label": "Government response to Independent Reviewer — 2020 attacks",
+          "url": "https://www.gov.uk/government/publications/response-to-the-report-on-the-terrorism-acts-in-2020/response-to-the-2020-annual-report-on-the-operation-of-the-terrorism-acts-by-the-independent-reviewer-of-terrorism-legislation-accessible-version"
+        }
+      ]
+    },
+    {
+      "id": "reading-attack-2020",
+      "year": 2020.47,
+      "date": "20 June 2020",
+      "title": "Reading park attack: three murdered in Islamist attack",
+      "category": "Security & Extremism",
+      "kind": "Attack",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "Khairi Saadallah murdered three people in Forbury Gardens, Reading. He had arrived from Libya and later received permission to remain after claiming asylum. The attack was treated as Islamist terrorism; later scrutiny also focused on failures across offender management and public services.",
+      "evidence": "Court / official terrorism review",
+      "confidence": "confirmed",
+      "relationship": "Direct migrant/asylum-system background; individual crime does not establish population-level causation",
+      "tags": [
+        "Reading",
+        "terrorism",
+        "refugee",
+        "asylum",
+        "public safety"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer — Terrorism Acts 2020",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2020/the-terrorism-acts-in-2020-report-of-the-independent-reviewer-of-terrorism-legislation-accessible-version"
+        },
+        {
+          "label": "Reuters sentencing report",
+          "url": "https://www.reuters.com/article/world/libyan-jailed-for-life-for-uk-attack-that-killed-three-idUSKBN29G2BO/"
+        }
+      ]
+    },
+    {
+      "id": "amess-2021",
+      "year": 2021,
+      "date": "15 October 2021",
+      "title": "MP Sir David Amess assassinated in Islamist-inspired terrorist attack",
+      "category": "Security & Extremism",
+      "kind": "Terror attack",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "Sir David Amess MP was murdered at a constituency surgery. A later government Prevent review described Ali Harbi Ali's attack as carefully planned Islamist-inspired terrorism.",
+      "evidence": "Government Prevent review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; Islamist-extremism link confirmed",
+      "tags": [
+        "David Amess",
+        "Ali Harbi Ali",
+        "terrorism",
+        "Prevent"
+      ],
+      "sources": [
+        {
+          "label": "Government — Lessons for Prevent",
+          "url": "https://www.gov.uk/government/publications/lessons-for-prevent/lessons-for-prevent-accessible"
+        }
+      ]
+    },
+    {
       "id": "pbs-2021",
       "year": 2021,
       "date": "2020–2021",
@@ -333,6 +753,125 @@
         {
           "label": "UK points-based immigration system — further details",
           "url": "https://www.gov.uk/government/publications/uk-points-based-immigration-system-further-details-statement/uk-points-based-immigration-system-further-details-statement"
+        }
+      ]
+    },
+    {
+      "id": "muslim-population-2021",
+      "year": 2021.2,
+      "date": "21 March 2021",
+      "title": "Census: Muslim population reaches 3.9 million in England and Wales",
+      "category": "Demographic Change",
+      "kind": "Census",
+      "tone": "neutral",
+      "administration": "Boris Johnson",
+      "summary": "The 2021 Census recorded 3.9 million people identifying as Muslim in England and Wales, 6.5% of the population, up from 2.7 million (4.9%) in 2011. This measures religious identification, not immigration status or religious practice.",
+      "evidence": "ONS Census",
+      "confidence": "confirmed",
+      "relationship": "Demographic change during term; not itself a negative outcome",
+      "tags": [
+        "Census",
+        "Muslim population",
+        "demographics",
+        "religion"
+      ],
+      "metric": {
+        "label": "Muslim share, England & Wales",
+        "value": "6.5%",
+        "context": "3.9m in 2021 vs 2.7m / 4.9% in 2011"
+      },
+      "sources": [
+        {
+          "label": "ONS — Religion, Census 2021",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/bulletins/religionenglandandwales/census2021"
+        }
+      ]
+    },
+    {
+      "id": "liverpool-hospital-2021",
+      "year": 2021.87,
+      "date": "14 November 2021",
+      "title": "Liverpool Women's Hospital bombing; asylum grievance later identified",
+      "category": "Security & Extremism",
+      "kind": "Attack / Investigation",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "Emad Al Swealmeen died when his homemade bomb exploded in a taxi outside Liverpool Women's Hospital. Counter-terrorism police treated the incident as a terrorist attack. A later independent terrorism review reported that police considered a grievance over his asylum claim the most likely motivation.",
+      "evidence": "Official terrorism review",
+      "confidence": "confirmed",
+      "relationship": "Asylum-system grievance identified as likely motive; broader immigration-policy causation not established",
+      "tags": [
+        "Liverpool",
+        "terrorism",
+        "asylum",
+        "rejected claim",
+        "public safety"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer — Terrorism Acts 2023",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2023/the-terrorism-acts-in-2023-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
+        },
+        {
+          "label": "Independent Reviewer — Terrorism Acts 2021",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2021/the-terrorism-acts-in-2021-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
+        }
+      ]
+    },
+    {
+      "id": "telford-inquiry-2022",
+      "year": 2022,
+      "date": "12 July 2022",
+      "title": "Telford CSE inquiry reports decades of institutional failings",
+      "category": "Government Failure",
+      "kind": "Independent inquiry",
+      "tone": "negative",
+      "administration": "Boris Johnson",
+      "summary": "The independent Telford inquiry concluded that more could have been done over decades to support victims and made 47 recommendations. It belongs on the national institutional-failure timeline, while the underlying offending spans multiple governments.",
+      "evidence": "Independent inquiry",
+      "confidence": "confirmed",
+      "relationship": "Report published during term; underlying abuse spans multiple administrations",
+      "tags": [
+        "Telford",
+        "CSE",
+        "grooming gangs",
+        "institutional failure"
+      ],
+      "sources": [
+        {
+          "label": "Telford & Wrekin Council — Independent Inquiry into Telford CSE",
+          "url": "https://www.telford.gov.uk/children-and-young-people/safeguarding-children/child-sexual-exploitation-cse/independent-inquiry-into-telford-child-sexual-exploitation-iitcse/"
+        }
+      ]
+    },
+    {
+      "id": "leicester-unrest-2022",
+      "year": 2022,
+      "date": "September 2022",
+      "title": "Leicester Hindu–Muslim community disorder",
+      "category": "Crime & Safety",
+      "kind": "Community disorder",
+      "tone": "negative",
+      "administration": "Liz Truss",
+      "summary": "Serious disorder and clashes occurred in Leicester involving mainly young men from British Hindu and British Muslim communities. Government reviews later examined imported nationalist rhetoric, religious extremism, misinformation and community cohesion.",
+      "evidence": "Government independent review material",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; integration/community-cohesion relevance confirmed; migration as sole cause unproven",
+      "tags": [
+        "Leicester",
+        "community cohesion",
+        "Hindu",
+        "Muslim",
+        "public disorder"
+      ],
+      "sources": [
+        {
+          "label": "Independent review into civil unrest in Leicester 2022",
+          "url": "https://www.gov.uk/government/calls-for-evidence/independent-review-into-civil-unrest-in-leicester-2022/independent-review-into-civil-unrest-in-leicester-2022"
+        },
+        {
+          "label": "Khan Review — threats to social cohesion",
+          "url": "https://assets.publishing.service.gov.uk/media/65fdbfd265ca2ffef17da79c/The_Khan_review.pdf"
         }
       ]
     },
@@ -422,6 +961,63 @@
       ]
     },
     {
+      "id": "southport-2024",
+      "year": 2024,
+      "date": "29 July 2024",
+      "title": "Southport dance-class murders kill three children",
+      "category": "Crime & Safety",
+      "kind": "Mass stabbing",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "summary": "Three children were murdered in a mass stabbing in Southport. The Independent Reviewer later stated that the attack was not classified as terrorism. The attacker was British-born, so the event should not be labelled an immigrant crime even though false claims about his identity helped trigger subsequent unrest.",
+      "evidence": "Independent Reviewer / official review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; immigration-crime classification rejected by available facts",
+      "tags": [
+        "Southport",
+        "mass stabbing",
+        "misinformation",
+        "public safety"
+      ],
+      "sources": [
+        {
+          "label": "Independent Reviewer — Terrorism Acts in 2024",
+          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2024/the-terrorism-acts-in-2024-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
+        }
+      ]
+    },
+    {
+      "id": "uk-disorder-2024",
+      "year": 2024,
+      "date": "30 July–5 August 2024",
+      "title": "Nationwide disorder targets asylum accommodation, mosques and communities",
+      "category": "Crime & Safety",
+      "kind": "Public disorder",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "summary": "Violent disorder spread across towns and cities after the Southport murders. Official reviews described attacks on mosques and asylum accommodation, including an asylum hotel in Rotherham being set alight while people were inside. This is relevant to migration-related social tension but many rioters were motivated by far-right narratives and misinformation.",
+      "evidence": "Home Office / HMICFRS review",
+      "confidence": "confirmed",
+      "relationship": "Occurred during term; asylum/community-tension relevance confirmed",
+      "tags": [
+        "2024 riots",
+        "asylum hotels",
+        "Rotherham",
+        "public disorder",
+        "far right"
+      ],
+      "sources": [
+        {
+          "label": "Home Secretary statement on disorder",
+          "url": "https://www.gov.uk/government/speeches/home-secretary-statement-on-disorder"
+        },
+        {
+          "label": "HMICFRS — police response to July/August 2024 disorder",
+          "url": "https://hmicfrs.justiceinspectorates.gov.uk/publication-html/police-response-to-public-disorder-in-july-and-august-2024-tranche-1/"
+        }
+      ]
+    },
+    {
       "id": "restrictions-2024",
       "year": 2024.1,
       "date": "2024",
@@ -472,32 +1068,28 @@
       ]
     },
     {
-      "id": "casey-2025",
-      "year": 2025.46,
-      "date": "16 June 2025",
-      "title": "Casey audit examines grooming gangs, ethnicity and institutional response",
-      "category": "Government Failure",
-      "kind": "Investigation",
+      "id": "casey-rochdale-convictions-2025",
+      "year": 2025,
+      "date": "13 June 2025",
+      "title": "Seven men convicted over historic Rochdale grooming offences",
+      "category": "Crime & Safety",
+      "kind": "Organised sexual exploitation",
       "tone": "negative",
       "administration": "Keir Starmer",
-      "summary": "The national audit was commissioned to examine group-based child sexual exploitation, including what is known about offender and victim demographics, ethnicity, cultural and societal drivers, and institutional responses.",
-      "evidence": "Official national audit",
+      "summary": "Seven men were convicted for horrific crimes committed in Rochdale between 2000 and 2006; the convictions were cited by the Home Secretary when presenting the Casey national audit days later. The offending predates the convictions by decades and therefore spans earlier administrations.",
+      "evidence": "Home Office parliamentary statement",
       "confidence": "confirmed",
-      "relationship": "Official investigation",
+      "relationship": "Convictions during term; offending occurred mainly under Tony Blair",
       "tags": [
-        "Casey",
+        "Rochdale",
         "grooming gangs",
-        "ethnicity",
-        "institutional response"
+        "CSE",
+        "historic offences"
       ],
       "sources": [
         {
-          "label": "National Audit on Group-based Child Sexual Exploitation and Abuse",
-          "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse"
-        },
-        {
-          "label": "Audit terms of reference",
-          "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse-terms-of-reference/national-audit-on-group-based-child-sexual-exploitation-and-abuse-terms-of-reference"
+          "label": "Home Secretary statement on Baroness Casey's audit",
+          "url": "https://www.gov.uk/government/speeches/baroness-caseys-audit-of-group-based-child-sexual-exploitation-and-abuse"
         }
       ]
     },
@@ -524,6 +1116,36 @@
         {
           "label": "Restoring control over the immigration system",
           "url": "https://www.gov.uk/government/publications/restoring-control-over-the-immigration-system-white-paper"
+        }
+      ]
+    },
+    {
+      "id": "casey-2025",
+      "year": 2025.46,
+      "date": "16 June 2025",
+      "title": "Casey audit examines grooming gangs, ethnicity and institutional response",
+      "category": "Government Failure",
+      "kind": "Investigation",
+      "tone": "negative",
+      "administration": "Keir Starmer",
+      "summary": "The national audit was commissioned to examine group-based child sexual exploitation, including what is known about offender and victim demographics, ethnicity, cultural and societal drivers, and institutional responses.",
+      "evidence": "Official national audit",
+      "confidence": "confirmed",
+      "relationship": "Official investigation",
+      "tags": [
+        "Casey",
+        "grooming gangs",
+        "ethnicity",
+        "institutional response"
+      ],
+      "sources": [
+        {
+          "label": "National Audit on Group-based Child Sexual Exploitation and Abuse",
+          "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse"
+        },
+        {
+          "label": "Audit terms of reference",
+          "url": "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse-terms-of-reference/national-audit-on-group-based-child-sexual-exploitation-and-abuse-terms-of-reference"
         }
       ]
     },
@@ -558,155 +1180,29 @@
       ]
     },
     {
-      "id": "burnham-2026",
-      "year": 2026.55,
-      "date": "20 July 2026",
-      "title": "Andy Burnham becomes Prime Minister",
-      "category": "Administration",
-      "kind": "Administration",
-      "tone": "neutral",
-      "administration": "Andy Burnham",
-      "summary": "Andy Burnham became Prime Minister on 20 July 2026. Events from this point are marked LIVE so the timeline can be updated as policies and outcomes develop.",
-      "evidence": "Official Prime Minister biography",
-      "confidence": "confirmed",
-      "relationship": "Change of administration",
-      "tags": [
-        "Burnham",
-        "current",
-        "live"
-      ],
-      "sources": [
-        {
-          "label": "Prime Minister — GOV.UK",
-          "url": "https://www.gov.uk/government/ministers/prime-minister"
-        },
-        {
-          "label": "Andy Burnham's first speech as Prime Minister",
-          "url": "https://www.gov.uk/government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026"
-        }
-      ]
-    },
-    {
-      "id": "manchester-arena-2017",
-      "year": 2017.39,
-      "date": "22 May 2017",
-      "title": "Manchester Arena bombing kills 22 people",
-      "category": "Security & Extremism",
-      "kind": "Attack",
+      "id": "london-cse-review-2026",
+      "year": 2026,
+      "date": "2 June 2026",
+      "title": "Met reviews 9,000 historic group-based CSE cases that ended with no further action",
+      "category": "Government Failure",
+      "kind": "Case review",
       "tone": "negative",
-      "administration": "Theresa May",
-      "summary": "Salman Abedi detonated a suicide bomb at Manchester Arena, killing 22 people. The official inquiry found he was Manchester-born to parents who had been granted asylum after fleeing Libya. This is recorded as an extremism and integration-related event; the site does not treat his parents' asylum status as proof that asylum policy caused the attack.",
-      "evidence": "Official inquiry",
+      "administration": "Keir Starmer",
+      "summary": "The London Assembly reported that the Metropolitan Police was reviewing about 9,000 historic group-based child sexual exploitation and abuse cases from the previous 15 years where police or prosecutors had taken no further action. These are reviews, not 9,000 proven offences or proven wrongful closures.",
+      "evidence": "London Assembly / Met review",
       "confidence": "confirmed",
-      "relationship": "Attack during term; migration-family background is contextual, not established causation",
+      "relationship": "Review announced during term; underlying cases span Cameron, May, Johnson, Sunak and Starmer periods",
       "tags": [
-        "terrorism",
-        "Manchester",
-        "Islamist extremism",
-        "integration",
-        "asylum background"
+        "London",
+        "Met Police",
+        "CSE",
+        "9000 cases",
+        "review"
       ],
       "sources": [
         {
-          "label": "Manchester Arena Inquiry — Volume 3",
-          "url": "https://www.gov.uk/government/publications/manchester-arena-inquiry-volume-3-radicalisation-and-preventability"
-        },
-        {
-          "label": "2017 attacks open report",
-          "url": "https://www.gov.uk/government/publications/attacks-in-london-and-manchester-march-june-2017"
-        }
-      ]
-    },
-    {
-      "id": "reading-attack-2020",
-      "year": 2020.47,
-      "date": "20 June 2020",
-      "title": "Reading park attack: three murdered in Islamist attack",
-      "category": "Security & Extremism",
-      "kind": "Attack",
-      "tone": "negative",
-      "administration": "Boris Johnson",
-      "summary": "Khairi Saadallah murdered three people in Forbury Gardens, Reading. He had arrived from Libya and later received permission to remain after claiming asylum. The attack was treated as Islamist terrorism; later scrutiny also focused on failures across offender management and public services.",
-      "evidence": "Court / official terrorism review",
-      "confidence": "confirmed",
-      "relationship": "Direct migrant/asylum-system background; individual crime does not establish population-level causation",
-      "tags": [
-        "Reading",
-        "terrorism",
-        "refugee",
-        "asylum",
-        "public safety"
-      ],
-      "sources": [
-        {
-          "label": "Independent Reviewer — Terrorism Acts 2020",
-          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2020/the-terrorism-acts-in-2020-report-of-the-independent-reviewer-of-terrorism-legislation-accessible-version"
-        },
-        {
-          "label": "Reuters sentencing report",
-          "url": "https://www.reuters.com/article/world/libyan-jailed-for-life-for-uk-attack-that-killed-three-idUSKBN29G2BO/"
-        }
-      ]
-    },
-    {
-      "id": "liverpool-hospital-2021",
-      "year": 2021.87,
-      "date": "14 November 2021",
-      "title": "Liverpool Women's Hospital bombing; asylum grievance later identified",
-      "category": "Security & Extremism",
-      "kind": "Attack / Investigation",
-      "tone": "negative",
-      "administration": "Boris Johnson",
-      "summary": "Emad Al Swealmeen died when his homemade bomb exploded in a taxi outside Liverpool Women's Hospital. Counter-terrorism police treated the incident as a terrorist attack. A later independent terrorism review reported that police considered a grievance over his asylum claim the most likely motivation.",
-      "evidence": "Official terrorism review",
-      "confidence": "confirmed",
-      "relationship": "Asylum-system grievance identified as likely motive; broader immigration-policy causation not established",
-      "tags": [
-        "Liverpool",
-        "terrorism",
-        "asylum",
-        "rejected claim",
-        "public safety"
-      ],
-      "sources": [
-        {
-          "label": "Independent Reviewer — Terrorism Acts 2023",
-          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2023/the-terrorism-acts-in-2023-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
-        },
-        {
-          "label": "Independent Reviewer — Terrorism Acts 2021",
-          "url": "https://www.gov.uk/government/publications/the-terrorism-acts-in-2021/the-terrorism-acts-in-2021-report-of-the-independent-reviewer-of-terrorism-legislation-accessible"
-        }
-      ]
-    },
-    {
-      "id": "muslim-population-2021",
-      "year": 2021.2,
-      "date": "21 March 2021",
-      "title": "Census: Muslim population reaches 3.9 million in England and Wales",
-      "category": "Demographic Change",
-      "kind": "Census",
-      "tone": "neutral",
-      "administration": "Boris Johnson",
-      "summary": "The 2021 Census recorded 3.9 million people identifying as Muslim in England and Wales, 6.5% of the population, up from 2.7 million (4.9%) in 2011. This measures religious identification, not immigration status or religious practice.",
-      "evidence": "ONS Census",
-      "confidence": "confirmed",
-      "relationship": "Demographic change during term; not itself a negative outcome",
-      "tags": [
-        "Census",
-        "Muslim population",
-        "demographics",
-        "religion"
-      ],
-      "metric": {
-        "label": "Muslim share, England & Wales",
-        "value": "6.5%",
-        "context": "3.9m in 2021 vs 2.7m / 4.9% in 2011"
-      },
-      "sources": [
-        {
-          "label": "ONS — Religion, Census 2021",
-          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/bulletins/religionenglandandwales/census2021"
+          "label": "London Assembly — grooming gangs in London: what do we know?",
+          "url": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-press-releases/grooming-gangs-london-what-do-we-know"
         }
       ]
     },
@@ -766,6 +1262,35 @@
         {
           "label": "Newham Council — Celebrating Eid al-Adha 2026",
           "url": "https://www.newham.gov.uk/news/article/1410/celebrating-eid-al-adha-in-newham"
+        }
+      ]
+    },
+    {
+      "id": "burnham-2026",
+      "year": 2026.55,
+      "date": "20 July 2026",
+      "title": "Andy Burnham becomes Prime Minister",
+      "category": "Administration",
+      "kind": "Administration",
+      "tone": "neutral",
+      "administration": "Andy Burnham",
+      "summary": "Andy Burnham became Prime Minister on 20 July 2026. Events from this point are marked LIVE so the timeline can be updated as policies and outcomes develop.",
+      "evidence": "Official Prime Minister biography",
+      "confidence": "confirmed",
+      "relationship": "Change of administration",
+      "tags": [
+        "Burnham",
+        "current",
+        "live"
+      ],
+      "sources": [
+        {
+          "label": "Prime Minister — GOV.UK",
+          "url": "https://www.gov.uk/government/ministers/prime-minister"
+        },
+        {
+          "label": "Andy Burnham's first speech as Prime Minister",
+          "url": "https://www.gov.uk/government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026"
         }
       ]
     },

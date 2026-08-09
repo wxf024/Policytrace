@@ -13,18 +13,20 @@
 <body>
   <header class="topbar">
     <a class="brand" href="index.html">POLICY<span>TRACE</span></a>
-    <nav>
-      <a href="#people">People</a>
-      <a class="active" href="#timeline">Timeline</a>
-      <a href="#migration">Migration</a>
-      <a href="#social">Social change</a>
-      <a href="#promises">Promise vs Result</a>
+    <nav class="page-nav" aria-label="Page sections">
+      <a href="#overview" data-nav="overview">Overview</a>
+      <a href="#people" data-nav="people">People</a>
+      <a href="#migration" data-nav="migration">Migration</a>
+      <a href="#social" data-nav="social">Social change</a>
+      <a href="#promises" data-nav="promises">Promise vs Result</a>
+      <a href="#timeline" data-nav="timeline">Timeline</a>
+      <a href="#method" data-nav="method">Method</a>
       <button id="aboutBtn" class="ghost-btn">About</button>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero nav-section" id="overview" data-section="overview">
       <div>
         <div class="eyebrow">PUBLIC RECORD • SOURCE-FIRST</div>
         <h1>United Kingdom<br><span>1997—2026</span></h1>
@@ -42,7 +44,7 @@
       <div><strong>Sequence is not causation.</strong><br><span>Every relationship is labelled so a policy that precedes an outcome is not automatically presented as its cause.</span></div>
     </section>
 
-    <section class="section-block" id="people">
+    <section class="section-block nav-section" id="people" data-section="people">
       <div class="section-head">
         <div><div class="section-kicker">WHO WAS IN POWER?</div><h2>Prime ministers</h2></div>
         <p>Click a leader to see their term, promises, policy actions and all timeline records attached to their administration.</p>
@@ -50,7 +52,7 @@
       <div class="people-grid" id="peopleGrid"></div>
     </section>
 
-    <section class="section-block" id="migration">
+    <section class="section-block nav-section" id="migration" data-section="migration">
       <div class="section-head">
         <div><div class="section-kicker">MEASURED OUTCOME</div><h2>Net migration</h2></div>
         <p>Selected official UK net-migration estimates. Methodology changed over time, so the chart is a trend view rather than a perfectly like-for-like historical series.</p>
@@ -63,7 +65,7 @@
     </section>
 
 
-    <section class="section-block" id="social">
+    <section class="section-block nav-section" id="social" data-section="social">
       <div class="section-head">
         <div><div class="section-kicker">DEMOGRAPHIC & PUBLIC-SPACE CHANGE</div><h2>Social change indicators</h2></div>
         <p>Population and institutional-footprint indicators are shown separately from crime. Religious identity, immigration status and criminality are not treated as interchangeable.</p>
@@ -82,7 +84,7 @@
       </div>
     </section>
 
-    <section class="section-block" id="promises">
+    <section class="section-block nav-section" id="promises" data-section="promises">
       <div class="section-head">
         <div><div class="section-kicker">ACCOUNTABILITY</div><h2>Promise vs result</h2></div>
         <p>Political commitments are shown beside measurable outcomes. A missed target is not automatically evidence of bad faith; it is simply a documented gap between commitment and result.</p>
@@ -90,7 +92,7 @@
       <div class="promise-grid" id="promiseGrid"></div>
     </section>
 
-    <section class="controls" id="timeline">
+    <section class="controls nav-section" id="timeline" data-section="timeline">
       <div class="section-head compact-head">
         <div><div class="section-kicker">CHRONOLOGY</div><h2>Timeline</h2></div>
         <p>Select an administration to jump directly to its term. Each term now includes linked news, later investigations and unresolved follow-ups beneath the dated records.</p>
@@ -110,7 +112,7 @@
       <div class="empty" id="emptyState" hidden>No records match the current filters.</div>
     </section>
 
-    <section class="method" id="method">
+    <section class="method nav-section" id="method" data-section="method">
       <div class="section-kicker">HOW TO READ THIS</div>
       <h2>Evidence before verdict.</h2>
       <div class="method-grid">
