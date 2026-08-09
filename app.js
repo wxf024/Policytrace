@@ -26,7 +26,8 @@ const uiText={
 let currentLang=localStorage.getItem('policytrace-lang')||'en';
 function trObj(obj,key){
   const v=obj?.[key+'_i18n'];
-  return v?.[currentLang] || obj?.[key] || '';
+  if(currentLang==='zh') return v?.zh || '';
+  return v?.en || obj?.[key] || '';
 }
 function uiT(key){return uiText[currentLang]?.[key]||uiText.en[key]||key;}
 function adminName(name){
@@ -39,6 +40,14 @@ function translatedType(v){
     'Policy failure / U-turn':'政策失败 / 急转弯','Court & Investigation':'法院与调查','Policy':'政策','Statistics':'统计'
   };
   return currentLang==='zh'?(z[v]||v):v;
+}
+function localizedDate(v=''){
+  if(currentLang!=='zh')return v;
+  const months={January:'1月',February:'2月',March:'3月',April:'4月',May:'5月',June:'6月',July:'7月',August:'8月',September:'9月',October:'10月',November:'11月',December:'12月',
+  Jan:'1月',Feb:'2月',Mar:'3月',Apr:'4月',Jun:'6月',Jul:'7月',Aug:'8月',Sep:'9月',Sept:'9月',Oct:'10月',Nov:'11月',Dec:'12月'};
+  let out=String(v);
+  Object.entries(months).forEach(([m,z])=>out=out.replace(new RegExp('\\b'+m+'\\b','g'),z));
+  return out.replace(/→/g,'至');
 }
 function translatedMigration(v){
   const z={
@@ -58,6 +67,19 @@ function applyStaticLanguage(){
   document.querySelectorAll('.filter-label').forEach((el,i)=>{
     const keys=['showType','migrationRel','topic']; if(keys[i])el.textContent=uiT(keys[i]);
   });
+  const search=document.getElementById('searchInput');
+  if(search) search.placeholder=currentLang==='zh'?'搜索政策、事件、人物、标签……':'Search policy, event, person, tag...';
+  const chronology=document.querySelector('#timeline .section-kicker');
+  if(chronology) chronology.textContent=currentLang==='zh'?'时间编年':'CHRONOLOGY';
+  const tlTitle=document.querySelector('#timeline h2');
+  if(tlTitle) tlTitle.textContent=currentLang==='zh'?'时间线':'Timeline';
+  const heroEyebrow=document.querySelector('#overview .eyebrow');
+  if(heroEyebrow) heroEyebrow.textContent=currentLang==='zh'?'公共记录 · 来源优先':'PUBLIC RECORD · SOURCE-FIRST';
+  const heroCopy=document.querySelector('#overview .hero-copy p');
+  if(heroCopy) heroCopy.textContent=currentLang==='zh'
+    ?'查看谁在执政、他们承诺了什么、改变了什么、任期内和离任后发生了什么、哪些后续新闻与其记录有关，以及官方调查最终发现了什么。'
+    :'See who was in power, what they promised, what they changed, what happened during and after their term, what later news connected back to their record, and what official investigations found.';
+
 }
 function setLanguage(lang){
   currentLang=lang; localStorage.setItem('policytrace-lang',lang); applyStaticLanguage();
@@ -68,7 +90,7 @@ function setLanguage(lang){
 function esc(v=''){return String(v).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]));}
 function detailRows(e){
   const rows=[
-    [uiT('location'),e.location],
+    [uiT('location'),trObj(e,'location')],
     [uiT('caseStatus'),trObj(e,'case_status')],
     [uiT('recordType'),e.record_type==='batch'?(currentLang==='zh'?'汇总 / 批量记录':'Aggregate / batch record'):(currentLang==='zh'?'单个事件 / 案件':'Individual event / case')],
     [uiT('relationship'),trObj(e,'relationship')],
@@ -158,7 +180,7 @@ function renderTypeFilters(){
 function renderFilters(){
   const available=new Set(state.data.events.map(e=>e.category));
   const cats=categoryOrder.filter(c=>c==='All'||available.has(c));
-  document.getElementById('filterRow').innerHTML=cats.map(c=>`<button class="filter-btn ${state.category===c?'active':''}" data-cat="${c}">${c}</button>`).join('');
+  document.getElementById('filterRow').innerHTML=cats.map(c=>`<button class="filter-btn ${state.category===c?'active':''}" data-cat="${c}" >${currentLang==='zh'?(state.data.events.find(e=>e.category===c)?.category_i18n?.zh||c):c}</button>`).join('');
 }
 function official(e){return /Official|ONS|Independent inquiry|legislation|Prime Minister|Home Office|government/i.test(e.evidence)}
 function timelineType(e){
@@ -203,10 +225,10 @@ function renderNewsBlock(items){
 }
 function renderUnifiedItem(item){
   const t=timelineType(item);
-  const sourceBadge=item._relatedNews?'NEWS / FOLLOW-UP':t.toUpperCase();
+  const sourceBadge=item._relatedNews?(currentLang==='zh'?'新闻 / 后续':'NEWS / FOLLOW-UP'):(currentLang==='zh'?translatedType(t):t.toUpperCase());
   const status=item.status?statusLabel(item.status):(item.confidence||'');
   return `<article class="record ${toneClass(item.tone)} ${timelineTypeClass(t)}" data-id="${item.id}" data-source="${item._relatedNews?'related':'event'}">
-    <div class="record-year">${displayDate(item)}</div><div class="record-node"><div class="dot"></div></div>
+    <div class="record-year">${localizedDate(displayDate(item))}</div><div class="record-node"><div class="dot"></div></div>
     <div class="record-main"><div class="record-meta"><span class="pill record-type-pill">${sourceBadge}</span>${item.category?`<span class="pill">${trObj(item,'category')}</span>`:''}${item.migration_relevance?`<span class="pill migration-pill">${trObj(item,'migration_relevance')}</span>`:''}<span class="pill">${status}</span><span class="pill term-occurrence">${item.scope==='legacy'?'Legacy of ': 'Occurred under '}${item.administration}</span></div><h3>${trObj(item,'title')}</h3><p>${trObj(item,'summary')}</p></div>
     <div class="record-side"><div class="person">${adminName(item.administration)}</div><div class="during-term">${item.scope==='legacy'?uiT('afterOffice'):uiT('inOffice')}</div><div class="relation">${trObj(item,'relationship')||trObj(item,'relation')||item.relationship||item.relation||''}</div>${item.metric?`<div class="metric">${item.metric.value}</div>`:''}</div>
   </article>`;

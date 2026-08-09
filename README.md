@@ -58,3 +58,7 @@ Fixes the Timeline record-type filter UI. The filters are now always rendered in
 Row 1: All / Major incident / News / Protest / Political scandal
 Row 2: Policy failure / U-turn / Court & Investigation / Policy / Statistics
 This prevents Political scandal and Policy failure / U-turn from disappearing due to horizontal layout or merge regressions.
+
+
+## v1.6 — full Chinese mode
+Chinese mode no longer falls back to English site content. All 153 current event titles have Chinese versions. Event summaries, categories, statuses, migration relevance, relationship/controversy fields, politician-response fields, policy-failure fields, profile content, post-office records, promise-vs-result cards, filters and navigation render in Chinese. Original source titles and external links remain untouched in their source language.
