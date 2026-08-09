@@ -33,15 +33,15 @@
         <p class="lede">See who was in power, what they promised, what they changed, what happened during and after their term, what later news connected back to their record, and what official investigations found.</p>
       </div>
       <div class="hero-stats">
-        <div><strong id="eventCount">0</strong><span>timeline records</span></div>
-        <div><strong id="pmCount">0</strong><span>prime ministers</span></div>
-        <div><strong>LIVE</strong><span>current administration</span></div>
+        <div><strong id="eventCount">0</strong><span id="timelineRecordsLabel">timeline records</span></div>
+        <div><strong id="pmCount">0</strong><span id="primeMinistersLabel">prime ministers</span></div>
+        <div><strong id="liveLabel">LIVE</strong><span id="currentAdministrationLabel">current administration</span></div>
       </div>
     </section>
 
     <section class="principle">
       <span class="principle-mark">≠</span>
-      <div><strong>Sequence is not causation.</strong><br><span>Every relationship is labelled so a policy that precedes an outcome is not automatically presented as its cause.</span></div>
+      <div><strong id="sequenceTitle">Sequence is not causation.</strong><br><span id="sequenceBody">Every relationship is labelled so a policy that precedes an outcome is not automatically presented as its cause.</span></div>
     </section>
 
     <section class="section-block nav-section" id="people" data-section="people">
@@ -60,7 +60,7 @@
       <div class="chart-card">
         <div class="chart-topline"><span>UK long-term net migration</span><span class="muted">selected year-ending estimates</span></div>
         <div id="migrationChart" class="migration-chart" aria-label="UK net migration chart"></div>
-        <div class="chart-source">Source notes are attached to chart points in <code>data.json</code>.</div>
+        <div class="chart-source"><span id="chartSourceNote">Source notes are attached to chart points in <code>data.json</code>.</span></div>
       </div>
     </section>
 
@@ -72,12 +72,12 @@
       </div>
       <div class="social-grid">
         <div class="chart-card">
-          <div class="chart-topline"><span>Muslim population — England & Wales</span><span class="muted">ONS Census</span></div>
+          <div class="chart-topline"><span id="muslimPopulationTitle">Muslim population — England & Wales</span><span class="muted" id="onsCensusLabel">ONS Census</span></div>
           <div id="muslimPopulationCards" class="stat-cards"></div>
-          <div class="chart-source">Census religion is self-identified affiliation; it does not measure immigration status or frequency of worship.</div>
+          <div class="chart-source"><span id="censusNote">Census religion is self-identified affiliation; it does not measure immigration status or frequency of worship.</span></div>
         </div>
         <div class="chart-card">
-          <div class="chart-topline"><span>Mosque / prayer-room landmarks</span><span class="muted">independent directory</span></div>
+          <div class="chart-topline"><span id="mosqueLandmarksTitle">Mosque / prayer-room landmarks</span><span class="muted" id="directoryLabel">independent directory</span></div>
           <div id="mosqueChart" class="mini-bar-chart"></div>
           <div class="chart-source" id="mosqueNote"></div>
         </div>
@@ -86,8 +86,8 @@
 
     <section class="section-block nav-section" id="promises" data-section="promises">
       <div class="section-head">
-        <div><div class="section-kicker">ACCOUNTABILITY</div><h2>Promise vs result</h2></div>
-        <p>Political commitments are shown beside measurable outcomes. A missed target is not automatically evidence of bad faith; it is simply a documented gap between commitment and result.</p>
+        <div><div class="section-kicker" id="accountabilityKicker">ACCOUNTABILITY</div><h2 id="promiseVsResultTitle">Promise vs result</h2></div>
+        <p><span id="promiseVsResultDesc">Political commitments are shown beside measurable outcomes. A missed target is not automatically evidence of bad faith; it is simply a documented gap between commitment and result.</span></p>
       </div>
       <div class="promise-grid" id="promiseGrid"></div>
     </section>
@@ -113,13 +113,13 @@
     </section>
 
     <section class="method nav-section" id="method" data-section="method">
-      <div class="section-kicker">HOW TO READ THIS</div>
-      <h2>Evidence before verdict.</h2>
+      <div class="section-kicker" id="methodKicker">HOW TO READ THIS</div>
+      <h2 id="methodTitle">Evidence before verdict.</h2>
       <div class="method-grid">
-        <article><span>01</span><h3>Fact</h3><p>A date, law, statistic or documented action supported by a primary source.</p></article>
-        <article><span>02</span><h3>Official finding</h3><p>A conclusion from a court, statutory inquiry, inspectorate or commissioned review.</p></article>
-        <article><span>03</span><h3>Inference</h3><p>A proposed relationship between events. It must be labelled and supported, not smuggled in as fact.</p></article>
-        <article><span>04</span><h3>Opinion</h3><p>Public or editorial judgement. Kept separate from the underlying record.</p></article>
+        <article><span>01</span><h3 id="methodFactTitle">Fact</h3><p><span id="methodFactDesc">A date, law, statistic or documented action supported by a primary source.</span></p></article>
+        <article><span>02</span><h3 id="methodOfficialTitle">Official finding</h3><p><span id="methodOfficialDesc">A conclusion from a court, statutory inquiry, inspectorate or commissioned review.</span></p></article>
+        <article><span>03</span><h3 id="methodInferenceTitle">Inference</h3><p><span id="methodInferenceDesc">A proposed relationship between events. It must be labelled and supported, not smuggled in as fact.</span></p></article>
+        <article><span>04</span><h3 id="methodOpinionTitle">Opinion</h3><p><span id="methodOpinionDesc">Public or editorial judgement. Kept separate from the underlying record.</span></p></article>
       </div>
     </section>
   </main>

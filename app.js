@@ -108,6 +108,42 @@ function applyStaticLanguage(){
   document.querySelectorAll('[data-stat-label="prime-ministers"]').forEach(el=>el.textContent=uiT('primeMinisters'));
   document.querySelectorAll('[data-stat-label="current-administration"]').forEach(el=>el.textContent=uiT('currentAdministration'));
 
+
+  const setTxt=(id,en,zh)=>{const el=document.getElementById(id);if(el)el.textContent=currentLang==='zh'?zh:en};
+  setTxt('timelineRecordsLabel','timeline records','时间线记录');
+  setTxt('primeMinistersLabel','prime ministers','历任首相');
+  setTxt('currentAdministrationLabel','current administration','现任政府');
+  setTxt('liveLabel','LIVE','现任');
+
+  setTxt('sequenceTitle','Sequence is not causation.','先后发生不等于因果关系。');
+  setTxt('sequenceBody','Every relationship is labelled so a policy that precedes an outcome is not automatically presented as its cause.','每条关系都会单独标注；某项政策先于某个结果发生，并不自动代表该政策就是结果的原因。');
+
+  setTxt('labourPmLegend','Labour PM','工党首相');
+  setTxt('conservativePmLegend','Conservative PM','保守党首相');
+  setTxt('netMigrationLegend','Net migration','净移民');
+  const chartNote=document.getElementById('chartSourceNote');
+  if(chartNote) chartNote.innerHTML=currentLang==='zh'?'图表数据点的来源说明记录在 <code>data.json</code> 中。':'Source notes are attached to chart points in <code>data.json</code>.';
+
+  setTxt('muslimPopulationTitle','Muslim population — England & Wales','穆斯林人口——英格兰和威尔士');
+  setTxt('onsCensusLabel','ONS Census','ONS人口普查');
+  setTxt('censusNote','Census religion is self-identified affiliation; it does not measure immigration status or frequency of worship.','人口普查中的宗教属于自我认定，不代表移民身份，也不能说明实际礼拜频率。');
+  setTxt('mosqueLandmarksTitle','Mosque / prayer-room landmarks','清真寺 / 礼拜点数量');
+  setTxt('directoryLabel','independent directory','独立目录');
+
+  setTxt('accountabilityKicker','ACCOUNTABILITY','政治问责');
+  setTxt('promiseVsResultTitle','Promise vs result','承诺与结果');
+  setTxt('promiseVsResultDesc','Political commitments are shown beside measurable outcomes. A missed target is not automatically evidence of bad faith; it is simply a documented gap between commitment and result.','把政治承诺与可衡量的实际结果并列展示。未完成目标并不自动等于恶意，只表示承诺与结果之间存在可记录的差距。');
+
+  setTxt('methodKicker','HOW TO READ THIS','如何阅读本站');
+  setTxt('methodTitle','Evidence before verdict.','先看证据，再下结论。');
+  setTxt('methodFactTitle','Fact','事实');
+  setTxt('methodFactDesc','A date, law, statistic or documented action supported by a primary source.','由一手来源支持的日期、法律、统计数字或有记录的行为。');
+  setTxt('methodOfficialTitle','Official finding','官方认定');
+  setTxt('methodOfficialDesc','A conclusion from a court, statutory inquiry, inspectorate or commissioned review.','法院、法定调查、监察机构或受委托独立审查作出的正式结论。');
+  setTxt('methodInferenceTitle','Inference','推断');
+  setTxt('methodInferenceDesc','A proposed relationship between events. It must be labelled and supported, not smuggled in as fact.','对事件之间关系的解释。必须明确标注并有证据支持，不能把推断伪装成事实。');
+  setTxt('methodOpinionTitle','Opinion','观点');
+  setTxt('methodOpinionDesc','Public or editorial judgement. Kept separate from the underlying record.','公众或编辑性判断，与底层事实记录分开展示。');
 }
 function setLanguage(lang){
   currentLang=lang; localStorage.setItem('policytrace-lang',lang); applyStaticLanguage();
@@ -324,10 +360,10 @@ function renderChart(){
 function renderSocialIndicators(){
   const s=state.data.socialIndicators; if(!s)return;
   const pop=document.getElementById('muslimPopulationCards');
-  if(pop){pop.innerHTML=s.muslimPopulation.map(d=>`<a class="stat-card" href="${d.source}" target="_blank" rel="noopener"><span>${d.label}</span><strong>${d.value.toFixed(1)}m</strong><b>${d.share}%</b><small>identified as Muslim</small></a>`).join('')}
+  if(pop){pop.innerHTML=s.muslimPopulation.map(d=>`<a class="stat-card" href="${d.source}" target="_blank" rel="noopener"><span>${d.label}</span><strong>${d.value.toFixed(1)}m</strong><b>${d.share}%</b><small>${currentLang==='zh'?'自我认定为穆斯林':'identified as Muslim'}</small></a>`).join('')}
   const mosque=document.getElementById('mosqueChart');
-  if(mosque){const max=Math.max(...s.mosqueLandmarks.map(d=>d.value));mosque.innerHTML=s.mosqueLandmarks.map(d=>`<div class="mini-bar-row"><span>${d.year}</span><div><i style="width:${(d.value/max*100).toFixed(1)}%"></i></div><strong>${d.value.toLocaleString()}</strong></div>`).join('')+`<a class="chart-data-link" href="${s.mosqueSource}" target="_blank" rel="noopener">Open source ↗</a>`}
-  const note=document.getElementById('mosqueNote'); if(note)note.textContent=s.mosqueNote;
+  if(mosque){const max=Math.max(...s.mosqueLandmarks.map(d=>d.value));mosque.innerHTML=s.mosqueLandmarks.map(d=>`<div class="mini-bar-row"><span>${d.year}</span><div><i style="width:${(d.value/max*100).toFixed(1)}%"></i></div><strong>${d.value.toLocaleString()}</strong></div>`).join('')+`<a class="chart-data-link" href="${s.mosqueSource}" target="_blank" rel="noopener">${currentLang==='zh'?'打开原始来源 ↗':'Open source ↗'}</a>`}
+  const note=document.getElementById('mosqueNote'); if(note)note.textContent=currentLang==='zh'?'独立目录统计的活跃清真寺 / 礼拜点数量；并非ONS政府官方统计。':s.mosqueNote;
 }
 
 function renderPromises(){
@@ -335,7 +371,7 @@ function renderPromises(){
   document.getElementById('promiseGrid').innerHTML=arr.map(p=>`<article class="promise-card">
     <div class="promise-admin">${p.administration} • ${p.date}</div>
     <h3>${p.promise}</h3>
-    <div class="versus"><div><span>PROMISE / TARGET</span><strong>${p.target}</strong></div><b>VS</b><div><span>MEASURED RESULT</span><strong>${p.result}</strong></div></div>
+    <div class="versus"><div><span>${currentLang==='zh'?'承诺 / 目标':'PROMISE / TARGET'}</span><strong>${p.target}</strong></div><b>${currentLang==='zh'?'对比':'VS'}</b><div><span>${currentLang==='zh'?'实际结果':'MEASURED RESULT'}</span><strong>${p.result}</strong></div></div>
     <p>${p.context}</p>
     <div class="promise-links">${p.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.label} ↗</a>`).join('')}</div>
   </article>`).join('');
