@@ -448,6 +448,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The Iraq Inquiry made no criminal finding against Blair, but issued severe official findings about decision-making, intelligence presentation and planning.",
+        "zh": "伊拉克调查没有对布莱尔作出刑事认定，但对决策过程、情报呈现方式和战后规划作出了严厉的官方批评。"
       }
     },
     {
@@ -858,6 +862,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "After a 16-month investigation, prosecutors announced that no charges would be brought.",
+        "zh": "经过16个月调查，检方宣布不会提出刑事指控。"
+      },
+      "scandal_status_i18n": {
+        "en": "investigated / no charges",
+        "zh": "已调查 / 未起诉"
       }
     },
     {
@@ -1558,6 +1570,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The policy was partially offset rather than simply restored; the episode became a symbol of Brown-era political miscalculation.",
+        "zh": "政府采取部分补偿而非简单恢复原政策；此事后来成为布朗时期政治误判的代表性案例。"
       }
     },
     {
@@ -1662,6 +1678,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "McBride resigned; Cabinet Office rules for special advisers were tightened.",
+        "zh": "McBride辞职；内阁办公室随后收紧了特别顾问相关规则。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed misconduct by adviser",
+        "zh": "顾问不当行为已确认"
       }
     },
     {
@@ -1761,6 +1785,10 @@
       "location_i18n": {
         "en": "Derby / Derbyshire",
         "zh": "德比 / 德比郡"
+      },
+      "court_outcome_i18n": {
+        "en": "Nine men were convicted of offences including rape, sexual assault and sexual activity with a child.",
+        "zh": "9名男子因强奸、性侵以及与儿童发生性行为等罪名被定罪。"
       }
     },
     {
@@ -1861,6 +1889,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Numerous MPs repaid money, resigned, were deselected or later faced criminal proceedings; reforms to the expenses system followed.",
+        "zh": "多名议员退还款项、辞职、失去党内提名或后来面临刑事程序；议员报销制度随后进行了改革。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed systemic scandal",
+        "zh": "系统性丑闻已确认"
       }
     },
     {
@@ -2262,6 +2298,10 @@
       "location_i18n": {
         "en": "Rochdale / Oldham",
         "zh": "罗奇代尔 / 奥尔德姆"
+      },
+      "court_outcome_i18n": {
+        "en": "Convictions were secured for child-sexual-exploitation and trafficking-related offences.",
+        "zh": "案件最终取得与儿童性剥削及人口贩运相关罪名的定罪。"
       }
     },
     {
@@ -2461,6 +2501,10 @@
       "location_i18n": {
         "en": "Bristol",
         "zh": "布里斯托尔"
+      },
+      "court_outcome_i18n": {
+        "en": "The Home Office case study describes concluded investigations and offender groups across Brooke 1 and Brooke 2.",
+        "zh": "内政部案例研究记录了Brooke 1和Brooke 2已经结束的调查及相关犯罪团伙。"
       }
     },
     {
@@ -2862,6 +2906,10 @@
       "location_i18n": {
         "en": "North Wales",
         "zh": "北威尔士"
+      },
+      "court_outcome_i18n": {
+        "en": "The Home Office used the concluded operation as an illustrative case study of group-based CSE.",
+        "zh": "内政部将这一已结束行动作为群体性儿童性剥削的案例研究。"
       }
     },
     {
@@ -2960,6 +3008,10 @@
       "location_i18n": {
         "en": "Peterborough",
         "zh": "彼得伯勒"
+      },
+      "court_outcome_i18n": {
+        "en": "Ten men convicted.",
+        "zh": "10名男子被定罪。"
       }
     },
     {
@@ -3163,6 +3215,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "This is a promise-versus-result failure rather than evidence of deliberate deception.",
+        "zh": "这是一项“承诺与结果”的落差记录，并不等于存在故意欺骗。"
       }
     },
     {
@@ -3267,6 +3323,16 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "metric_i18n": {
+        "en": {
+          "label": "Net migration",
+          "context": "2015 historical estimate"
+        },
+        "zh": {
+          "label": "净移民",
+          "context": "2015年历史估计值"
+        }
       }
     },
     {
@@ -3569,6 +3635,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Calling the referendum was lawful and democratic; describing it as a policy “failure” is an evaluative judgment, so the site records it as a political gamble with a clear consequence.",
+        "zh": "举行公投本身合法且符合民主程序；把它定义为政策“失败”带有评价性质，因此本站将其记录为产生明确后果的政治赌博。"
       }
     },
     {
@@ -3673,6 +3743,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The existence of the offshore investment and Cameron’s prior stake were confirmed. The reporting did not establish that Cameron broke tax law by owning the shares.",
+        "zh": "离岸投资及卡梅伦此前持股的事实得到确认；相关报道并未证明卡梅伦因持有这些股份而违反税法。"
+      },
+      "scandal_status_i18n": {
+        "en": "facts confirmed / no illegality established",
+        "zh": "事实已确认 / 未发现违法"
       }
     },
     {
@@ -3873,6 +3951,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "A clear political-strategy failure, not a legal or ethical scandal.",
+        "zh": "这是明确的政治策略失败，并非法律或伦理丑闻的正式认定。"
       }
     },
     {
@@ -3973,6 +4055,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The policy never entered law in the form originally presented during the campaign.",
+        "zh": "该政策最终没有以竞选期间最初提出的形式成为法律。"
       }
     },
     {
@@ -4375,6 +4461,10 @@
       "location_i18n": {
         "en": "North London",
         "zh": "北伦敦"
+      },
+      "court_outcome_i18n": {
+        "en": "Some offenders were prosecuted for indecent-image offences and some received Sexual Harm Prevention Orders; disruption measures were also used.",
+        "zh": "部分涉案人员因不雅影像相关罪行被起诉，部分人员收到性伤害预防令；警方也采取了其他干预措施。"
       }
     },
     {
@@ -4581,6 +4671,10 @@
       "location_i18n": {
         "en": "East Sussex",
         "zh": "East Sussex"
+      },
+      "court_outcome_i18n": {
+        "en": "Thomas convicted on 13 counts and sentenced to 2½ years; disqualified as director for eight years.",
+        "zh": "Thomas共13项罪名成立，被判监禁2年半，并被禁止担任公司董事8年。"
       }
     },
     {
@@ -4681,6 +4775,10 @@
       "location_i18n": {
         "en": "Peterborough / Court of Appeal",
         "zh": "彼得伯勒 / Court of Appeal"
+      },
+      "court_outcome_i18n": {
+        "en": "Murder conviction upheld; 17-year minimum term left in place after the 2025 sentence appeal.",
+        "zh": "谋杀罪定罪维持；2025年刑期上诉后，最低服刑17年的判决保持不变。"
       }
     },
     {
@@ -4983,6 +5081,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Home Secretary Amber Rudd resigned after misleading Parliament over removal targets. Later official reviews concluded the Home Office had failed badly and ignored warnings.",
+        "zh": "内政大臣Amber Rudd因在遣返目标问题上误导议会而辞职；后续官方审查认定内政部存在严重失误并忽视了警告。"
+      },
+      "scandal_status_i18n": {
+        "en": "officially acknowledged government failure",
+        "zh": "政府失职已被官方承认"
       }
     },
     {
@@ -5589,6 +5695,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The reversal is one of the clearest examples of public defence immediately followed by a full U-turn.",
+        "zh": "这是最典型的“公开坚决辩护后迅速全面反转”案例之一。"
       }
     },
     {
@@ -6101,6 +6211,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "A parliamentary committee concluded that Cameron showed a significant lack of judgement. The affair prompted renewed calls for tighter lobbying rules.",
+        "zh": "议会委员会认定卡梅伦表现出严重判断失误；事件再次引发收紧游说规则的呼声。"
+      },
+      "scandal_status_i18n": {
+        "en": "official criticism / no criminal finding",
+        "zh": "官方批评 / 无刑事认定"
       }
     },
     {
@@ -6399,6 +6517,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Reuters described the move as a government U-turn after a major sleaze backlash.",
+        "zh": "Reuters将此描述为政府在重大廉政争议反弹后的政策急转弯。"
       }
     },
     {
@@ -6503,6 +6625,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The Electoral Commission fined the Conservative Party £17,800 for serious reporting failures connected with the donation funding.",
+        "zh": "选举委员会因与捐款资金有关的严重申报失误，对保守党罚款17,800英镑。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed reporting failures by party",
+        "zh": "政党申报违规已确认"
       }
     },
     {
@@ -6707,6 +6837,16 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "metric_i18n": {
+        "en": {
+          "label": "Muslim share, England & Wales",
+          "context": "3.9m in 2021 vs 2.7m / 4.9% in 2011"
+        },
+        "zh": {
+          "label": "穆斯林人口占比（英格兰和威尔士）",
+          "context": "2021年390万，对比2011年270万 / 4.9%"
+        }
       }
     },
     {
@@ -6912,6 +7052,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Police penalty issued and paid; no criminal prosecution followed.",
+        "zh": "警方开出罚款且已缴纳；之后没有进一步刑事起诉。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed police penalty",
+        "zh": "警方处罚已确认"
       }
     },
     {
@@ -7225,6 +7373,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The policy reversal was effectively total and the premiership ended after 45 days.",
+        "zh": "政策实际上几乎全面反转，而该届首相任期也在45天后结束。"
       }
     },
     {
@@ -7329,6 +7481,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Most major tax measures were reversed. Truss resigned after 45 days as prime minister, making her the shortest-serving UK PM.",
+        "zh": "大多数主要税收措施被撤回；特拉斯任职45天后辞职，成为英国任期最短的首相。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed policy and market crisis",
+        "zh": "政策与市场危机已确认"
       }
     },
     {
@@ -7433,6 +7593,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The scandal triggered a wave of ministerial resignations and Johnson announced his resignation as Conservative leader on 7 July 2022.",
+        "zh": "该丑闻引发大批政府大臣辞职，约翰逊于2022年7月7日宣布辞去保守党党首职务。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed political handling failure",
+        "zh": "政治处理失误已确认"
       }
     },
     {
@@ -7632,6 +7800,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The tax status was legal; the controversy was political and ethical rather than a finding of tax evasion.",
+        "zh": "这种税务身份本身合法；争议属于政治和伦理问题，并非逃税的法律认定。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed status / no illegality established",
+        "zh": "相关事实已确认 / 未发现违法"
       }
     },
     {
@@ -7835,6 +8011,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Police fines established breaches of COVID regulations. The Sue Gray report found serious failures of leadership and standards in No. 10 and the Cabinet Office.",
+        "zh": "警方罚款确认存在违反新冠规定的行为；Sue Gray报告认定唐宁街10号和内阁办公室在领导力与行为标准方面存在严重失误。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed rule breaches",
+        "zh": "违规已确认"
       }
     },
     {
@@ -8143,6 +8327,16 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "metric_i18n": {
+        "en": {
+          "label": "Small-boat arrivals",
+          "context": "2022"
+        },
+        "zh": {
+          "label": "小船入境人数",
+          "context": "2022年"
+        }
       }
     },
     {
@@ -8342,6 +8536,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The committee said it would have recommended a 90-day suspension if Johnson had remained an MP.",
+        "zh": "委员会表示，如果约翰逊仍是议员，将建议停职90天。"
+      },
+      "scandal_status_i18n": {
+        "en": "official parliamentary finding",
+        "zh": "议会正式认定"
       }
     },
     {
@@ -8541,6 +8743,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Fine issued and accepted.",
+        "zh": "罚款已开出并被接受。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed police penalty",
+        "zh": "警方处罚已确认"
       }
     },
     {
@@ -8740,6 +8950,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "This is a major policy reversal; whether cancellation was the correct decision remains politically disputed.",
+        "zh": "这是一次重大政策反转；取消项目是否正确仍存在政治争议。"
       }
     },
     {
@@ -8840,6 +9054,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The commissioner found the breach was inadvertent and imposed no sanction.",
+        "zh": "监察专员认定违规属于无意行为，因此没有实施处罚。"
+      },
+      "scandal_status_i18n": {
+        "en": "confirmed minor rules breach",
+        "zh": "轻微规则违规已确认"
       }
     },
     {
@@ -8944,6 +9166,16 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "metric_i18n": {
+        "en": {
+          "label": "Net migration",
+          "context": "YE March 2023, revised estimate"
+        },
+        "zh": {
+          "label": "净移民",
+          "context": "截至2023年3月的一年，修订估计值"
+        }
       }
     },
     {
@@ -9144,6 +9376,10 @@
       "location_i18n": {
         "en": "London / England and Wales",
         "zh": "伦敦 / 英格兰和威尔士"
+      },
+      "court_outcome_i18n": {
+        "en": "All five pleaded guilty; sentencing and confiscation proceedings followed.",
+        "zh": "5人全部认罪；随后进入量刑及资产没收程序。"
       }
     },
     {
@@ -9546,6 +9782,10 @@
       "location_i18n": {
         "en": "Walsall",
         "zh": "沃尔索尔"
+      },
+      "court_outcome_i18n": {
+        "en": "Majek convicted of murder and possession of an offensive weapon.",
+        "zh": "Majek被判谋杀罪及持有攻击性武器罪成立。"
       }
     },
     {
@@ -11534,6 +11774,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "A small but highly visible political misjudgement, included under the same accountability format.",
+        "zh": "这是一次规模较小但高度公开的政治判断失误，因此按同一问责框架收录。"
       }
     },
     {
@@ -11642,6 +11886,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The gifts themselves were legal. The controversy led to repayments and tighter transparency rules; reporting also raised questions about late declaration of some items.",
+        "zh": "礼物本身合法；争议导致部分款项被退还并促使透明度规则收紧，同时报道也质疑部分项目申报过晚。"
+      },
+      "scandal_status_i18n": {
+        "en": "gifts largely declared / declaration controversy",
+        "zh": "礼物大多已申报 / 申报方式存在争议"
       }
     },
     {
@@ -11746,6 +11998,14 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "No evidence was established that Alli received an improper government favour in exchange for donations. Separate parliamentary findings later concerned Alli’s own declaration breaches.",
+        "zh": "没有证据证明Alli因捐款而获得不当政府利益；后来另有议会认定涉及Alli本人申报违规。"
+      },
+      "scandal_status_i18n": {
+        "en": "reported access controversy / no improper favour proven",
+        "zh": "接触权争议 / 未证明存在不当利益交换"
       }
     },
     {
@@ -12342,6 +12602,10 @@
       "location_i18n": {
         "en": "Central London",
         "zh": "伦敦市中心"
+      },
+      "court_outcome_i18n": {
+        "en": "Individual protest-related cases proceeded separately.",
+        "zh": "与抗议有关的个别案件分别进入司法程序。"
       }
     },
     {
@@ -12443,6 +12707,10 @@
       "location_i18n": {
         "en": "West Midlands",
         "zh": "West Midlands"
+      },
+      "court_outcome_i18n": {
+        "en": "Gilani received a suspended prison sentence and compensation order; Hussain was fined.",
+        "zh": "Gilani被判缓刑并须支付赔偿；Hussain被罚款。"
       }
     },
     {
@@ -12544,6 +12812,10 @@
       "location_i18n": {
         "en": "Multiple UK asylum hotels",
         "zh": "Multiple UK asylum hotels"
+      },
+      "court_outcome_i18n": {
+        "en": "No single court outcome; some videographers faced arrests or bail restrictions.",
+        "zh": "没有单一统一的法院结果；部分拍摄者曾被逮捕或受到保释条件限制。"
       }
     },
     {
@@ -12645,6 +12917,10 @@
       "location_i18n": {
         "en": "London / UK–France",
         "zh": "伦敦 / UK–France"
+      },
+      "court_outcome_i18n": {
+        "en": "Network members received sentences ranging up to 13½ years.",
+        "zh": "该网络成员分别被判刑，最高刑期达13年半。"
       }
     },
     {
@@ -12845,6 +13121,10 @@
       "location_i18n": {
         "en": "United Kingdom / France",
         "zh": "英国 / France"
+      },
+      "court_outcome_i18n": {
+        "en": "Temporary injunction; merits not finally resolved at time of report.",
+        "zh": "法院签发临时禁令；截至记录时，案件实体争议尚未最终裁决。"
       }
     },
     {
@@ -12946,6 +13226,10 @@
       "location_i18n": {
         "en": "London / Mediterranean",
         "zh": "伦敦 / Mediterranean"
+      },
+      "court_outcome_i18n": {
+        "en": "Guilty plea; 25-year prison sentence.",
+        "zh": "被告认罪并被判监禁25年。"
       }
     },
     {
@@ -13245,6 +13529,10 @@
       "location_i18n": {
         "en": "Manchester",
         "zh": "曼彻斯特"
+      },
+      "court_outcome_i18n": {
+        "en": "Mulla: 4½ years; Begh: 18 months.",
+        "zh": "Mulla被判4年半；Begh被判18个月。"
       }
     },
     {
@@ -13346,6 +13634,10 @@
       "location_i18n": {
         "en": "Essex / London",
         "zh": "埃塞克斯 / 伦敦"
+      },
+      "court_outcome_i18n": {
+        "en": "Already convicted and sentenced; erroneous release was an administrative failure.",
+        "zh": "被告此前已被定罪和判刑；错误释放属于行政失误。"
       }
     },
     {
@@ -13447,6 +13739,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Not a single criminal case; policy response to a documented problem.",
+        "zh": "这并非单一刑事案件，而是政府针对已记录问题采取的政策回应。"
       }
     },
     {
@@ -13548,6 +13844,10 @@
       "location_i18n": {
         "en": "United Kingdom / Ethiopia",
         "zh": "英国 / Ethiopia"
+      },
+      "court_outcome_i18n": {
+        "en": "Deported after serving only part of the original process because of removal action following recapture.",
+        "zh": "重新抓获后进入遣返程序，最终被遣返出境。"
       }
     },
     {
@@ -13654,6 +13954,10 @@
       "location_i18n": {
         "en": "Southampton",
         "zh": "南安普顿"
+      },
+      "court_outcome_i18n": {
+        "en": "Digwa was convicted of murder and sentenced to life with a minimum term of 21 years.",
+        "zh": "Digwa被判谋杀罪成立，判处无期徒刑，最低服刑21年。"
       }
     },
     {
@@ -13953,6 +14257,10 @@
       "location_i18n": {
         "en": "Brighton",
         "zh": "布莱顿"
+      },
+      "court_outcome_i18n": {
+        "en": "All three found guilty of rape offences.",
+        "zh": "3人均被判强奸相关罪名成立。"
       }
     },
     {
@@ -14252,6 +14560,10 @@
       "location_i18n": {
         "en": "Epping, Essex",
         "zh": "Epping, 埃塞克斯"
+      },
+      "court_outcome_i18n": {
+        "en": "Temporary injunction granted; government appealed.",
+        "zh": "法院批准临时禁令；政府随后提出上诉。"
       }
     },
     {
@@ -14352,6 +14664,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The later decision was a substantive policy reversal, although the government argued it followed new evidence from Casey rather than simply yielding to political pressure.",
+        "zh": "后来的决定构成实质性政策反转，但政府表示这是基于Casey审查的新证据，而非单纯向政治压力让步。"
       }
     },
     {
@@ -14452,6 +14768,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "The government retained some means-testing, so this was a substantial reversal rather than a complete restoration of the old universal system.",
+        "zh": "政府仍保留部分收入审查，因此这是大幅反转，而不是完全恢复此前的普惠制度。"
       }
     },
     {
@@ -14552,6 +14872,10 @@
       "location_i18n": {
         "en": "Epping, Essex",
         "zh": "Epping, 埃塞克斯"
+      },
+      "court_outcome_i18n": {
+        "en": "Convicted and jailed for 12 months.",
+        "zh": "罪名成立，被判监禁12个月。"
       }
     },
     {
@@ -14653,6 +14977,10 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "court_outcome_i18n": {
+        "en": "Not applicable.",
+        "zh": "不适用。"
       }
     },
     {
@@ -14961,6 +15289,16 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "metric_i18n": {
+        "en": {
+          "label": "Net migration",
+          "context": "YE December 2025"
+        },
+        "zh": {
+          "label": "净移民",
+          "context": "截至2025年12月的一年"
+        }
       }
     },
     {
@@ -15160,6 +15498,10 @@
       "location_i18n": {
         "en": "Southampton",
         "zh": "南安普顿"
+      },
+      "court_outcome_i18n": {
+        "en": "Not applicable; any protest offences are case-specific.",
+        "zh": "不适用；抗议过程中如有违法行为，需要按具体个案判断。"
       }
     },
     {
@@ -15361,6 +15703,10 @@
       "location_i18n": {
         "en": "Covent Garden, London",
         "zh": "伦敦Covent Garden, 伦敦"
+      },
+      "court_outcome_i18n": {
+        "en": "No final court outcome at time of entry.",
+        "zh": "截至记录时尚无最终法院结果。"
       }
     },
     {
@@ -15462,6 +15808,10 @@
       "location_i18n": {
         "en": "London",
         "zh": "伦敦"
+      },
+      "court_outcome_i18n": {
+        "en": "Convicted of two murders, rape and other serious offences; life sentence required for murder.",
+        "zh": "两项谋杀、强奸及其他严重罪名成立；谋杀罪依法判处无期徒刑。"
       }
     },
     {
@@ -15882,6 +16232,16 @@
       "location_i18n": {
         "en": "United Kingdom",
         "zh": "英国"
+      },
+      "metric_i18n": {
+        "en": {
+          "label": "Active masjid/prayer-room landmarks",
+          "context": "Independent directory; 1,743 in 2015 snapshot"
+        },
+        "zh": {
+          "label": "活跃清真寺 / 礼拜点数量",
+          "context": "独立目录；2015年快照为1,743个"
+        }
       }
     }
   ],
@@ -15891,63 +16251,135 @@
       "label": "1997",
       "value": 48000,
       "note": "Historical ONS series; approximate selected point",
-      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/explore50yearsofinternationalmigrationtoandfromtheuk/2016-12-01"
+      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/explore50yearsofinternationalmigrationtoandfromtheuk/2016-12-01",
+      "label_i18n": {
+        "en": "1997",
+        "zh": "1997"
+      },
+      "note_i18n": {
+        "en": "Historical ONS series; approximate selected point",
+        "zh": "ONS历史序列；选取的近似趋势点"
+      }
     },
     {
       "year": 2004,
       "label": "2004",
       "value": 268000,
       "note": "Historical ONS series; selected point",
-      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/explore50yearsofinternationalmigrationtoandfromtheuk/2016-12-01"
+      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/explore50yearsofinternationalmigrationtoandfromtheuk/2016-12-01",
+      "label_i18n": {
+        "en": "2004",
+        "zh": "2004"
+      },
+      "note_i18n": {
+        "en": "Historical ONS series; selected point",
+        "zh": "ONS历史序列；选取的趋势点"
+      }
     },
     {
       "year": 2008,
       "label": "2008",
       "value": 163000,
       "note": "Figure cited in 2011 Prime Minister speech using published migration statistics",
-      "source": "https://www.gov.uk/government/speeches/prime-ministers-speech-on-immigration"
+      "source": "https://www.gov.uk/government/speeches/prime-ministers-speech-on-immigration",
+      "label_i18n": {
+        "en": "2008",
+        "zh": "2008"
+      },
+      "note_i18n": {
+        "en": "Figure cited in 2011 Prime Minister speech using published migration statistics",
+        "zh": "2011年首相演讲引用的公开移民统计数字"
+      }
     },
     {
       "year": 2010,
       "label": "2010",
       "value": 239000,
       "note": "Figure cited in 2011 Prime Minister speech",
-      "source": "https://www.gov.uk/government/speeches/prime-ministers-speech-on-immigration"
+      "source": "https://www.gov.uk/government/speeches/prime-ministers-speech-on-immigration",
+      "label_i18n": {
+        "en": "2010",
+        "zh": "2010"
+      },
+      "note_i18n": {
+        "en": "Figure cited in 2011 Prime Minister speech",
+        "zh": "2011年首相演讲引用的数字"
+      }
     },
     {
       "year": 2015,
       "label": "2015",
       "value": 333000,
       "note": "ONS YE December 2015 estimate",
-      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/migrationstatisticsquarterlyreport/may2016"
+      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/migrationstatisticsquarterlyreport/may2016",
+      "label_i18n": {
+        "en": "2015",
+        "zh": "2015"
+      },
+      "note_i18n": {
+        "en": "ONS YE December 2015 estimate",
+        "zh": "ONS截至2015年12月的一年估计值"
+      }
     },
     {
       "year": 2017,
       "label": "2017",
       "value": 230000,
       "note": "Approximate trend point from ONS Brexit-era series",
-      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/migrationsincethebrexitvotewhatschangedinsixcharts/2017-11-30"
+      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/migrationsincethebrexitvotewhatschangedinsixcharts/2017-11-30",
+      "label_i18n": {
+        "en": "2017",
+        "zh": "2017"
+      },
+      "note_i18n": {
+        "en": "Approximate trend point from ONS Brexit-era series",
+        "zh": "根据ONS脱欧时期序列选取的近似趋势点"
+      }
     },
     {
       "year": 2023.25,
       "label": "Mar 2023",
       "value": 944000,
       "note": "Revised peak used in prototype timeline",
-      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingdecember2025"
+      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingdecember2025",
+      "label_i18n": {
+        "en": "Mar 2023",
+        "zh": "3月2023"
+      },
+      "note_i18n": {
+        "en": "Revised peak used in prototype timeline",
+        "zh": "本站时间线采用的修订后峰值"
+      }
     },
     {
       "year": 2024,
       "label": "Dec 2024",
       "value": 431000,
       "note": "ONS provisional YE December 2024 estimate",
-      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingdecember2024"
+      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingdecember2024",
+      "label_i18n": {
+        "en": "Dec 2024",
+        "zh": "12月2024"
+      },
+      "note_i18n": {
+        "en": "ONS provisional YE December 2024 estimate",
+        "zh": "ONS截至2024年12月的一年临时估计值"
+      }
     },
     {
       "year": 2025,
       "label": "Dec 2025",
       "value": 171000,
       "note": "ONS provisional YE December 2025 estimate",
-      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration"
+      "source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration",
+      "label_i18n": {
+        "en": "Dec 2025",
+        "zh": "12月2025"
+      },
+      "note_i18n": {
+        "en": "ONS provisional YE December 2025 estimate",
+        "zh": "ONS截至2025年12月的一年临时估计值"
+      }
     }
   ],
   "promiseVsResult": [

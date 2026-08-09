@@ -66,3 +66,7 @@ Chinese mode no longer falls back to English site content. All 153 current event
 
 ## v1.7 — complete Chinese visible UI
 Fixes remaining hard-coded English visible in Chinese mode: homepage explanatory text, causation note, prime-minister section, person cards, scoreboard labels, migration section/chart labels, social-change section/cards, and modal top metadata labels. Original source titles and outbound links remain in their source language.
+
+
+## v1.7.4 — full i18n audit
+Comprehensive Chinese-mode audit across home page, charts, filters, timeline, dialogs, About/footer and all prime-minister profile pages. CSS/mobile layout is unchanged. External source-link titles remain in their original language.

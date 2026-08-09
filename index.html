@@ -28,8 +28,8 @@
   <main>
     <section class="hero nav-section" id="overview" data-section="overview">
       <div>
-        <div class="eyebrow">PUBLIC RECORD • SOURCE-FIRST</div>
-        <h1>United Kingdom<br><span>1997—2026</span></h1>
+        <div class="eyebrow" id="heroKicker">PUBLIC RECORD • SOURCE-FIRST</div>
+        <h1 id="countryHero">United Kingdom<br><span>1997—2026</span></h1>
         <p class="lede" id="heroLede">See who was in power, what they promised, what they changed, what happened during and after their term, what later news connected back to their record, and what official investigations found.</p>
       </div>
       <div class="hero-stats">
@@ -39,7 +39,7 @@
       </div>
     </section>
 
-    <section class="principle">
+    <section class="principle" id="causationNote">
       <span class="principle-mark">≠</span>
       <div><strong id="sequenceTitle">Sequence is not causation.</strong><br><span id="sequenceBody">Every relationship is labelled so a policy that precedes an outcome is not automatically presented as its cause.</span></div>
     </section>
@@ -54,11 +54,11 @@
 
     <section class="section-block nav-section" id="migration" data-section="migration">
       <div class="section-head">
-        <div><div class="section-kicker">MEASURED OUTCOME</div><h2 id="migrationTitle">Net migration</h2></div>
+        <div><div class="section-kicker" id="migrationKicker">MEASURED OUTCOME</div><h2 id="migrationTitle">Net migration</h2></div>
         <p>Selected official UK net-migration estimates. Methodology changed over time, so the chart is a trend view rather than a perfectly like-for-like historical series.</p>
       </div>
       <div class="chart-card">
-        <div class="chart-topline"><span>UK long-term net migration</span><span class="muted">selected year-ending estimates</span></div>
+        <div class="chart-topline"><span id="migrationChartTitle">UK long-term net migration</span><span class="muted" id="migrationChartNote">selected year-ending estimates</span></div>
         <div id="migrationChart" class="migration-chart" aria-label="UK net migration chart"></div>
         <div class="chart-source"><span id="chartSourceNote">Source notes are attached to chart points in <code>data.json</code>.</span></div>
       </div>
@@ -67,7 +67,7 @@
 
     <section class="section-block nav-section" id="social" data-section="social">
       <div class="section-head">
-        <div><div class="section-kicker">DEMOGRAPHIC & PUBLIC-SPACE CHANGE</div><h2 id="socialTitle">Social change indicators</h2></div>
+        <div><div class="section-kicker" id="socialKicker">DEMOGRAPHIC & PUBLIC-SPACE CHANGE</div><h2 id="socialTitle">Social change indicators</h2></div>
         <p>Population and institutional-footprint indicators are shown separately from crime. Religious identity, immigration status and criminality are not treated as interchangeable.</p>
       </div>
       <div class="social-grid">
@@ -94,8 +94,8 @@
 
     <section class="controls nav-section" id="timeline" data-section="timeline">
       <div class="section-head compact-head">
-        <div><div class="section-kicker">CHRONOLOGY</div><h2>Timeline</h2></div>
-        <p>Select an administration to jump directly to its term. Major incidents, small news stories, protests, court/investigation records, policy and statistics now share one timeline. Use record-type filters to isolate what you want to see.</p>
+        <div><div class="section-kicker" id="timelineKicker">CHRONOLOGY</div><h2 id="timelineTitle">Timeline</h2></div>
+        <p id="timelineDesc">Select an administration to jump directly to its term. Major incidents, small news stories, protests, court/investigation records, policy and statistics now share one timeline. Use record-type filters to isolate what you want to see.</p>
       </div>
       <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search policy, event, person, tag…" /></div>
       <div class="filter-label">SHOW RECORD TYPE / 记录类型</div><div class="filter-row type-filter-row" id="typeFilterRow"></div><div class="filter-label">MIGRATION RELEVANCE</div><div class="filter-row migration-filter-row" id="migrationFilterRow"></div><div class="filter-label">TOPIC</div><div class="filter-row" id="filterRow"></div>
@@ -132,15 +132,15 @@
   <dialog id="aboutDialog">
     <button class="dialog-close" id="aboutClose" aria-label="Close">×</button>
     <div class="dialog-body">
-      <div class="section-kicker">ABOUT POLICYTRACE</div>
-      <h2>Follow decisions, outcomes and evidence.</h2>
-      <p>This prototype separates policy actions, measured outcomes, investigations and causal claims. It is designed so strong conclusions can be made when evidence supports them — and visibly withheld when it does not.</p>
-      <p class="muted">Prototype dataset updated 9 August 2026. Sources are linked on every record.</p>
+      <div class="section-kicker" id="aboutKicker">ABOUT POLICYTRACE</div>
+      <h2 id="aboutTitle">Follow decisions, outcomes and evidence.</h2>
+      <p id="aboutBody">This prototype separates policy actions, measured outcomes, investigations and causal claims. It is designed so strong conclusions can be made when evidence supports them — and visibly withheld when it does not.</p>
+      <p class="muted" id="aboutUpdated">Prototype dataset updated 9 August 2026. Sources are linked on every record.</p>
     </div>
   </dialog>
 
   <footer>
-    <div>POLICYTRACE / UK PROTOTYPE</div><div>DATA UPDATED <span id="updatedDate"></span></div>
+    <div id="footerProduct">POLICYTRACE / UK PROTOTYPE</div><div><span id="footerUpdatedLabel">DATA UPDATED</span> <span id="updatedDate"></span></div>
   </footer>
 
   <script src="app.js"></script>
