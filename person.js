@@ -75,6 +75,43 @@ function translatedRecordType(v){
  return z[v]||'新闻 / 公共记录';
 }
 
+
+function saveProfileScroll(){
+  const sections=[...document.querySelectorAll('.nav-section[data-section]')];
+  let current=null;
+  for(const s of sections){
+    if(s.offsetTop<=window.scrollY+180) current=s;
+    else break;
+  }
+  const payload={
+    y:window.scrollY,
+    section:current?.id||'',
+    offset:current ? window.scrollY-current.offsetTop : 0
+  };
+  sessionStorage.setItem('policytrace-profile-scroll',JSON.stringify(payload));
+}
+
+function restoreProfileScroll(){
+  const raw=sessionStorage.getItem('policytrace-profile-scroll');
+  if(!raw)return;
+  sessionStorage.removeItem('policytrace-profile-scroll');
+
+  let saved;
+  try{ saved=JSON.parse(raw); }
+  catch{ saved={y:Number(raw)||0,section:'',offset:0}; }
+
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{
+      let top=Number(saved.y)||0;
+      if(saved.section){
+        const section=document.getElementById(saved.section);
+        if(section) top=section.offsetTop+(Number(saved.offset)||0);
+      }
+      window.scrollTo({top,left:0,behavior:'auto'});
+    });
+  });
+}
+
 async function init(){
  const data=await (await fetch('data.json')).json();
  const id=new URLSearchParams(location.search).get('id');
@@ -95,7 +132,7 @@ async function init(){
  <section class="section-block nav-section" id="after-office" data-section="after-office"><div class="section-head"><div><div class="section-kicker">${pt('afterKicker')}</div><h2>${currentLang==='zh'?adminLabel(a)+'离开唐宁街后做了什么':'What '+a.name+' did after leaving Downing Street'}</h2></div><p>${pt('rolesNote')}</p></div><div class="after-office-list">${afterOfficeHtml}</div></section>
  ${promises.length?`<section class="section-block nav-section" id="profile-promises" data-section="profile-promises"><div class="section-head"><div><div class="section-kicker">${pt('accountability')}</div><h2>${currentLang==='zh'?'承诺与结果':'Promise vs result'}</h2></div></div><div class="promise-grid">${promises.map(p=>`<article class="promise-card"><div class="promise-admin">${localizedDate(p.date)}</div><h3>${trObj(p,'promise')}</h3><div class="versus"><div><span>${pt('target')}</span><strong>${trObj(p,'target')}</strong></div><b>${pt('versus')}</b><div><span>${pt('result')}</span><strong>${trObj(p,'result')}</strong></div></div><p>${trObj(p,'context')}</p>${p.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.label} ↗</a>`).join('')}</article>`).join('')}</div></section>`:''}`;
  const promiseLink=document.getElementById('promiseNavLink');if(promiseLink&&!promises.length)promiseLink.hidden=true;
- applyProfileStatic();initProfileNav();
+ applyProfileStatic();initProfileNav();restoreProfileScroll();
 }
 
 function initProfileNav(){
@@ -117,19 +154,9 @@ init().catch(e=>{document.getElementById('profileMain').innerHTML=`<pre>${e}</pr
 window.addEventListener('load',()=>{
  applyProfileStatic();
 
- const savedScroll=sessionStorage.getItem('policytrace-profile-scroll');
- if(savedScroll!==null){
-   requestAnimationFrame(()=>{
-     requestAnimationFrame(()=>{
-       window.scrollTo({top:Number(savedScroll)||0,left:0,behavior:'auto'});
-       sessionStorage.removeItem('policytrace-profile-scroll');
-     });
-   });
- }
-
  document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>{
    if(b.dataset.lang===currentLang)return;
-   sessionStorage.setItem('policytrace-profile-scroll',String(window.scrollY));
+   saveProfileScroll();
    localStorage.setItem('policytrace-lang',b.dataset.lang);
    location.reload();
  }));

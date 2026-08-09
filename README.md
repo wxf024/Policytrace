@@ -85,3 +85,7 @@ Hero summary third row now shows the current prime minister's name on the left a
 
 ## v1.7.4.4 — profile language switch scroll preservation
 Switching EN / 中文 on a prime-minister profile now preserves the user's current scroll position instead of returning to the top of the page.
+
+
+## v1.7.4.5 — profile language scroll fix v2
+The previous scroll restoration ran before the asynchronously fetched profile content had finished rendering. Scroll state is now restored only after profileMain has been fully rendered. The saved state also includes the current section and the user's offset inside that section, making restoration more stable when Chinese and English text have different heights.
