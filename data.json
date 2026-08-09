@@ -1,0 +1,94 @@
+{
+  "country": "United Kingdom",
+  "range": "1997–2026",
+  "updated": "2026-08-09",
+  "administrations": [
+    {"name":"Tony Blair","party":"Labour","start":1997,"end":2007},
+    {"name":"Gordon Brown","party":"Labour","start":2007,"end":2010},
+    {"name":"David Cameron","party":"Conservative","start":2010,"end":2016},
+    {"name":"Theresa May","party":"Conservative","start":2016,"end":2019},
+    {"name":"Boris Johnson","party":"Conservative","start":2019,"end":2022},
+    {"name":"Liz Truss","party":"Conservative","start":2022,"end":2022.8},
+    {"name":"Rishi Sunak","party":"Conservative","start":2022.8,"end":2024.5},
+    {"name":"Keir Starmer","party":"Labour","start":2024.5,"end":2026.55},
+    {"name":"Andy Burnham","party":"Labour","start":2026.55,"end":2026.99,"current":true}
+  ],
+  "events": [
+    {
+      "id":"asylum-1999","year":1999,"date":"1999","title":"Immigration and Asylum Act 1999","category":"Immigration","kind":"Policy","tone":"neutral","administration":"Tony Blair","summary":"The Act reshaped asylum support arrangements and the dispersal system for asylum seekers.","evidence":"Official legislation","confidence":"confirmed","relationship":"Direct policy action","tags":["asylum","dispersal","legislation"],
+      "sources":[{"label":"Immigration and Asylum Act 1999 — legislation.gov.uk","url":"https://www.legislation.gov.uk/ukpga/1999/33/contents"}]
+    },
+    {
+      "id":"a8-2004","year":2004,"date":"1 May 2004","title":"A8 workers receive immediate labour-market access","category":"Immigration","kind":"Policy","tone":"expansion","administration":"Tony Blair","summary":"When eight Central and Eastern European countries joined the EU, the UK did not impose transitional labour-market restrictions of the type used by most other existing EU members.","evidence":"Government research / parliamentary record","confidence":"confirmed","relationship":"Direct policy action","tags":["EU","labour market","A8"],
+      "sources":[{"label":"Home Office research on A8 migration","url":"https://assets.publishing.service.gov.uk/media/5a7590fee5274a545822c836/occ109.pdf"},{"label":"House of Lords EU Committee","url":"https://publications.parliament.uk/pa/ld201617/ldselect/ldeucom/121/12104.htm"}]
+    },
+    {
+      "id":"points-2008","year":2008,"date":"2008","title":"Points-Based System introduced for non-EEA migration","category":"Immigration","kind":"Policy","tone":"mixed","administration":"Gordon Brown","summary":"The Labour government moved non-EEA work and study migration into a points-based framework, combining managed migration with economic and skills objectives.","evidence":"Official policy paper","confidence":"confirmed","relationship":"Direct policy action","tags":["points based system","work visas","students"],
+      "sources":[{"label":"A points-based system: making migration work for Britain","url":"https://www.gov.uk/government/publications/a-points-based-system-making-migration-work-for-britain"}]
+    },
+    {
+      "id":"cameron-target-2010","year":2010,"date":"2010–2011","title":"Cameron promises net migration in the ‘tens of thousands’","category":"Political Accountability","kind":"Promise","tone":"restriction","administration":"David Cameron","summary":"The government made reducing net migration from the hundreds of thousands to the tens of thousands a central political target.","evidence":"Prime Minister statement","confidence":"confirmed","relationship":"Public commitment","tags":["promise","net migration","target"],
+      "sources":[{"label":"Prime Minister outlines new measures on immigration","url":"https://www.gov.uk/government/news/prime-minister-outlines-new-measures-on-immigration"}]
+    },
+    {
+      "id":"hostile-environment-2014","year":2014,"date":"2012–2014","title":"‘Hostile / compliant environment’ measures expand","category":"Immigration","kind":"Policy","tone":"restriction","administration":"David Cameron","summary":"Theresa May, as Home Secretary, expanded checks and restrictions intended to make it harder for people without lawful status to work, rent, bank or access services; the 2014 Immigration Act embedded parts of this approach.","evidence":"Official speeches and legislation","confidence":"confirmed","relationship":"Direct policy action","tags":["enforcement","Theresa May","Immigration Act"],
+      "sources":[{"label":"Home Secretary speech on the Immigration Bill","url":"https://www.gov.uk/government/speeches/speech-by-home-secretary-on-second-reading-of-immigration-bill"}]
+    },
+    {
+      "id":"rotherham-2014","year":2014,"date":"26 August 2014","title":"Jay Report: severe institutional failures in Rotherham","category":"Crime & Safety","kind":"Investigation","tone":"negative","administration":"David Cameron","summary":"The independent inquiry led by Alexis Jay estimated that at least 1,400 children were sexually exploited in Rotherham between 1997 and 2013 and documented grave failures by local agencies. The timeline treats national immigration policy as a separate question unless a source establishes a causal link.","evidence":"Independent inquiry","confidence":"confirmed","relationship":"Official finding; national-policy causation unestablished","tags":["CSE","Rotherham","institutional failure"],
+      "sources":[{"label":"Alexis Jay / Independent Inquiry profile","url":"https://www.iicsa.org.uk/about-us/who-we-are/professor-alexis-jay-obe.html"}]
+    },
+    {
+      "id":"netmigration-2015","year":2015,"date":"2015","title":"Net migration remains above Cameron target","category":"Statistics","kind":"Outcome","tone":"negative","administration":"David Cameron","summary":"ONS historical estimates put net migration in 2015 at roughly 332,000, far above the government’s stated ‘tens of thousands’ ambition.","evidence":"ONS statistics","confidence":"confirmed","relationship":"Promise–result gap","metric":{"label":"Net migration","value":"~332,000","context":"2015 historical estimate"},"tags":["ONS","net migration","promise gap"],
+      "sources":[{"label":"ONS: 50 years of international migration","url":"https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/explore50yearsofinternationalmigrationtoandfromtheuk/2016-12-01"}]
+    },
+    {
+      "id":"brexit-2016","year":2016,"date":"23 June 2016","title":"Brexit referendum creates a structural migration-policy break","category":"Immigration","kind":"System Change","tone":"mixed","administration":"David Cameron","summary":"The referendum set the UK on a path to end EU free movement. Later ONS releases show EU+ migration trending downward after the referendum and after the new immigration system took effect.","evidence":"Referendum + ONS statistics","confidence":"confirmed","relationship":"System-level policy transition","tags":["Brexit","free movement","EU"],
+      "sources":[{"label":"ONS migration bulletin — YE June 2025","url":"https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingjune2025"}]
+    },
+    {
+      "id":"windrush-2018","year":2018,"date":"2018–2020","title":"Windrush scandal exposes enforcement failures","category":"Government Failure","kind":"Investigation","tone":"negative","administration":"Theresa May","summary":"People who were lawfully resident were wrongly caught by immigration-enforcement systems. The 2020 Windrush Lessons Learned Review examined the policy, legal and operational failures behind the scandal.","evidence":"Official independent review","confidence":"confirmed","relationship":"Official finding / policy implementation failure","tags":["Windrush","Home Office","enforcement"],
+      "sources":[{"label":"Windrush Lessons Learned Review","url":"https://www.gov.uk/government/publications/windrush-lessons-learned-review"}]
+    },
+    {
+      "id":"pbs-2021","year":2021,"date":"2020–2021","title":"Post-Brexit immigration system opens global work and graduate routes","category":"Immigration","kind":"Policy","tone":"expansion","administration":"Boris Johnson","summary":"The post-Brexit points-based system ended free movement while expanding global visa pathways including the Health and Care Visa and Graduate Route.","evidence":"Official policy statement","confidence":"confirmed","relationship":"Direct policy action","tags":["post-Brexit","Health and Care Visa","Graduate Route"],
+      "sources":[{"label":"UK points-based immigration system — further details","url":"https://www.gov.uk/government/publications/uk-points-based-immigration-system-further-details-statement/uk-points-based-immigration-system-further-details-statement"}]
+    },
+    {
+      "id":"rwanda-2022","year":2022.3,"date":"14 April 2022","title":"UK–Rwanda migration partnership announced","category":"Asylum","kind":"Policy","tone":"restriction","administration":"Boris Johnson","summary":"The government announced a plan to relocate certain asylum seekers to Rwanda as a deterrence and processing policy. The project became a major legal and political controversy.","evidence":"Official government factsheet","confidence":"confirmed","relationship":"Direct policy action","tags":["Rwanda","asylum","deterrence"],
+      "sources":[{"label":"Migration and Economic Development Partnership factsheet","url":"https://homeofficemedia.blog.gov.uk/2022/04/14/factsheet-migration-and-economic-development-partnership/"}]
+    },
+    {
+      "id":"small-boats-2022","year":2022.8,"date":"2022","title":"Small-boat arrivals reach 45,774","category":"Border & Asylum","kind":"Outcome","tone":"negative","administration":"Rishi Sunak","summary":"Home Office statistics recorded 45,774 small-boat arrivals in 2022, then 29,437 in 2023.","evidence":"Home Office statistics","confidence":"confirmed","relationship":"Border-system outcome","metric":{"label":"Small-boat arrivals","value":"45,774","context":"2022"},"tags":["small boats","Channel","irregular migration"],
+      "sources":[{"label":"Irregular migration to the UK — YE December 2023","url":"https://www.gov.uk/government/statistics/irregular-migration-to-the-uk-year-ending-december-2023/irregular-migration-to-the-uk-year-ending-december-2023"}]
+    },
+    {
+      "id":"netmigration-peak-2023","year":2023.2,"date":"Year ending March 2023","title":"UK net migration reaches revised peak of 944,000","category":"Statistics","kind":"Outcome","tone":"negative","administration":"Rishi Sunak","summary":"ONS methodological revisions published in 2025 placed the peak at 944,000 in the year ending March 2023. Non-EU+ migration was the main driver of the post-2021 rise.","evidence":"ONS revised statistics","confidence":"confirmed","relationship":"Measured outcome; causation requires route-level analysis","metric":{"label":"Net migration","value":"944,000","context":"YE March 2023, revised estimate"},"tags":["ONS","record","non-EU"],
+      "sources":[{"label":"ONS: improving migration statistics, November 2025","url":"https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/articles/improvinglongterminternationalmigrationstatisticsupdatingourmethodsandestimates/november2025"}]
+    },
+    {
+      "id":"restrictions-2024","year":2024.1,"date":"2024","title":"Student, care-worker and skilled-worker routes tightened","category":"Immigration","kind":"Policy","tone":"restriction","administration":"Rishi Sunak","summary":"Measures restricted dependants for most international students and care workers and raised salary requirements for Skilled Workers.","evidence":"Official government factsheet","confidence":"confirmed","relationship":"Direct policy action","tags":["students","care workers","salary threshold"],
+      "sources":[{"label":"Net migration measures — further detail","url":"https://www.gov.uk/government/news/fact-sheet-on-net-migration-measures-further-detail"}]
+    },
+    {
+      "id":"rwanda-cancel-2024","year":2024.52,"date":"July 2024","title":"Starmer government ends Rwanda policy","category":"Asylum","kind":"Policy Reversal","tone":"expansion","administration":"Keir Starmer","summary":"The incoming Labour government abandoned the Rwanda removal scheme and shifted border policy toward enforcement cooperation and domestic processing.","evidence":"Prime Minister statement","confidence":"confirmed","relationship":"Reversal of predecessor policy","tags":["Rwanda","policy reversal","Labour"],
+      "sources":[{"label":"Prime Minister remarks at European Political Community, July 2024","url":"https://www.gov.uk/government/speeches/pms-remarks-at-the-opening-plenary-session-of-the-european-political-community-18-july-2024"}]
+    },
+    {
+      "id":"casey-2025","year":2025.46,"date":"16 June 2025","title":"Casey audit examines grooming gangs, ethnicity and institutional response","category":"Government Failure","kind":"Investigation","tone":"negative","administration":"Keir Starmer","summary":"The national audit was commissioned to examine group-based child sexual exploitation, including what is known about offender and victim demographics, ethnicity, cultural and societal drivers, and institutional responses.","evidence":"Official national audit","confidence":"confirmed","relationship":"Official investigation","tags":["Casey","grooming gangs","ethnicity","institutional response"],
+      "sources":[{"label":"National Audit on Group-based Child Sexual Exploitation and Abuse","url":"https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse"},{"label":"Audit terms of reference","url":"https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse-terms-of-reference/national-audit-on-group-based-child-sexual-exploitation-and-abuse-terms-of-reference"}]
+    },
+    {
+      "id":"whitepaper-2025","year":2025.36,"date":"12 May 2025","title":"Labour publishes immigration white paper to reduce migration","category":"Immigration","kind":"Policy","tone":"restriction","administration":"Keir Starmer","summary":"The white paper proposed tighter skills, English-language and settlement requirements and reduced reliance on overseas recruitment, including changes to care-worker recruitment.","evidence":"Official white paper","confidence":"confirmed","relationship":"Direct policy action","tags":["white paper","settlement","skills","English"],
+      "sources":[{"label":"Restoring control over the immigration system","url":"https://www.gov.uk/government/publications/restoring-control-over-the-immigration-system-white-paper"}]
+    },
+    {
+      "id":"netmigration-2025","year":2025.99,"date":"Year ending December 2025","title":"Net migration falls to 171,000","category":"Statistics","kind":"Outcome","tone":"positive","administration":"Keir Starmer","summary":"ONS estimated long-term international net migration at 171,000 for the year ending December 2025, down from an updated 331,000 for the year ending December 2024. The site flags attribution as shared because rule changes began under the previous government and continued under Labour.","evidence":"ONS statistics","confidence":"confirmed","relationship":"Measured outcome; attribution shared / lagged","metric":{"label":"Net migration","value":"171,000","context":"YE December 2025"},"tags":["ONS","decline","policy lag"],
+      "sources":[{"label":"ONS international migration — YE December 2025","url":"https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration"}]
+    },
+    {
+      "id":"burnham-2026","year":2026.55,"date":"20 July 2026","title":"Andy Burnham becomes Prime Minister","category":"Administration","kind":"Administration","tone":"neutral","administration":"Andy Burnham","summary":"Andy Burnham became Prime Minister on 20 July 2026. Events from this point are marked LIVE so the timeline can be updated as policies and outcomes develop.","evidence":"Official Prime Minister biography","confidence":"confirmed","relationship":"Change of administration","tags":["Burnham","current","live"],
+      "sources":[{"label":"Prime Minister — GOV.UK","url":"https://www.gov.uk/government/ministers/prime-minister"},{"label":"Andy Burnham's first speech as Prime Minister","url":"https://www.gov.uk/government/speeches/andy-burnhams-first-speech-as-prime-minister-20-july-2026"}]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="PolicyTrace — a source-first timeline of UK political decisions, outcomes and investigations." />
+  <title>PolicyTrace — United Kingdom 1997–2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">POLICY<span>TRACE</span></a>
+    <nav>
+      <a class="active" href="#timeline">Timeline</a>
+      <a href="#method">Method</a>
+      <button id="aboutBtn" class="ghost-btn">About</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">PUBLIC RECORD • SOURCE-FIRST</div>
+        <h1>United Kingdom<br><span>1997—2026</span></h1>
+        <p class="lede">Track what governments promised, what they changed, what happened afterwards, and what official investigations later found.</p>
+      </div>
+      <div class="hero-stats">
+        <div><strong id="eventCount">0</strong><span>timeline records</span></div>
+        <div><strong>9</strong><span>prime ministers</span></div>
+        <div><strong>LIVE</strong><span>current administration</span></div>
+      </div>
+    </section>
+
+    <section class="principle">
+      <span class="principle-mark">≠</span>
+      <div><strong>Sequence is not causation.</strong><br><span>Every relationship is labelled so a policy that precedes an outcome is not automatically presented as its cause.</span></div>
+    </section>
+
+    <section class="controls" id="timeline">
+      <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search policy, event, person, tag…" /></div>
+      <div class="filter-row" id="filterRow"></div>
+      <div class="toggles">
+        <label><input id="negativeOnly" type="checkbox"><span>Negative outcomes only</span></label>
+        <label><input id="officialOnly" type="checkbox"><span>Official findings only</span></label>
+      </div>
+    </section>
+
+    <section class="timeline-shell">
+      <div class="administrations" id="administrations"></div>
+      <div class="axis"><span>1997</span><div></div><span>2026</span></div>
+      <div class="timeline-list" id="timelineList"></div>
+      <div class="empty" id="emptyState" hidden>No records match the current filters.</div>
+    </section>
+
+    <section class="method" id="method">
+      <div class="section-kicker">HOW TO READ THIS</div>
+      <h2>Evidence before verdict.</h2>
+      <div class="method-grid">
+        <article><span>01</span><h3>Fact</h3><p>A date, law, statistic or documented action supported by a primary source.</p></article>
+        <article><span>02</span><h3>Official finding</h3><p>A conclusion from a court, statutory inquiry, inspectorate or commissioned review.</p></article>
+        <article><span>03</span><h3>Inference</h3><p>A proposed relationship between events. It must be labelled and supported, not smuggled in as fact.</p></article>
+        <article><span>04</span><h3>Opinion</h3><p>Public or editorial judgement. Kept separate from the underlying record.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="detailDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Close">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <dialog id="aboutDialog">
+    <button class="dialog-close" id="aboutClose" aria-label="Close">×</button>
+    <div class="dialog-body">
+      <div class="section-kicker">ABOUT POLICYTRACE</div>
+      <h2>A political timeline, not a guilt-by-association engine.</h2>
+      <p>This prototype separates policy actions, measured outcomes, investigations and causal claims. It is designed so strong conclusions can be made when evidence supports them — and visibly withheld when it does not.</p>
+      <p class="muted">Prototype dataset updated 9 August 2026. Sources are linked on every record.</p>
+    </div>
+  </dialog>
+
+  <footer>
+    <div>POLICYTRACE / UK PROTOTYPE</div><div>DATA UPDATED <span id="updatedDate"></span></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
