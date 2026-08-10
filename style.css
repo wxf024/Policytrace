@@ -513,3 +513,30 @@ html[lang="zh-CN"] body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHe
     min-width:0;
   }
 }
+
+
+/* v1.7.5.2 — align desktop profile controls like homepage */
+@media (min-width: 821px){
+  .profile-mobile-menu-panel{
+    display:flex !important;
+    align-items:center;
+    flex:0 1 auto;
+    width:auto;
+    margin-left:auto;
+    min-width:0;
+  }
+
+  .profile-mobile-menu-panel .language-switch{
+    flex:0 0 auto;
+    margin-left:0;
+    margin-right:20px;
+  }
+
+  .profile-mobile-menu-panel .profile-nav{
+    display:flex;
+    align-items:center;
+    flex:0 1 auto;
+    width:auto;
+    min-width:0;
+  }
+}

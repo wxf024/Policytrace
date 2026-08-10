@@ -113,3 +113,7 @@ The approved homepage mobile navigation pattern is now also applied to prime-min
 
 ## v1.7.5.1 — desktop profile header fix
 Restores the original desktop flex layout for profile headers after adding the mobile menu wrapper. Mobile profile navigation remains unchanged.
+
+
+## v1.7.5.2 — desktop profile control alignment
+On desktop profile pages, the language switch and profile navigation are grouped on the right side of the header, matching the homepage layout. Mobile behavior is unchanged.
