@@ -29,6 +29,9 @@ Object.assign(profileUi.zh,{
  footerProduct:'POLICYTRACE / 英国人物档案',footerBack:'← 返回英国概览',loading:'正在加载人物档案……',present:'至今'
 });
 let currentLang=localStorage.getItem('policytrace-lang')||'en';
+let profileData=null;
+let profileAdmin=null;
+let profileObserver=null;
 function pt(k){return profileUi[currentLang]?.[k]||profileUi.en[k]||k}
 function trObj(obj,key){const v=obj?.[key+'_i18n']; if(currentLang==='zh') return v?.zh||''; return v?.en||obj?.[key]||''}
 function adminLabel(a){return a?.name_i18n?.[currentLang]||a?.name||''}
@@ -76,46 +79,8 @@ function translatedRecordType(v){
 }
 
 
-function saveProfileScroll(){
-  const sections=[...document.querySelectorAll('.nav-section[data-section]')];
-  let current=null;
-  for(const s of sections){
-    if(s.offsetTop<=window.scrollY+180) current=s;
-    else break;
-  }
-  const payload={
-    y:window.scrollY,
-    section:current?.id||'',
-    offset:current ? window.scrollY-current.offsetTop : 0
-  };
-  sessionStorage.setItem('policytrace-profile-scroll',JSON.stringify(payload));
-}
 
-function restoreProfileScroll(){
-  const raw=sessionStorage.getItem('policytrace-profile-scroll');
-  if(!raw)return;
-  sessionStorage.removeItem('policytrace-profile-scroll');
-
-  let saved;
-  try{ saved=JSON.parse(raw); }
-  catch{ saved={y:Number(raw)||0,section:'',offset:0}; }
-
-  requestAnimationFrame(()=>{
-    requestAnimationFrame(()=>{
-      let top=Number(saved.y)||0;
-      if(saved.section){
-        const section=document.getElementById(saved.section);
-        if(section) top=section.offsetTop+(Number(saved.offset)||0);
-      }
-      window.scrollTo({top,left:0,behavior:'auto'});
-    });
-  });
-}
-
-async function init(){
- const data=await (await fetch('data.json')).json();
- const id=new URLSearchParams(location.search).get('id');
- const a=data.administrations.find(x=>slug(x.name)===id)||data.administrations[0];
+function renderProfile(data,a){
  const events=data.events.filter(e=>e.administration===a.name);
  const news=(data.relatedNews||[]).filter(n=>n.administration===a.name).map(n=>({...n,_relatedNews:true,category:'Related news',kind:'News / follow-up',relationship:n.relation,confidence:n.status,record_type:'news'}));
  const timeline=[...events,...news].sort((x,y)=>(Number(x.year)||0)-(Number(y.year)||0));
@@ -132,20 +97,29 @@ async function init(){
  <section class="section-block nav-section" id="after-office" data-section="after-office"><div class="section-head"><div><div class="section-kicker">${pt('afterKicker')}</div><h2>${currentLang==='zh'?adminLabel(a)+'离开唐宁街后做了什么':'What '+a.name+' did after leaving Downing Street'}</h2></div><p>${pt('rolesNote')}</p></div><div class="after-office-list">${afterOfficeHtml}</div></section>
  ${promises.length?`<section class="section-block nav-section" id="profile-promises" data-section="profile-promises"><div class="section-head"><div><div class="section-kicker">${pt('accountability')}</div><h2>${currentLang==='zh'?'承诺与结果':'Promise vs result'}</h2></div></div><div class="promise-grid">${promises.map(p=>`<article class="promise-card"><div class="promise-admin">${localizedDate(p.date)}</div><h3>${trObj(p,'promise')}</h3><div class="versus"><div><span>${pt('target')}</span><strong>${trObj(p,'target')}</strong></div><b>${pt('versus')}</b><div><span>${pt('result')}</span><strong>${trObj(p,'result')}</strong></div></div><p>${trObj(p,'context')}</p>${p.sources.map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${s.label} ↗</a>`).join('')}</article>`).join('')}</div></section>`:''}`;
  const promiseLink=document.getElementById('promiseNavLink');if(promiseLink&&!promises.length)promiseLink.hidden=true;
- applyProfileStatic();initProfileNav();restoreProfileScroll();
+ applyProfileStatic();initProfileNav();
+}
+
+
+async function init(){
+ profileData=await (await fetch('data.json')).json();
+ const id=new URLSearchParams(location.search).get('id');
+ profileAdmin=profileData.administrations.find(x=>slug(x.name)===id)||profileData.administrations[0];
+ renderProfile(profileData,profileAdmin);
 }
 
 function initProfileNav(){
+ if(profileObserver)profileObserver.disconnect();
  const links=[...document.querySelectorAll('.profile-nav a[data-nav]:not([hidden])')];
  const sections=[...document.querySelectorAll('.nav-section[data-section]')];
  if(!links.length||!sections.length)return;
  const setActive=id=>links.forEach(a=>a.classList.toggle('active',a.dataset.nav===id));
- const observer=new IntersectionObserver(entries=>{
+ profileObserver=new IntersectionObserver(entries=>{
    const visible=entries.filter(e=>e.isIntersecting)
      .sort((a,b)=>Math.abs(a.boundingClientRect.top)-Math.abs(b.boundingClientRect.top));
    if(visible.length)setActive(visible[0].target.dataset.section);
  },{rootMargin:'-22% 0px -64% 0px',threshold:[0,0.05,0.2]});
- sections.forEach(s=>observer.observe(s));
+ sections.forEach(s=>profileObserver.observe(s));
  links.forEach(a=>a.addEventListener('click',()=>setActive(a.dataset.nav)));
  setActive((location.hash||'#profile').slice(1));
 }
@@ -155,9 +129,16 @@ window.addEventListener('load',()=>{
  applyProfileStatic();
 
  document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>{
-   if(b.dataset.lang===currentLang)return;
-   saveProfileScroll();
-   localStorage.setItem('policytrace-lang',b.dataset.lang);
-   location.reload();
+   if(b.dataset.lang===currentLang||!profileData||!profileAdmin)return;
+
+   const y=window.scrollY;
+   currentLang=b.dataset.lang;
+   localStorage.setItem('policytrace-lang',currentLang);
+
+   // Same model as the homepage: no navigation/reload, just redraw the current profile.
+   renderProfile(profileData,profileAdmin);
+
+   // Keep the exact viewport position in the same synchronous interaction.
+   window.scrollTo(0,y);
  }));
 });

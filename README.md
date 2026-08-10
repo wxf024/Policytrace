@@ -89,3 +89,7 @@ Switching EN / 中文 on a prime-minister profile now preserves the user's curre
 
 ## v1.7.4.5 — profile language scroll fix v2
 The previous scroll restoration ran before the asynchronously fetched profile content had finished rendering. Scroll state is now restored only after profileMain has been fully rendered. The saved state also includes the current section and the user's offset inside that section, making restoration more stable when Chinese and English text have different heights.
+
+
+## v1.7.4.6 — instant profile language switching
+Profile pages now switch EN / 中文 in place, like the homepage. No page reload, no sessionStorage scroll restoration, and no visible scroll-back animation. The current profile data is fetched once and re-rendered synchronously in the selected language while preserving the current viewport position.
