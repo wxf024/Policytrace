@@ -101,3 +101,7 @@ Prime-minister profile pages now build their DOM once. EN / 中文 switching upd
 
 ## v1.7.4.8 — homepage mobile menu experiment
 Homepage only: mobile widths use a compact POLICYTRACE + hamburger header. Opening the menu reveals language controls and full homepage navigation; selecting a destination closes it. Desktop navigation and person pages are unchanged.
+
+
+## v1.7.4.9 — mobile menu visual fix
+Homepage mobile menu now opens as an opaque dark dropdown layer above page content. The mobile header is a single row with the logo on the left and a styled hamburger button on the right. Only style.css changed.
