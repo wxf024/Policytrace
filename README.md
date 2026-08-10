@@ -117,3 +117,7 @@ Restores the original desktop flex layout for profile headers after adding the m
 
 ## v1.7.5.2 — desktop profile control alignment
 On desktop profile pages, the language switch and profile navigation are grouped on the right side of the header, matching the homepage layout. Mobile behavior is unchanged.
+
+
+## v1.7.5.3 — desktop profile header alignment fix
+On desktop profile pages, the mobile-only wrapper is now layout-transparent via display: contents. This restores the same topbar child behavior as the homepage, so the language switch sits immediately before the profile navigation on the right. Mobile behavior is unchanged.

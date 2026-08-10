@@ -540,3 +540,38 @@ html[lang="zh-CN"] body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHe
     min-width:0;
   }
 }
+
+
+/* v1.7.5.3 — desktop profile wrapper becomes layout-transparent */
+@media (min-width: 821px){
+  .profile-topbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+  .profile-mobile-menu-btn{
+    display:none !important;
+  }
+
+  /* On desktop, make the mobile wrapper invisible to layout.
+     This restores the exact same topbar child layout used by the homepage:
+     brand | language switch | navigation. */
+  .profile-mobile-menu-panel{
+    display:contents !important;
+  }
+
+  .profile-mobile-menu-panel .language-switch{
+    margin-left:auto;
+    margin-right:20px;
+  }
+
+  .profile-mobile-menu-panel .profile-nav{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    flex:0 0 auto;
+    width:auto;
+    min-width:0;
+  }
+}
