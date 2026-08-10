@@ -278,6 +278,7 @@ init().catch(e=>{document.getElementById('profileMain').innerHTML=`<pre>${e}</pr
 
 window.addEventListener('load',()=>{
  applyProfileStatic();
+ initProfileMobileMenu();
 
  document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>{
    if(b.dataset.lang===currentLang||!profileData||!profileAdmin)return;
@@ -286,3 +287,29 @@ window.addEventListener('load',()=>{
    updateProfileLanguage();
  }));
 });
+
+
+function initProfileMobileMenu(){
+  const header=document.querySelector('.profile-topbar');
+  const btn=document.getElementById('profileMobileMenuBtn');
+  const panel=document.getElementById('profileMobileMenuPanel');
+  if(!header||!btn||!panel)return;
+
+  const closeMenu=()=>{
+    header.classList.remove('mobile-menu-open');
+    btn.setAttribute('aria-expanded','false');
+    btn.textContent='☰';
+  };
+
+  btn.addEventListener('click',()=>{
+    const open=header.classList.toggle('mobile-menu-open');
+    btn.setAttribute('aria-expanded',String(open));
+    btn.textContent=open?'×':'☰';
+  });
+
+  panel.querySelectorAll('a').forEach(el=>el.addEventListener('click',closeMenu));
+
+  window.addEventListener('resize',()=>{
+    if(window.innerWidth>820)closeMenu();
+  });
+}

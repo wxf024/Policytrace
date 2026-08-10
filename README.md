@@ -105,3 +105,7 @@ Homepage only: mobile widths use a compact POLICYTRACE + hamburger header. Openi
 
 ## v1.7.4.9 — mobile menu visual fix
 Homepage mobile menu now opens as an opaque dark dropdown layer above page content. The mobile header is a single row with the logo on the left and a styled hamburger button on the right. Only style.css changed.
+
+
+## v1.7.5.0 — mobile menu on all page types
+The approved homepage mobile navigation pattern is now also applied to prime-minister profile pages. Mobile profile pages show POLICYTRACE + hamburger with language and profile navigation in an opaque dropdown. Desktop navigation is unchanged.

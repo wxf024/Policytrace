@@ -11,15 +11,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="topbar">
+  <header class="topbar profile-topbar">
     <a class="brand" href="index.html">POLICY<span>TRACE</span></a>
-    <div class="language-switch" aria-label="Language"><button class="lang-btn active" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">中文</button></div><nav class="page-nav profile-nav" aria-label="Profile sections">
-      <a href="#profile" data-nav="profile">Profile</a>
-      <a href="#term-record" data-nav="term-record">Term timeline</a>
-      <a href="#after-office" data-nav="after-office">After office</a>
-      <a href="#profile-promises" data-nav="profile-promises" id="promiseNavLink">Promise vs Result</a>
-      <a href="index.html#people" class="nav-return">← UK overview</a>
-    </nav>
+    <button class="profile-mobile-menu-btn" id="profileMobileMenuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <div class="profile-mobile-menu-panel" id="profileMobileMenuPanel">
+      <div class="language-switch" aria-label="Language"><button class="lang-btn active" data-lang="en">EN</button><button class="lang-btn" data-lang="zh">中文</button></div>
+      <nav class="page-nav profile-nav" aria-label="Profile sections">
+        <a href="#profile" data-nav="profile">Profile</a>
+        <a href="#term-record" data-nav="term-record">Term timeline</a>
+        <a href="#after-office" data-nav="after-office">After office</a>
+        <a href="#profile-promises" data-nav="profile-promises" id="promiseNavLink">Promise vs Result</a>
+        <a href="index.html#people" class="nav-return">← UK overview</a>
+      </nav>
+    </div>
   </header>
   <main id="profileMain"><div class="profile-loading" id="profileLoading">Loading profile…</div></main>
   <footer><div id="profileFooterProduct">POLICYTRACE / UK PROFILE</div><div><a href="index.html" id="profileFooterBack">← BACK TO UK OVERVIEW</a></div></footer>
