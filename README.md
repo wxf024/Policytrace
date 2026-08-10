@@ -93,3 +93,7 @@ The previous scroll restoration ran before the asynchronously fetched profile co
 
 ## v1.7.4.6 — instant profile language switching
 Profile pages now switch EN / 中文 in place, like the homepage. No page reload, no sessionStorage scroll restoration, and no visible scroll-back animation. The current profile data is fetched once and re-rendered synchronously in the selected language while preserving the current viewport position.
+
+
+## v1.7.4.7 — true in-place profile language switching
+Prime-minister profile pages now build their DOM once. EN / 中文 switching updates text in the existing DOM nodes only. The switch path does not reload the page, rebuild profileMain, use sessionStorage, or call scrollTo.
