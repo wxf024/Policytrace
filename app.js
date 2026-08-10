@@ -435,3 +435,31 @@ window.addEventListener('load',()=>{
   applyStaticLanguage();
   document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
 });
+
+
+function initMobileMenu(){
+  const header=document.querySelector('.topbar');
+  const btn=document.getElementById('mobileMenuBtn');
+  const panel=document.getElementById('mobileMenuPanel');
+  if(!header||!btn||!panel)return;
+
+  const closeMenu=()=>{
+    header.classList.remove('mobile-menu-open');
+    btn.setAttribute('aria-expanded','false');
+    btn.textContent='☰';
+  };
+
+  btn.addEventListener('click',()=>{
+    const open=header.classList.toggle('mobile-menu-open');
+    btn.setAttribute('aria-expanded',String(open));
+    btn.textContent=open?'×':'☰';
+  });
+
+  panel.querySelectorAll('a, #aboutBtn').forEach(el=>el.addEventListener('click',closeMenu));
+
+  window.addEventListener('resize',()=>{
+    if(window.innerWidth>820)closeMenu();
+  });
+}
+
+window.addEventListener('load',initMobileMenu);

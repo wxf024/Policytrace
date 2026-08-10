@@ -168,3 +168,90 @@ html[lang="zh-CN"] body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHe
   background:rgba(249,115,22,.16);
   color:#fed7aa;
 }
+
+
+/* v1.7.4.8 — homepage mobile navigation */
+.mobile-menu-btn{
+  display:none;
+  appearance:none;
+  border:1px solid var(--line);
+  background:transparent;
+  color:var(--text);
+  width:44px;
+  height:44px;
+  border-radius:999px;
+  font:inherit;
+  font-size:23px;
+  line-height:1;
+  cursor:pointer;
+}
+.mobile-menu-panel{
+  display:contents;
+}
+
+@media (max-width: 820px){
+  .topbar{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto;
+    align-items:center;
+    gap:12px;
+    min-height:72px;
+    padding:0 16px;
+    overflow:visible;
+  }
+
+  .topbar .brand{
+    min-width:0;
+    white-space:nowrap;
+  }
+
+  .mobile-menu-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    justify-self:end;
+  }
+
+  .mobile-menu-panel{
+    display:none;
+    grid-column:1 / -1;
+    width:100%;
+    padding:4px 0 18px;
+  }
+
+  .topbar.mobile-menu-open .mobile-menu-panel{
+    display:block;
+  }
+
+  .topbar .mobile-menu-panel .language-switch{
+    margin:4px 0 14px;
+    width:max-content;
+  }
+
+  .topbar .mobile-menu-panel .page-nav{
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    gap:0;
+    width:100%;
+    border-top:1px solid var(--line);
+  }
+
+  .topbar .mobile-menu-panel .page-nav a{
+    display:block;
+    width:100%;
+    padding:14px 2px;
+    border-bottom:1px solid var(--line);
+    white-space:normal;
+  }
+
+  .topbar .mobile-menu-panel .page-nav a::after{
+    display:none !important;
+  }
+
+  .topbar .mobile-menu-panel .page-nav #aboutBtn{
+    width:100%;
+    margin-top:14px;
+    justify-content:flex-start;
+  }
+}

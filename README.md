@@ -97,3 +97,7 @@ Profile pages now switch EN / 中文 in place, like the homepage. No page reload
 
 ## v1.7.4.7 — true in-place profile language switching
 Prime-minister profile pages now build their DOM once. EN / 中文 switching updates text in the existing DOM nodes only. The switch path does not reload the page, rebuild profileMain, use sessionStorage, or call scrollTo.
+
+
+## v1.7.4.8 — homepage mobile menu experiment
+Homepage only: mobile widths use a compact POLICYTRACE + hamburger header. Opening the menu reveals language controls and full homepage navigation; selecting a destination closes it. Desktop navigation and person pages are unchanged.
