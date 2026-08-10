@@ -109,3 +109,7 @@ Homepage mobile menu now opens as an opaque dark dropdown layer above page conte
 
 ## v1.7.5.0 — mobile menu on all page types
 The approved homepage mobile navigation pattern is now also applied to prime-minister profile pages. Mobile profile pages show POLICYTRACE + hamburger with language and profile navigation in an opaque dropdown. Desktop navigation is unchanged.
+
+
+## v1.7.5.1 — desktop profile header fix
+Restores the original desktop flex layout for profile headers after adding the mobile menu wrapper. Mobile profile navigation remains unchanged.

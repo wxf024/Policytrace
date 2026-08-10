@@ -482,3 +482,34 @@ html[lang="zh-CN"] body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHe
     background:var(--panel);
   }
 }
+
+
+/* v1.7.5.1 — restore desktop profile header layout */
+@media (min-width: 821px){
+  .profile-topbar{
+    display:flex;
+    align-items:center;
+  }
+
+  .profile-mobile-menu-btn{
+    display:none !important;
+  }
+
+  .profile-mobile-menu-panel{
+    display:flex !important;
+    align-items:center;
+    flex:1 1 auto;
+    min-width:0;
+  }
+
+  .profile-mobile-menu-panel .language-switch{
+    flex:0 0 auto;
+  }
+
+  .profile-mobile-menu-panel .profile-nav{
+    display:flex;
+    align-items:center;
+    flex:1 1 auto;
+    min-width:0;
+  }
+}
